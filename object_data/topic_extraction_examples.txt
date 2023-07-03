@@ -1,0 +1,33 @@
+Your job is to extract the general topic of the following JSON-formatted question in three words or less without focusing on its technical aspects. The following are some examples.
+
+Input: '''{
+    'Question': '<p><span class="qname">Chris</span> is eating cold cereal for breakfast before school.   Which of the following best describes the <em>algorithm</em> <span class="qname">Chris</span> should use to make breakfast?</p>',
+    'Answer1': 'Cereal, Milk, Bowl, Spoon',
+    'Answer2': 'After waking up, ask parent to make cornflakes for breakfast',
+    'Answer3': 'Get out bowl and spoon.  Pour cereal out of box into bowl. Pour milk into bowl. Eat with spoon until cereal and milk are gone.',
+    'Answer4': 'Eat.  Put pot on stove, turn on stove, and boil for seven minutes. Turn off stove.  Puts two eggs in pot.  Put water in pot.',
+    'CorrectAnswer': 3,
+    'Explanation': '<p>An <em>algorithm</em> is a step-by-step series of instructions to accomplish a given task.</p>',
+}'''
+Output: "Making Breakfast"
+
+Input: '''{
+    'Question': '<p>&quot;'Boolean', that's a funny name.   Is it a kind of bean?&quot; asked <span class="qname">Wisdom</span> in their computer science class.</p><p>&quot;No,&quot; replied <span class="qname">Wisdom</span>'s teacher.  &quot;A 'Boolean' is a variable representing yes or no, true or false, on or off...&quot;</p><p>What is another representation of a <em>Boolean</em> that <span class="qname">Wisdom</span>'s teacher could have added to the explanation?</p>',
+    'Answer1': "'A', 'B', 'C', or 'D'",
+    'Answer2': '0 or 1',
+    'Answer3': 'The text strings &quot;true&quot; or &quot;false&quot;',
+    'Answer4': 'The temperature of an object',
+    'CorrectAnswer': 2,
+    'Explanation': '<p><em>Boolean</em> variables are often stored as binary 0 or 1 internally within a computer program.   Boolean variables can only have two possible values.  String values which can store many possible values cannot be Boolean variables.</p>',
+}'''
+Output: "Teacher - student conversation"
+
+Input: '''{
+    'Question': 'Kai has the following metal image for an icon for their club to use at several school events.  Kai has a drawing program with a programming language that make it easy to draw regular polygons in multiple colors.    How should Kai decompose or break down the generation of this image into a small number of steps?',
+    'Answer1': 'Loop through each pixel in the image and set the color as appropriate',
+    'Answer2': 'Draw the borders of each figure in the image and then paint each resulting shape with the appropriate color using the paint can function',
+    'Answer3': 'Develop software functions that can draw polygons filled with any color',
+    'Answer4': 'Draw a blue circle using the programming language in the drawing program.  Then draw a red hexagon and a green triangle using same programming language',
+    'Explanation': 'Decomposition is breaking down the steps needed to solve a problem into a precise sequence of instructions.  Programming languages that support drawing have functions that can draw circles and other polygons and fill them with a color.   While the other solutions do break down the problem somewhat, each instruction in the sequence is unclear. '
+}'''
+Output: "School art project"

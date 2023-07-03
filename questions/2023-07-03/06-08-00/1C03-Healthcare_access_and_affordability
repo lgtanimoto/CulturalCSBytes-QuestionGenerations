@@ -1,0 +1,7 @@
+{
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Social justice",
+    "topic": "Healthcare access and affordability",
+    "MQCode": "1C03",
+    "question_str": "{\n    \"Question\": \"Zinia works at a hospital as a database administrator. Recently, she came across a problem wherein the server that hosts the patient healthcare records suddenly became inaccessible. Zinia had to describe the problem to her team and work towards finding a solution. What is the accurate description for this problem?\",\n    \"Answer1\": \"There's a hardware problem with the processor in the server\",\n    \"Answer2\": \"There's a software problem with the operating system of the server\",\n    \"Answer3\": \"There's a networking problem causing the hospital's intranet to crash\",\n    \"Answer4\": \"Both hardware and software problems can cause server inaccessibility\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Server inaccessibility could be due to various reasons and both hardware problems (like hard disk failure, memory overload) and software problems (like bug in server software, OS issues) can cause the server to become inaccessible. Hence, Zinia, without having exact information about whether it's a hardware or software issue, should describe the problem as a server inaccessibility issue which could be due to both hardware and software problems.\"\n}"
+}
