@@ -1,0 +1,7 @@
+{
+    "learning_objective": "Use data analysis tools and techniques to identify patterns in data representing complex systems.",
+    "interest_area": "Social justice",
+    "topic": "Net neutrality and digital privacy",
+    "MQCode": "5D05",
+    "question_str": "{  /* Data representing load times (in seconds) for each user before and after the repeal */ \\n/* Code to process the megalist and determine whether there is a significant difference in average load times */\\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Sketching",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Mae is an aspiring artist who is color-blind. She struggles with producing digital designs on her art software because the app's color section is not labeled, but is instead represented using various color swatches only. The lack of labeling makes it difficult for Mae to correctly select the colors. Considering her experience, what criticism applies to this art software?\",\n    \"Answer1\": \"The software has a major security flaw\",\n    \"Answer2\": \"The software is too complex for beginners\",\n    \"Answer3\": \"The software has a bias towards users with the ability to perceive all colors\",\n    \"Answer4\": \"The software is outdated\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The software reflects a bias towards users with full color vision, which makes it less accessible for color-blind users like Mae.\",\n    \"code_snippet\": \"action SelectColorByLabel()\\n    output \\\"This feature is not yet implemented\\\"\\nend\"\n}"
+}
