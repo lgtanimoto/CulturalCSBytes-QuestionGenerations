@@ -1,0 +1,7 @@
+{
+    "learning_objective": "Construct solutions to problems using student-created components, such as procedures, modules and/or objects.",
+    "interest_area": "Math",
+    "topic": "Algebra",
+    "MQCode": "5A14",
+    "question_str": "{\n            \"CodeOption1\": \"number SolveForY(number x)\\n  return (7 - x) / 2.0\\nend\\n\\nnumber SolveForX(number y)\\n  return (5 - y) / 2.0\\nend\",\n            \"CodeOption2\": \"number SolveForY(number y)\\n  return (7 - (2 * y))\\nend\\n\\nnumber SolveForX(number x)\\n  return (5 - (2 * x))\\nend\",\n            \"CodeOption3\": \"number SolveForY(number x)\\n  return (7 - x) / 2.0\\nend\\n\\nnumber SolveForX(number x)\\n  return (5 - x) / 2.0\\nend\",\n            \"CodeOption4\": \"number SolveForY(number y)\\n  return (7 - y) / 2.0\\nend\\n\\nnumber SolveForX(number x)\\n  return (5 - (2 * x))\\nend\"\n        }"
+}
