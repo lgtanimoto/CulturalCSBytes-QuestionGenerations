@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N06",
+    "learning_objective": "Apply multiple methods of encryption to model the secure transmission of information.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Kimberly is composing a new piece of music and wants to share it with their friend. However, Kimberly wants to ensure that their composition is kept secret while it's being transmitted over the internet. By using a cipher to convert the musical notes into a seemingly random series of letters and numbers, Kimberly has applied what method that is commonly used to securely transmit data online?\",\n    \"Answer1\": \"Encryption\",\n    \"Answer2\": \"Compression\",\n    \"Answer3\": \"Decryption\",\n    \"Answer4\": \"Tuning\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Encryption is a method where data is transformed into a non-readable format to unauthorized users during transmission, thus maintaining the privacy and integrity of the data. The receiver, who has the decryption key, can revert the data back to its original form.\"\n}"
+}

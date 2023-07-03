@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Startups",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Four students are working on a coding project in their computer science class. They share a vision of developing a software startup once they graduate. To start applying some business start-up concepts to their work, they decide to adopt specific roles within their project team. Which role would best suit the team member who has the task of developing the overall design and structure of their program?\",\n    \"Answer1\": \"Product Manager\",\n    \"Answer2\": \"Software Engineer\",\n    \"Answer3\": \"Design Architect\",\n    \"Answer4\": \"Quality Assurance Specialist\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A Design Architect (also known as a systems architect) would typically be responsible for the overall design and structure of a software application. They would take an active role in both technical and design aspects of project development, ensuring that proposed solutions are technically viable and properly designed.\"\n}"
+}

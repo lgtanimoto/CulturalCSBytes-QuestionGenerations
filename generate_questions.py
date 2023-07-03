@@ -99,7 +99,7 @@ def make_prompt(examples, num_examples: int, coding: bool = False) -> FewShotPro
     return few_shot_prompt
 
 
-def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output_folder: str, coding: bool = False) -> list[dict]:
+def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output_folder: str, coding: bool = False, verbose: bool = False) -> list[dict]:
     generated_qs = []
     for topic in tqdm(topic_list, desc="Question Generation Progress"):
         # randomly select learning standard
@@ -119,6 +119,9 @@ def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output
             'coding': coding,
             'question_str': q_str,
         }
+        if verbose:
+            print("\n" + q_str + "\n")
+        
         generated_qs.append(q)
 
         # output question json to file
@@ -149,46 +152,56 @@ def generate_topic_list(batch_size: int, interest_areas: list):
 
 
 def usage():
-    print('''Usage: python generate_questions.py <batch_size> [Options]
+    print('''usage: python generate_questions.py <batch_size> [options]
 
-Required arguments:
-    batch_size          The number of questions to generate.
+required arguments:
+  batch_size                The number of questions to generate.
 
-Options:
-  --llm                 The name of the LLM to use for generating questions. Defaults to 'gpt-4'.
-  --examples-file       The relative path to the file containing a list of few-shot examples.
-                        Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
-                        Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
-  --num-examples        The number of examples to use in few-shot prompting. Defaults to 3.
-  --output-folder       The relative path to the folder where generated questions should be written.
-                        Defaults to "questions\\date\\time\\".
-  --coding              Indicates generated questions should include code. Defaults to false by ommission.
-  --interest-areas      A comma-separated list of interest areas to generate questions for.
-                        Specify with dashes (e.g. 'Diversity-and-inclusion,Business'). Defaults to all interest areas.
-  --api-key             Your OpenAI-api-key. Defaults to reading from .env file.\n''')
+optional arguments:
+  -h, --help                Show this help message and exit.
+  -l, --llm                 The name of the LLM to use for generating questions. Defaults to 'gpt-4'.
+  -e, --examples-file       The relative path to the file containing a list of few-shot examples.
+                            Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
+                            Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
+  -n, --num-examples        The number of examples to use in few-shot prompting. Defaults to 3.
+  -o, --output-folder       The relative path to the folder where generated questions should be written.
+                            Defaults to "questions\\date\\time\\".
+  -c, --coding              Indicates generated questions should include code. Defaults to false by ommission.
+  -i, --interest-areas      A comma-separated list of interest areas to generate questions for. Defaults to all interest areas.
+                            Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
+                            e.g. '--interest-areas=Diversity-and-inclusion,Business'.
+  -a, --api-key             Your OpenAI-api-key. Defaults to reading from .env file.
+  -v, --verbose             Enable verbose mode to print generated questions.\n''')
+
+
+def get_opt_match(target: str):
+    opts = sys.argv[2:]
+    opt_match = [opt for opt in opts if opt.startswith(target)]
+    if len(opt_match) != 0:
+        return opt_match[0].split("=")[-1]
+    elif target[1:3] in opts:
+        return opts[opts.index(target[1:3]) + 1]
+    else:
+        return None
 
 
 def main():
-    if len(sys.argv) < 2 or "--help" == sys.argv[1]:
+    if len(sys.argv) < 2 or "--help" == sys.argv[1] or "-h" == sys.argv[1]:
         usage()
         exit(1)
 
     batch_size = int(sys.argv[1])  # number of questions to generate
-    opts = sys.argv[2:]
+    options = sys.argv[2:]
 
     """parse OpenAI api key"""
-    opt_match = [opt for opt in opts if opt.startswith("--api-key")]
-    if len(opt_match) > 0:
-        openai_api_key = opt_match[0].split("=")[-1]
-    else:
+    openai_api_key = get_opt_match("--api-key")
+    if openai_api_key is None:
         load_dotenv()
         openai_api_key = os.getenv("openai_api_key")
 
     """parse llm name"""
-    opt_match = [opt for opt in opts if opt.startswith("--llm")]
-    if len(opt_match) > 0:
-        model_name = opt_match[0].split("=")[-1]
-    else:
+    model_name = get_opt_match("--llm")
+    if model_name is None:
         model_name = "gpt-4"
     try:
         with warnings.catch_warnings():
@@ -200,16 +213,15 @@ def main():
         exit(1)
 
     """check for coding flag"""
-    coding = "--coding" in opts
-
+    coding = "--coding" in options or "-c" in options
+    
     """parse path to examples file"""
-    opt_match = [opt for opt in opts if opt.startswith("--examples-file")]
-    if len(opt_match) > 0:
-        path_to_examples = opt_match[0].split("=")[-1]
-    elif coding:
-        path_to_examples = FILE_PREF + "coding_question_examples.json"
-    else:
-        path_to_examples = FILE_PREF + "default_question_examples.json"
+    path_to_examples = get_opt_match("--examples-file")
+    if path_to_examples is None:
+        if coding:
+            path_to_examples = FILE_PREF + "coding_question_examples.json"
+        else:
+            path_to_examples = FILE_PREF + "default_question_examples.json"
     try:
         with open(path_to_examples, 'r') as ex_f:
             examples = json.load(ex_f)
@@ -219,17 +231,15 @@ def main():
         exit(1)
     
     """parse number of examples to provide for prompting"""
-    opt_match = [opt for opt in opts if opt.startswith("--num-examples")]
-    if len(opt_match) > 0:
-        num_examples = int(opt_match[0].split("=")[-1])
+    num_examples = get_opt_match("--num-examples")
+    if num_examples is not None:
+        num_examples = int(num_examples)
     else:
         num_examples = 3
 
     """parse destination path of where to save generated questions"""
-    opt_match = [opt for opt in opts if opt.startswith("--output-folder")]
-    if len(opt_match) > 0:
-        output_folder = opt_match[0].split("=")[-1]
-    else:
+    output_folder = get_opt_match("--output-folder")
+    if output_folder is None:
         dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":","-")
         output_folder = "questions\\" + dt + "\\"
     # create the output folder if it doesn't exist
@@ -237,16 +247,18 @@ def main():
         os.makedirs(output_folder)
 
     """parse interest area(s) to generate questions for"""
-    opt_match = [opt for opt in opts if opt.startswith("--interest-areas")]
-    if len(opt_match) > 0:
-        interest_areas = opt_match[0].split("=")[-1].replace("-", " ").split(",")
+    interest_areas = get_opt_match("--interest-areas")
+    if interest_areas is not None:
+        interest_areas = interest_areas.replace("-", " ").split(",")
     else:
         interest_areas = read_json("interest_areas.json")
-    
-    topic_list = generate_topic_list(batch_size, interest_areas)
-    # print(len(topic_list))
 
-    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding)
+    topic_list = generate_topic_list(batch_size, interest_areas)
+
+    # set verbose option
+    verbose = "--verbose" in options or "-v" in options
+
+    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose)
 
 
 if __name__ == "__main__":
