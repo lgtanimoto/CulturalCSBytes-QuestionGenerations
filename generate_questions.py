@@ -20,12 +20,12 @@ FILE_PREF = "object_data\\"
 
 
 def write_json(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename + ".json", 'w') as f:
         json.dump(data, f, indent=4)
 
 
 def read_json(filename):
-    with open(FILE_PREF + filename, 'r') as f:
+    with open(FILE_PREF + filename + ".json", 'r') as f:
         data = json.load(f)
     return data
 
