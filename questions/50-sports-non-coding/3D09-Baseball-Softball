@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Betty plays softball and has a batting average of 0.350. She's been tracking her performance and noticed that her average goes up by 0.005 for each practice she attends. This relationship has been consistent over time. With this information, which of the following code snippets would be best for predicting Betty's batting average based on the number of practices she attended?\",\n    \"Answer1\": \"average = 0.350 + 0.005 * practices\",\n    \"Answer2\": \"average = 0.005 * practices\",\n    \"Answer3\": \"for i in range(practices): average = 0.350 + 0.005\",\n    \"Answer4\": \"average = 0.350 + practices\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The code snippet 'average = 0.350 + 0.005 * practices' correctly represents the relationship between the number of practices Betty attends and her predicted batting average. For each practice she attends, her average increases by 0.005.\"\n}"
+}

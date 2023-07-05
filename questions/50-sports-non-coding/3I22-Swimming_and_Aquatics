@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Let's imagine you are creating an app to enhance the training routines of competitive swimmers. You want this app to be truly useful, so you've decided to source ideas from potential users (swimmers, coaches, etc.). What is a strategy that you could implement to gather this information effectively?\",\n    \"Answer1\": \"Randomly choose a swim club and implement what their coach suggests.\",\n    \"Answer2\": \"Make a guess based on your personal experience as a swimmer.\",\n    \"Answer3\": \"Send out a survey or use crowdsourcing to gather suggestions and ideas from a wide range of swimmers and coaches across different levels and locations.\",\n    \"Answer4\": \"Create an app based on the training routine of a famous swimmer.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Reaching out to a diverse group of potential users and gathering input is an important part of creating a computational artifact. This could be done through methods like surveys or crowdsourcing. This allows the developers to gather a wide range of perspectives and insights, making the final product more useful and effective for its intended users.\"\n}"
+}

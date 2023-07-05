@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Your school's soccer team wants to track player statistics such as goals scored, assists and penalty kicks. They want a web application where players can input their individual statistics after each match. You and a group of classmates decide to take on this project. What steps should your team take to work effectively?\",\n    \"Answer1\": \"Each person works independently and without communication to create a part of the website, which are then combined at the end.\",\n    \"Answer2\": \"Assign roles to members of the group, agree on a common set of programming tools and standards, use a version control system to collaborate and regularly review and test code together.\",\n    \"Answer3\": \"Each person writes a complete version of the web application, then picks the best one to present to the soccer team.\",\n    \"Answer4\": \"One person writes all the code, while the other team members give feedback and suggestions.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Working in an effective team includes roles assignment, agreement on tools and standards, collaboration through version control systems, and regular review and testing of code.\"\n}"
+}

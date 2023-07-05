@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Jillian is working on a program that will decide the probabilities of a soccer team winning their next match based on their past records and each player\u2019s stats. Describe the choices and steps she took during the iterative development process while creating this program.\",\n    \"Answer1\": \"I wrote all the code in one go, then I ran it to see if it worked.\",\n    \"Answer2\": \"I used my gut feeling to decide that we were ready to launch the program.\",\n    \"Answer3\": \"I started by writing a small part of the code to calculate player stats, then tested it to make sure it worked as expected. Then I added the next part of the code to calculate team winning probabilities, testing at each stage to ensure no errors occurred. I made revisions where necessary in response to test feedback. Finally, once all components were working as expected, I integrated them into one complete program.\",\n    \"Answer4\": \"I dreamt about the solution and then coded it when I woke up.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Jillian made the choice to build her program in pieces, testing each part individually before combining them. This is a typical process in iterative development, which involves repeated cycles of designing, testing, and refining a program.\"\n}"
+}

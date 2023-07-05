@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A18",
+    "learning_objective": "Explain security issues that might lead to compromised computer programs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Selene is developing a software for a public swimming pool that collects and stores personal information from customers such as their names, contact details, time of usage and payment information. What should Selene consider in terms of security to ensure that her program is not compromised?\",\n    \"Answer1\": \"Selene should install a really good antivirus software to prevent virus attack on her computer.\",\n    \"Answer2\": \"Selene should only allow users with administrative rights to access the software.\",\n    \"Answer3\": \"Selene should introduce intrusive advertisements as a means of funding for her project.\",\n    \"Answer4\": \"Selene should use secure storage mechanisms for sensitive data, implant encryption techniques and implement a secure user authentication protocol.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Secure user authentication protocol, secure storage mechanisms and encryption techniques can help prevent unauthorized access to and mishandling of user data. Answer 1 and 2 don't specifically address the question of user data. Answer 3 introduces a completely unrelated idea.\"\n}"
+}

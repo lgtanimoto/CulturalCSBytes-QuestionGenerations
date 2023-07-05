@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A08",
+    "learning_objective": "Describe how artificial intelligence drives many software and physical systems.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Ocean is watching a virtual football game where artificial intelligence (AI) controls all the players. In the game, each player AI utilizes a variety of data such as current player position, ball position, player and ball movement directions etc. to make decisions about where to move or when to try to take control of the ball. What can Ocean say about how AI is being used in this virtual football game?\",\n    \"Answer1\": \"The AI is only being used for aesthetic presentation of the game.\",\n    \"Answer2\": \"The AI uses given data to make decisions thereby driving the actions of the players in the game.\",\n    \"Answer3\": \"The AI is the same as a player physically controlling the game\",\n    \"Answer4\": \"The AI only controls the players when there is no human player.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Within any given software or physical system, AI operates by using available data and predefined logics to make decisions consistent with the end-goals of the system. In the virtual football game, each player AI is utilizing in-game data to make decisions such as where to move and when to take control of the ball, thereby driving the gameplay.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A12",
+    "learning_objective": "Compare and contrast fundamental data structures and their uses.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Dr. Zen is a sports psychologist who uses a variety of data structures to analyze and present data on sports players'  performance. Given the scenario, where both time and order of recorded performance matter, which of the following data structures most accurately suits Dr. Zen's need to store, manage, and access player performance data?\",\n    \"Answer1\": \"Queue\",\n    \"Answer2\": \"HashSet\",\n    \"Answer3\": \"Array\",\n    \"Answer4\": \"Linked List\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"An Array is the best suited data structure for this scenario . Arrays are a fundamental data structure that allows data to be stored and accessed by an index, in this case time point. The fixed order of an array allows for chronological analysis of performance over time. Dr. Zen can use the array index as a reference point for time.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "5I28",
+    "learning_objective": "Debate laws and regulations that impact the development and use of software.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Zephyr is building a mobile app that uses the camera to scan food items and then provides detailed nutritional information, potential allergens, and recipe suggestions. During app development, he learns that the country where most of his users live has strict laws about displaying nutritional information, including a requirement that all nutritional information displayed must be verified by a registered dietitian. Which of the following is Zephyr most likely to debate?\",\n    \"Answer1\": \"Whether the requirement for a registered dietitian to verify all information might limit the range of foods his app can provide information on, due to cost and accessibility issues.\",\n    \"Answer2\": \"Whether he should include fun factors in his app like games and reward systems to encourage users to use the app more often.\",\n    \"Answer3\": \"Whether his users will appreciate the accurate and verified information and give his app a higher rating.\",\n    \"Answer4\": \"Whether his app should focus more on tracking daily nutrition intake instead of meal suggestions.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Since laws have been affecting the development of Zephyr's app, he is likely to question the fairness and implementation of such laws, like whether a registered dietitian is necessary to verify each piece of data or if this might create unnecessary constraints on his app's development.\"\n}"
+}

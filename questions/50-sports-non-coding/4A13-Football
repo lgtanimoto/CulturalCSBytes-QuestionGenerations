@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"As a huge football fan, Nicholas creates a football scoring program prototype for his school's football team. For the algorithms to assign points to the team, he must remember that touchdowns are 6 points, extra points are 1 point, and field goals are 3 points. Based on his knowledge of scoring in football, which one of the following algorithms is NOT correct for computing team scores?\",\n    \"Answer1\": \"Touchdowns are counted and multiplied by 6. Total points = touchdowns * 6.\",\n    \"Answer2\": \"Extra points post-touchdown are counted and added to the total. Total points = total points + extra points.\",\n    \"Answer3\": \"Field goals are counted and divided by 3. Total points = field goals / 3.\",\n    \"Answer4\": \"Field goals are counted and multiplied by 3. Total points = total points + (field goals * 3).\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A field goal is worth 3 points in football so each field goal should be counted and multiplied by 3, not divided by 3 to calculate total points. Nicholas's algorithm for field goals is therefore incorrect.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Courtney is working on an app that provides live updates of soccer games. After an initial release, users sent feedback indicating that they didn't know where to find match summaries and player statistics. After planning a redesign based on this feedback, Courtney sees two possible solutions.  Which one should she choose?\",\n    \"Answer1\": \"Add more bright colors and animations to the homepage\",\n    \"Answer2\": \"Increase the size of the buttons for match summaries and player statistics\",\n    \"Answer3\": \"Add a 'Help' button that opens a manual on how to navigate the app\",\n    \"Answer4\": \"Reorganize the app so that match summaries and player statistics are the first thing the user sees when they open it\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Although all solutions could improve the UX to some extent, reorganizing the app layout is the most direct and effective way to address the users' feedback. Courtney should make sure match summaries and player statistics are prominent and easy to find as soon as the user opens the app.\"\n}"
+}

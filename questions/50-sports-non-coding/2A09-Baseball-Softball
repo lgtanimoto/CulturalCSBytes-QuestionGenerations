@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Amelia is a baseball player and wishes to create a simple program to track the number of homeruns she has hit over the course of the season. She needs two variables, one to keep the running total of her home runs, and another to store the number of new home runs during a game. If Amelia starts this season with zero home runs, and hits 3 home runs in her first game and 5 home runs in her second game, what is the value of her 'totalHomeruns' variable after the second game is over?\",\n    \"Answer1\": \"2\",\n    \"Answer2\": \"3\",\n    \"Answer3\": \"5\",\n    \"Answer4\": \"8\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Amelia's 'totalHomeruns' variable would start at 0. After her first game, it would increase to 3 (0 + 3 home runs). After her second game, it would increase to 8 (3 + 5 home runs). Therefore, the correct answer is 8.\"\n}"
+}

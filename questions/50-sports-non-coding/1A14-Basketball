@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a computer basketball game, the ball isn't moving when the player moves and tries to shoot it to the hoop. The relevant portions of the code provided are:MovePlayer()ShootBall()repeat until Score = TargetForScore thenEndGame()What might explain this issue and what should be the correct step to correct this bug?\",\n    \"Answer1\": \"The ShootBall() function is not being called correctly. Change it to ShootBall(player)\",\n    \"Answer2\": \"You need to score a point first before the ball moves. Change to ScorePoint() and then call MovePlayer() and ShootBall()\",\n    \"Answer3\": \"The ball doesn't move because the repeat loop is incorrect. It should be repeat until Score != TargetForScore then EndGame()\",\n    \"Answer4\": \"The functions need to be inside the loop so that the ball is moved for each turn. The correct code would look like repeat until Score = TargetForScore then MovePlayer() ShootBall() end\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"It seems the original code only allows the player to move and shoot once, before entering the repeat loop. Placing MovePlayer() and ShootBall() inside the repeat loop, will let player to have multiple attempts to reach the target score.\"\n}"
+}

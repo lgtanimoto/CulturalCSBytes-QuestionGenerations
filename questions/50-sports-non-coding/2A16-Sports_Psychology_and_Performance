@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A16",
+    "learning_objective": "Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation, and review stages of program development.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Your team is coding a program to analyze performance data of an athlete and output a report. Each member of the team has a different role: programmer, data tester, design manager, and project manager. Which of the following actions is most appropriate for the design manager?\",\n    \"Answer1\": \"Write the codes to analyze performance data\",\n    \"Answer2\": \"Track the timeline and deliverables of the project\",\n    \"Answer3\": \"Ensure that the graphical user interface is user-friendly\",\n    \"Answer4\": \"Test the program with different sets of performance data\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The role of the design manager is primarily to ensure the look, functionality, and user-friendliness of the software program's interfaces.\"\n}"
+}

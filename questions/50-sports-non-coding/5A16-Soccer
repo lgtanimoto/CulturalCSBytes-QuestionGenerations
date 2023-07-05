@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A16",
+    "learning_objective": "Demonstrate code reuse by creating programming solutions using libraries and APIs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Galaxy is creating a simulation of a soccer match in JavaScript. They come across a library called Three.js which helps with 3D rendering. How can Three.js help Galaxy in creating the soccer match simulation?\",\n    \"Answer1\": \"Three.js can help Galaxy to create and control 3D objects, such as a soccer ball or the players, in the simulation.\",\n    \"Answer2\": \"Three.js can help Galaxy by keeping track of the score and time in the soccer match.\",\n    \"Answer3\": \"Three.js can automatically generate the soccer match without any additional programming.\",\n    \"Answer4\": \"Three.js can help Galaxy in predicting the outcome of the soccer match.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Three.js is a JavaScript library for creating and manipulating 3D graphics in a web browser using WebGL. While it can certainly help Galaxy in creating and controlling the 3D objects (such as a soccer ball or the players) part of the simulation, it cannot keep track of the score or time in the match, predict the outcome of the match, or automatically generate the entire match without additional programming.\"\n}"
+}

@@ -32,8 +32,6 @@ def read_json(filename):
 
 lo_list = read_json("learning_objectives.json")
 lo_code_groups = read_json("lo_code_groups.json")
-interest_to_area = read_json("topics_to_interest_areas_map.json")
-
 
 def group_examples(examples) -> Dict[str, List]:
     # categorize examples by learning objective group
@@ -99,8 +97,20 @@ def make_prompt(examples, num_examples: int, coding: bool = False) -> FewShotPro
     return few_shot_prompt
 
 
+def generate_topic_to_area_map():
+    interests = read_json("interests.json")
+    topics_to_interest_areas = {
+        subtopic: area
+        for (area, subtopics) in list(interests.items())
+        for subtopic in subtopics
+    }
+    return topics_to_interest_areas
+
+
 def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output_folder: str, coding: bool = False, verbose: bool = False) -> list[dict]:
     generated_qs = []
+    interest_to_area = generate_topic_to_area_map()
+
     for topic in tqdm(topic_list, desc="Question Generation Progress"):
         # randomly select learning standard
         lo_code, obj = random.choice(list(lo_list.items()))
@@ -118,21 +128,22 @@ def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output
             'topic': topic,
             'coding': coding,
             'question_str': q_str,
-        }
-        if verbose:
-            print("\n" + q_str + "\n")
-        
+        }        
         generated_qs.append(q)
 
         # output question json to file
-        f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_")
+        f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_").replace("/", "-")
         write_json(q, output_folder + f_name)
+        if verbose:
+            #print("\n" + q_str + "\n")
+            print(f"\nQuestion saved at {output_folder + f_name}")
 
     return generated_qs
 
 
 def generate_topic_list(batch_size: int, interest_areas: list):
     interests = read_json("interests.json")
+
     curr_interests = []
     # get unique list of topics
     for area in interest_areas:
@@ -242,6 +253,8 @@ def main():
     if output_folder is None:
         dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":","-")
         output_folder = "questions\\" + dt + "\\"
+    elif output_folder[-1] != "\\":
+        output_folder += "\\"
     # create the output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -257,6 +270,9 @@ def main():
 
     # set verbose option
     verbose = "--verbose" in options or "-v" in options
+
+    if verbose:
+        print(f"\nbatch_size={batch_size}\nmodel_name={model_name}\nopenai_api_key={openai_api_key}\nexamples_file={path_to_examples}\nnum_examples={num_examples}\noutput_folder={output_folder}\ncoding={coding}\ninterest areas={interest_areas}\n")
 
     generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose)
 

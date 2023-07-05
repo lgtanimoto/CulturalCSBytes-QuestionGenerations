@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A10",
+    "learning_objective": "Use flowcharts and/or pseudocode to address complex problems as algorithms.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"You are creating a program to facilitate a gymnastics competition. The program needs to collect scores from 5 judges for each participant, then drop the lowest and highest scores and calculate the average of the remaining scores. Write a pseudocode or draw a flowchart that outlines the steps and decisions needed for this process.\",\n    \"Answer1\": \"Pseudocode:\\nInitialize scores array\\nFOR each judge\\n      Input score\\n      Add score to scores array\\nENDFOR\\nSort scores array\\nRemove first element from scores array\\nRemove last element from scores array\\nCompute average of scores array\\nOutput average\",\n    \"Answer2\": \"Flowchart:\\nStart -> Input Scores -> Sort Scores -> Remove First Element -> Remove Last Element -> Calculate Average -> End\",\n    \"Answer3\": \"None of the above. There is no feasible solution.\",\n    \"Answer4\": \"Pseudocode:\\nInitialize scores array\\nFOR each judge\\n      Input score\\n      Add score to scores array\\nENDFOR\\nCompute average of scores array\\nOutput average\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The pseudocode correctly describes the steps to take in the competition scoring problem: collect scores, sort them, remove the lowest and highest scores, and then calculate the average of the remaining scores.\"\n}"
+}

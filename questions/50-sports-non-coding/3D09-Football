@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"During a season of High School football, Lala spent her time analyzing the performance of her team, the Bulldogs. She focused specifically on the correlation between the number of touchdowns they scored in a game and the final result (Win/Loss). After analyzing all games in the season using a computational model, she found a strong positive correlation between the two variables. As the season went on, however, the correlation became less pronounced in her model. To refine her computational model based on this new data, which of the following adjustments should Lala most likely make?\",\n    \"Answer1\": \"She should weight more recent games more heavily in her model.\",\n    \"Answer2\": \"She should remove the games with the most touchdowns from her model.\",\n    \"Answer3\": \"She should exclude the games that the team lost from her model.\",\n    \"Answer4\": \"She should only include the games with the least touchdowns in her model.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In order to incorporate the changing trend into her analysis, Lala should rerun her model giving more weight to the recent games. This is because trends in sports can change over time due to factors such as player injuries, team morale, new strategies, opponent strength and many others. Excluding certain games or results would potentially skew the results and make her model less representative of the real-world scenario.\"\n}"
+}

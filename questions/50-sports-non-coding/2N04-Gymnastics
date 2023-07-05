@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N04",
+    "learning_objective": "Model how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the Internet, and reassembled at the destination.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a large gymnastics competition, the judges use a network of computers to quickly share and compile scores from multiple events for hundreds of athletes. Each judge inputs score data that is then sent via the network to a main server. How is this information most likely transmitted?\",\n    \"Answer1\": \"Each score is printed out and physically given to the main server\",\n    \"Answer2\": \"Each score is transmitted as one large packet of data\",\n    \"Answer3\": \"Each score is broken down into smaller pieces, or packets, and transmitted over the network to the main server\",\n    \"Answer4\": \"Each score is transmitted via spoken word over a microphone system\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"When information is transmitted over a network, it is often broken down into smaller pieces, or packets, that can be re-assembled on the receiving end. This makes the transmission of data more efficient and resilient, because if one packet fails to transmit, the entire transmission doesn't have to be restarted. For the gymnastics competition, this means that score data can be sent to the main server one packet at a time, rather than waiting to send all of the data at once.\"\n}"
+}

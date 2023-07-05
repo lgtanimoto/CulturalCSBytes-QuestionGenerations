@@ -1,0 +1,8 @@
+{
+    "MQCode": "5I27",
+    "learning_objective": "Predict how computational innovations that have revolutionized aspects of our culture might evolve.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Carson, a dedicated weightlifter, analyzes his lifting regimen and nutrition with a personal health tracker. A friend tells him that AI innovations are likely to revolutionize the world of weightlifting. Which of the following is a potential example of how AI could disrupt the physical fitness/weightlifting industry?\",\n    \"Answer1\": \"AI would replace the need for human weightlifters.\",\n    \"Answer2\": \"AI could develop revolutionary weightlifting equipment that lifts the weights itself.\",\n    \"Answer3\": \"AI could predict an individual\u2019s muscle growth and suggest personalized training regimes based on their nutrition and workout data.\",\n    \"Answer4\": \"AI would compete against humans in weightlifting competitions.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"AI has the potential to personalize and optimize weightlifting routines. By analyzing individual's nutrition and workout data, AI could predict muscle growth and suggest changes to enhance results. This would make the process more efficient and rewarding, as each training program could be truly customized to the individual's body and needs.\"\n}"
+}

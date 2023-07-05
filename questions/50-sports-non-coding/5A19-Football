@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A19",
+    "learning_objective": "Develop programs for multiple computing platforms.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Sunshine is developing a program that calculates and outputs the average yards gained in each game by a football player over a season. The program will be used on both Windows and Android systems. Which of the following design choices should Sunshine take into consideration?\",\n    \"Answer1\": \"Make sure the displayed graphics are compatible with different screen resolutions\",\n    \"Answer2\": \"Ensure the program is written using Swift\",\n    \"Answer3\": \"Use lots of Windows-specific file paths in their code\",\n    \"Answer4\": \"Write the program in a language that is not widely supported, such as Fortran\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"When developing programs for multiple platforms, it's important to use a language that's widely supported and to be sure that your code will function properly on all platforms. Using platform-specific elements, such as Windows file paths or an iOS-specific programming language (like Swift), would limit the program's compatibility. And part of compatibility with different platforms can include compatibility with different screen resolutions, especially for Android devices which come in a variety of sizes and resolutions.\"\n}"
+}

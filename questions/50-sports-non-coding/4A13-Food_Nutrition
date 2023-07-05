@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Nourri loves the idea of creating a health-inspired mobile application that gives users the nutritional value of the food they are eating. She decides to create a prototype of a feature that calculates the total calories of a meal. She listed all the foods and their respective calories per serving. The user can select the food and the number of servings. Which pseudocode below best represents Nourri's algorithm for this computation?\",\n    \"Answer1\": \"action calculateCalories(foodList, selectedFood, serving) for each food in foodList if food equals selectedFood return food.calories * serving end end end\",\n    \"Answer2\": \"action calculateCalories(foodList, selectedFood, serving) for each food in selectedFood if food equals foodList return food.calories * serving end end end\",\n    \"Answer3\": \"action calculateCalories(foodList, selectedFood, serving) for each serving in selectedFood return serving.calories * food end end end\",\n    \"Answer4\": \"action calculateCalories(foodList, selectedFood, serving) for each food in foodList if food not equals selectedFood return food.calories * serving end end end\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct code iterates over the foodList, checks if the food item matches the selectedFood and returns the calculated calories according to the number of servings. Other options have logical inconsistencies or errors.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The track team is debating which training method is more effective: long-distance runs (A) or high-intensity interval training (B). They took a poll of all team members, most of whom have tried both methods. Out of 50 individuals, 20 reported a significant improvement using method A, whereas 30 reported a significant improvement using method B. How can this data be visually organized and presented to support the claim that interval training has been observed to be more effective among the team members?\",\n    \"Answer1\": \"A pie chart showing the two methods and the proportion of students who reported improvement with each\",\n    \"Answer2\": \"A scatter plot with an individual dot for every student's report\",\n    \"Answer3\": \"A line graph showing the progress of each method over time\",\n    \"Answer4\": \"A histogram displaying the number of students who reported improvement with each method\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A pie chart is best for comparing proportions or percentages of a whole, which is ideal for this scenario where the goal is to visually represent a comparison between the numbers who reported improvement from each method.\"\n}"
+}

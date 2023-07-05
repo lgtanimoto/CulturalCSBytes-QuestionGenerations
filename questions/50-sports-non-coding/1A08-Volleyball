@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Baylee, a volleyball player, is trying to model the process of serving a volleyball in her computer science class. Which of the following sequences of instructions represents a good algorithm for serving a volleyball?\",\n    \"Answer1\": \"Pick up the ball. Throw it in the air. Hit it.\",\n    \"Answer2\": \"Hold the ball in your left hand. Stand behind the service line. Take a few steps forward. Toss the ball up. Take a swing at the ball with your right hand and hit it over the net.\",\n    \"Answer3\": \"Take the ball. Serve it.\",\n    \"Answer4\": \"Run to the net. Jump. Spike the ball.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The serving process in volleyball is more complicated than simply pick up and throw, or serve. It actually involves a defined series of steps to be followed, hence the most complete and descriptive algorithm here is Answer 2.\"\n}"
+}

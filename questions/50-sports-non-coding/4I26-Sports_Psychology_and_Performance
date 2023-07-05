@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"John, a sports psychology counselor, uses the principle of 'chunking' to help his clients improve their performance. 'Chunking' is a concept where larger pieces of information are broken up into smaller, easily manageable pieces, and is derived from a key algorithmic concept used in computer science. Suppose a basketball player is struggling with free throws because there are too many things in her mind during the shooting process. How can the 'chunking' concept assist the player in solving this issue?\",\n    \"Answer1\": \"Develop a mantra to focus on during shooting\",\n    \"Answer2\": \"Divide the shooting process into smaller, manageable parts like setting the posture, positioning the hands, and enacting the throwing motion, and master each step\",\n    \"Answer3\": \"Encourage her to take fun breaks during practice to relax her mind\",\n    \"Answer4\": \"Have her focus on one opponent player during a game\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"'Chunking' means breaking a complex operation into easier, manageable steps, and perfecting each step separately. This way, the player doesn't have to think about the whole process at once, leading to better focus, performance, and error correction.\"\n}"
+}

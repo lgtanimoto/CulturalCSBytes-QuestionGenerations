@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Arrow is a high school student who loves playing basketball. Arrow is also visually impaired. Because of his disability, Arrow has difficulties tracking the game's scores and stats on popular sports websites as they are not optimized for his screen reader. Arrow suggests that the school's Computer Science Club develop an app to help visually impaired basketball fans track games. Which design improvements to the current basketball tracking technologies would NOT increase accessibility for visually impaired users like Arrow?\",\n    \"Answer1\": \"Developing an interface with adjustable text sizes\",\n    \"Answer2\": \"Using high-contrast color schemes\",\n    \"Answer3\": \"Using a layout and design that relies primarily on visual cues\",\n    \"Answer4\": \"Implementing a system for text-to-speech output\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Relying primarily on visual cues such as color changes or fancy layout designs can complicate the reading for persons with visual impairment. Text-to-speech, adjustable text sizes, and high contrast color schemes are all improvements that would increase accessibility.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "5D07",
+    "learning_objective": "Evaluate the ability of models and simulations to test and support the refinement of hypotheses.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Shae and Taylor are studying the nutritional value of different foods in their science class. They built a computational model that predicts the nutritional content based on the food type, preparation method, and ingredient quantities. They're now trying to evaluate how effective their model is. Based on their findings, they found their model mostly accurate for predicting fat content but less accurate for predicting protein content. Which option below best explains what Shae and Taylor could consider?\",\n    \"Answer1\": \"Stop using the model because it's wrong about protein.\",\n    \"Answer2\": \"Refine the model to account for factors impacting protein content.\",\n    \"Answer3\": \"Ignore protein content because the model predicts fat content correctly.\",\n    \"Answer4\": \"Assume that all foods have the same protein content.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Shae and Taylor should consider refining their model to better predict the protein content. It's common for computational models to have areas of weakness, and part of the process of using models effectively is identifying these weaknesses and making improvements.\"\n}"
+}

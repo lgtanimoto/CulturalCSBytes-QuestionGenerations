@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The Lively Foxes Dance Team wants to collaborate with the Dancing Tigers from a school located in another state. They are planning a performance that combines elements from both their routines for an upcoming inter-state competition. Because of the distance between them, majority of their collaboration will have to be done remotely. Which digital tool or method could they use to collaborate on their project and why?\",\n    \"Answer1\": \"Create a shared online document where they can note ideas and get feedback from each other.\",\n    \"Answer2\": \"Send e-mails back and forth to each other, detailing the planned performance and asking for feedback.\",\n    \"Answer3\": \"Create an online forum where they can discuss and vote on ideas for the performance.\",\n    \"Answer4\": \"Use video conferencing tools to virtually practice together, discuss ideas in real time, and provide instant feedback.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While all the options conduct remote collaboration, the use of a video conferencing tool allows for more immediate and interactive discussions. This platform also provides a closer approximation to an actual physical practice, which is crucial to a choreographed performance.\"\n}"
+}

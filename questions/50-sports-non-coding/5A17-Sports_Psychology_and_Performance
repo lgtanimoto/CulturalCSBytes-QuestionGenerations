@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A17",
+    "learning_objective": "Plan and develop programs for broad audiences using a software life cycle process.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Thomas wants to develop a program for broad audiences related to Sports Psychology and performance. His program aims to provide personalized training schedules and performance benchmarks based on user-provided information like age, sport, current fitness level, mental resilience, etc. As part of the software development process, Thomas should consider all of the following aspects EXCEPT:\",\n    \"Answer1\": \"Planning and coding the software without gathering user requirements\",\n    \"Answer2\": \"Identifying and understanding the target user's needs\",\n    \"Answer3\": \"Performing tests and updates after initial program development\",\n    \"Answer4\": \"Documenting design decisions and changes made during program development\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A critical part of the software lifecycle process is to gather and understand user requirements before starting the planning and coding phase. Development without user requirement analysis could lead to a disconnect between the software's functionality and user needs.\"\n}"
+}

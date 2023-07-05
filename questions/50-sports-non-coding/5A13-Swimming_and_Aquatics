@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A13",
+    "learning_objective": "Illustrate the flow of execution of a recursive algorithm.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Penny is a beginner swimmer and needs to swim 10 meters farther each day to improve her stamina. On the first day, she swims 10 meters. The subsequent days she swims 10 meters farther than what she swam the previous day. Here is the code snippet for the calculation:If Penny continues her routine for another week, what will be her total distance swam over the next week starting from day 8?\",\n    \"Answer1\": \"560 meters\",\n    \"Answer2\": \"350 meters\",\n    \"Answer3\": \"330 meters\",\n    \"Answer4\": \"490 meters\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The given code represents a recursive algorithm that adds 10 to the swim distance of the previous day. The swim distance of day 8 is day7+10=70 meters, day 9 is day8+10=80, and so on. Thus, the total distance for the next week is 70+80+90+100+110+120+130 = 700 meters.\",\n    \"code_snippet\": \"function swim(distance, day)\\n  if day == 1\\n    return distance\\n  else \\n    return distance + swim(distance + 10, day -1)\\n  end\\n\"\n}"
+}

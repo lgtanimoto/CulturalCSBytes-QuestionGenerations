@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A10",
+    "learning_objective": "Use and adapt classic algorithms to solve computational problems.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Laura is a dietician and wants to build an app that calculates the calories in a recipe based on its ingredients' nutritional values. Laura found a nutritional database with thousands of ingredients. Which classic algorithm can Laura adapt in her program to find a specific ingredient's nutrition information within a database efficiently?\",\n    \"Answer1\": \"Insertion sort\",\n    \"Answer2\": \"Bubble sort\",\n    \"Answer3\": \"Binary search\",\n    \"Answer4\": \"Graham's scan\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The binary search algorithm is used for finding particular elements within large sorted lists, or databases, with great efficiency compared to other search algorithms. Laura can use it to quickly find ingredients' nutritional information in the database.\"\n}"
+}

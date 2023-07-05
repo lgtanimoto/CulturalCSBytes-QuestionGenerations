@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Team Cloud's school team qualified for the national baseball/softball tournament, which is divided into regional areas. To connect with students from other schools in their region and discuss game strategies, team Cloud decided to build a web platform. However, they want this platform to also address the problem of connectivity. What tool, method or design should the team primarily consider?\",\n    \"Answer1\": \"A private messaging system that only allows communication among local team members.\",\n    \"Answer2\": \"Integration with a popular social networking site, to attract more local players.\",\n    \"Answer3\": \"Facilitating online video streaming to display each team's matches.\",\n    \"Answer4\": \"A chat function and discussion board that allows sharing and commenting on game strategies among all participants from different schools.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In order to increase connectivity among different schools and cultures, an open discussion platform like a chat function or discussion board is essential. This allows for collaborative problem solving, sharing of diverse strategies, and fosters a sense of community amongst different schools.\"\n}"
+}

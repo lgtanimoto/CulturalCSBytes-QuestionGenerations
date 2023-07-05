@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Buzz\u2019s Gym is creating an app to help gym-goers plan different workout routines. A successful plan should include warm-up, exercise order, and cool-down activities. Which of the following most accurately represents a program for a chest and back workout day?\",\n    \"Answer1\": \"WarmUp()ChestPress(3, 10)DumbellRow(3,10)BenchPress(3,10)InclineDumbellPress(3,10)Pullup(3,10)CoolDown()\",\n    \"Answer2\": \"CoolDown()BenchPress(3,10)ChestPress(3, 10)DumbellRow(3,10)InclineDumbellPress(3,10)Pullup(3,10)WarmUp()\",\n    \"Answer3\": \"WarmUp()Pullup(3,10)DumbellRow(3,10)InclineDumbellPress(3,10)BenchPress(3,10)ChestPress(3, 10)CoolDown()\",\n    \"Answer4\": \"WarmUp()ChestPress(3,10)BenchPress(3,10)InclineDumbellPress(3,10)Pullup(3,10)DumbellRow(3,10)CoolDown()\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A proper workout routine begins with a warm-up, followed by the exercises in the specified order, and concludes with a cool down. Press exercises are typically performed before pull exercises.\"\n}"
+}

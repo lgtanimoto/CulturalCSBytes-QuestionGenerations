@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Ezra is developing a website for their school's dance federation. They want to include some audio and video content from various cheerleading, drill, and dance performances. Most of that content is copyrighted. What steps does Ezra need to follow to respect intellectual property rights in developing their website?\",\n    \"Answer1\": \"Just downloading and using the videos and music as needed, since it's for a school project and thus falls under fair use\",\n    \"Answer2\": \"Attribute the original creators and ask for their permission before using, and ensure commercial use is not involved\",\n    \"Answer3\": \"Ignoring copyright laws since they won't be caught\",\n    \"Answer4\": \"Buying a copyright for each audio and video clip\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Ezra needs to get the permissions and possibly the copyrights of the original artists before using their content. Ignoring and breaking the copyright law is illegal. While fair use laws may allow some use of copyrighted material for educational purposes, this is a complex area of law and it does not guarantee that the use of copyrighted material will be found to be fair use in every educational context.\"\n}"
+}

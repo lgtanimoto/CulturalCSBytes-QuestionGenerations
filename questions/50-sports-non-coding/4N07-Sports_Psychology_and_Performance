@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N07",
+    "learning_objective": "Compare various security measures, considering tradeoffs between the usability and security of a computing system.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Jasper, a sports psychologist, has developed a smartphone app that helps his athletes monitor their stress and energy levels throughout the day. He wants to ensure that the athletes' personal data remains secure. Which of the following measures can he use to balance user convenience and data security?\",\n    \"Answer1\": \"Use a combination of username and password for user authentication.\",\n    \"Answer2\": \"Use biometric identification like fingerprint or face recognition for user authentication.\",\n    \"Answer3\": \"Send the password in plaintext through email for every login attempt.\",\n    \"Answer4\": \"Bypass all kinds of user authentication to make it easier for athletes to use the app.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Biometric identification like fingerprint or face recognition provides a high level of security without requiring the user to remember and type in complex passwords, making it a good balance between convenience and security. Sending passwords via email in plaintext (option 3) is a serious security risk and bypassing user authentication (option 4) leaves the app and the data it collects unprotected.\"\n}"
+}

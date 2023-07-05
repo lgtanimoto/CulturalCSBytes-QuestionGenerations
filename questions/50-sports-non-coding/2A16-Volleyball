@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A16",
+    "learning_objective": "Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation, and review stages of program development.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Your computer science class has been tasked with creating a program to simulate a volleyball game match. How would you assign roles based on the steps required to complete this project?\",\n    \"Answer1\": \"Allow the class to decide who does what\",\n    \"Answer2\": \"Assign the whole class to work together on each stage of the program\",\n    \"Answer3\": \"Assign one student to be the project manager, and let them delegate tasks\",\n    \"Answer4\": \"Split up the class into teams responsible for the design, implementation, and review stages of the program. The design team should plan out the program's structure and functions, the implementation team should write the code, and the review team should check and debug the program\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"For optimal efficiency and learning experience, it's best to split the class into teams where each team has a specific role. This approach allows each student to specialize in and understand deeply one part of the program development process.\"\n}"
+}

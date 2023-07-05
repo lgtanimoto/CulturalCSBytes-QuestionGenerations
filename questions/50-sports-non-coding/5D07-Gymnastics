@@ -1,0 +1,8 @@
+{
+    "MQCode": "5D07",
+    "learning_objective": "Evaluate the ability of models and simulations to test and support the refinement of hypotheses.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Piper has developed a computer simulation of her gymnastics vault routine with the objective of improving her performance. The simulation models the physics of her motion including speed, angle, and timing of her movements. She hypothesizes that by increasing her starting speed by 10%, she can improve her landing stability. Based on this hypothesis, she adjusts her model and runs the simulation. Her simulation results show a noticeable increase in her landing stability. What conclusion can Piper draw from these simulation results?\",\n    \"Answer1\": \"Increasing her starting speed by 10% will definitely increase her landing stability in real life.\",\n    \"Answer2\": \"The simulation results might not have any effect in real world.\",\n    \"Answer3\": \"The simulation results indicate that her hypothesis might be correct, but she needs to test it in real life to confirm.\",\n    \"Answer4\": \"Increasing her starting speed by 10% will decrease her landing stability.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Simulations can help test hypotheses and refine strategies, but real-world results can vary due to factors the simulation may not perfectly emulate. Piper must try out her theory by implementing the speed increase in her actual performance to verify her hypothesis.\"\n}"
+}

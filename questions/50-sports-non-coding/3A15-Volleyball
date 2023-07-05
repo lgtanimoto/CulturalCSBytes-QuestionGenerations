@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alexis is designing a volleyball training tool and wants to ensure it meets the needs of users. She has coded the beta version of the product. Which process could help Alexis refine her solution?\",\n    \"Answer1\": \"Alexis could share the beta version with her friends and ask them for suggestions.\",\n    \"Answer2\": \"Alexis could bring in professional volleyball players to test her tool and provide feedback.\",\n    \"Answer3\": \"Alexis could observe volleyball teams during practice to understand their practices and needs.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Getting feedback from diverse groups of users, especially from those who are intended users (professional volleyball players in this case) and observing real-time use cases will help Alexis refine and create a product that meets user needs.\"\n}"
+}

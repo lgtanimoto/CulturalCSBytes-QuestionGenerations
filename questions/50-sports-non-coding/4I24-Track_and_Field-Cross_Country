@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Cross country and track athletes have started using GPS watches that mark their location every few seconds during their runs. The watch data help the athletes and coaches track speed, distance, elevation change, etc. to help improve their training regimen. Unfortunately, some athletes have started using these watches to cut courses on their own runs, and they upload the artificially high-speed data to the team shared database. Which of the following best describes the ethical, social and cultural impact of how the GPS watches are being used by these athletes?\",\n    \"Answer1\": \"Nothing changes since the athletes are just trying to impress themselves.\",\n    \"Answer2\": \"The athletes who cheat are skewing the team data and could demotivate other athletes or mess up their training regimen.\",\n    \"Answer3\": \"The athletes who cheat will finally get the attention they always wanted.\",\n    \"Answer4\": \"The coach will have more time to focus on these athletes than others.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By uploading inaccurate data, athletes are causing harm to the whole team, regardless if they mean to or not. This has both a social and ethical impact as it can demotivate other team members and alter the effective training of the entire team. In terms of cultural practices, this may also lead to a culture of dishonesty within the team.\"\n}"
+}

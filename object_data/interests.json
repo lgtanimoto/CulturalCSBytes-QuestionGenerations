@@ -24,16 +24,18 @@
         "Business Innovation and Technology"
     ],
     "Sports and Athletics": [
-        "Football (Soccer)",
+        "Football",
+        "Track and Field/Cross Country",
         "Basketball",
-        "Weight lifting",
-        "Tennis",
-        "Running and Track Events",
-        "Gymnastics",
+        "Baseball/Softball",
+        "Soccer",
+        "Volleyball",
+        "Cheerleading/Dance/Drill",
+        "Sports Psychology and Performance",
         "Swimming and Aquatics",
-        "Team Sports",
-        "Extreme Sports (e.g., Surfing, Skateboarding)",
-        "Sports Psychology and Performance"
+        "Gymnastics",
+        "Food Nutrition",
+        "Weightlifting/Physical fitness"
     ],
     "Science and engineering": [
         "Physics",

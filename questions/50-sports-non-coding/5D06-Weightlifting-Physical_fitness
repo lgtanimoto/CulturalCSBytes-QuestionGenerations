@@ -1,0 +1,8 @@
+{
+    "MQCode": "5D06",
+    "learning_objective": "Select data collection tools and techniques to generate data sets that support a claim or communicate information.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Anahi's gym class is tracking their weightlifting progress over a semester.  Each student in the class listed their maximum bench press, squat, and deadlift at the beginning of the semester, midway through, and at the end.  They want to analyze their data at the end of the semester to gauge individual and collective improvement. The gym teacher wants to ensure the data analysis is accurate and relevant. Which of the following methods of data collection and analysis would BEST help the class to achieve this\",\n    \"Answer1\": \"Create a bar graph comparing the maximum lift weights at the beginning and end of the semester for each exercise.\",\n    \"Answer2\": \"Prepare a scatter plot showing the relationship between different exercises at different points in the semester.\",\n    \"Answer3\": \"Perform descriptive statistics on the data to find the mean and median improvement for each exercise.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Each of these methods would provide valuable insights. The bar graph would show the progress of each student visually, making it easy to compare the beginning and the end of the semester. The scatter plot would show any correlations between performances in different exercises. Descriptive statistics would provide numerical measures of the overall progress for each exercise.\"\n}"
+}

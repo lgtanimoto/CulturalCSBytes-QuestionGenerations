@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A19",
+    "learning_objective": "Develop programs for multiple computing platforms.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alice is developing a tracking program to record the timing and pace of cross-country runners. She needs the program to work on phones, laptops, and digital watches.  Which of the following must Alice incorporate into her development process?\",\n    \"Answer1\": \"Develop a different version for each platform even if the underlying logic of the program is the same.\",\n    \"Answer2\": \"Make sure the program can run on only one device to avoid complications during development.\",\n    \"Answer3\": \"Design the user interface and design logic uniquely suited to each platform without changing the underlying application logic.\",\n    \"Answer4\": \"Design the program to use the most complex feature of each platform to make the most out of each device.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alice will need to cater the user interface and design logic of the program for each platform while keeping the underlying application logic consistent. This allows the program to maintain a consistent experience across platforms while taking advantage of each platform's unique capabilities.\"\n}"
+}

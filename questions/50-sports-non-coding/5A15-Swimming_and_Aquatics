@@ -1,0 +1,8 @@
+{
+    "MQCode": "5A15",
+    "learning_objective": "Analyze a large-scale computational problem and identify generalizable patterns that can be applied to a solution.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The local swim team has been asked to design a software program to manage their swim meets. This includes managing swimmers and their events, tracking times, managing teams, and tracking team points. Which of the following generalizable patterns might they use to tackle this problem?\",\n    \"Answer1\": \"Break the problem down into individual races, with each one being managed by a separate program\",\n    \"Answer2\": \"Treat the entire swim meet as a single event and use a single program to manage everything\",\n    \"Answer3\": \"Divide the problem into smaller parts \u2013 e.g., swimmer management, event management, time tracking, team management, and points tracking \u2013 and develop a modular solution where each part interacts with the others\",\n    \"Answer4\": \"Create a program that only handles the timing of each race and manually handle the rest\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To analyze a large-scale computational problem, it is often useful to identify generalizable patterns to aid in the solution. Dividing the problem into smaller parts and developing a solution where each part interacts with the others, is a common practice in computer science called modularity. This approach can simplify the process and makes the overall problem more manageable.\"\n}"
+}

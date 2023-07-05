@@ -1,0 +1,8 @@
+{
+    "MQCode": "5D05",
+    "learning_objective": "Use data analysis tools and techniques to identify patterns in data representing complex systems.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Vladivostok owns a coaching center where he trains people for weightlifting. He installed sensors on the exercise machines which collect data like workout time, weight lifted and recovery time. Vladivostok wants to understand the relation between the weight lifted and recovery time. He wants to use this information to optimize the training schedules for his clients. Which data analysis tool and technique should he use to identify patterns in the data collected?\",\n    \"Answer1\": \"He should use a bar graph and observation technique\",\n    \"Answer2\": \"He should use scatter plot and regression analysis\",\n    \"Answer3\": \"He should use a pie chart and sorting technique\",\n    \"Answer4\": \"He should use line graph and sequencing technique\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The scatter plot is used to visualize the relationship between two different variables. Regression analysis is a set of statistical methods used for the estimation of relationships among variables. Therefore, Vladivostok should use scatter plot and regression analysis to identify patterns in the collected data.\"\n}"
+}

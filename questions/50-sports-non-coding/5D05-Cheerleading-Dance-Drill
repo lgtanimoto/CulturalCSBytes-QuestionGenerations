@@ -1,0 +1,8 @@
+{
+    "MQCode": "5D05",
+    "learning_objective": "Use data analysis tools and techniques to identify patterns in data representing complex systems.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The cheerleading team captures data at each of their practices including the number of stunts, tosses, tumbles, and jumps they perform. In order to improve the group's performance, the coach wants to analyze the data and identify patterns. What tool or technique would be most effective for identifying patterns in the data collected?\",\n    \"Answer1\": \"Use a ruler and manually plot the numbers on graph paper\",\n    \"Answer2\": \"Use individual calculators to crunch the numbers\",\n    \"Answer3\": \"Use spreadsheet software to sort and chart the data\",\n    \"Answer4\": \"Use an abacus to visualize each data point\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Using a spreadsheet tool can help the team systematically sort through their data and visualize any patterns through charting features. This is more efficient and may reveal patterns more effectively than using a ruler, calculators, or an abacus.\"\n}"
+}

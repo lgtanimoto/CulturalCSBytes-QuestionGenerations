@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"As the cheerleading coach for the school, Janie is planning to share a recorded cheer routine with her students. To play it smoothly during practice without stuttering or lag, what specific hardware does she need to consider?\",\n    \"Answer1\": \"High-quality webcams\",\n    \"Answer2\": \"Large hard drive storage\",\n    \"Answer3\": \"Graphics card and sufficient RAM\",\n    \"Answer4\": \"Louder audio speakers\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In this case, a graphics card and sufficient RAM will help to smoothly play video without stuttering or lag. While audio speakers are an important component, they don't directly affect the smoothness of video playback. Hard drive storage is not usually pertinent to the playback of video, unless the storage is nearly full. Webcams are not needed if Janie is just playing a pre-recorded video.\"\n}"
+}
