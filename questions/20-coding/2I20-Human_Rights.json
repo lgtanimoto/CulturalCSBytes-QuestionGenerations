@@ -1,0 +1,8 @@
+{
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "topic": "Human Rights",
+    "MQCode": "2I20",
+    "question_str": "{\n    \"Question\": \"Hope is coding a program to collect and display data on worldwide human rights violation cases. The data will be used for a variety of purposes by different organizations. It's important that her program is accurate, accessible and user-friendly. Which of the following should she consider to improve her program?\", \n    \"Answer1\": \"Reaching out to a variety of human rights organizations for input on what kind of data they need\",\n    \"Answer2\": \"Including a feature that allows data to be displayed in a variety of languages\",\n    \"Answer3\": \"Speaking with individuals who have survived human rights abuses, for insights on how to accurately portray the data\", \n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\", \n    \"Explanation\": \"To make a program as useful as possible, especially on a topic as sensitive as human rights abuses, it's necessary to reach out to a variety of stakeholders. Hope should draw from the input of human rights organizations, include multi-language support and speak directly to those affected by human rights abuses.\",\n    \"code_snippet\": \"number Cases = 0 \\nwhile hasNext()\\n    Cases = getNext()\\n    output Cases\\nend\"\n}",
+    "interest_area": "Social justice",
+    "coding": true
+}

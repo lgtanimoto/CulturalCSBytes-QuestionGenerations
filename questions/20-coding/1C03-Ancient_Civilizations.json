@@ -1,0 +1,8 @@
+{
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "topic": "Ancient Civilizations",
+    "MQCode": "1C03",
+    "question_str": "{\n    \"Question\": \"While working on a project about ancient civilizations, Cheska comes across an error message that says 'insufficient memory.' She asks her classmate Beto, who is also taking Computer Science, what the problem could be. How should Beto explain this issue to Cheska?\",\n    \"Answer1\": \"The issue likely indicates that your computer has run over its storage capacity, so deleting some unnecessary files should fix the problem.\",\n    \"Answer2\": \"Insufficient memory typically refers to the computer's RAM, or Random Access Memory, being full. Increasing this could make the program run faster.\",\n    \"Answer3\": \"The issue means there is not enough bandwidth available, so maybe try using the internet during a time when fewer people are online.\",\n    \"Answer4\": \"The computer's processor is likely overheating, indicating that the thermal paste needs to be replaced.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The term 'insufficient memory' usually refers to a lack of free space in the computer's RAM (Random Access Memory). This is the part of the computer that temporarily holds data being worked on, and certain tasks or programs can take up more RAM than others. Closing some applications or increasing the RAM could potentially help alleviate this issue.\",\n    \"code_snippet\": \"number[] egyptDynasties = new number[31]\\nfor (i = 0, i <= 30, i++)\\n    egyptDynasties[i] = assignDynastyYear(i)\\nend\"\n}",
+    "interest_area": "World History",
+    "coding": true
+}

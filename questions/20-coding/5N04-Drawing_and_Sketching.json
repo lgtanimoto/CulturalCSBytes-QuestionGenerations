@@ -1,0 +1,8 @@
+{
+    "learning_objective": "Compare ways software developers protect devices and information from unauthorized access.",
+    "topic": "Drawing and Sketching",
+    "MQCode": "5N04",
+    "question_str": "{\n    \"Question\": \"Taylor is developing a drawing application and she wants to ensure her user's data is secure. Which approach should Taylor and her development team consider implementing to protect against unauthorized access to the app data?\",\n    \"Answer1\": \"Avoid storing any data.\",\n    \"Answer2\": \"Make the source code of the app public.\",\n    \"Answer3\": \"Require password authentication before user can use the app.\",\n    \"Answer4\": \"Allow any third-party plugins to access user data.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Requiring password authentication can help protect user data from unauthorized access. It's important for developers to implement security measures in their applications, especially if they are handling sensitive user information.\",\n    \"code_snippet\": \"action authenticate(inputArea password)\\n    if password = \\\"correctpassword\\\"\\n        output \\\"Access Granted\\\"\\n    else\\n        output \\\"Access Denied\\\"\\n    end\\nend\"\n}",
+    "interest_area": "Art and Design",
+    "coding": true
+}

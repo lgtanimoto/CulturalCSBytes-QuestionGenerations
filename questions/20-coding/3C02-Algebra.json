@@ -1,0 +1,8 @@
+{
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "topic": "Algebra",
+    "MQCode": "3C02",
+    "question_str": "{\n    \"Question\": \"Jess wants to design an algebra tutoring program that makes use of a customizable keypad for inputting responses. Each key on the keypad corresponds to a certain action in the program. Which of the following key-action pairs would NOT be useful in Jess's program?\",\n    \"Answer1\": \"Key: '1' - Action: input the number '1' to the algebra problem at hand.\",\n    \"Answer2\": \"Key: '0' - Action: input the number '0' to the algebra problem at hand.\",\n    \"Answer3\": \"Key: '+' - Action: input the '+' symbol to the algebra problem at hand.\",\n    \"Answer4\": \"Key: 'Esc' - Action: post the current high score on social media.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Exchanging data between hardware (the keypad) and software (Jess's program) is key in designing this project. However, the 'Esc' button posting the current high score on social media isn't helpful for solving algebra problems, making it not a good match for Jess's algebra tutoring program.\",\n    \"code_snippet\": \"if IsKeyPressed('1') then\\n   numInput = 1\\nelseif IsKeyPressed('0') then\\n   numInput = 0\\nelseif IsKeyPressed('+') then\\n   nextOperation = '+'\\nelseif IsKeyPressed('Esc') then\\n   PostHighScoreToSocialMedia()\\nend\"\n}",
+    "interest_area": "Math",
+    "coding": true
+}
