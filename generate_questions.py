@@ -224,24 +224,31 @@ required arguments:
 
 optional arguments:
   -h, --help                Show this help message and exit.
+
   -l, --llm                 The name of the LLM to use for generating questions. Defaults to 'gpt-4'.
-                                Other model options include:
-                                  - "gpt-3.5-turbo"
-                                  - "text-davinci-003"
-                                  - "text-davinci-002"
-                                  - "text-curie-001"
-                                Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.
+                            Other model options include:
+                              - "gpt-3.5-turbo"
+                              - "text-davinci-003"
+                              - "text-davinci-002"
+                              - "text-curie-001"
+                            Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.
+
   -e, --examples-file       The relative path to the .json file containing a list of few-shot examples.
-                                Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
-                                Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
+                            Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
+                            Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
+
   -n, --num-examples        The number of examples to use in few-shot prompting. Defaults to 3.
+
   -o, --output-folder       The relative path to the folder where generated questions should be written.
-                                Defaults to "questions\\date\\time\\".
+                            Defaults to "questions\\date\\time\\".
   -c, --coding              Indicates generated questions should include code. Defaults to false by ommission.
+
   -i, --interest-areas      A comma-separated list of interest areas to generate questions for. Defaults to all interest areas.
-                                Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
-                                e.g. '--interest-areas=Diversity-and-inclusion,Business'.
+                            Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
+                            e.g. '--interest-areas=Diversity-and-inclusion,Business'.
+
   -a, --api-key             Your OpenAI-api-key. Defaults to reading from .env file.
+  
   -v, --verbose             Enable verbose mode to print generated questions.\n''')
 
 
