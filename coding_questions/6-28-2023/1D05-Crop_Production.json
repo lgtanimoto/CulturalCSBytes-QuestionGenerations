@@ -1,7 +1,0 @@
-{
-    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
-    "topic": "Crop Production",
-    "MQCode": "1D05",
-    "question_str": "{\n    \"Question\": \"Farmer Jill is recording the number of cucumbers each of her five cucumber plants produced this season. She writes the following program to enter the data and look up how many cucumbers each plant produced: Her daughter June needs to know how many cucumbers Plant 3 produced. What line of code should June add to the end of the program to get this information?\",\n    \"Answer1\": \"output cucumberProduction[2]\",\n    \"Answer2\": \"output cucumberProduction[3]\",\n    \"Answer3\": \"output cucumberProduction[4]\",\n    \"Answer4\": \"output cucumberProduction[5]\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The indices of the array cucumberProduction start at zero, not one. Therefore, the third element of the array is cucumberProduction[2], not cucumberProduction[3]. June should add the line 'output cucumberProduction[2]' to the end of the program to output the production from Plant 3.\",\n    \"code_snippet\": \"array<number> cucumberProduction = [91, 85, 102, 77, 83]\"\n}",
-    "interest_area": "Agriculture"
-}

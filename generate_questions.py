@@ -15,6 +15,8 @@ from langchain.prompts.example_selector.base import BaseExampleSelector
 # python libraries
 from dotenv import load_dotenv
 from tqdm import tqdm
+import tiktoken
+
 
 FILE_PREF = "object_data\\"
 
@@ -30,8 +32,11 @@ def read_json(filename):
     return data
 
 
-lo_list = read_json("learning_objectives.json")
-lo_code_groups = read_json("lo_code_groups.json")
+lo_list = read_json("learning_objectives")
+lo_code_groups = read_json("lo_code_groups")
+context_windows = read_json("llm_context_windows")
+interests = read_json("interests")
+
 
 def group_examples(examples) -> Dict[str, List]:
     # categorize examples by learning objective group
@@ -49,7 +54,12 @@ def group_examples(examples) -> Dict[str, List]:
     return ex_groups
 
 
-def make_prompt(examples, num_examples: int, coding: bool = False) -> FewShotPromptTemplate:
+def make_prompt(
+    examples,
+    num_examples: int,
+    coding: bool = False
+) -> FewShotPromptTemplate:
+    
     ex_groups = group_examples(examples)
 
     class CustomExampleSelector(BaseExampleSelector):
@@ -98,7 +108,6 @@ def make_prompt(examples, num_examples: int, coding: bool = False) -> FewShotPro
 
 
 def generate_topic_to_area_map():
-    interests = read_json("interests.json")
     topics_to_interest_areas = {
         subtopic: area
         for (area, subtopics) in list(interests.items())
@@ -107,7 +116,47 @@ def generate_topic_to_area_map():
     return topics_to_interest_areas
 
 
-def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output_folder: str, coding: bool = False, verbose: bool = False) -> list[dict]:
+def get_llm(prompt: str, model_name: str, openai_api_key: str):
+    if model_name not in context_windows.keys():
+        print("Invalid LLM name. Valid llm options are as follows:")
+        print(*([" "] + list(read_json("llm_context_windows").keys())), sep='\n > ')
+        print()
+        exit(1)
+    
+    num_tokens = len(tiktoken.encoding_for_model(model_name).encode(prompt))
+    llms_2049 = [model for model, window in context_windows.items() if window == 2049]
+    
+    if num_tokens + 500 > context_windows[model_name]:
+        if model_name == "gpt-4":
+            model_name = "gpt-4-32k"
+        elif model_name == "gpt-3.5-turbo" or model_name == "text-davinci-003":
+            model_name = "gpt-3.5-turbo-16k"
+        elif model_name in llms_2049:
+            model_name = "text-davinci-003"
+        else:
+            print("Context window error: Consider using gpt-4-32k or decreasing the number of prompt examples.")
+            exit(1)
+
+        # check that window size of new model is sufficient
+        return get_llm(prompt, model_name, openai_api_key)
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        llm = OpenAI(model_name=model_name, openai_api_key=openai_api_key)
+    
+    return llm
+
+
+def generate_qs(
+    llm,
+    topic_list: list[str],
+    examples: list[dict],
+    num_examples: int,
+    output_folder: str,
+    coding: bool = False,
+    verbose: bool = False
+) -> list[dict]:
+
     generated_qs = []
     interest_to_area = generate_topic_to_area_map()
 
@@ -116,7 +165,14 @@ def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output
         lo_code, obj = random.choice(list(lo_list.items()))
         
         # create prompt
-        prompt = make_prompt(examples, num_examples, coding).format(learning_objective=obj, topic=topic)
+        prompt = make_prompt(
+            examples,
+            num_examples,
+            coding
+        ).format(
+            learning_objective=obj,
+            topic=topic
+        )
 
         # get gpt-4 response
         res = llm(prompt)
@@ -128,7 +184,7 @@ def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output
             'topic': topic,
             'coding': coding,
             'question_str': q_str,
-        }        
+        }
         generated_qs.append(q)
 
         # output question json to file
@@ -142,8 +198,6 @@ def generate_qs(llm, topic_list, examples: list[dict], num_examples: int, output
 
 
 def generate_topic_list(batch_size: int, interest_areas: list):
-    interests = read_json("interests.json")
-
     curr_interests = []
     # get unique list of topics
     for area in interest_areas:
@@ -171,16 +225,22 @@ required arguments:
 optional arguments:
   -h, --help                Show this help message and exit.
   -l, --llm                 The name of the LLM to use for generating questions. Defaults to 'gpt-4'.
-  -e, --examples-file       The relative path to the file containing a list of few-shot examples.
-                            Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
-                            Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
+                                Other model options include:
+                                  - "gpt-3.5-turbo"
+                                  - "text-davinci-003"
+                                  - "text-davinci-002"
+                                  - "text-curie-001"
+                                Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.
+  -e, --examples-file       The relative path to the .json file containing a list of few-shot examples.
+                                Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
+                                Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
   -n, --num-examples        The number of examples to use in few-shot prompting. Defaults to 3.
   -o, --output-folder       The relative path to the folder where generated questions should be written.
-                            Defaults to "questions\\date\\time\\".
+                                Defaults to "questions\\date\\time\\".
   -c, --coding              Indicates generated questions should include code. Defaults to false by ommission.
   -i, --interest-areas      A comma-separated list of interest areas to generate questions for. Defaults to all interest areas.
-                            Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
-                            e.g. '--interest-areas=Diversity-and-inclusion,Business'.
+                                Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
+                                e.g. '--interest-areas=Diversity-and-inclusion,Business'.
   -a, --api-key             Your OpenAI-api-key. Defaults to reading from .env file.
   -v, --verbose             Enable verbose mode to print generated questions.\n''')
 
@@ -208,20 +268,17 @@ def main():
     openai_api_key = get_opt_match("--api-key")
     if openai_api_key is None:
         load_dotenv()
-        openai_api_key = os.getenv("openai_api_key")
+        openai_api_key = os.getenv("OPENAI_API_KEY")
+    else:
+        # save argument api-key to .env file
+        if not os.path.exists(".env"):
+            with open(".env", 'w') as f:
+                f.write("OPENAI_API_KEY=" + openai_api_key)
 
     """parse llm name"""
     model_name = get_opt_match("--llm")
     if model_name is None:
-        model_name = "gpt-4"
-    try:
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore")
-            llm = OpenAI(model_name=model_name, openai_api_key=openai_api_key)
-    except:
-        print("Invalid LLM name.\n")
-        usage()
-        exit(1)
+        model_name = "gpt-3.5-turbo"
 
     """check for coding flag"""
     coding = "--coding" in options or "-c" in options
@@ -230,11 +287,11 @@ def main():
     path_to_examples = get_opt_match("--examples-file")
     if path_to_examples is None:
         if coding:
-            path_to_examples = FILE_PREF + "coding_question_examples.json"
+            path_to_examples = FILE_PREF + "coding_question_examples"
         else:
-            path_to_examples = FILE_PREF + "default_question_examples.json"
+            path_to_examples = FILE_PREF + "default_question_examples"
     try:
-        with open(path_to_examples, 'r') as ex_f:
+        with open(path_to_examples.split(".json")[0] + ".json", 'r') as ex_f:
             examples = json.load(ex_f)
     except:
         print("Invalid examples file.\n")
@@ -256,7 +313,7 @@ def main():
     elif output_folder[-1] != "\\":
         output_folder += "\\"
     # create the output folder if it doesn't exist
-    if not os.path.exists(output_folder):
+    if not os.path.exists(output_folder) and batch_size > 0:
         os.makedirs(output_folder)
 
     """parse interest area(s) to generate questions for"""
@@ -264,15 +321,19 @@ def main():
     if interest_areas is not None:
         interest_areas = interest_areas.replace("-", " ").split(",")
     else:
-        interest_areas = read_json("interest_areas.json")
+        interest_areas = read_json("interest_areas")
 
     topic_list = generate_topic_list(batch_size, interest_areas)
 
     # set verbose option
     verbose = "--verbose" in options or "-v" in options
 
+    # instantiate the llm
+    ex_prompt = make_prompt(examples, num_examples, coding).format(learning_objective=lo_list["1A08"], topic="bar")
+    llm = get_llm(ex_prompt, model_name, openai_api_key)
+
     if verbose:
-        print(f"\nbatch_size={batch_size}\nmodel_name={model_name}\nopenai_api_key={openai_api_key}\nexamples_file={path_to_examples}\nnum_examples={num_examples}\noutput_folder={output_folder}\ncoding={coding}\ninterest areas={interest_areas}\n")
+        print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest areas = {interest_areas}\n")
 
     generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose)
 
