@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Blaze and Blue are two game developers who live in completely different parts of the world. Though they have never met in person, they have launched several successful mobile games jointly. Typically, Blaze does the coding while Blue handles the graphic design. Which tool or method would be most beneficial to their collaborative game development process?\",\n    \"Answer1\": \"Using source control system like git to manage and track changes in their project code.\",\n    \"Answer2\": \"Sharing screenshots of their progress via email.\",\n    \"Answer3\": \"Programming the game in a single sitting to reduce version control conflicts.\",\n    \"Answer4\": \"Avoiding conversations about cultural differences to avoid conflicts.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A source control system allows developers to collaborate from different locations by providing a structure for tracking changes to the project, reverting changes, and resolving conflicts. This increases efficiency and allows Blaze and Blue to bring their cultural experiences to the development process, improving the richness and diversity of their game.\"\n}"
+}

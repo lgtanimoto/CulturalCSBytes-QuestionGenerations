@@ -87,20 +87,26 @@ def make_prompt(
     )
 
     if coding:
+        with open("object_data\\system_message_coding.txt", 'r') as f:
+            prefix = f.read()
+
         exs = random.sample(examples, min(len(examples), 3))
         few_shot_prompt = FewShotPromptTemplate(
             examples=exs,
             example_prompt=example_prompt,
-            prefix="""System Message: You are a high school computer science teacher who wants to connect CS concepts to the diverse interests of your students so that they can better see themselves working in CS. Applications of CS to different fields of study often have similar solutions in code and teach the same underlying CS principles. And by seeing questions related to a wide variety of disciplines, students can better appreciate that CS is everywhere, for everyone, and that the essence of good computer science is to find the common patterns in problems from all aspects of life and to develop solutions for them.\n\nTask: Given a CS learning objective and a topic of interest to your students, generate a question in JSON format that applies the learning objective to a scenario related to the provided topic. The question should involve a code snippet specified in the quorum programming language as shown in the example questions.""",    
+            prefix=prefix,
             suffix="Learning objective: {learning_objective}\nTopic: {topic}\nQuestion:",
             input_variables=["learning_objective", "topic"]
         )
     else:
+        with open("object_data\\system_message_default.txt", 'r') as f:
+            prefix = f.read()
+    
         example_selector = CustomExampleSelector(examples)
         few_shot_prompt = FewShotPromptTemplate(
             example_selector=example_selector,
             example_prompt=example_prompt,
-            prefix="""System Message: You are a high school computer science teacher who wants to connect CS concepts to the diverse interests of your students so that they can better see themselves working in CS. Applications of CS to different fields of study often have similar solutions in code and teach the same underlying CS principles. And by seeing questions related to a wide variety of disciplines, students can better appreciate that CS is everywhere, for everyone, and that the essence of good computer science is to find the common patterns in problems from all aspects of life and to develop solutions for them.\n\nTask: Given a CS learning objective and a topic of interest to your students, generate a question in JSON format that applies the learning objective to a scenario related to the provided topic. Specify the content of any charts or graphics referenced in your question.""",    
+            prefix=prefix,
             suffix="Learning objective: {learning_objective}\nTopic: {topic}\nQuestion:",
             input_variables=["learning_objective", "topic"]
         )
