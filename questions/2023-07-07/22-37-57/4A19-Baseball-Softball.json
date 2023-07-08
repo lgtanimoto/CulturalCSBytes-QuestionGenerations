@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Cheer is designing an app that keeps score for softball games.  During initial testing, users report that the app crashes when they input negative runs for a team.  How should Cheer best respond to this feedback?\",\n    \"Answer1\": \"Ignore the feedback - teams cannot have negative runs in a softball game.\",\n    \"Answer2\": \"Add a message to the app stating that it is not intended for use in games with negative runs.\",\n    \"Answer3\": \"Rewrite the app to allow for negative runs.\",\n    \"Answer4\": \"Program the app to generate an error message when a user enters negative runs.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Cheer should take the feedback into account and modify the app to catch the error condition. This does not mean the app should necessarily accept negative runs, as those are not a valid input for a softball game, but it should prevent the app from crashing when an invalid entry is made.\"\n}"
+}

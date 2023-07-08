@@ -36,6 +36,7 @@ lo_list = read_json("learning_objectives")
 lo_code_groups = read_json("lo_code_groups")
 context_windows = read_json("llm_context_windows")
 interests = read_json("interests")
+question_schema = read_json("question_schema")
 
 
 def group_examples(examples) -> Dict[str, List]:
@@ -147,6 +148,12 @@ def get_llm(prompt: str, model_name: str, openai_api_key: str):
     return llm
 
 
+def verify_generation(q_str: str):
+    """check that generated question schema matches the example schema"""
+    question = json.loads(q_str)
+    return question_schema.sort() == list(question.keys()).sort()
+
+
 def generate_qs(
     llm,
     topic_list: list[str],
@@ -182,6 +189,12 @@ def generate_qs(
         # get gpt-4 response
         res = llm(prompt)
         q_str = "{" + res.split("{")[-1].split("}")[0] + "}"
+
+        # check that generated question schema is valid
+        if not verify_generation(q_str):
+            print("\nGeneration Error: Invalid question schema\n")
+            continue
+
         q = {
             'MQCode': lo_code,
             'learning_objective': obj,
