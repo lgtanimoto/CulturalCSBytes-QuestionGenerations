@@ -154,15 +154,20 @@ def generate_qs(
     num_examples: int,
     output_folder: str,
     coding: bool = False,
-    verbose: bool = False
+    verbose: bool = False,
+    filter_grades: bool = False,
 ) -> list[dict]:
 
     generated_qs = []
     interest_to_area = generate_topic_to_area_map()
 
     for topic in tqdm(topic_list, desc="Question Generation Progress"):
-        # randomly select learning standard
-        lo_code, obj = random.choice(list(lo_list.items()))
+        # randomly select learning standard. Filter out 11th and 12th grade learning standards with filter_grades=True
+        if filter_grades:
+            lo_list_filtered = {key: value for (key, value) in list(lo_list.items()) if key[0] != '5'}
+            lo_code, obj = random.choice(list(lo_list_filtered.items()))
+        else:
+            lo_code, obj = random.choice(list(lo_list.items()))
         
         # create prompt
         prompt = make_prompt(
@@ -241,14 +246,18 @@ optional arguments:
 
   -o, --output-folder       The relative path to the folder where generated questions should be written.
                             Defaults to "questions\\date\\time\\".
-  -c, --coding              Indicates generated questions should include code. Defaults to false by ommission.
 
   -i, --interest-areas      A comma-separated list of interest areas to generate questions for. Defaults to all interest areas.
                             Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
                             e.g. '--interest-areas=Diversity-and-inclusion,Business'.
 
   -a, --api-key             Your OpenAI-api-key. Defaults to reading from .env file.
-  
+
+  -c, --coding              Include flag to generate questions with code. By default, questions do not include code.
+
+  -f, --filter-grades       Include flag to filter out 11th and 12th grade learning standards when generating questions.
+                            By default, all learning standards are used during generation.
+
   -v, --verbose             Enable verbose mode to print generated questions.\n''')
 
 
@@ -275,7 +284,7 @@ def main():
     openai_api_key = get_opt_match("--api-key")
     if openai_api_key is None:
         load_dotenv()
-        openai_api_key = os.getenv("OPENAI_API_KEY")
+        openai_api_key = str(os.getenv("OPENAI_API_KEY"))
     else:
         # save argument api-key to .env file
         if not os.path.exists(".env"):
@@ -286,6 +295,9 @@ def main():
     model_name = get_opt_match("--llm")
     if model_name is None:
         model_name = "gpt-3.5-turbo"
+
+    """check for filter grades"""
+    filter_grades = "--filter-grades" in options or "-f" in options
 
     """check for coding flag"""
     coding = "--coding" in options or "-c" in options
@@ -340,9 +352,9 @@ def main():
     llm = get_llm(ex_prompt, model_name, openai_api_key)
 
     if verbose:
-        print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest areas = {interest_areas}\n")
+        print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest_areas = {interest_areas}\nfilter_grades = {filter_grades}\n")
 
-    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose)
+    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades)
 
 
 if __name__ == "__main__":
