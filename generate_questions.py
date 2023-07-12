@@ -160,7 +160,7 @@ def verify_generation(q_str: str):
     return question_schema.sort() == list(question.keys()).sort()
 
 
-def generate_qs(
+def generate_questions(
     llm,
     topic_list: list[str],
     examples: list[dict],
@@ -373,7 +373,7 @@ def main():
     if verbose:
         print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest_areas = {interest_areas}\nfilter_grades = {filter_grades}\n")
 
-    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades)
+    generate_questions(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades)
 
 
 if __name__ == "__main__":
