@@ -6,6 +6,7 @@ import warnings
 import random
 from typing import Dict, List
 import datetime
+import argparse
 
 # langchain
 from langchain.llms import OpenAI
@@ -41,6 +42,8 @@ question_schema = read_json("question_schema")
 
 def group_examples(examples) -> Dict[str, List]:
     # categorize examples by learning objective group
+
+    """stores examples in lists by learning objective group key"""
     ex_groups = {
         'C': [],
         'N': [],
@@ -51,7 +54,7 @@ def group_examples(examples) -> Dict[str, List]:
 
     for ex in examples:
         ex_groups[ex['MQCode'][1]].append(ex)
-    
+
     return ex_groups
 
 
@@ -60,17 +63,17 @@ def make_prompt(
     num_examples: int,
     coding: bool = False
 ) -> FewShotPromptTemplate:
-    
+
     ex_groups = group_examples(examples)
 
     class CustomExampleSelector(BaseExampleSelector):
         def __init__(self, examples: List[Dict[str, str]]):
             self.examples = examples
-        
+
         def add_example(self, example: Dict[str, str]) -> None:
             # Add new example to store for a key.
             self.examples.append(example)
-        
+
         def select_examples(self, input_variables: Dict[str, str]):
             # Select which examples to use based on the inputs.
             for code, obj in lo_list.items():
@@ -78,7 +81,7 @@ def make_prompt(
                     similar_exs = ex_groups[code[1]]
                     few_exs = random.sample(similar_exs, min(len(similar_exs), num_examples))
                     return few_exs
-    
+
     question_template = """Learning objective: {learning_objective}\nTopic: {topic}\nQuestion:\n```json\n{{{question_str}}}\n```"""
 
     example_prompt = PromptTemplate(
@@ -101,7 +104,7 @@ def make_prompt(
     else:
         with open("object_data\\system_message_default.txt", 'r') as f:
             prefix = f.read()
-    
+
         example_selector = CustomExampleSelector(examples)
         few_shot_prompt = FewShotPromptTemplate(
             example_selector=example_selector,
@@ -129,10 +132,10 @@ def get_llm(prompt: str, model_name: str, openai_api_key: str):
         print(*([" "] + list(read_json("llm_context_windows").keys())), sep='\n > ')
         print()
         exit(1)
-    
+
     num_tokens = len(tiktoken.encoding_for_model(model_name).encode(prompt))
     llms_2049 = [model for model, window in context_windows.items() if window == 2049]
-    
+
     if num_tokens + 500 > context_windows[model_name]:
         if model_name == "gpt-4":
             model_name = "gpt-4-32k"
@@ -150,14 +153,16 @@ def get_llm(prompt: str, model_name: str, openai_api_key: str):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         llm = OpenAI(model_name=model_name, openai_api_key=openai_api_key)
-    
+
     return llm
 
 
 def verify_generation(q_str: str):
     """check that generated question schema matches the example schema"""
-    question = json.loads(q_str)
-    return question_schema.sort() == list(question.keys()).sort()
+    try:
+        return question_schema.sort() == list(json.loads(q_str).keys()).sort()
+    except json.decoder.JSONDecodeError:
+        return False
 
 
 def generate_qs(
@@ -165,10 +170,11 @@ def generate_qs(
     topic_list: list[str],
     examples: list[dict],
     num_examples: int,
-    output_folder: str,
+    output_folder=None,
     coding: bool = False,
     verbose: bool = False,
     filter_grades: bool = False,
+    debug: bool = False,
 ) -> list[dict]:
 
     generated_qs = []
@@ -181,7 +187,7 @@ def generate_qs(
             lo_code, obj = random.choice(list(lo_list_filtered.items()))
         else:
             lo_code, obj = random.choice(list(lo_list.items()))
-        
+
         # create prompt
         prompt = make_prompt(
             examples,
@@ -192,9 +198,15 @@ def generate_qs(
             topic=topic
         )
 
+        if debug:
+            print("\n" + prompt)
+
         # get gpt-4 response
         res = llm(prompt)
         q_str = "{" + res.split("{")[-1].split("}")[0] + "}"
+
+        if debug:
+            print(q_str + "\n")
 
         # check that generated question schema is valid
         if not verify_generation(q_str):
@@ -211,12 +223,13 @@ def generate_qs(
         }
         generated_qs.append(q)
 
-        # output question json to file
-        f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_").replace("/", "-")
-        write_json(q, output_folder + f_name)
-        if verbose:
-            #print("\n" + q_str + "\n")
-            print(f"\nQuestion saved at {output_folder + f_name}")
+        if output_folder:
+            f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_").replace("/", "-")
+            write_json(q, output_folder + f_name)
+            if verbose:
+                print(f"\nQuestion saved at {output_folder + f_name}")
+        else:
+            print(q_str)
 
     return generated_qs
 
@@ -236,48 +249,8 @@ def generate_topic_list(batch_size: int, interest_areas: list):
         batch_size -= len(curr_interests)
     for interest in random.sample(curr_interests, batch_size):
         topic_list.append(interest)
-    
+
     return topic_list
-
-
-def usage():
-    print('''usage: python generate_questions.py <batch_size> [options]
-
-required arguments:
-  batch_size                The number of questions to generate.
-
-optional arguments:
-  -h, --help                Show this help message and exit.
-
-  -l, --llm                 The name of the LLM to use for generating questions. Defaults to 'gpt-4'.
-                            Other model options include:
-                              - "gpt-3.5-turbo"
-                              - "text-davinci-003"
-                              - "text-davinci-002"
-                              - "text-curie-001"
-                            Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.
-
-  -e, --examples-file       The relative path to the .json file containing a list of few-shot examples.
-                            Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included.
-                            Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.
-
-  -n, --num-examples        The number of examples to use in few-shot prompting. Defaults to 3.
-
-  -o, --output-folder       The relative path to the folder where generated questions should be written.
-                            Defaults to "questions\\date\\time\\".
-
-  -i, --interest-areas      A comma-separated list of interest areas to generate questions for. Defaults to all interest areas.
-                            Notes: interest areas are case-sensitive and multi-word interest areas should use dashes.
-                            e.g. '--interest-areas=Diversity-and-inclusion,Business'.
-
-  -a, --api-key             Your OpenAI-api-key. Defaults to reading from .env file.
-
-  -c, --coding              Include flag to generate questions with code. By default, questions do not include code.
-
-  -f, --filter-grades       Include flag to filter out 11th and 12th grade learning standards when generating questions.
-                            By default, all learning standards are used during generation.
-
-  -v, --verbose             Enable verbose mode to print generated questions.\n''')
 
 
 def get_opt_match(target: str):
@@ -292,79 +265,72 @@ def get_opt_match(target: str):
 
 
 def main():
-    if len(sys.argv) < 2 or "--help" == sys.argv[1] or "-h" == sys.argv[1]:
-        usage()
-        exit(1)
+    # get CLI arguments
+    parser = argparse.ArgumentParser(description="Generate questions using OpenAI's API.")
+    """add required argument for number of questions to generate"""
+    parser.add_argument("num_questions", type=int, help="The number of questions to generate.")
+    parser.add_argument("-m", "--model", type=str, default="gpt-3.5-turbo", help="The name of the LLM to use for generating questions. Defaults to 'gpt-4'. Other model options include: 'gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-curie-001'. Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.")
+    parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included. Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.")
+    parser.add_argument("-n", "--num-examples", type=int, default=3, help="The number of examples to use in few-shot prompting. Defaults to 3.")
+    parser.add_argument("-s", "--save", action="store_true", help="Include flag to save generated questions to .json files. Specify output folder with '-o, --output-folder'.")
+    parser.add_argument("-o", "--output-folder", type=str, default=None, help="The relative path to the folder where generated questions should be saved. Defaults to 'questions\\date\\time\\' if '-s, --save' flag is included.")
+    parser.add_argument("-i", "--interest-areas", type=str, nargs="+", default=read_json("interest_areas"), help="The interest areas to generate questions for. Defaults to all interest areas. Notes: interest areas are case-sensitive and multi-word interest areas should use dashes. e.g. '--interest-areas=Diversity-and-inclusion Business'. Refer to object_data\\interest_areas.json for a list of valid interest areas. Interest areas should be separated by spaces.")
+    parser.add_argument("-a", "--api-key", type=str, default=None, help="Your OpenAI-api-key. Defaults to reading from .env file.")
+    parser.add_argument("-c", "--coding", action="store_true", help="Include flag to generate questions with code. By default, questions do not include code.")
+    parser.add_argument("-f", "--filter-grades", action="store_true", help="Include flag to filter out 11th and 12th grade learning standards when generating questions. By default, all learning standards are used during generation.")
+    parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose mode to print generated questions.")
+    parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode to print debug messages.")
 
-    batch_size = int(sys.argv[1])  # number of questions to generate
-    options = sys.argv[2:]
+    args = parser.parse_args()
+    num_examples = args.num_examples
+    model_name = args.model
+    batch_size = args.num_questions
+    interest_areas = args.interest_areas
+    filter_grades = args.filter_grades
+    coding = args.coding
+    verbose = args.verbose
+    output_folder = args.output_folder
+    save = args.save
+    debug = args.debug
 
-    """parse OpenAI api key"""
-    openai_api_key = get_opt_match("--api-key")
-    if openai_api_key is None:
+    if not args.api_key:
         load_dotenv()
         openai_api_key = str(os.getenv("OPENAI_API_KEY"))
     else:
+        openai_api_key = args.api_key
         # save argument api-key to .env file
         if not os.path.exists(".env"):
             with open(".env", 'w') as f:
                 f.write("OPENAI_API_KEY=" + openai_api_key)
+    if not openai_api_key:
+        print("Please provide an OpenAI API key.")
+        exit(1)
 
-    """parse llm name"""
-    model_name = get_opt_match("--llm")
-    if model_name is None:
-        model_name = "gpt-3.5-turbo"
-
-    """check for filter grades"""
-    filter_grades = "--filter-grades" in options or "-f" in options
-
-    """check for coding flag"""
-    coding = "--coding" in options or "-c" in options
-    
     """parse path to examples file"""
-    path_to_examples = get_opt_match("--examples-file")
+    path_to_examples = args.examples_file
     if path_to_examples is None:
-        if coding:
+        if args.coding:
             path_to_examples = FILE_PREF + "coding_question_examples"
         else:
             path_to_examples = FILE_PREF + "default_question_examples"
     try:
         with open(path_to_examples.split(".json")[0] + ".json", 'r') as ex_f:
             examples = json.load(ex_f)
-    except:
-        print("Invalid examples file.\n")
-        usage()
+    except FileNotFoundError:
+        print(f"Error: unable to open {path_to_examples}.json")
         exit(1)
-    
-    """parse number of examples to provide for prompting"""
-    num_examples = get_opt_match("--num-examples")
-    if num_examples is not None:
-        num_examples = int(num_examples)
-    else:
-        num_examples = 3
 
-    """parse destination path of where to save generated questions"""
-    output_folder = get_opt_match("--output-folder")
-    if output_folder is None:
-        dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":","-")
+    if save and not output_folder:
+        dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":", "-")
         output_folder = "questions\\" + dt + "\\"
-    elif output_folder[-1] != "\\":
-        output_folder += "\\"
-    # create the output folder if it doesn't exist
-    if not os.path.exists(output_folder) and batch_size > 0:
-        os.makedirs(output_folder)
-
-    """parse interest area(s) to generate questions for"""
-    interest_areas = get_opt_match("--interest-areas")
-    if interest_areas is not None:
-        interest_areas = interest_areas.replace("-", " ").split(",")
-    else:
-        interest_areas = read_json("interest_areas")
+    if output_folder:
+        # add trailing slash to output folder if not present
+        output_folder += "\\" if output_folder[-1] != "\\" else ""
+        # create the output folder if it doesn't exist
+        if batch_size > 0 and not os.path.exists(output_folder):
+            os.makedirs(output_folder)
 
     topic_list = generate_topic_list(batch_size, interest_areas)
-
-    # set verbose option
-    verbose = "--verbose" in options or "-v" in options
 
     # instantiate the llm
     ex_prompt = make_prompt(examples, num_examples, coding).format(learning_objective=lo_list["1A08"], topic="bar")
@@ -373,7 +339,7 @@ def main():
     if verbose:
         print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest_areas = {interest_areas}\nfilter_grades = {filter_grades}\n")
 
-    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades)
+    generate_qs(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades, debug)
 
 
 if __name__ == "__main__":
