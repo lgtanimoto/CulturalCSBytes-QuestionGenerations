@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Art and Design",
+    "topic": "Photography and Photo Editing",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Jordan is creating a website for their new photography business and wants to use some images they found online to create a few photo collages for the website's main page. What should Jordan consider before using the images found online?\",\n    \"Answer1\": \"If the images are funny enough\",\n    \"Answer2\": \"If the images match the colors on the website\",\n    \"Answer3\": \"If the images are in the public domain or creative commons, or if Jordan has permission from the owner to use them\",\n    \"Answer4\": \"If the images are high-resolution\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Jordan should ensure they have permission to use the images. They can use images from the public domain or creative commons without worrying about copyright issues, or they can use images created by others with their permission. Copying or using material without permission can lead to legal issues.\",\n    \"code_snippet\": \"Posted on: Jordan's Photography Website\\nImage 1: Sunset over the ocean\\nImage 2: Majestic mountain range\\nImage 3: Abstract close up of a leaf\"\n}"
+}
