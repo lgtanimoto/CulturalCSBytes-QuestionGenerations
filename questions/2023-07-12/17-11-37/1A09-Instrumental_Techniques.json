@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Music",
+    "topic": "Instrumental Techniques",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Jordan wants to keep track of instruments in a symphony orchestra using numerical values.Here is a list of instruments Jordan wants to keep track of:Violins: 1Violas: 2Cellos: 3Double Basses: 4Jordan also defines a function for each instrument then adds a call to each function as follows:What is output from this function?\",\n    \"Answer1\": \"1\",\n    \"Answer2\": \"4\",\n    \"Answer3\": \"5\",\n    \"Answer4\": \"10\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Each instrument is represented by a respective numerical value in Jordan's program. The code runs the function for Double Basses which is represented by the value 4.\",\n    \"code_snippet\": \"number Violins = 1\\nnumber Violas = 2\\nnumber Cellos = 3\\nnumber DoubleBasses = 4\\n\\nfunction Violins()\\n    output Violins\\nend\\nfunction Violas()\\n    output Violas\\nend\\nfunction Cellos()\\n    output Cellos\\nend\\nfunction DoubleBasses()\\n    output DoubleBasses\\nend\\n\\nDoubleBasses()\"\n}"
+}

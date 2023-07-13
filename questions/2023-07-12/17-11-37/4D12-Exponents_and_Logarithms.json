@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D12",
+    "learning_objective": "Create computational models that represent the relationships among different elements of data collected from a phenomenon or process.",
+    "interest_area": "Math",
+    "topic": "Exponents and Logarithms",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Ash is trying to write a code to calculate the base-10 logarithm of a number. They have written a code that already allows for calculating the exponent of a number. Here is their current code:What is the output on line 4 when n = 1000?\",\n    \"Answer1\": \"1\",\n    \"Answer2\": \"2\",\n    \"Answer3\": \"3\",\n    \"Answer4\": \"4\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The base-10 logarithm of a number x is the power to which the number 10 must be raised to obtain the number x. In this case, line 4 wants to print the base-10 logarithm of 1000 which is 3 because 10^3 equals 1000.\",\n    \"code_snippet\": \"integer n = 1000\\n// Calculate the exponent of n\\ninteger e = 1\\nwhile n > 10\\n    n = n / 10\\n    e = e + 1\\nend\\n// Print the exponent\\noutput e\"\n}"
+}

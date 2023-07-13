@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Everyday Life/School Life",
+    "topic": "Relationships and Social Skills",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Sasha is a sociologist who wants to assess people\u2019s relationships with their peers through a program. They write code in Quorum to determine the number of positive interactions a person has with their peers. The code observes the interactions of a person with a list of classmates. When there is a positive interaction, the 'positiveInteraction' count increases by 1. What will the output be after interacting with 5 classmates having all positive interactions?\",\n    \"Answer1\": \"The output will be 1.\",\n    \"Answer2\": \"The output will be 5.\",\n    \"Answer3\": \"The output will depend on the number of negative interactions.\",\n    \"Answer4\": \"The output will be 0.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The code increments the 'positiveInteraction' count for every positive interaction, so after five positive interactions, the output will be 5.\",\n    \"code_snippet\": \"integer positiveInteraction = 0\\nrepeat 5 times\\n    text interaction = GetNextInteraction()\\n    if interaction == \\\"Positive\\\"\\n        positiveInteraction = positiveInteraction + 1\\n    end\\nend\\noutput \\\"Number of positive interactions: \\\" + positiveInteraction\"\n}"
+}

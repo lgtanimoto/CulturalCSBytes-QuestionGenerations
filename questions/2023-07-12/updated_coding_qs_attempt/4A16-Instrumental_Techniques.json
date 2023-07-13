@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Music",
+    "topic": "Instrumental Techniques",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"River is working on a program that simulates different instrumental techniques for music study. They have a code snippet that uses events like a key press to play a certain note on a guitar and an event to stop the note. Look at their code:Which type of event is missing, that would allow the program to distinguish between techniques such as sliding and hammering on the guitar?\",\n    \"Answer1\": \"Key released event\",\n    \"Answer2\": \"Key double-pressed event\",\n    \"Answer3\": \"`Time elapsed event\",\n    \"Answer4\": \"Key held-down event\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A key held-down event would need to be implemented so that the program can simulate different techniques on the guitar, as techniques like sliding and hammering involve holding down the key for varying durations.\",\n    \"code_snippet\": \"action Guitar--KeyPress(event k)\\n    Note n = getNoteFromKey(k)\\n    output n\\n    startPlaying(n)\\nend\\n\\naction Guitar--KeyRelease(event k)\\n    Note n = getNoteFromKey(k)\\n    stopPlaying(n)\\nend\\n\"\n}"
+}

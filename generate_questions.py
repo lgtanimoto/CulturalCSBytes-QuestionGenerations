@@ -7,6 +7,7 @@ import random
 from typing import Dict, List
 import datetime
 import argparse
+from typing import Tuple
 
 # langchain
 from langchain.llms import OpenAI
@@ -22,28 +23,30 @@ import tiktoken
 FILE_PREF = "object_data\\"
 
 
+"""Writes json file to filepath. Ommit .json extension in function call"""
 def write_json(data, filename):
     with open(filename + ".json", 'w') as f:
         json.dump(data, f, indent=4)
 
 
+"""Reads json file in object_data directory"""
 def read_json(filename):
     with open(FILE_PREF + filename + ".json", 'r') as f:
         data = json.load(f)
     return data
 
 
+"""declare global variables"""
 lo_list = read_json("learning_objectives")
+lo_list_coding = read_json("learning_objectives_coding")
 lo_code_groups = read_json("lo_code_groups")
 context_windows = read_json("llm_context_windows")
 interests = read_json("interests")
 question_schema = read_json("question_schema")
 
 
+"""Stores and returns examples by learning objective group"""
 def group_examples(examples) -> Dict[str, List]:
-    # categorize examples by learning objective group
-
-    """stores examples in lists by learning objective group key"""
     ex_groups = {
         'C': [],
         'N': [],
@@ -58,6 +61,7 @@ def group_examples(examples) -> Dict[str, List]:
     return ex_groups
 
 
+"""Generates prompt template for few-shot learning"""
 def make_prompt(
     examples,
     num_examples: int,
@@ -66,6 +70,7 @@ def make_prompt(
 
     ex_groups = group_examples(examples)
 
+    """Custom example selector to select examples based on input variables"""
     class CustomExampleSelector(BaseExampleSelector):
         def __init__(self, examples: List[Dict[str, str]]):
             self.examples = examples
@@ -90,10 +95,10 @@ def make_prompt(
     )
 
     if coding:
+        """Specialize prompt for coding questions"""
         with open("object_data\\system_message_coding.txt", 'r') as f:
             prefix = f.read()
-
-        exs = random.sample(examples, min(len(examples), 3))
+        exs = random.sample(examples, min(len(examples), num_examples))
         few_shot_prompt = FewShotPromptTemplate(
             examples=exs,
             example_prompt=example_prompt,
@@ -102,9 +107,9 @@ def make_prompt(
             input_variables=["learning_objective", "topic"]
         )
     else:
+        """Specialize prompt for non-coding questions"""
         with open("object_data\\system_message_default.txt", 'r') as f:
             prefix = f.read()
-
         example_selector = CustomExampleSelector(examples)
         few_shot_prompt = FewShotPromptTemplate(
             example_selector=example_selector,
@@ -117,6 +122,7 @@ def make_prompt(
     return few_shot_prompt
 
 
+"""Creates mapping from subtopic to interest area"""
 def generate_topic_to_area_map():
     topics_to_interest_areas = {
         subtopic: area
@@ -126,6 +132,7 @@ def generate_topic_to_area_map():
     return topics_to_interest_areas
 
 
+"""Selects model based on window size and prompt length"""
 def get_llm(prompt: str, model_name: str, openai_api_key: str):
     if model_name not in context_windows.keys():
         print("Invalid LLM name. Valid llm options are as follows:")
@@ -147,24 +154,34 @@ def get_llm(prompt: str, model_name: str, openai_api_key: str):
             print("Context window error: Consider using gpt-4-32k or decreasing the number of prompt examples.")
             exit(1)
 
-        # check that window size of new model is sufficient
+        # check that window size of new model is sufficient with recursive call
         return get_llm(prompt, model_name, openai_api_key)
 
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        llm = OpenAI(model_name=model_name, openai_api_key=openai_api_key)
+        llm = OpenAI(model_name=model_name, openai_api_key=openai_api_key) # type: ignore
 
     return llm
 
 
+"""Verifies that the generated question schema is valid"""
 def verify_generation(q_str: str):
-    """check that generated question schema matches the example schema"""
     try:
         return question_schema.sort() == list(json.loads(q_str).keys()).sort()
     except json.decoder.JSONDecodeError:
         return False
 
 
+"""Randomly selects a learning objective based on the given parameters"""
+def get_learning_objective(coding: bool, filter_grades: bool) -> Tuple[str, str]:
+    los = lo_list_coding if coding else lo_list
+    if filter_grades:
+        los = {key: value for (key, value) in list(los.items()) if key[0] != '5'}
+    return random.choice(list(los.items()))
+
+
+"""Generates a batch of questions using the LLM, the given examples, and a list of topics.
+Randomizes the learning standards used to generate the questions."""
 def generate_questions(
     llm,
     topic_list: list[str],
@@ -181,12 +198,8 @@ def generate_questions(
     interest_to_area = generate_topic_to_area_map()
 
     for topic in tqdm(topic_list, desc="Question Generation Progress"):
-        # randomly select learning standard. Filter out 11th and 12th grade learning standards with filter_grades=True
-        if filter_grades:
-            lo_list_filtered = {key: value for (key, value) in list(lo_list.items()) if key[0] != '5'}
-            lo_code, obj = random.choice(list(lo_list_filtered.items()))
-        else:
-            lo_code, obj = random.choice(list(lo_list.items()))
+        # randomly select learning standard
+        lo_code, obj = get_learning_objective(coding, filter_grades)
 
         # create prompt
         prompt = make_prompt(
@@ -199,7 +212,7 @@ def generate_questions(
         )
 
         if debug:
-            print("\n" + prompt)
+            print("\n\n" + prompt)
 
         # get gpt-4 response
         res = llm(prompt)
@@ -223,6 +236,7 @@ def generate_questions(
         }
         generated_qs.append(q)
 
+        """Save / print question"""
         if output_folder:
             f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_").replace("/", "-")
             write_json(q, output_folder + f_name)
@@ -234,6 +248,7 @@ def generate_questions(
     return generated_qs
 
 
+"""Generates a list of topics to be used for generating questions"""
 def generate_topic_list(batch_size: int, interest_areas: list):
     curr_interests = []
     # get unique list of topics
@@ -253,21 +268,11 @@ def generate_topic_list(batch_size: int, interest_areas: list):
     return topic_list
 
 
-def get_opt_match(target: str):
-    opts = sys.argv[2:]
-    opt_match = [opt for opt in opts if opt.startswith(target)]
-    if len(opt_match) != 0:
-        return opt_match[0].split("=")[-1]
-    elif target[1:3] in opts:
-        return opts[opts.index(target[1:3]) + 1]
-    else:
-        return None
-
-
 def main():
     # get CLI arguments
     parser = argparse.ArgumentParser(description="Generate questions using OpenAI's API.")
-    """add required argument for number of questions to generate"""
+
+    """define CLI arguments"""
     parser.add_argument("num_questions", type=int, help="The number of questions to generate.")
     parser.add_argument("-m", "--model", type=str, default="gpt-3.5-turbo", help="The name of the LLM to use for generating questions. Defaults to 'gpt-4'. Other model options include: 'gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-curie-001'. Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.")
     parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included. Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.")
@@ -281,6 +286,7 @@ def main():
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose mode to print generated questions.")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode to print debug messages.")
 
+    """parse CLI arguments"""
     args = parser.parse_args()
     num_examples = args.num_examples
     model_name = args.model
@@ -293,6 +299,7 @@ def main():
     save = args.save
     debug = args.debug
 
+    """get OpenAI API key"""
     if not args.api_key:
         load_dotenv()
         openai_api_key = str(os.getenv("OPENAI_API_KEY"))
@@ -306,7 +313,7 @@ def main():
         print("Please provide an OpenAI API key.")
         exit(1)
 
-    """parse path to examples file"""
+    """generate path to examples file"""
     path_to_examples = args.examples_file
     if path_to_examples is None:
         if args.coding:
@@ -320,6 +327,7 @@ def main():
         print(f"Error: unable to open {path_to_examples}.json")
         exit(1)
 
+    """parse output folder"""
     if save and not output_folder:
         dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":", "-")
         output_folder = "questions\\" + dt + "\\"

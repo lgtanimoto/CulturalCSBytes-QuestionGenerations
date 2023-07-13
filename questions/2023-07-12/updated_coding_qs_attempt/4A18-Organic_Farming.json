@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "Agriculture",
+    "topic": "Organic Farming",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Farmer Blu is creating an application to track organic and non-organic products on their farm. The primary goal is to encourage more organic farming. They create a procedure to print out whether a crop is organic or non-organic. The code for the procedure is as follows: If a crop is 'tomato' and its type is 'organic', what will be the output of the procedure trackOrganic()?\",\n    \"Answer1\": \"\\\"Organic\\\"\",\n    \"Answer2\": \"\\\"Non-Organic\\\"\",\n    \"Answer3\": \"\\\"Tomato is Organic\\\"\",\n    \"Answer4\": \"\\\"Tomato is not Organic\\\"\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The code snippet checks if the crop type is organic. If it is, it outputs the crop name followed by 'is Organic'. So for the specified case, the output will be 'Tomato is Organic'.\", \n    \"code_snippet\": \"action trackOrganic(text cropName, text cropType)\\n    if cropType == \\\"organic\\\"\\n        output cropName + \\\" is Organic\\\"\\n    else\\n        output cropName + \\\" is not Organic\\\"\\n    end\\nend\"\n}"
+}

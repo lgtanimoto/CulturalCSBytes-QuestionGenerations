@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D07",
+    "learning_objective": "Represent data using multiple encoding schemes.",
+    "interest_area": "Math",
+    "topic": "Algebra",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Val is working on a computer program to solve algebraic problems. They have a piece of code written that solves for the values of x in a quadratic equation : ax2 + bx + c = 0. Val wants to represent the coefficient values a, b, and c in binary instead of decimal as a new challenge. Here's a piece of the program:Which of the following is the correct binary representation for the coefficients a = 5, b = -3, and c = 2?\",\n    \"Answer1\": \"a: '101', b: ' -11', c: '10'\",\n    \"Answer2\": \"a: '110', b: ' -110', c: '100'\",\n    \"Answer3\": \"a: '100', b: ' -101', c: '11'\",\n    \"Answer4\": \"a: '101', b: ' -111', c: '10'\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In binary, 5 is represented as '101', -3 is represented as ' -11' and 2 is represented as '10'. When programmatically solving the equation, such binary representation of coefficients can be used.\",\n    \"code_snippet\": \"action main\\n    solveQuadratic(5, -3, 2)\\nend\\n\\naction solveQuadratic(integer a, integer b, integer c)\\n    number discriminant = b * b - 4 * a * c\\n    if discriminant >= 0\\n        number root1 = (-b + sqrt(discriminant)) / (2*a)\\n        number root2 = (-b - sqrt(discriminant)) / (2*a)\\n        output \\\"The roots are \\\" + root1 + \\\" and \\\" + root2\\n    else\\n        // code to handle complex roots\\n    end\\nend\"\n}"
+}

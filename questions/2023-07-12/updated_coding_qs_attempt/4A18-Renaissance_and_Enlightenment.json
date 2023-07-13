@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "World History",
+    "topic": "Renaissance and Enlightenment",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Phoenix is creating an interactive learning program for their history classmates to identify key figures from the Renaissance and Enlightenment periods. The code looks as follows:This code works, but if Phoenix wants to add a new historical figure to the program, they must modify this code. How can Phoenix make it easier to add new historical figures to the program?\",\n    \"Answer1\": \"By converting the program to a different programming language\",\n    \"Answer2\": \"By creating a separate procedure for each historical figure\",\n    \"Answer3\": \"By creating a class for historical figures, with attribute fields for name, period, and spark of the figure. This class also has a method to return the formatted text\",\n    \"Answer4\": \"By creating a separate file for each historical figure\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Phoenix can make the program more flexible by creating a historical figure class. Each time Phoenix wants to add a new figure, they just need to create a new object, input this information, and the method will automatically return the formatted information for this figure.\",\n    \"code_snippet\": \"text renaissanceFigures = \\\"Leonardo da Vinci - Renaissance\\\\nGalileo Galilei - Renaissance\\\"\\ntext enlightenmentFigures = \\\"Isaac Newton - Enlightenment\\\\nJohn Locke - Enlightenment\\\"\\noutput renaissanceFigures + \\\"\\\\n\\\" + enlightenmentFigures\"\n}"
+}

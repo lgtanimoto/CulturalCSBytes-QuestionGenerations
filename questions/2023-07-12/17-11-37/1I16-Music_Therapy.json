@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I16",
+    "learning_objective": "Compare how people live and work before and after the implementation or adoption of new computing technology.",
+    "interest_area": "Music",
+    "topic": "Music Therapy",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"For several years, Sage has been practicing Music Therapy using traditional instruments. Recently, Sage has started using a program to compile and play algorithmically composed music based on each patient's mood, using a variety of instruments and tempos. How does the implementation of new computing technology change the way Sage practices Music Therapy?\",\n    \"Answer1\": \"The computing technology reduces Sage's interaction with patients.\",\n    \"Answer2\": \"The computing technology allows Sage to customize music to a patient's specific mood instantaneously, enhancing the therapy experience.\",\n    \"Answer3\": \"The computing technology replaces Sage's role as a music therapist.\",\n    \"Answer4\": \"The computing technology has no significant impact on Sage's practice.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The adoption of new computing technology allows Sage to dynamically compose music tailored to each patient's mood, thus enhancing the therapeutic experience. This is not possible with traditional instruments only.\",\n    \"code_snippet\": \"action createMusic(string mood)\\n  if mood is \\\"happy\\\"\\n    output \\\"Fast tempo, major key\\\"\\n  else if mood is \\\"sad\\\"\\n    output \\\"Slow tempo, minor key\\\"\\n  else\\n    output \\\"Medium tempo, major key\\\"\\n  end\\nend\"\n}"
+}
