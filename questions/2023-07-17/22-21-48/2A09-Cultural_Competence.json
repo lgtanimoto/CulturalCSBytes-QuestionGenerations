@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Cultural Competence",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program for a school project to translate a sentence from English to Spanish. Alex decides to start with the salutation 'Good Morning!'. Below is an attempt of Alex to draft the program.What is the output of this code?\",\n    \"Answer1\": \"\u00a1Buenas d\u00edas!\",\n    \"Answer2\": \"Good Morning!\",\n    \"Answer3\": \"\u00a1Buenas noches!\",\n    \"Answer4\": \"No output\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Looking at line 3 in the code snippet, the variable 'salutation' initially stores the string 'Good Morning!'. After processing by the translateToSpanish() action on line 4, it's replaced by the Spanish equivalent '\u00a1Buenas d\u00edas!'. Thus the output of the program is '\u00a1Buenas d\u00edas!'.\",\n    \"code_snippet\": \"text salutation = \\\"Good Morning!\\\"\\naction translateToSpanish()\\n    salutation = replace(salutation, \\\"Good Morning!\\\", \\\"\u00a1Buenas d\u00edas!\\\")\\nend\\n\\ntranslateToSpanish()\\noutput salutation\"\n}"
+}

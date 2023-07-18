@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Social justice",
+    "topic": "Environmental Justice",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is learning about sorting algorithms and wants to implement a basic bubble sort algorithm to sort an array of numbers. He writes the following code:What is the time complexity of this bubble sort algorithm?\",\n    \"Answer1\": \"O(n)\",\n    \"Answer2\": \"O(log n)\",\n    \"Answer3\": \"O(n^2)\",\n    \"Answer4\": \"O(1)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The given bubble sort algorithm uses nested loops to compare and swap adjacent elements until the array is sorted. In the worst case, where the input array is in reverse order, the algorithm will need to make n-1 passes for an n-element array. In each pass, the algorithm compares and swaps adjacent elements, resulting in n-1 comparisons and swaps. Therefore, the time complexity of this bubble sort algorithm is O(n^2).\",\n    \"code_snippet\": \"action bubbleSort(integer[] arr)\\n    for i from 0 to length(arr) - 2\\n        for j from 0 to length(arr) - i - 2\\n            if arr[j] > arr[j+1]\\n                integer temp = arr[j]\\n                arr[j] = arr[j+1]\\n                arr[j+1] = temp\\n            end\\n        end\\n    end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Casey is trying to draw various plane figures using the code snippet below. However, Casey is not getting the expected output. Can you identify and fix the error in the code?\\n\\nfunc void drawFigure(integer sides, integer length)\\n    repeat sides times\\n        moveForward(length)\\n        turnRight(360 / sides)\\n    end\\nend\",\n    \"Answer1\": \"The function definition should start with \\\"action\\\" instead of \\\"func\\\".\",\n    \"Answer2\": \"The function parameters should be declared as \\\"number\\\" instead of \\\"integer\\\".\",\n    \"Answer3\": \"The function should call \\\"setSpeed(100)\\\" at the beginning to ensure the drawing is visible.\",\n    \"Answer4\": \"The function should use \\\"rotateLeft\\\" instead of \\\"turnRight\\\" to draw the figure.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In Quorum, function definitions start with \\\"action\\\" instead of \\\"func\\\". Changing it to \\\"action\\\" will fix the error in the code.\",\n    \"code_snippet\": \"action void drawFigure(number sides, number length)\\n    repeat sides times\\n        moveForward(length)\\n        turnRight(360 / sides)\\n    end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program to calculate the average score of a student. The program needs to prompt the user for the number of scores they would like to input, then ask the user to input each score. Finally, the program should calculate and output the average score. However, Alex's program is not working correctly. Which of the following steps should Alex include to fix the program and calculate the correct average?\",\n    \"Answer1\": \"Prompt the user for the number of scores they would like to input.\",\n    \"Answer2\": \"Initialize a variable sum to 0 before the loop starts.\",\n    \"Answer3\": \"Before the loop starts, initialize a variable count to 0.\",\n    \"Answer4\": \"Inside the loop, add each input score to the variable sum after converting it to an integer.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To calculate the average, Alex needs to keep track of the sum of all the scores and the number of scores inputted. By adding each input score to the variable sum in the loop, after converting it to an integer, Alex can correctly calculate the average.\",\n    \"code_snippet\": \"integer totalScores = 0\\ninteger count = 0\\nloop while count < totalScores\\n    input score\\n    totalScores = totalScores + score\\n    count = count + 1\\nend\\naverage = totalScores / totalScores\\noutput average\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Implicit Bias",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Aris is creating a code to analyze comments on social media posts for evidence of implicit bias. The first step is to create a procedure that identifies specific bias-indicating phrases in the text. Aris creates the following algorithm:What do 'a' and 'b' most likely represent in this code snippet?\",\n    \"Answer1\": \"a: number of comments b: positive comments\",\n    \"Answer2\": \"a: biased phrases b: number of comments\",\n    \"Answer3\": \"a: phrase to be found b: comment text\",\n    \"Answer4\": \"a: comment text b: biased phrases\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Aris' algorithm is a function to search within text for specific phrases. This suggests that 'a' represents the phrase to be found and 'b' is the comment text in which the phrase is to be searched for.\",\n    \"code_snippet\": \"action findPhrase( text a, text b ) returns boolean\\n    if b:contains(a) then\\n        return true\\n    else\\n        return false\\n    end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A15",
+    "learning_objective": "Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.",
+    "interest_area": "Agriculture",
+    "topic": "Agricultural Technology and Innovation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"GreenThumb is interested in agricultural technology and created a program that calculates the water needed for a farm field every day based on the number of plants and their type. However, their program has an error. Considering the code snippet below, what will be the output when GreenThumb calls `OutputWaterRequirements('Apples', 200)`?\",\n    \"Answer1\": \"\\u00a0\\u00a010\\u00a0\\u00a0litres\",\n    \"Answer2\": \"\\u00a0\\u00a02000\\u00a0\\u00a0litres\",\n    \"Answer3\": \"\\u00a0\\u00a0400\\u00a0\\u00a0litres\",\n    \"Answer4\": \"\\u00a0\\u00a01000\\u00a0\\u00a0litres\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The program is meant to output the number of litres of water needed each day for a specific type and number of plants. Each apple tree needs 10 litres of water per day, so 200 apple trees would require 2000 litres of water. It seems there is a mistake in the computation of water requirement for 'Tomatoes', and it's doubling the need instead.\",\n    \"code_snippet\": \"action OutputWaterRequirements(text plantType, integer numberPlants)\\n    if plantType = \\\"Apples\\\"\\n        output 10 * numberPlants\\n    elsif plantType = \\\"Tomatoes\\\"\\n        output 2 * numberPlants\\n    end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Mika is planning a road trip and wants to calculate the estimated travel time based on the distance and average speed. Mika writes the following code:What should Mika add to calculate the estimated travel time in hours?\",\n    \"Answer1\": \"Divide the distance variable by the time variable\",\n    \"Answer2\": \"Multiply the distance variable by the time variable\",\n    \"Answer3\": \"Divide the time variable by the distance variable\",\n    \"Answer4\": \"Multiply the time variable by the distance variable\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To calculate the estimated travel time based on the distance and average speed, divide the distance variable by the time variable. This will give the time taken in hours.\",\n    \"code_snippet\": \"integer distance = 300\\ninteger speed = 60\\ninteger time = distance / speed\\noutput time\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Agriculture",
+    "topic": "Crop Diseases and Pest Management",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Harper is developing a program to help farmers identify crop diseases and manage pests. They have written the following code to check if a crop is infected by a specific disease:What error does Harper need to fix in order to correctly identify if a crop is infected?\",\n    \"Answer1\": \"The variable 'disease' should be declared as a string.\",\n    \"Answer2\": \"The variable 'infected' should be initialized as true.\",\n    \"Answer3\": \"The '==' operator should be used instead of '=' to check if 'disease' is equal to 'cropDisease'.\",\n    \"Answer4\": \"The if statement should be inside a loop to check all crops for the disease.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In line 6, the assignment operator '=' is used instead of the equality operator '==' to check if 'disease' is equal to 'cropDisease'. Therefore, the if statement will always evaluate to true, regardless of the actual disease. Harper should change line 6 to 'if disease == cropDisease' to fix the error.\",\n    \"code_snippet\": \"string cropDisease = \\\"rust\\\"\\nboolean infected = false\\nstring disease = \\\"rust\\\"\\nif disease = cropDisease\\n    infected = true\\nend\"\n}"
+}

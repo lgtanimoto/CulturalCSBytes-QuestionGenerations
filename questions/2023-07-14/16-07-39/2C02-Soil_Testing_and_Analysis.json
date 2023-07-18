@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Testing and Analysis",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Amir is developing a program to analyze soil samples for agricultural purposes. The program will collect data from various sensors and generate a report based on the soil composition. Which of the following statements best describes how computer hardware and software work together in this scenario?\",\n    \"Answer1\": \"The computer hardware uses algorithms to analyze the soil samples and generate reports based on the collected data.\",\n    \"Answer2\": \"The computer software gathers data from the sensors and processes it to generate a report on the soil composition.\",\n    \"Answer3\": \"The computer hardware and software work independently to collect and analyze data, with the software generating report templates for the hardware to fill in.\",\n    \"Answer4\": \"The computer hardware and software collaborate to collect, process, and analyze data, generating reports based on the soil composition.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In this scenario, the computer hardware and software collaborate to accomplish the task. The hardware collects data from the sensors, which is then processed by the software to generate a report on the soil composition.\",\n    \"code_snippet\": \"\"\n}"
+}

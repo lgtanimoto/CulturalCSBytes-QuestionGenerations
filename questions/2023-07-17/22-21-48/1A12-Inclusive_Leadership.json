@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Inclusive Leadership",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program that measures the inclusivity of leadership in an organization. They devised a plan that calculates the percentage of diverse leaders from the total leaders in an organization. The `calculatePercentage()` function is as follows:Given the following call `calculatePercentage(25, 50)`. What is the expected output of the program and does it meet the intended goal?\",\n    \"Answer1\": \"The expected output is 0.5 and it does not meet the intended goal because it is not expressed as a percentage.\",\n    \"Answer2\": \"The expected output is 0.5 and it meets the intended goal.\",\n    \"Answer3\": \"The expected output is 50 and it meets the intended goal because it is a percentage.\",\n    \"Answer4\": \"The expected output is 50 and it does not meet the intended goal because it is not a percentage.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex\u2019s initial program will output a decimal. If they want the result expressed as a percentage, they need to refine the formula to multiply the result by 100. By doing so, the program\u2019s sequence will align with the expected outcomes and fulfill the goal.\",\n    \"code_snippet\": \"action calculatePercentage(integer diverseLeaders, integer totalLeaders)\\n    decimal percentage = diverseLeaders / totalLeaders\\n    output percentage\\nend\"\n}"
+}

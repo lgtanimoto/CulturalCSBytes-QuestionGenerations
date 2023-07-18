@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alexa is creating a program to calculate the area of different geometric shapes. One of the functions in her program is the calculateRectangleArea() function, as shown below:What change should Alexa make to the calculateRectangleArea() function to fix the program and correctly calculate the area of a rectangle?\",\n    \"Answer1\": \"Modify line 3: integer length\",\n    \"Answer2\": \"Modify line 5: result = length * width\",\n    \"Answer3\": \"Modify line 3: integer width\",\n    \"Answer4\": \"Modify line 5: result = length + width\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The calculation for the area of a rectangle is length * width, not length + width. Thus, by modifying line 5 to result = length * width, the program will correctly calculate the area of a rectangle.\",\n    \"code_snippet\": \"action calculateRectangleArea(integer length, integer width)\\n    integer result = length + width\\n    output result\\nend\"\n}"
+}

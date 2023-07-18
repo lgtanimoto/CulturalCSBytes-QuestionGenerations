@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Cultural Competence",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"River is developing a tour guide application for traditional indigenous sites in Australia. As a sign of respect, they decided to incorporate some aspects of indigenous art into the app's graphic interface. However, they did not contact indigenous communities or give credit to particular artists. What Course of action would be the most ethical and respectful?\",\n    \"Answer1\": \"River should proceed as planned because indigenous art is part of Australia's national heritage and anyone can use it freely.\",\n    \"Answer2\": \"River should add a generic 'Inspired by indigenous art' note in the credits of the app.\",\n    \"Answer3\": \"River should incorporate indigenous art without permission but promise to donate a portion of the app's revenue to indigenous communities.\",\n    \"Answer4\": \"River should seek explicit permission from the indigenous artists and communities, and provide due credit in all aspects where their art has been used or inspiration has been taken.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"It's important to observe intellectual property rights and give appropriate attribution when creating or remixing programs. Using someone else's work without permission is not ethical, regardless if the intention was to honor and represent that culture.\",\n    \"code_snippet\": \"setBackgroundColor(color.red)\\nsetForegroundColor(color.yellow)\\nfillOval(75, 50, 100, 100)\\nfillRectangle(50, 75, 100, 100)\"\n}"
+}

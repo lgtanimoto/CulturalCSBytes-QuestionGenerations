@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "Social justice",
+    "topic": "Criminal Justice Reform",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Detective is working on a software system to track and analyze crime data to support criminal justice reform efforts. One of the functions of the system is to identify patterns in criminal behavior based on historical data. Detective is implementing a function to determine the most common type of crime committed in a given area. The code snippet below shows the initial implementation of the function:Which modification should Detective make to the code to ensure that the function correctly identifies the most common type of crime?\",\n    \"Answer1\": \"Replace \\\"not\\\" with \\\"is\\\"\",\n    \"Answer2\": \"Change \\\"int\\\" to \\\"string\\\"\",\n    \"Answer3\": \"Remove \\\"distinct\\\"\",\n    \"Answer4\": \"Change \\\"count()\\\" to \\\"max()\\\"\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The current code is using the count() function to determine the total number of occurrences for each crime type. However, to identify the most common type of crime, the max() function should be used instead. This will return the crime type with the highest count.\",\n    \"code_snippet\": \"action findMostCommonCrime(string area) returns string\\n    return select top 1 type from crimes where location = area group by type order by count() desc\\nend\"\n}"
+}

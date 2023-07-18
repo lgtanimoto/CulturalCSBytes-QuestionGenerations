@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Social justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to protect user data and ensure digital privacy. They have written the following code snippet:What code comment should Alex add to explain the purpose of the encryptData function?\",\n    \"Answer1\": \"// encryptData takes user data as input and converts it into an encrypted format for secure storage\",\n    \"Answer2\": \"// encryptData takes encrypted data as input and decrypts it to retrieve the original user data\",\n    \"Answer3\": \"// encryptData takes user data as input and checks for any security vulnerabilities or threats\",\n    \"Answer4\": \"// encryptData takes user data as input and randomly shuffles the characters to protect user privacy\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The encryptData function is responsible for converting user data into an encrypted format to ensure its secure storage. This is done to protect user privacy and prevent unauthorized access to sensitive information.\",\n    \"code_snippet\": \"function encryptData(text: Text) returns Text\\n    // code for encrypting the user data\\nend\"\n}"
+}

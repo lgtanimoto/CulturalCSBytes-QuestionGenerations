@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Age Inclusivity",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"River is developing an application that informs its users, based on their age, what age inclusivity category they belong to: 'Children' for under 13, 'Youth' for 13-18, 'Adult' for 19-64, and 'Senior' for 65 and over. The users input their age, and the application outputs the corresponding category. Consider the following code snippet:Which result does code output when getAgeInclusivityCategory action is called with the argument 32?\",\n    \"Answer1\": \"Youth\",\n    \"Answer2\": \"Adult\",\n    \"Answer3\": \"Senior\",\n    \"Answer4\": \"Children\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The function works by checking the input age against coded age ranges. If the age is 32, it falls in the 'Adult' category, thus it returns 'Adult' as the output.\",\n    \"code_snippet\": \"action getAgeInclusivityCategory(integer age) returns text\\n    if age < 13\\n        return \\\"Children\\\"\\n    elseif age >= 13 and age <= 18\\n        return \\\"Youth\\\"\\n    elseif age >= 19 and age <= 64\\n        return \\\"Adult\\\"\\n    else\\n        return \\\"Senior\\\"\\n    end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Agriculture",
+    "topic": "Organic Farming",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Trying to be more environmentally friendly, Farmer Kim has started using drone technology to monitor the crops on their organic farms, powered by a set of custom application software. The drones are designed to automatically water the crops and monitor their health based on various parameters like humidity, weather, crop type, and soil conditions. Which layer of system structure is responsible for enabling the application software to interact with the drone hardware?\",\n    \"Answer1\": \"Network layer\",\n    \"Answer2\": \"Presentation layer\",\n    \"Answer3\": \"System software\",\n    \"Answer4\": \"Application software\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The system software layer, often manifested as an operating system, provides a layer of abstraction between the hardware and the application software, enabling them to interact efficiently. In this context, system software would include the drone's operating system, which manages hardware resources and provides services for the application software (the custom watering and monitoring program).\",\n    \"code_snippet\": \"use Libraries.Robotic.Drone\\n\\naction Main\\n    Drone drone\\n    drone:TakeOff()\\n    drone:FlyStraight(10)\\n    drone:Land()\\nend\"\n}"
+}

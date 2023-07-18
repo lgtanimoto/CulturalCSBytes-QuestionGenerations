@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Social justice",
+    "topic": "Worker's rights and fair labor practices",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Vivian is conducting research on worker's rights and fair labor practices in different industries. She has collected data on the number of hours worked and the average pay for workers in the manufacturing, retail, and tech industries. Vivian wants to visually represent the data to highlight any relationships or patterns. Which type of graph would be most suitable for presenting this data?\",\n    \"Answer1\": \"Bar graph\",\n    \"Answer2\": \"Line graph\",\n    \"Answer3\": \"Pie chart\",\n    \"Answer4\": \"Scatter plot\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A line graph would be most suitable for presenting data on the number of hours worked and the average pay over time for workers in different industries. This type of graph can show trends and patterns in the data over a continuous variable, such as time.\",\n    \"code_snippet\": \"integer manufacturingHours = 40\\ndecimal manufacturingPay = 20.50\\ndecimal retailPay = 15.75\\ninteger techHours = 35\\n\\noutput \\\"Number of hours worked in manufacturing: \\\" + manufacturingHours + \\\"\\\\n\\\"\\noutput \\\"Average pay in manufacturing: $\\\" + manufacturingPay + \\\"\\\\n\\\"\\noutput \\\"Average pay in retail: $\\\" + retailPay + \\\"\\\\n\\\"\\noutput \\\"Number of hours worked in tech: \\\" + techHours\"\n}"
+}

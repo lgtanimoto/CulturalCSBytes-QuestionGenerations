@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Religious Diversity",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Indigo is developing a scheduling program for their school which takes user's religious holidays into account when planning meetings and events. However, the program always displays holidays of all religions to all users, which creates a cluttered and confusing interface. How can Indigo improve the program?\",\n    \"Answer1\": \"Indigo could add a user preferences section where users can select their religion.\",\n    \"Answer2\": \"Indigo could remove all religious holidays from the program.\",\n    \"Answer3\": \"Indigo could make all holidays invisible in the program interface.\",\n    \"Answer4\": \"Indigo could force all users to celebrate all religious holidays.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Adding a user preferences section where users can select their religion would allow the software to display only the holidays relevant to that user. This would eliminate unnecessary information and make the interface cleaner and easier to read.\",\n    \"code_snippet\": \"class User\\n    text religion\\n    action SetReligion(text newReligion)\\n        religion = newReligion\\n    end\\nend\\n\\nUser u\\nu:SetReligion('Christian')\\n// TODO: Write code to filter holidays based on user's religion\"\n}"
+}

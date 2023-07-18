@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Cultural Competence",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"StudentX is working on a group project about festivals around the world. The document they are working on is shared and students from different time zones are constantly updating the document. StudentX realizes that some of the edits being made by them are accidentally being deleted or overwritten. What could StudentX do to avoid this issue?\",\n    \"Answer1\": \"StudentX should stop contributing and let others do the work.\",\n    \"Answer2\": \"StudentX should save a local copy and stop using the shared version.\",\n    \"Answer3\": \"StudentX should communicate their working hours to their team so that others do not edit the document at the same time.\",\n    \"Answer4\": \"StudentX should overwrite all changes made by others.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Sharing work hours with team members can help StudentX create a collaborative editing schedule. This way, each team member can work on the document without interfering with others' edits.\",\n    \"code_snippet\": \"\"\n}"
+}

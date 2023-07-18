@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "Diversity and inclusion",
+    "topic": "Age Inclusivity",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Lee is making a program to create signs for a space exhibit that includes an age recommendation. The sign should display the current exhibit and suggested age group. For exhibits suitable for all ages, 'All Ages' must be displayed instead of any age range. An early version of Lee's program is as follows:What output will be produced by this version of the procedure 'exhibitInfo(\\\"Mars Rover\\\", 5, 13)'?\",\n    \"Answer1\": \"\\\"Mars Rover\\nSuggested Age: 5 - 13\\\"\",\n    \"Answer2\": \"\\\"Mars Rover\\nSuggested Age: All Ages\\\"\",\n    \"Answer3\": \"\\\"Exhibit: Mars Rover\\nSuggested Age: 5 - 13\\\"\",\n    \"Answer4\": \"\\\"Exhibit: Mars Rover\\nAge: 5 - 13\\\"\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In the 'exhibitInfo' procedure, it first outputs the exhibit name, then checks if the minimum age is 0 and maximum age is 100. If true, it outputs 'Suggested Age: All Ages' otherwise it outputs 'Suggested Age' followed by the given age range.\",\n    \"code_snippet\": \"action exhibitInfo(text exhibitName, integer minAge, integer maxAge)\\n    output \\\"Exhibit: \\\" + exhibitName\\n    if minAge == 0 and maxAge == 100\\n        output \\\"Suggested Age: All Ages\\\"\\n    else\\n        output \\\"Suggested Age: \\\" + minAge + \\\" - \\\" + maxAge\\n    end\\nend\"\n}"
+}

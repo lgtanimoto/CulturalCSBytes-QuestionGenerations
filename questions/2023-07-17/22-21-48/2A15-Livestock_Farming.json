@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A15",
+    "learning_objective": "Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.",
+    "interest_area": "Agriculture",
+    "topic": "Livestock Farming",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Straw is writing a program to keep track of the number of cows, chickens, and sheep on a farm. However, they encountered an error while trying to test their code. The error message says \\\"Unknown Variable - 'chicken'\\\". Here's the code:\\n\\ninteger cow = 5\\ninteger chicken = 12\\ninteger sheep = 3\\n\\nCan you identify where the error in the code is?\",\n    \"Answer1\": \"There is no error in the code\",\n    \"Answer2\": \"The error is on line 1 - variable 'cow' is undefined\",\n    \"Answer3\": \"The error is on line 3 - variable 'sheep' is undefined\",\n    \"Answer4\": \"The error is on line 2 - variable 'chicken' is undefined\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"There are no syntax errors in the code. The variables 'cow', 'chicken', and 'sheep' are all properly defined and initialized with integer values. The received error message may be caused by a typing mistake in other parts of the code, where 'chicken' might be misspelled.\",\n    \"code_snippet\": \"integer cow = 5\\ninteger chicken = 12\\ninteger sheep = 3\"\n}"
+}

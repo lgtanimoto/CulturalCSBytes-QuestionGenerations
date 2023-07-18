@@ -165,9 +165,12 @@ def get_llm(prompt: str, model_name: str, openai_api_key: str):
 
 
 """Verifies that the generated question schema is valid"""
-def verify_generation(q_str: str):
+def verify_generation(q_str: str, coding: bool):
     try:
-        return question_schema.sort() == list(json.loads(q_str).keys()).sort()
+        if not coding:
+            return question_schema[:-1].sort() == list(json.loads(q_str).keys()).sort()
+        else:
+            return question_schema.sort() == list(json.loads(q_str).keys()).sort() and json.loads(q_str)['code_snippet'] != ""
     except json.decoder.JSONDecodeError:
         return False
 
@@ -213,7 +216,7 @@ def generate_questions(
 
         if debug:
             print("\n\n" + prompt)
-
+        
         # get gpt-4 response
         res = llm(prompt)
         q_str = "{" + res.split("{")[-1].split("}")[0] + "}"
@@ -222,7 +225,7 @@ def generate_questions(
             print(q_str + "\n")
 
         # check that generated question schema is valid
-        if not verify_generation(q_str):
+        if not verify_generation(q_str, coding):
             print("\nGeneration Error: Invalid question schema\n")
             continue
 
