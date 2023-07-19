@@ -143,16 +143,17 @@
     ],
     "Music": [
         "Music Theory",
+		"Music Notation",
         "Music History",
-        "Instrumental Techniques",
-        "Vocal Techniques",
-        "Music Composition",
-        "Music Performance",
-        "Music Notation",
-        "Music Technology",
+        "Musical Instruments",
+		"Music Composition and Arrangement",
+		"Music Production and Recording",
+        "Music Videos",
+        "The Grammy's",
+		"Music Performance",
         "Music in Film and Media",
-        "Music Therapy"
-    ],
+		"Musicals and Broadway"
+	],
     "Art and Design": [
 		"Drawing and Painting",
 		"Color theory and mixing",

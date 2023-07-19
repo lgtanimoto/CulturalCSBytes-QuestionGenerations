@@ -20,7 +20,7 @@ from tqdm import tqdm
 import tiktoken
 
 
-FILE_PREF = "object_data\\"
+FILE_PREF = "resources\\"
 
 
 """Writes json file to filepath. Ommit .json extension in function call"""
@@ -29,7 +29,7 @@ def write_json(data, filename):
         json.dump(data, f, indent=4)
 
 
-"""Reads json file in object_data directory"""
+"""Reads json file in the resources directory"""
 def read_json(filename):
     with open(FILE_PREF + filename + ".json", 'r') as f:
         data = json.load(f)
@@ -96,7 +96,7 @@ def make_prompt(
 
     if coding:
         """Specialize prompt for coding questions"""
-        with open("object_data\\system_message_coding.txt", 'r') as f:
+        with open("resources\\system_message_coding.txt", 'r') as f:
             prefix = f.read()
         exs = random.sample(examples, min(len(examples), num_examples))
         few_shot_prompt = FewShotPromptTemplate(
@@ -108,7 +108,7 @@ def make_prompt(
         )
     else:
         """Specialize prompt for non-coding questions"""
-        with open("object_data\\system_message_default.txt", 'r') as f:
+        with open("resources\\system_message_default.txt", 'r') as f:
             prefix = f.read()
         example_selector = CustomExampleSelector(examples)
         few_shot_prompt = FewShotPromptTemplate(
@@ -278,16 +278,18 @@ def main():
     """define CLI arguments"""
     parser.add_argument("num_questions", type=int, help="The number of questions to generate.")
     parser.add_argument("-m", "--model", type=str, default="gpt-3.5-turbo", help="The name of the LLM to use for generating questions. Defaults to 'gpt-4'. Other model options include: 'gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-curie-001'. Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.")
-    parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to 'object_data\\coding_question_examples.json' if '--coding' flag is included. Defaults to 'object_data\\default_question_examples.json' if '--coding' flag is ommitted.")
+    parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to 'resources\\coding_question_examples.json' if '--coding' flag is included. Defaults to 'resources\\default_question_examples.json' if '--coding' flag is ommitted.")
     parser.add_argument("-n", "--num-examples", type=int, default=3, help="The number of examples to use in few-shot prompting. Defaults to 3.")
     parser.add_argument("-s", "--save", action="store_true", help="Include flag to save generated questions to .json files. Specify output folder with '-o, --output-folder'.")
     parser.add_argument("-o", "--output-folder", type=str, default=None, help="The relative path to the folder where generated questions should be saved. Defaults to 'questions\\date\\time\\' if '-s, --save' flag is included.")
-    parser.add_argument("-i", "--interest-areas", type=str, nargs="+", default=read_json("interest_areas"), help="The interest areas to generate questions for. Defaults to all interest areas. Notes: interest areas are case-sensitive and multi-word interest areas should use dashes. e.g. '--interest-areas=Diversity-and-inclusion Business'. Refer to object_data\\interest_areas.json for a list of valid interest areas. Interest areas should be separated by spaces.")
+    parser.add_argument("-i", "--interest-areas", type=str, nargs="+", default=read_json("interest_areas"), help="The interest areas to generate questions for. Defaults to all interest areas. Notes: interest areas are case-sensitive and multi-word interest areas should use dashes. e.g. '--interest-areas=Diversity-and-inclusion Business'. Refer to resources\\interest_areas.json for a list of valid interest areas. Interest areas should be separated by spaces.")
     parser.add_argument("-a", "--api-key", type=str, default=None, help="Your OpenAI-api-key. Defaults to reading from .env file.")
     parser.add_argument("-c", "--coding", action="store_true", help="Include flag to generate questions with code. By default, questions do not include code.")
     parser.add_argument("-f", "--filter-grades", action="store_true", help="Include flag to filter out 11th and 12th grade learning standards when generating questions. By default, all learning standards are used during generation.")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose mode to print generated questions.")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode to print debug messages.")
+    parser.add_argument("-lm", "--list-models", action="store_true", help="Include flag to list available LLMs. Use with required argument num_questions=0 (e.g. 'python generate_questions.py 0 -lm').")
+    parser.add_argument("-li", "--list-interest-areas", action="store_true", help="Include flag to list available interest areas. Use with required argument num_questions=0 (e.g. 'python generate_questions.py 0 -li').")
 
     """parse CLI arguments"""
     args = parser.parse_args()
@@ -301,6 +303,22 @@ def main():
     output_folder = args.output_folder
     save = args.save
     debug = args.debug
+
+    """list available models"""
+    if args.list_models:
+        print("\nAvailable LLMs:")
+        for model in read_json("llm_context_windows").keys():
+            print(" + " + model)
+        print()
+        exit(0)
+
+    """list available interest areas"""
+    if args.list_interest_areas:
+        print("\nAvailable interest areas:")
+        for area in read_json("interest_areas"):
+            print(" - " + area)
+        print()
+        exit(0)
 
     """get OpenAI API key"""
     if not args.api_key:

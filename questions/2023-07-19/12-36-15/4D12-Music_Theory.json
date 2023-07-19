@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D12",
+    "learning_objective": "Create computational models that represent the relationships among different elements of data collected from a phenomenon or process.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Sparks is programming a little tool to help their friend master Circle of Fifths in music theory. The program takes an input as any key (e.g., C, G, D, A, E, B, F#) and returns the key a fifth above the given key. For example, if the input key is C, the program will return G, which is a fifth above C. The code snippet is as follows: Apart from the missing keys and functions to calculate minor keys, for provided inputs, for what key does Sparks's program produce an incorrect output?\",\n    \"Answer1\": \"\\\"C\\\"\",\n    \"Answer2\": \"\\\"G\\\"\",\n    \"Answer3\": \"\\\"D\\\"\",\n    \"Answer4\": \"\\\"B\\\"\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Sparks' current code implementation does not consider the enharmonic keys. Hence, for the input B, it will return 'F', while according to the Circle of Fifths, the correct answer is 'F#/Gb'. To correct the function, Sparks needs to add conditions to handle cases such as B = 'F#/Gb'.\",\n    \"code_snippet\": \"action FifthAbove(text key)\\n    if key = \\\"C\\\"\\n        output \\\"G\\\"\\n    elseif key = \\\"G\\\"\\n        output \\\"D\\\"\\n    elseif key = \\\"D\\\"\\n        output \\\"A\\\"\\n    elseif key = \\\"A\\\"\\n        output \\\"E\\\"\\n    else\\n        output \\\"Not a valid key\\\"\\n    end\\nend\"\n}"
+}
