@@ -246,7 +246,9 @@ def generate_questions(
             if verbose:
                 print(f"\nQuestion saved at {output_folder + f_name}")
         else:
-            print(q_str)
+            if not debug:
+                print(f"\nTopic: {topic}\nLearning Objective: {lo_code} - {obj}\nQuestion:")
+            print(q_str + "\n")
 
     return generated_qs
 
