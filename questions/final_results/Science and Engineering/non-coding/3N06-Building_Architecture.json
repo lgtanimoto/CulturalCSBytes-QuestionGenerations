@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N06",
+    "learning_objective": "Apply multiple methods of encryption to model the secure transmission of information.",
+    "interest_area": "Science and Engineering",
+    "topic": "Building Architecture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Sky is developing a new architecture software that clients can use to view and modify building plans. Sky wants to ensure that the plans are securely transmitted so only the intended recipient can view them. Which of the following methods should Sky use to protect the building plans during transmission?\",\n    \"Answer1\": \"Using private keys to encrypt the data, and sharing the private key with the recipient to decrypt the data.\",\n    \"Answer2\": \"Using the same public key to encrypt and decrypt the data.\",\n    \"Answer3\": \"Using a public key to encrypt the data, and a private key to decrypt the data.\",\n    \"Answer4\": \"Using an algorithm to transform the data into a readable format before transmitting it.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Public key encryption is a type of encryption that uses a pair of asymmetric keys for encryption and decryption. The public key, which can be known by everyone, is used for encrypting the message, and the private key, which is only known to the recipient, is used for decrypting it. This is a safe way to ensure that only the intended recipient can view the transmitted information.\"\n}"
+}

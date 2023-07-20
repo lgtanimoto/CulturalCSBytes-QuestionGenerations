@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Trust and Respect",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex, the digital photography club president, wants to explain the concept of pixel representation to their club members. They choose an image of a rainbow to demonstrate how different colors are represented in binary. Alex extracts a single pixel's value which is the RGB (Red, Green, Blue) form: (12, 34, 56). Can you help Alex convert this pixel color to binary form?\",\n    \"Answer1\": \"(00001100, 00100010, 111000)\",\n    \"Answer2\": \"(1100, 100010, 111000)\",\n    \"Answer3\": \"(00000011, 10000100, 00111000)\",\n    \"Answer4\": \"(00001100, 00100010, 00111000)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex needs to convert the decimal values of Red (12), Green (34), and Blue (56) into their binary representation. To convert, they must use binary values up to 8 bits to ensure uniformity, hence the correct answers are 12 = 00001100, 34 = 00100010 and 56 = 00111000.\",\n    \"code_snippet\": \"integer R = 12\\ninteger G = 34\\ninteger B = 56\\noutput \\\"Red: \\\" + R.toBinaryString\\noutput \\\"Green: \\\" + G.toBinaryString\\noutput \\\"Blue: \\\" + B.toBinaryString\"\n}"
+}

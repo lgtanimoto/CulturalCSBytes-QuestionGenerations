@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "School and Career",
+    "topic": "Self-Reflection and Personal Growth",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been recording their mood and their hours of video gaming per day for 5 weeks. They've plotted this information on a graph and noticed a pattern - the days they play video games for 4 hours or more, they tend to report being 'grumpy' or 'miserable'. Based on this pattern, what modification could Alex make to their gaming habit to potentially improve their mood?\",\n    \"Answer1\": \"Alex could try reducing their video game time to 3 hours per day.\",\n    \"Answer2\": \"Alex could try playing video games all day.\",\n    \"Answer3\": \"Alex could try increasing their video game time to 5 hours per day.\",\n    \"Answer4\": \"Alex could try playing video games whenever they are feeling grumpy to distract themselves.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Based on the data, it's likely that playing video games for long periods is contributing to Alex's negative mood. Limiting their gaming time could help them feel better.\"\n}"
+}

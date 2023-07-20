@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is playing a soccer game where various components interact just like a computing system. If we consider this soccer game as a computing system, goalkeeper can be seen as the 'memory controller', controlling the data going in and out. What computing device part can be best associated with the referee who oversees the overall game make sure rules are followed?\",\n    \"Answer1\": \"Keyboard\",\n    \"Answer2\": \"Operating System\",\n    \"Answer3\": \"Hard Disk\",\n    \"Answer4\": \"Power Supply\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Just like the referee, the Operating System in a computing device makes sure that all applications and processes are running correctly and following the rules of the computing environment.\"\n}"
+}

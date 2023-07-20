@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex loves playing basketball and often keeps track of their scores on an application they built. They store their scores using binary representation for each game. Alex input '1011' for their last game. What is the value of Alex's score in that game based on the binary representation?\",\n    \"Answer1\": \"7\",\n    \"Answer2\": \"8\",\n    \"Answer3\": \"10\",\n    \"Answer4\": \"11\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The binary number '1011' stands for 11 in decimal representation. This means Alex scored 11 points in the last game.\",\n    \"code_snippet\": \"integer alexScore = convertFromBinary(\\\"1011\\\")\\n\\naction convertFromBinary(text binary)\\n    integer score = 0\\n    for each letter in binary from last to first\\n        score = score * 2 + (letter - '0')\\n    end\\n    return score\\nend\"\n}"
+}

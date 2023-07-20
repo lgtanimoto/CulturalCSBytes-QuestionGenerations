@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Everyday Life",
+    "topic": "Healthy Eating and Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to eat healthily. They have studied the food pyramid and now they want to use an algorithm to plan daily meals that fulfill their nutritional needs. Which among the following algorithms is best suitable for Alex's plan?\",\n    \"Answer1\": \"Compile a list of favorite foods - Choose foods at random - Eat until full - Stop eating when bored\",\n    \"Answer2\": \"Create a list of favorite foods - Select food that contains most nutrients\",\n    \"Answer3\": \"Compile a list of foods from each category of the food pyramid - Allocate each category into Breakfast, Lunch, Dinner, and Snacks - Ensure that each of the categories is utilized in each meal - Adjust portion sizes so that they meet individual energy requirements\",\n    \"Answer4\": \"Choose food randomly - Eat until full - Repeat the cycle\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A healthy eating plan involves not just choosing the right foods but also eating the right amount from each food group. This algorithm addresses this by ensuring that foods from each category are included in Alex's daily meals, ensuring a balanced diet.\"\n}"
+}

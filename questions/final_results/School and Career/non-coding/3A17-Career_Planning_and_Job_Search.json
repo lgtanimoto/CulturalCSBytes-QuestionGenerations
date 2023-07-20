@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "School and Career",
+    "topic": "Career Planning and Job Search",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a job search module for a career planning application. The module filters job listings based on user-entered keywords. Alex wants to improve the functionality and fix any potential bugs. What would be a systematic way for them to test and refine this job search module?\",\n    \"Answer1\": \"Alex should randomly input multiple keywords and evaluate the results.\",\n    \"Answer2\": \"Alex should ask their friends to try the module and report back on its functionality.\",\n    \"Answer3\": \"Alex should create a range of test cases, including various types of keywords, combinations of keywords, invalid inputs, and edge cases. They should record the results and refine the module as needed.\",\n    \"Answer4\": \"Alex should just rely on user feedback after deploying the module to refine and fix it.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Option 3 allows Alex to test the job search module systematically. Their test will cover various kinds of inputs and edge cases and not depend only on selective sampling or post-deployment user feedback. This method will increase the chances of finding bugs earlier in the developmental stage and enhance the module's functionality through informed refinements.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Everyday Life",
+    "topic": "Common Health Issues and Chronic Conditions",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is an enthusiastic student who is passionate about healthcare. They are creating an application that helps users to record and monitor common health issues and chronic conditions. Have a look at Alex's initial code snippet and decide: What would be the output on the console after running Alex's code snippet, if the user has high blood pressure and high cholesterol?\",\n    \"Answer1\": \"Only High Blood Pressure Alert!!\",\n    \"Answer2\": \"Only High Cholesterol Alert!!\",\n    \"Answer3\": \"High Blood Pressure Alert!! and High Cholesterol Alert!!\",\n    \"Answer4\": \"No Alert!!\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In the provided code snippet, Alex has implemented condition checking for both high blood pressure and high cholesterol. If a user has high blood pressure, the code will output 'High Blood Pressure Alert!!', and if a user has high cholesterol, the code will output 'High Cholesterol Alert!!'. Since the user has both conditions, the code will output both alerts.\",\n    \"code_snippet\": \"boolean highBloodPressure = true\\nboolean highCholesterol = true\\nif highBloodPressure\\n    output \\\"High Blood Pressure Alert!!\\\"\\nend\\nif highCholesterol\\n    output \\\"High Cholesterol Alert!!\\\"\\nend\"\n}"
+}

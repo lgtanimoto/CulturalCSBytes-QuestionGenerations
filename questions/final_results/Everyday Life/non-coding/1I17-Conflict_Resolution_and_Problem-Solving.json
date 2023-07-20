@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Everyday Life",
+    "topic": "Conflict Resolution and Problem-Solving",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their classmate, Bree have been assigned to work collaboratively on an online platform to build a website for their final project. They have divided the responsibilities between themselves but as the deadline approaches, Alex realizes that Bree has not yet completed her part, which is causing delays in the project timeline. What would be the best way for Alex to manage this situation?\",\n    \"Answer1\": \"Alex should immediately report Bree to their teacher.\",\n    \"Answer2\": \"Alex should send Bree aggressive messages demanding her to complete her work.\",\n    \"Answer3\": \"Alex should take over Bree's tasks without discussing it with her.\",\n    \"Answer4\": \"Alex should communicate with Bree, expressing their concerns and try to resolve the issue collaboratively.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"By respectfully communicating with Bree about the issue, both of them may find a solution to the problem, maintaining the collaborative spirit of the project. Aggressive behavior and making decisions without discussing are not responsible or respectful ways to engage in an online collaborative space.\"\n}"
+}

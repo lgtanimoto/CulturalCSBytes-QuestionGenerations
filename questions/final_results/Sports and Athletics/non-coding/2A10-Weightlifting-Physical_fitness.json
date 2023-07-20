@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is beginning a new weightlifting routine. They plan to start by lifting 10 pounds and will increase the weight they lift by 5 pounds each week. They've set a goal to eventually lift 75 pounds. In which week will Alex reach their weightlifting goal?\",\n    \"Answer1\": \"Week 14\",\n    \"Answer2\": \"Week 7\",\n    \"Answer3\": \"Week 10\",\n    \"Answer4\": \"Week 13\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"This is a simple looping problem. Starting at 10 pounds, Alex will add 5 pounds per week. So, 10 (for week 1) + 5*13 (for the next 13 weeks) = 75 pounds, which Alex will reach during the 14th week.\"\n}"
+}

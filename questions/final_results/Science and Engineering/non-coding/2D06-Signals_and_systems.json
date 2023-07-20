@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been collecting data on how their Wi-Fi signal strength varies as they move around various parts of their home. Having collected substantial data, Alex decides to visualize it to observe any patterns or relationships. Alex believes that the signal strength drops substantially in the kitchen compared to other areas of the house. Which type of visual representation would best support Alex's claim?\",\n    \"Answer1\": \"A scatter plot with distance from the router as the x-axis and signal strength as the y-axis\",\n    \"Answer2\": \"A line graph with the time of day as the x-axis and signal strength as the y-axis\",\n    \"Answer3\": \"A pie chart showing the percentage of signal strength in each room\",\n    \"Answer4\": \"A bar graph with room names as the x-axis and average signal strength as the y-axis\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Since Alex wants to compare the signal strength in different areas of the house, a bar graph that shows the average signal strength for each room would be the most effective visual representation. Other graphs such as scatter plots and line graphs would not provide the comparative clarity that a bar graph would.\"\n}"
+}

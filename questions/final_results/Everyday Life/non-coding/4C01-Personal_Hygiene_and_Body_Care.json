@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Everyday Life",
+    "topic": "Personal Hygiene and Body Care",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has an 'intelligent' electric toothbrush. This toothbrush records the time they brush their teeth and the pressure they use, then sends this data to their smartphone application. In this scenario, what abstraction is hiding the underlying computing system in Alex's daily routine?\",\n    \"Answer1\": \"The toothbrush\",\n    \"Answer2\": \"The smartphone application\",\n    \"Answer3\": \"The time and pressure data\",\n    \"Answer4\": \"The act of brushing their teeth\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The act of brushing their teeth. As an abstraction, this ordinary act hides the complex computing system between the electric toothbrush and the smartphone application, which lets Alex keep their dental routine healthy without dwelling on the technical details of the system.\"\n}"
+}

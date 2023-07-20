@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Science and Engineering",
+    "topic": "Forces and acceleration",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a physics program to calculate the final speed of an object given the initial speed, acceleration, and time. However, they face some difficulty in comprehending the code. The code looks something like this:Which of the following statements best describes how the formula (final_speed = initial_speed + acceleration * time) implemented here works?\",\n    \"Answer1\": \"The formula adds the product of the acceleration and time, to the initial speed to calculate the final speed.\",\n    \"Answer2\": \"The formula substracts the product of the acceleration and time, from the initial speed to obtain the final speed.\",\n    \"Answer3\": \"The formula multiplies the acceleration with time, and ignores the initial speed to get the final speed.\",\n    \"Answer4\": \"None of the above.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The code correctly implements the physics formula for final speed (final_speed = initial_speed + acceleration * time). The formula basically says that the final speed of an object is calculated by adding the product of the acceleration and time to the initial speed.\",\n    \"code_snippet\": \"action finalSpeed(integer initial_speed, integer acceleration, integer time) returns integer\\n    number final_speed = initial_speed + acceleration * time\\n    return final_speed\\nend\"\n}"
+}

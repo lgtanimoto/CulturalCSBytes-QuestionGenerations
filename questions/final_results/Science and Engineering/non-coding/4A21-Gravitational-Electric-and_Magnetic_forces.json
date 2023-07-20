@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "Science and Engineering",
+    "topic": "Gravitational, Electric, and Magnetic forces",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a simulation to visually represent the Gravitational, Electric, and Magnetic forces acting on a particle. The program must display the forces distinctly and also take into account the magnitude and direction of force while visually rendering it. Alex's current implementation displays all forces in red arrows regardless of their magnitude or type. What can Alex do to refine this computational artifact to make it more understandable to users?\",\n    \"Answer1\": \"Use different colors to represent Gravitational, Electric, and Magnetic forces\",\n    \"Answer2\": \"Vary the length of arrows to show the magnitude of the forces\",\n    \"Answer3\": \"Display the direction of the arrow as the direction of force\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To make the simulation more understandable and accessible, Alex should consider improving the visual representation of forces. Different colors can be used to distinguish between different types of forces, the length of arrows can be used to demonstrate the magnitude of forces, and the direction can be shown by pointing arrows in the correct direction.\"\n}"
+}

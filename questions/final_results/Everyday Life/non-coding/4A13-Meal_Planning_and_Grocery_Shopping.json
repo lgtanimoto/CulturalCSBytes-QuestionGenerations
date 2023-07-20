@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Everyday Life",
+    "topic": "Meal Planning and Grocery Shopping",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an amateur chef who cooks meals every day. They want to better manage their time and resources, so they decide to write a program that plans meals and generates a grocery list based on their chosen recipes. Name some of the data structures they might need and the basic algorithm they should begin with for their program.\",\n    \"Answer1\": \"Data Structures: Arrays, Strings. Algorithm: If Ingredient in Recipe not in Pantry, then add Ingredient to Shopping List.\",\n    \"Answer2\": \"Data Structures: Strings. Algorithm: For each Recipe, add Ingredients to Shopping List.\",\n    \"Answer3\": \"Data Structures: Strings. Algorithm: If Ingredient in Recipe in Pantry, then add Ingredient to Shopping List.\",\n    \"Answer4\": \"Data Structures: Arrays, Strings. Algorithm: If Ingredient in Recipe in Pantry and Quantity is less than required, then add Difference of Quantity to Shopping List.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex will need various data structures like Lists or Arrays to store the Recipes, Ingredients, Pantry contents, and Shopping List. The basic algorithm will be to check each Ingredient in every selected Recipe. If an Ingredient is not in the Pantry or there is less of it than needed for the recipe, the Ingredient or the difference needed is added to the Shopping List.\"\n}"
+}

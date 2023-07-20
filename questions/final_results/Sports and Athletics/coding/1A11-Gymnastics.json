@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a choreographer for a gymnastics team and they have the task of programming a robot to demonstrate a sequence of gymnastics moves to the team. The code snippet demonstrates the sequence for a cartwheel:What other gymnastics move could Alex add to the sequence and where would it go in the current code?\",\n    \"Answer1\": \"Forward roll, after the cartwheel\",\n    \"Answer2\": \"Backflip, before the cartwheel\",\n    \"Answer3\": \"Handstand, in the middle of the cartwheel\",\n    \"Answer4\": \"Jump, replace the cartwheel\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Adding a forward roll after the cartwheel would make sense, as it is a different move and would follow logically in the sequence. The other options either disrupt the cartwheel sequence or replace it entirely.\",\n    \"code_snippet\": \"action Main\\n    DoStart()\\n    DoCartwheel()\\n    DoFinish()\\nend\\n\\naction DoStart\\n    Stand()\\n    ReachArms()\\nend\\n\\naction DoCartwheel\\n    BendLegs()\\n    Launch()\\n    BalanceOnHands()\\n    Land()\\nend\\n\\naction DoFinish\\n    Stand()\\n    TakeBow()\\nend\"\n}"
+}

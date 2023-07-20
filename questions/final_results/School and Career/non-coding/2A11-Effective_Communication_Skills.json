@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "School and Career",
+    "topic": "Effective Communication Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a communication app that sends out daily inspirational quotes to users worldwide. The rate of sending these quotes depends on the user's time zone to ensure the quotes are received at the start of a new day. Alex needs to break down this task into smaller parts to make implementation easier. Which of the following represents the best way for Alex to decompose the problem?\",\n    \"Answer1\": \"1) Collect quotes, 2) Send the quotes\",\n    \"Answer2\": \"1) Identify all the time zones, 2) Assign each user to a time zone, 3) Gather quotes, 4) Send the quotes based on the user\u2019s time zone\",\n    \"Answer3\": \"1) Send quotes, 2) Gather feedback, 3) Analyze feedback\",\n    \"Answer4\": \"1) Assign each user to a time zone, 2) Send the quotes, 3) Analyze feedback\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"This best decomposes the problem. Alex first needs to identify all the time zones. Then, assign each user to their respective time zone so the quotes are sent at the right local time. Gather various quotes for sending and finally, send the quotes based on each user\u2019s time zone.\"\n}"
+}

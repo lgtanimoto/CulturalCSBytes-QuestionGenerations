@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A15",
+    "learning_objective": "Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.",
+    "interest_area": "Science and Engineering",
+    "topic": "Organism growth and reproduction",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program to simulate the growth and reproduction of an organism. Every day, one organism reproduces into two. Alex wants his program to calculate how many organisms there will be after a certain number of days. However, his program doesn't give the correct answer. Here is Alex's current code. What should Alex change to fix the program?\",\n    \"Answer1\": \"Change line 3: number of organisms = organisms * 2\",\n    \"Answer2\": \"Change line 1: number organisms = 0\",\n    \"Answer3\": \"Insert new line after line 2: days = days + 1\",\n    \"Answer4\": \"Change line 3: organisms = organisms * i\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The growth of the organism is a process of doubling the previous day's number of organisms. So, after the for-loop, the number of organisms should be multiplied with 2 each day. Hence, changing line 3 to 'organisms = organisms * 2' would fix the program.\",\n    \"code_snippet\": \"number organisms = 1\\nfor i = 1 to days\\n    organisms = organisms + 1\\nend\\noutput organisms\"\n}"
+}

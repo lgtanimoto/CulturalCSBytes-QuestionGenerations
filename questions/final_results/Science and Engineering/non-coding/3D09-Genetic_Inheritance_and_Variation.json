@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Science and Engineering",
+    "topic": "Genetic Inheritance and Variation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying genetic inheritance and variation for their biology class. The teacher explains that the color of a person's eyes is determined by two genes, one from each parent. The B gene (brown) is dominant and the b gene (blue) is recessive. A person will have brown eyes unless they have two b genes. Alex is asked to write a Python function that predicts the eye color of a child based on the eye color of their parents. Which of the following code snippets can correctly determine the child's eye color based on this information?\",\n    \"Answer1\": \"def eye_color(parent1, parent2):if parent1 == 'B' or parent2 == 'B': return 'Brown'else: return 'Blue'\",\n    \"Answer2\": \"def eye_color(parent1, parent2):if parent1 == 'B' and parent2 == 'B': return 'Brown'else: return 'Blue'\",\n    \"Answer3\": \"def eye_color(parent1, parent2):if parent1 == 'b' and parent2 == 'b': return 'Blue'else: return 'Brown'\",\n    \"Answer4\": \"def eye_color(parent1, parent2):if parent1 == 'b' or parent2 == 'b': return 'Blue'else: return 'Brown'\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A person will have brown eyes unless they have two blue (recessive) genes. Therefore, the given function should return 'Blue' if both parent genes are 'b' and 'Brown' otherwise. Only option 3 implements this logic correctly.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I20",
+    "learning_objective": "Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a swim coach who is considering using a swimming analysis app that offers real-time feedback on swimmers' performance, like stroke efficiency, lap time, and kick strength. However, to use this app each of Alex's athletes needs to wear an expensive smart swimming suit, which many could not afford. What are the trade-offs that Alex needs to consider while deciding whether to use this technology or not?\",\n    \"Answer1\": \"If Alex uses this app, all swimmers will need to buy the expensive swimming suit, otherwise, they won't be able to participate in training sessions.\",\n    \"Answer2\": \"If Alex decides not to use the app, less data will be available to improve the swimmers' performance, but all swimmers would be able to participate in training.\",\n    \"Answer3\": \"The app would enable Alex to give individual feedback more efficiently and accurately, but would exclude those who can't afford the smart suit.\",\n    \"Answer4\": \"Using the app would give Alex a competitive advantage as a coach, but it may create a financial barrier to join the team.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The trade-off Alex needs to consider includes ensuring equal participation for all athletes while utilizing technology to enhance performance. It's important to consider accessibility to ensure all athletes can afford to participate in the sport regardless of their financial situations.\"\n}"
+}

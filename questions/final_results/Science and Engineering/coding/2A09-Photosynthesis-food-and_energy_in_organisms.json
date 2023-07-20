@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Science and Engineering",
+    "topic": "Photosynthesis, food, and energy in organisms",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is fascinated by the process by which plants make food and wishes to create a program to simulate the process of photosynthesis. Alex writes the following snippet of code:Based on the `photosynthesis` action, when the `sunlight` value is 6 and the `co2` value is 5, what will be the value of `glucose` (stored food/energy in the plant)?\",\n    \"Answer1\": \"30\",\n    \"Answer2\": \"11\",\n    \"Answer3\": \"300\",\n    \"Answer4\": \"55\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In the code snippet, the `photosynthesis` action produces `glucose` by multiplying the amount of `sunlight` and `co2`. If `sunlight=6` and `co2=5`, then `glucose` will be 30.\",\n    \"code_snippet\": \"integer sunlight = 6\\ninteger co2 = 5\\ninteger glucose = 0\\n\\naction photosynthesis()\\n    glucose = sunlight * co2\\nend\"\n}"
+}

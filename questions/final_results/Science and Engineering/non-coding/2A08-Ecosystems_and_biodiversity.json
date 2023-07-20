@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Science and Engineering",
+    "topic": "Ecosystems and biodiversity",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program that simulates an ecosystem. They need to program a piece of code that sorts species based on their population size from smallest to largest. Alex tries different algorithms, but doesn't know which to use. Which algorithm would be the most appropriate for this task?\",\n    \"Answer1\": \"Bubble Sort\",\n    \"Answer2\": \"Insertion Sort\",\n    \"Answer3\": \"Heap Sort\",\n    \"Answer4\": \"Any of these would be appropriate\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All the mentioned algorithms - Bubble Sort, Insertion Sort, and Heap Sort - can be used to sort an array in increasing order. The appropriate choice of algorithm often depends on the specific characteristics of the data set and performance requirements. For example, if the array is already partially sorted, insertion sort can perform better than the other two.\"\n}"
+}

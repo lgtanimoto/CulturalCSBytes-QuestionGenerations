@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a track and field athlete and also part of the cross country team. They use a sports watch to track their workouts. The watch tracks their heart rate, sleep, steps, and also uses GPS to record their route during workouts. Can you identify some of the internal and external parts of this computing device and how they function together to form a system?\",\n    \"Answer1\": \"Battery, Display, GPS, Case\",\n    \"Answer2\": \"Processor, Memory, Display, Case\",\n    \"Answer3\": \"Battery, Processor, Memory, Heart rate sensor\",\n    \"Answer4\": \"Battery, Display, Heart rate sensor, Case\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Option 3 is the most accurate as it includes the Battery (necessary for power), Processor (for computations), Memory (to store data such as step count, sleep data etc.), and Heart rate sensor (for tracking the heart rate). Display is also an essential part of the system but was excluded to make the options mutually exclusive.\"\n}"
+}

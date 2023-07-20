@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I23",
+    "learning_objective": "Describe tradeoffs between allowing information to be public and keeping information private and secure.",
+    "interest_area": "Science and Engineering",
+    "topic": "Earth, moon, sun, and seasons",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, being a scientist, understands that information about the earth, moon, sun, and seasons can be beneficial for public knowledge. But they also realize the importance of keeping certain scientific data private and secure. If Alex decides to build an interactive model showcasing these celestial mechanics, which one of the following can be a potential trade-off from making this information public?\",\n    \"Answer1\": \"The information could be used to better understand weather patterns and agricultural cycles, potentially improving food production.\",\n    \"Answer2\": \"Individuals with malicious intent could potentially use the model's code for illicit activities.\",\n    \"Answer3\": \"Publicizing the information could encourage individuals and organizations to use this data for environmentally friendly decision-making.\",\n    \"Answer4\": \"The model could be used for educational purposes, enhancing scientific literacy amongst the public.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While allowing information to be public can have numerous societal benefits, a potential risk is that people with malicious intentions could exploit the provided information or the system's code for nefarious purposes, potentially posing threats to the security of systems or networks.\"\n}"
+}

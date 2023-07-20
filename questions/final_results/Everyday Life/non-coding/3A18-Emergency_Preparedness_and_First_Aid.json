@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Everyday Life",
+    "topic": "Emergency Preparedness and First Aid",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their classmates are programming an emergency preparedness application that includes a First Aid guide. They have to divide the modules among their teammates and maintain a project timeline for effective development. Which of the following is the BEST strategy for Alex and their team to follow?\",\n    \"Answer1\": \"Assign all the modules to the most skilled programmer and let them finish the project alone\",\n    \"Answer2\": \"Alex should take over the entire project to ensure that nothing goes wrong\",\n    \"Answer3\": \"Divide the modules evenly among the team and assign a timeline in which each module needs to be completed\",\n    \"Answer4\": \"Implement all modules at once without any planning or organization\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In a collaborative programming project, dividing tasks evenly and maintaining a timeline helps to ensure an organized approach to developing computational artefacts. It also ensures that all team members contribute equally to the project.\"\n}"
+}

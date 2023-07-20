@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a traffic light system project where they need to store the sequence of lights (Red, Green, Yellow). They wanted to print out the sequence in order. What is the best way to store and iterate through the signal order?\",\n    \"Answer1\": \"Store each color in separate variables and print them separately.\",\n    \"Answer2\": \"Store the colors in a list and use a simple loop to iterate and print them.\",\n    \"Answer3\": \"Create a function for each color signal and call them sequence.\",\n    \"Answer4\": \"No need to store the signals, just print them out directly each time.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Using a list to store the signals and a simple loop to iterate through them is the most efficient way. It simplifies the solution by generalizing the computational problem, eliminating the need to handle each color separately.\",\n    \"code_snippet\": \"`action Main`\\n\\tlist<text> signals \\n\\tsignals:Add(\\\"Red\\\")\\n\\tsignals:Add(\\\"Green\\\")\\n\\tsignals:Add(\\\"Yellow\\\")\\n\\trepeat until signals:length() > 0\\n\\t\\toutput signals:RemoveAt(0)\\n\\tend\"\n}"
+}

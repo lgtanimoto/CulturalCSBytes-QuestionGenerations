@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Business",
+    "topic": "Business Innovation and Technology",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is preparing a presentation for their Business Innovation and Technology class. They decide to create a program to catalogue the different tech innovations in the 21st Century. Alex decides to store each innovation as a string in a list. However, they are unsure of how to add items to their list. Here is the part of Alex's code that needs modification:\",\n    \"Answer1\": \"innovations:Add('Ebooks')\",\n    \"Answer2\": \"innovations:Addition('Cloud Computing')\",\n    \"Answer3\": \"Add('3D Printing'):innovations\",\n    \"Answer4\": \"innovations:'Smartphones'.Add()\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In Quorum language, to add an item to the list, you should use Add method after the list name. So the correct way to add an item to the list is: innovations:Add('Ebooks')\",\n    \"code_snippet\": \"List<string> innovations\\n// Add here the code to add items to the list\"\n}"
+}

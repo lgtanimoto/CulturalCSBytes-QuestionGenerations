@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "School and Career",
+    "topic": "Self-Reflection and Personal Growth",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has begun a weekly practice of self-reflection as part of their personal growth journey. They decided to use a mobile application to record their thoughts, achievements, and areas for improvement. They also maintain a list of personal goals in the same app. Alex wanted to review their progress and see how much they've achieved over the past six months.Which feature of the mobile app will Alex most likely use to accomplish this?\",\n    \"Answer1\": \"The 'Delete Account' feature\",\n    \"Answer2\": \"The 'Forgot Password' feature\",\n    \"Answer3\": \"The 'Backup Data' feature\",\n    \"Answer4\": \"The 'Search' feature\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The 'Search' feature in the mobile application would enable Alex to retrieve any specific information they recorded in the past, helping them reflect on their personal growth journey and review their progress.\"\n}"
+}

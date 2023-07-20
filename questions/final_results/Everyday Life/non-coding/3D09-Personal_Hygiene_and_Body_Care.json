@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Everyday Life",
+    "topic": "Personal Hygiene and Body Care",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has recently started a personal hygiene and body care routine that they hope would improve their skin's health. The routine includes washing their face twice a day and applying moisturizer. Alex recorded the number of acne sprouts on their face each week for six weeks. The report is as follows:Week 1: 14 acne; Week 2: 11 acne; Week 3: 10 acne; Week 4: 8 acne; Week 5: 8 acne; Week 6: 7 acne. Given their goal of reducing acne, should Alex keep their current routine or consider refining it? What is your reasoning?\",\n    \"Answer1\": \"Keep their current routine, as the number of acne sprouts is progressively reducing week by week.\",\n    \"Answer2\": \"Change the routine because there are still acne sprouts on their face.\",\n    \"Answer3\": \"Change the routine because by the fifth week the reduction in acne has plateaued.\",\n    \"Answer4\": \"Alex should consult a dermatologist for their acne problem.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex's current routine seems effective given that there has been a decrease in the number of acne sprouts each week. While it is true that there are still acne sprouts on Alex's face, this does not necessarily indicate failure or a need to drastically change the routine. Skincare is a process, and as Alex's skin adjusts to the new routine, they may see additional improvements over time.\"\n}"
+}

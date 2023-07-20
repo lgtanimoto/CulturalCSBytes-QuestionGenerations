@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C03",
+    "learning_objective": "Systematically identify and fix problems with computing devices and their components.",
+    "interest_area": "Everyday Life",
+    "topic": "Meal Planning and Grocery Shopping",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a software program to automate the meal planning and grocery shopping process. The program takes input in the form of dietary needs and produces a list of recipes and corresponding ingredients. However, many users complain about the program returning results that contain food items they are allergic to. Where might the problem be?\",\n    \"Answer1\": \"The dietary needs input is not working\",\n    \"Answer2\": \"The program is not accurately filtering the ingredients\",\n    \"Answer3\": \"The program does not provide the calories count for the meals\",\n    \"Answer4\": \"The meal suggestions are not based on the current season's available produce\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Although all of these options could be potential areas for improvement, only option 2 directly addresses the issue users are facing. It appears the program is not accurately filtering ingredients based on the user's dietary needs and allergies. Alex will need to address this in order to improve the functionality and user experience of the software.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D08",
+    "learning_objective": "Collect data using computational tools and transform the data to make it more useful and reliable.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a part of the school's basketball team and they have taken it upon themselves to analyze the team's performance in the past season. They decide to collect data on the points scored, rebounds, assists, etc., by each player in every match. Alex wants to use this data to identify the strong and weak points of the team and individual players. To make this data more useful and reliable, what should be one of Alex's main steps?\",\n    \"Answer1\": \"Ignore the data for matches that the team have lost to make the team look better.\",\n    \"Answer2\": \"Modify the assists data to increase the numbers for players who are generally more liked by the team.\",\n    \"Answer3\": \"Collect similar data from other teams for comparison, but not taking into consideration the difference in the opponents they have played against.\",\n    \"Answer4\": \"Normalize the data by calculating per-game statistics for each individual, considering the basketball's concept of 'per 36 minutes' statistics.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The best approach is to normalize the data in a way that's common in basketball analysis, by using 'per game' or 'per 36 minutes' statistics. This allows for more fair comparison between players who get differing amounts of playing time. The other options involve bias or fail to take important factors into account.\"\n}"
+}

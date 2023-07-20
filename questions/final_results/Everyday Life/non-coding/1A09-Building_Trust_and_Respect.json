@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Trust and Respect",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"On a scale of 1 to 10, with 10 being the highest, Alex wants to rate their level of trust and respect for each of their classmates on a digital platform to help them build stronger bonds. Alex has decided that the safest and most respectful way to handle this information is by keeping it confidential, and only using it to guide their interactions. Which of these would be the best way for Alex to safely store this data and why?\",\n    \"Answer1\": \"On a public blog post under each classmate's name.\",\n    \"Answer2\": \"In a personal, password-protected document that lists each classmate, alongside the associated trust and respect rating.\",\n    \"Answer3\": \"On a group message with all classmates sharing their ratings.\",\n    \"Answer4\": \"On a post-it note attached to their class picture.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Storing this kind of data in a personal, password-protected document not only ensures confidentiality, but also allows Alex to easily access and modify it as their relationships with classmates develop over time.\"\n}"
+}

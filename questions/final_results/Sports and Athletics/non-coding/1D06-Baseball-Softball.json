@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of the school's softball team and they have been tasked with visually tracking the team's home runs over the season. They have the raw data and intend to present it in different formats for the upcoming team meeting. Besides a bar chart, which other types of visual representation could Alex use to present the home run data?\",\n    \"Answer1\": \"Pie chart\",\n    \"Answer2\": \"Line graph\",\n    \"Answer3\": \"Scatter plot\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Although each type of chart depicts information differently, they can all be used to represent the same data. A pie chart shows proportion, a line graph indicates a trend over time, and a scatter plot can show a correlation between two different variables.\"\n}"
+}

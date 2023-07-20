@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A15",
+    "learning_objective": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+    "interest_area": "Everyday Life",
+    "topic": "Emergency Preparedness and First Aid",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a First Aid application for local use during emergencies. They are currently programming the decision-making flow of the application. The app should recommend the best course of action based on the user's input. The choices made in this control structure not only affect how the program performs, but also how readable and understandable the code is for future updates/features. Which of the following options should Alex consider and justify during the program development?\",\n    \"Answer1\": \"Choice of a flat structure with multiple conditions instead of nested conditions for readability\",\n    \"Answer2\": \"Using Loops instead of Recursion for better performance\",\n    \"Answer3\": \"Implementing a decision tree for better categorization of the conditions\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All of these are valid considerations. Flat structures can increase readability, using loops often has a better performance than recursion, and decision trees allow for more organized and clear categorization of conditions. It's crucial for Alex to consider and justify these choices depending on the specific requirements and constraints of their application.\"\n}"
+}

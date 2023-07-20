@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "School and Career",
+    "topic": "Lifelong Learning and Skill Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an avid skater who enjoys understanding how things work. One day, they came across a friend's electric skateboard and became fascinated by its internal mechanism. They want to learn how to program the speed and acceleration of an electric skateboard to make it safer and more comfortable to ride. What concept should Alex understand and utilize to achieve this without worrying about how the low-level hardware or software works?\",\n    \"Answer1\": \"Computer Virus\",\n    \"Answer2\": \"Database Management\",\n    \"Answer3\": \"Abstraction\",\n    \"Answer4\": \"Network Security\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The concept of abstraction in computer science is useful in this context. Abstraction allows Alex to focus on controlling the high-level aspects such as speed and acceleration, by using the software interface provided by the skateboard's manufacturer, without getting into the complexities of the underlying hardware or software. This helps them make programming adjustments based on their skating preferences, such as increasing or decreasing speed and improving safety, without understanding the intricate details of the entire system.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Science and Engineering",
+    "topic": "Photosynthesis, food, and energy in organisms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a computer program to model photosynthesis, a complex biological process that converts carbon dioxide, water, and light into glucose and oxygen. The program follows an algorithm that mirrors the photosynthesis process and creates a graphical representation of how plants convert these raw components into food and energy. Which of the following sequence of steps would be the best representation in Alex's program?\",\n    \"Answer1\": \"1. Absorb light\\n2. Combine carbon dioxide and water\\n3. Produce glucose and oxygen\\n4. Repeat\",\n    \"Answer2\": \"1. Combine carbon dioxide and water\\n2. Absorb light\\n3. Produce glucose and oxygen\\n4. Repeat\",\n    \"Answer3\": \"1. Absorb light\\n2. Produce glucose and oxygen\\n3. Combine carbon dioxide and water\\n4. Repeat\",\n    \"Answer4\": \"1. Combine carbon dioxide and water\\n2. Produce glucose and oxygen\\n3. Absorb light\\n4. Repeat\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Photosynthesis begins with the absorption of light, which provides energy for the synthesis of glucose from carbon dioxide and water. Therefore, in Alex's program, the sequence of steps should represent this process. The correct sequence is: 1. Absorb light\\n2. Combine carbon dioxide and water\\n3. Produce glucose and oxygen\\n4. Repeat\"\n}"
+}

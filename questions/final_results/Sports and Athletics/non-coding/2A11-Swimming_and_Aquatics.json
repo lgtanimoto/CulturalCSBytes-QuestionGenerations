@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to predict the swim times for different types of races. They aim to factor in the swimmer's base speed, the race distance, and whether the race is freestyle, breaststroke, backstroke, or butterfly. Which of the following represents the best approach to decomposing this problem into manageable subproblems?\",\n    \"Answer1\": \"First, identify the base speed of the swimmer and the race type. Then calculate swim time based on these parameters. Finally, handle exceptions for different race types.\",\n    \"Answer2\": \"Begin by coding for each possible race type. Then factor in the base speed of the swimmer and the race distance.\",\n    \"Answer3\": \"First, calculate the swim time based on the race distance and the swimmer's base speed. Then adjust the time based on the swim technique.\",\n    \"Answer4\": \"Construct a large switch case that calculates and returns the swim time for each race type.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The most effective approach would be to first decompose the problem based on generic conditions (the swimmer's base speed and the race distance). Once the base swim time is calculated, you can create manageable subroutines to adjust the swim time based on the type of swim (freestyle, breaststroke, backstroke, butterfly). This approach allows for easy modification and extension as it separates general logic from specific adjustment rules.\"\n}"
+}

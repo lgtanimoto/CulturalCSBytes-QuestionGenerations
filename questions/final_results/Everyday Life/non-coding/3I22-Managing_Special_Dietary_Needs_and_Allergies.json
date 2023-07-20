@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Everyday Life",
+    "topic": "Managing Special Dietary Needs and Allergies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In their neighbourhood, Alex noticed many families struggling to find restaurants that cater to distinctive dietary needs such as vegan meals, gluten-free options, and various food allergies. Alex believes an app might be the solution and decides to develop one that compiles restaurants' food offerings, ingredients, and dietary accommodations. However, given the vast variety of diets, allergies, and food preparations, the task of gathering all that information on their own seems daunting. What's an effective strategy for gathering this data?\",\n    \"Answer1\": \"Buying the information from a data broker.\",\n    \"Answer2\": \"Using a web scraper to gather information from restaurant websites.\",\n    \"Answer3\": \"Setting up the app to automatically log what choices individuals make when ordering food.\",\n    \"Answer4\": \"Crowdsourcing information from users who are able to contribute and verify the details of restaurant offerings.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Crowdsourcing is a collaborative strategy where individuals voluntarily contribute their knowledge and verify information. This strategy can be quite effective in gathering a large quantity of localized data, given that the contributors themselves are the direct users and beneficiaries of the app.\"\n}"
+}

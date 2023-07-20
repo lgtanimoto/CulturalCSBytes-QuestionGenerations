@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are basketball enthusiasts, they're also developing a new basketball video game. After months of testing, they've noticed the game begins to predict when the AI-controlled teams should commit fouls, but this prediction is greatly skewed. Teams with white-colored jersey avatars statistically commit fewer fouls than the teams with black-colored jersey avatars. Although this was unintentional, they recognize that the coding of their game may implicitly carry a bias. What approach should Alex and their team do to address the issue?\",\n    \"Answer1\": \"Alex should leave it as it is - after all, it's just a game.\",\n    \"Answer2\": \"Alex should let the users figure out their own solution to this problem.\",\n    \"Answer3\": \"Alex should apologize to the community without making any code modifications.\",\n    \"Answer4\": \"Alex and their team should work to identify the section of their code that is attributing the color of the avatar's jersey to the chance of committing a foul, and correct it. The AI should consider only factors related to gameplay, e.g., aggression, defense ratings, etc.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Bias, intentional or not, in a game design can reinforce stereotypes and unfair practices. Identifying and rectifying this bias will lead to a more equitable and fair game play. The AI's decision to commit a foul should be independent of the jersey's color.\"\n}"
+}

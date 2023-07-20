@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Everyday Life",
+    "topic": "Exercise and Physical Activity",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex wants to create a workout routine generator for different types of activities like 'Hiking', 'Swimming', 'Cycling', etc. They already have a method 'Routine()' which generates a random routine for any given type. But they want to create an order or plan in which a user should perform a workout if they are choosing 'Triathlon' which includes 'Swimming', 'Cycling', and 'Running'. What should be the output from the 'TriathlonRoutine()' method?\",\n    \"Answer1\": \"'Hiking routine', 'Swimming routine', 'Cycling routine'\",\n    \"Answer2\": \"'Swimming routine', 'Cycling routine', 'Running routine'\",\n    \"Answer3\": \"'Swimming routine', 'Running routine', 'Cycling routine'\",\n    \"Answer4\": \"'Cycling routine', 'Swimming routine', 'Running routine'\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"For a Triathlon event, the sequence of activities is typically swimming, then cycling, and finally running. Hence Alex's 'TriathlonRoutine()' should generate the routines in this order: 'Swimming', 'Cycling', and 'Running'.\",\n    \"code_snippet\": \"action TriathlonRoutine()\\n    Routine('Swimming') // Generate Swimming routine\\n    Routine('Cycling') // Generate Cycling routine\\n    Routine('Running') \\\\ Generate Running routine\\nend\\n\\naction Routine(type Text)\\n    // Code to generate random workout routine based on given type\\nend\"\n}"
+}

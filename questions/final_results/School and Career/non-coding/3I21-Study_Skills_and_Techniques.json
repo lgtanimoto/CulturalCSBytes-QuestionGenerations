@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "School and Career",
+    "topic": "Study Skills and Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is using an online flashcard tool to study for their English literature class. The tool has a built-in review schedule that adjusts based on Alex's performance on each card. Alex, who speaks English as a second language, notices that they often struggle with the cards that contain complex idiomatic expressions. However, the tool's algorithm doesn't seem to account for this and continues to schedule these cards at the same frequency as the others. What issue does this scenario highlight?\",\n    \"Answer1\": \"The lack of personalization in the flashcard tool\",\n    \"Answer2\": \"The bias in the design of the flashcard tool's review schedule algorithm\",\n    \"Answer3\": \"The inaccessibility of English idiomatic expressions\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The design of the flashcard algorithm shows a bias towards an assumption that all users approach learning in the same manner. It fails to account for the different levels of difficulty that users might have with different types of content, thus making it less accessible and effective for users like Alex.\"\n}"
+}

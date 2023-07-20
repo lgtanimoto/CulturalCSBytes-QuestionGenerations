@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "Everyday Life",
+    "topic": "Healthy Cooking and Food Preparation Techniques",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a healthy meal planning app. They are trying to code a system that will suggest cooking techniques based on the type of food item input by the user (e.g., 'vegetables', 'meat', etc.). Here is a simple version of Alex's code: Based on the code snippet, what would be a good test case to run to ensure that the app is suggesting appropriate cooking methods for different food items?\",\n    \"Answer1\": \"CookingMethods('fruits')\",\n    \"Answer2\": \"CookingMethods('water')\",\n    \"Answer3\": \"CookingMethods('meat')\",\n    \"Answer4\": \"CookingMethods('candy')\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The test case using 'meat' as an input will adequately test the app's ability to suggest appropriate cooking methods. Alex's program doesn't currently have a branch for 'fruits', 'water', or 'candy', and so calling the function with these items as parameters won't verify the system's expected behavior.\",\n    \"code_snippet\": \"action CookingMethods(text Food)\\n    if Food = \\\"vegetables\\\"\\n        output \\\"Steaming and Stir Fry.\\\"\\n    elseif Food = \\\"meat\\\"\\n        output \\\"Grilling, baking and broiling.\\\"\\n    else\\n        output \\\"Could not locate food item. Please try another.\\\" \\n    end\\nend\"\n}"
+}

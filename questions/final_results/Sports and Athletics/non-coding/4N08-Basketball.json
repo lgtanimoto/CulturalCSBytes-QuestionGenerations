@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N08",
+    "learning_objective": "Explain tradeoffs when selecting and implementing cybersecurity recommendations.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is the coach of a high school basketball team and they have just started using an online tool to manage their team's strategy and performance data. The tool recommends enabling two-factor authentication (2FA) to protect their account. However, Alex is concerned about the inconvenience this may cause during critical moments of games. What is the best course of action for Alex?\",\n    \"Answer1\": \"Alex should disregard the 2FA recommendation and focus on keeping the username and password secure.\",\n    \"Answer2\": \"Alex should enable 2FA for the account but share the 2FA codes with the team for convenience.\",\n    \"Answer3\": \"Alex should enable 2FA as it adds an additional layer of security, but also have a backup access plan for critical moments.\",\n    \"Answer4\": \"Alex should not use the platform at all to avoid security risks.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Two factor authentication adds a second level of authentication to an account log-in. While it may be less convenient as it requires an additional step to sign in, it's a much stronger defense against threats. However, Alex should also have a backup plan in case access to the second factor (like a mobile phone) is lost, especially during critical moments. Sharing passwords or 2FA codes weakens security and should be avoided.\"\n}"
+}

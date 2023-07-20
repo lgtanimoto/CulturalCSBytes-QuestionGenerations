@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is preparing to participate in a powerlifting competition. Alex has two different plans to follow. Plan A includes strength training with high weight and low repetitions, while Plan B includes endurance training with low weight and high repetitions. Which plan should Alex follow to prepare for the competition?\",\n    \"Answer1\": \"Plan A\",\n    \"Answer2\": \"Plan B\",\n    \"Answer3\": \"Follow both Plan A and Plan B simultaneously\",\n    \"Answer4\": \"Neither Plan A nor Plan B\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"For a powerlifting competition, one needs to lift the maximum amount of weight in one repetition. So Alex would benefit more from Plan A which includes high weight and low repetitions.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I18",
+    "learning_objective": "Discuss computing technologies that have changed the world, and express how those technologies influence, and are influenced by, cultural practices.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a food nutrition application that offers personalized meal suggestions based on a variety of factors such as the user's age, gender, activity levels, and geographical location. Alex needs to ensure that the foods included in the app take into account dietary practices and common food items consumed in various parts of the world. What is the primary challenge Alex faces in developing the application?\",\n    \"Answer1\": \"Conflicts due to dietary restrictions and cultural differences\",\n    \"Answer2\": \"The cost of data collection on international foods\",\n    \"Answer3\": \"The wide variety of food processing techniques\",\n    \"Answer4\": \"Exponential increase in the number of users due to popularity\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex's primary challenge is cultural differences and dietary restrictions that affect food choices, which significantly influence the objective of developing an inclusive and comprehensive dietary application. The app should accommodate food preferences and cultural norms of various regions while making personalized meal suggestions, or else it risks alienating some users by suggesting inappropriate or inaccessible food items.\"\n}"
+}

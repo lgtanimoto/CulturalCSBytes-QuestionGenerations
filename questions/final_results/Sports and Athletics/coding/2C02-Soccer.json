@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has discovered a game app that meticulously simulates soccer play-by-play. As they use the app and interact with it, which part of the device is acting like a referee, ensuring that all parts of the system collaborate well to deliver the soccer simulation to Alex?\",\n    \"Answer1\": \"The game app\",\n    \"Answer2\": \"The touch screen\",\n    \"Answer3\": \"The operating system\",\n    \"Answer4\": \"The battery\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The operating system plays the central role in interoperability, coordinating complex interactions involving the device's hardware and software. Much like a soccer referee, it ensures that all parts of the system are working in harmony, responding to the user's actions and delivering the required results.\",\n    \"code_snippet\": \"class SoccerApp\\n    action Main\\n        speak(\\\"Welcome to the Soccer game app!\\\")\\n        number plays = 0\\n        while plays < 90\\n            speak(\\\"Enter your commands\\\")\\n            text inputs = input()\\n            MovePlayer(inputs)\\n            plays = plays + 1\\n        end\\n        speak(\\\"The game is over!\\\")\\n    end\\n\\n    action MovePlayer(text inputs)\\n        // Simulation of player movement based on user commands\\n    end\\nend\"\n}"
+}

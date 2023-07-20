@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Everyday Life",
+    "topic": "Managing Special Dietary Needs and Allergies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is writing a software program to help the school cafeteria identify meals that are safe for students with dietary restrictions and allergies. The system has started flagging safe meals as unsafe, and doesn't identify which restriction has been violated, making it difficult for Alex to track down the issue. What systematic troubleshooting strategy can Alex employ to fix this error?\", \n    \"Answer1\": \"Ignore the problem and hope it goes away.\", \n    \"Answer2\": \"Randomly change parts of the code to see if it fixes the issue.\", \n    \"Answer3\": \"Isolate subsystems, enforcing dietary restrictions one at a time, to identify where the problem is occurring.\", \n    \"Answer4\": \"Send an angry email to the school board about the cafeteria's poor meal choices.\", \n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The best approach would be to enforce dietary restrictions one at a time to identify where the system is failing. This methodical approach can isolate the problem, making it easier to understand and fix.\"\n}"
+}

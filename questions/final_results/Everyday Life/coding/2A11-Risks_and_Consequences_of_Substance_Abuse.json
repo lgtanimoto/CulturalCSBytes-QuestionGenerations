@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Everyday Life",
+    "topic": "Risks and Consequences of Substance Abuse",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is given an assignment to develop a program that educates people about the graduated risks and consequences of substance abuse. The program will run as a sequence of actions starting from mild usage to substance addiction. The output should be a description of the impact at each level. In Alex's code snippet, they left comments on where they will implement each sequence. Based on the comments, what sequence should Alex add in the first phase, to give an output of the impact at the 'mild usage' level?\",\n    \"Answer1\": \"output \\\"Occasional use may result in minor health issues.\\\"\",\n    \"Answer2\": \"output \\\"Constant usage may lead to addiction.\\\"\",\n    \"Answer3\": \"output \\\"Just a test.\\\"\",\n    \"Answer4\": \"output \\\"Frequent usage results in serious health concerns.\\\"\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In this context, 'mild usage' corresponds to occasional or infrequent substance usage. This means Answer 1 is the right sequence to add to describe the impact at the 'mild use' level.\",\n    \"code_snippet\": \"action ImpactLevel ()\\n    //Action for Mild Usage\\n\\n    //Action for Moderate Usage\\n\\n    //Action for Frequent Usage\\n\\n    //Action for Substance Addiction\\nend\"\n}"
+}

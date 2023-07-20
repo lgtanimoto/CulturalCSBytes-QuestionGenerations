@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Everyday Life",
+    "topic": "Mindfulness and Meditation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a mindfulness and meditation mobile app. They are using a pretty decent smartphone for running and testing the app. They notice that every time they run the meditation timer feature, the app crashes. Other features run smoothly though. What could potentially be the reason for this specific feature causing the app to crash?\",\n    \"Answer1\": \"The Internet speed is slow\",\n    \"Answer2\": \"There are bugs in the code of the meditation timer feature\",\n    \"Answer3\": \"The operating system is outdated\",\n    \"Answer4\": \"The smartphone doesn't have enough storage space\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Despite the good smartphone specifications, if there are bugs in the coding of a specific feature in the application, it can lead to unintended consequences and cause the app to crash, even if other features run perfectly.\"\n}"
+}

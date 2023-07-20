@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is controlling the lights for their school\u2019s dance team performance. They use a mobile app that communicates with the lighting system to turn the lights on and off, adjust brightness, change colors, and control various light effects. How is the concept of abstraction evident in this scenario?\",\n    \"Answer1\": \"Alex needs to understand the internal electrical circuits of the lighting system.\",\n    \"Answer2\": \"Alex needs to manage the software programming of the mobile app.\",\n    \"Answer3\": \"Alex uses the app without knowing the underlying implementation details of the lighting system.\",\n    \"Answer4\": \"Alex must manually adjust each individual light by using switches and knobs.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In this scenario, the mobile app is an abstraction that hides the complex interactions between the software and hardware of the lighting system. Alex can easily control the lights without needing to know anything about the underlying implementation details, such as electrical circuits or software programming.\"\n}"
+}

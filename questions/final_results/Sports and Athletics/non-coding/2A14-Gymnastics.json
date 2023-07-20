@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to develop a program that calculates and displays gymnastics scores at their school's next competition. Alex found a program online that does exactly this, but it's copyrighted. What should Alex do?\",\n    \"Answer1\": \"Take the program, change a few variable names and claim it as their own\",\n    \"Answer2\": \"Copy and use the program without any changes\",\n    \"Answer3\": \"Write a new program from scratch without borrowing any idea\",\n    \"Answer4\": \"Get permission to use and properly attribute the source of the original program\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When creating or remixing programs, it's important to respect intellectual property rights and give appropriate attribution. If the program is copyrighted, Alex should get permission to use it, and if permitted to use, giving proper credit to the original source is mandatory.\"\n}"
+}

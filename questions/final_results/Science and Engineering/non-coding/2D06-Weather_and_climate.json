@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Science and Engineering",
+    "topic": "Weather and climate",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Emery has collected weather data for their city over the past year. The data shows the average temperature and rainfall for each month. Emery wants to prove the point that the month with the highest rainfall usually also has the lowest average temperature. Which type of graphic would help Emery best organize and present the data to support their claim?\",\n    \"Answer1\": \"Pie Chart\",\n    \"Answer2\": \"Line Graph\",\n    \"Answer3\": \"Histogram\",\n    \"Answer4\": \"Venn Diagram\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A line graph would be the best way to present the data since it can effectively show the relationship between two types of data over a period of time. In this case, the line graph can show the trend of average temperature and rainfall each month. This way, the correlation between a month with high rainfall (peak on one line) and low average temperature (dip on the other line) can be easily seen.\"\n}"
+}

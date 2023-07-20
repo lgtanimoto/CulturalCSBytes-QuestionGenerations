@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a high school track and field coach. They're developing a program to analyze the performance data of their athletes over the course of a season. They've created a bar chart visualization to track the improvement in time (in seconds) for each athlete. Alex notes that one of the athletes consistently improves their time by approximately 2 seconds every match. If this trend continues, what should Alex predict the athlete's time improvement to be after 5 matches?\",\n    \"Answer1\": \"4 seconds\",\n    \"Answer2\": \"6 seconds\",\n    \"Answer3\": \"10 seconds\",\n    \"Answer4\": \"12 seconds\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Given that the athlete improves consistently by 2 seconds every match, after 5 matches, they would have improved by 5 * 2 = 10 seconds.\",\n    \"code_snippet\": \"integer matches = 5\\ninteger improvementPerMatch = 2\\ninteger totalImprovement = matches * improvementPerMatch\\noutput totalImprovement\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friend Jordan are trying to create a communication system using a volleyball game. When Jordan does a specific gesture, Alex leaves a note under a rock. The gestures are like network protocols. What does the 'loss of a volleyball during a game' represent in network transmission?\",\n    \"Answer1\": \"Network outage\",\n    \"Answer2\": \"Empty IP address\",\n    \"Answer3\": \"Data buffering\",\n    \"Answer4\": \"Packet loss\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In networking terms, losing a volleyball during the game can be likened to packet loss, which is when data being sent over the network doesn't reach its destination.\"\n}"
+}

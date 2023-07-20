@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "Everyday Life",
+    "topic": "Common Health Issues and Chronic Conditions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a mobile app to help people manage their chronic conditions and common health issues. However, they receive some feedback from a user who has impaired vision, who explains that they are having difficulty reading certain text due to the color scheme used in the app. How can Alex improve the usability and accessibility of their app based on this feedback?\",\n    \"Answer1\": \"Ignore the feedback because one user's complaint does not represent all users\",\n    \"Answer2\": \"Increase the font size of all text in the app\",\n    \"Answer3\": \"Develop a completely new color scheme based on the top trending color palettes\",\n    \"Answer4\": \"Research and implement a color scheme that adheres to accessibility guidelines for users with vision impairment\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The best approach would be to adhere to guidelines specifically designed for accessibility. This would ensure that the usability of the application is improved for users with any form of vision impairment, not just the one who provided feedback.\"\n}"
+}

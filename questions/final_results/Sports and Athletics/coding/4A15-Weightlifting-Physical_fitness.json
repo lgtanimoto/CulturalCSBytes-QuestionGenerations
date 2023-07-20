@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A15",
+    "learning_objective": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to track the number of reps they do with different lifts in their fitness routine. What would be the most beneficial control structure for Alex to use to keep track of each of their lifts and how many reps they have done with each?\",\n    \"Answer1\": \"A switch statement with each case representing a different lift\",\n    \"Answer2\": \"A while loop that continues until Alex has finished their workout\",\n    \"Answer3\": \"An array with the index representing the lifts and the value representing the reps\",\n    \"Answer4\": \"A for loop that continues for a specific number of lifts\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"An array would allow Alex to have a specific place for each lift, and would allow them to easily keep track of the number of reps for each lift. This, in turn, simplifies their code and makes it more efficient. While loops and for loops would only work temporarily, and would require more code, and switch cases wouldn't allow for counting reps.\",\n    \"code_snippet\": \"integer[5] Lifts\\nLifts[0] = 10\\nLifts[1] = 12\\nLifts[2] = 15\\nLifts[3] = 8\\nLifts[4] = 20\\nfor each item in Lifts\\n    output item\\nend\"\n}"
+}

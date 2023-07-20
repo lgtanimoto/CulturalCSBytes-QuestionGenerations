@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "School and Career",
+    "topic": "Time Management and Organization",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to help manage their personal tasks and assignments. Alex has designed a function that takes the deadline of a task and the current date, and returns the number of days left to complete the task. Here is a portion of Alex's code:Given the code snippet, what action does function 'taskTimeLeft' perform?\",\n    \"Answer1\": \"It calculates the number of days left before an assignment is due\",\n    \"Answer2\": \"It checks if the assignment is overdue\",\n    \"Answer3\": \"It calculates the total time required to complete the assignment\",\n    \"Answer4\": \"It stores the details of the assignment in a database\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The function 'taskTimeLeft' subtracts the current date from the due date of the assignment, which gives the number of days left before the assignment is due. Thus, option 1 is correct.\",\n    \"code_snippet\": \"action taskTimeLeft(Date dueDate, Date currentDate) returns number\\n    number daysLeft = dueDate - currentDate\\n    return daysLeft\\nend\"\n}"
+}

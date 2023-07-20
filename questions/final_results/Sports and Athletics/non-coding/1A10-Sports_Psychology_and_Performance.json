@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A10",
+    "learning_objective": "Develop programs with sequences and simple loops, to express ideas or address a problem.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a high school basketball player who wants to improve their free throw shooting percentage. They learned in their psychology class that visualizing successful outcomes can help performance. With this in mind, they decide to write a program that simulates making 10 out of 10 free throw shots. This program runs every night before Alex goes to sleep in hope of improving their performance. Which of the following pseudocode best represents the program Alex needs to design?\",\n    \"Answer1\": \"for each shot from 1 to 10: print 'Missed'\",\n    \"Answer2\": \"for each shot from 1 to 10: print 'Scored'\",\n    \"Answer3\": \"while not asleep: print 'Missed' for each shot from 1 to 10\",\n    \"Answer4\": \"while not asleep: print 'Scored' for each shot from 1 to 10\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex is visualizing successful outcomes - thus, they want to simulate making all the shots. The second option - using a simple loop to print 'Scored' for each shot - is the correct pseudocode representation of what Alex is trying to achieve.\"\n}"
+}

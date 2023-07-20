@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I30",
+    "learning_objective": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics.",
+    "interest_area": "School and Career",
+    "topic": "Time Management and Organization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is involved in multiple activities in their school and feels that they aren't managing their time well. They want to download an app to help organize their schedule. Before downloading the app, they read the app's privacy policy and learn that the app tracks the user's location and sells the data to third-party companies. Why might this be a concern to Alex?\",\n    \"Answer1\": \"Alex doesn\u2019t care about the privacy policy, because they just want the benefits of the app.\",\n    \"Answer2\": \"Alex is not concerned because they have nothing to hide.\",\n    \"Answer3\": \"Alex could be worried because the data could be used for illegal or unethical activities.\",\n    \"Answer4\": \"Alex's primary concern is how the app could help manage their tasks.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Even when Alex isn\u2019t doing anything illegal or shady, it's still important to protect their privacy. This is due to the risk of their information getting into the wrong hands and potentially being used for illegal or unethical activities.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Science and Engineering",
+    "topic": "Organism growth and reproduction",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a biology project about the growth and reproduction of a special type of bacteria. Alex knows that these bacteria reproduce by dividing into two every hour. Alex started with a single bacteria at 9:00 AM.  How many bacteria will Alex have in their petri dish at 5:00 PM if none of the bacteria die?\",\n    \"Answer1\": \"64\",\n    \"Answer2\": \"256\",\n    \"Answer3\": \"512\",\n    \"Answer4\": \"128\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Bacteria multiply by doubling every hour. So, the number of bacteria in the petri dish will be 2 to the power of hours. By 5:00 PM, 8 hours have passed, so there will be 2^8 or 512 bacteria.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are working on a project to develop a fantasy football application. What steps can they take to ensure that tasks are distributed properly and the project timeline is maintained?\",\n    \"Answer1\": \"Alex assigns all tasks to themselves to ensure everything is done correctly and on time\",\n    \"Answer2\": \"Alex and their team distribute tasks according to their skills and interests, and they follow a timeline with clear deadlines\",\n    \"Answer3\": \"Alex and their team work on tasks as they come up without any specific distribution of roles\",\n    \"Answer4\": \"Alex assigns the hardest tasks to the strongest team member\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"To effectively collaborate on a project, tasks should be distributed based on team members' skills and interests. A clear timeline with achievable deadlines also helps to keep the project on track. Working as a team also means recognizing and utilizing everyone's strengths, not overloading certain members with the most complex tasks.\"\n}"
+}

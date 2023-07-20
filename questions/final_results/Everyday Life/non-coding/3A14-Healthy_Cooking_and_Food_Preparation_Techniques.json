@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Everyday Life",
+    "topic": "Healthy Cooking and Food Preparation Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is compiling a digital cookbook designed to help people prepare healthful meals at home. They want a program to calculate the total cooking time for all the selected recipes. For this, Alex is thinking about creating a procedure with parameters to help with the task. Which of the following procedures would be the most appropriate to use in this situation?\",\n    \"Answer1\": \"Procedure CalculateCookingTime()\",\n    \"Answer2\": \"Procedure CalculateCookingTime(recipeName)\",\n    \"Answer3\": \"Procedure CalculateCookingTime(recipeName, numberOfGuests)\",\n    \"Answer4\": \"Procedure CalculateCookingTime(int numberOfRecipesSelected, int averageMinutesPerRecipe)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The most accurate way to calculate the total cooking time is to consider the number of selected recipes and their corresponding average cooking time per recipe. Hence, answer 4 - Procedure CalculateCookingTime(int numberOfRecipesSelected, int averageMinutesPerRecipe) - is an appropriate choice.\"\n}"
+}

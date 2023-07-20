@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Everyday Life",
+    "topic": "Conflict Resolution and Problem-Solving",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of their school's student council and is given the task of collecting data on conflicts within the student body over the past year. Alex has data on the type, frequency, participants, and resolution of these conflicts. Alex wants to present this data in a way that allows the school administration to understand the common causes of conflicts and most effective resolutions. Which formats could Alex use to present this data effectively?\",\n    \"Answer1\": \"Bar chart only\",\n    \"Answer2\": \"Line graph only\",\n    \"Answer3\": \"Pie chart and Line graph\",\n    \"Answer4\": \"Bar chart and Pie chart\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To display the frequency and type of conflicts, a bar chart may be the most effective way as it can clearly show the distribution of different conflict types. A pie chart can be used to represent the percentage of each conflict resolution method used, highlighting the most commonly used resolution method. A line graph isn't appropriate here as it is better suited for showing trends over time rather than categorical data.\"\n}"
+}

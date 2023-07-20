@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "School and Career",
+    "topic": "Goal Setting and Motivation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team have developed a Goal Setting and Motivation app. The app however has been receiving user feedback that the goal tracking feature is not intuitive and users are having difficulty navigating through it. How should Alex apply this feedback to refine their solution and better meet user needs?\",\n    \"Answer1\": \"Ignore the feedback since the app is already developed and redoing it would take a lot of work\",\n    \"Answer2\": \"Provide a manual on how to use the goal tracking feature\",\n    \"Answer3\": \"Incite the users to get used to the functionality and not change anything\",\n    \"Answer4\": \"Analyze the feedback, seek suggestions from team members, and incorporate changes in the application to make the goal tracking feature more intuitive and user-friendly\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Feedback is essential for improving a software solution. Feedback is not only to be accepted but should be sought actively. The best response to constructive feedback is to analyze it, discuss the issue with the team, plan, and incorporate the required changes.\"\n}"
+}

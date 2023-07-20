@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "School and Career",
+    "topic": "Financial Literacy and Money Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to budget their monthly allowance of $200. They are planning to save 30%, use 50% on their needs and spend the rest on their wants. Write a pseudocode to calculate and display how much money Alex is allocating for savings, needs, and wants.\",\n    \"Answer1\": \"allowance = 200savings = allowance * 0.30needs = allowance * 0.50wants = allowance - savings - needsoutput savings, needs, wants\",\n    \"Answer2\": \"allowance * 0.30 = savingssavings + needs + wants = allowanceoutputsavings, needs, wants\",\n    \"Answer3\": \"savings = 200 * 0.30needs = 200 * 0.50wants = allowance - savings - needsoutput savings, needs, wants\",\n    \"Answer4\": \"allowance = 200savings = 0.3needs = 0.5wants = allowance - savings - needsoutput savings, needs, wants\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Pseudocode does not have a defined structure since it doesn't need to be compiled or executed. It is used to show logic. Therefore, it is best to define all our variables first, perform operations on them, and then output the results. In this case, allowance, savings, needs, and wants are the variables and print is used to output the results.\"\n}"
+}

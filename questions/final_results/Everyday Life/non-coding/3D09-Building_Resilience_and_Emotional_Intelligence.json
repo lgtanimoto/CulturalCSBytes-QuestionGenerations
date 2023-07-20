@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Resilience and Emotional Intelligence",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been using a mood tracking app to monitor their emotional responses to certain situations. They have noticed that they tend to feel more anxious on days when they have a lot of homework. After a couple of weeks of tracking, their raw data shows that their anxiety levels rise by 30% on high homework days. Now they are trying to build a computational model to predict their anxiety levels. They initially assumed that their anxiety levels rose by only 20% on heavy homework days. What should Alex do based on the data they have generated?\",\n    \"Answer1\": \"Adjust the model to predict a 20% rise in anxiety levels on heavy homework days.\",\n    \"Answer2\": \"Adjust the model to predict a 30% rise in anxiety levels on heavy homework days.\",\n    \"Answer3\": \"Keep the model the same because the initial assumption was close to the real data.\",\n    \"Answer4\": \"No need to adjust the model because the percentage increase can't be predicted accurately.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While the initial assumption was close, it's important to refine data models based on actual data to improve their precision. Therefore, Alex should adjust their model so that it predicts a 30% rise in anxiety levels on high homework days.\"\n}"
+}

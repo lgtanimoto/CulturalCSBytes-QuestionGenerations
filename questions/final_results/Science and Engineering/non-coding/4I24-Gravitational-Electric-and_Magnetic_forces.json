@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Science and Engineering",
+    "topic": "Gravitational, Electric, and Magnetic forces",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying the effects of gravitational, electric, and magnetic forces on objects. They are conducting each experiment using a computer simulation. While preparing the report, they need to assess not only their scientific findings but also the computing aspects involved. Which of the following is the best approach Alex can take to evaluate the computing impacts on their experiments?\",\n    \"Answer1\": \"Assess the accuracy of simulation results in comparison to real-world results and evaluate if the computational method is more effective than traditional methods.\",\n    \"Answer2\": \"Determine if the simulations speed up the experiment process and do not require any human intervention.\",\n    \"Answer3\": \"Evaluate if having the ability to conduct these experiments in a computerized environment allows them to expand the scope of their experiments.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex should consider all aspects including accuracy, efficiency, human intervention, and scope expansion while evaluating the computing impacts on their experiments.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Science and Engineering",
+    "topic": "Photosynthesis, food, and energy in organisms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Just as plants perform photosynthesis to convert light energy into chemical energy, storing it as glucose, computers require a power supply to convert electrical energy into a form that is usable by the computer's components. If Alex's computer suddenly shuts down due to issues with its power supply, what is the most likely effect on the computer's system and data?\",\n    \"Answer1\": \"Nothing, as the computer will operate normally once power is restored\",\n    \"Answer2\": \"Unsaved data will be lost, but saved data and the operating system will remain unaffected\",\n    \"Answer3\": \"Both saved and unsaved data will be lost, but the operating system will remain unaffected\",\n    \"Answer4\": \"Both the operating system and all data will be affected\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Any unsaved data will be lost as it is stored in RAM, which is volatile memory that requires a power source to maintain the data it holds. When a computer loses power abruptly, the data in RAM disappears. However, saved data, which is stored on non-volatile storage devices like hard drives and SSDs, remains safe, and the operating system will not be affected as it is also stored in non-volatile memory.\"\n}"
+}

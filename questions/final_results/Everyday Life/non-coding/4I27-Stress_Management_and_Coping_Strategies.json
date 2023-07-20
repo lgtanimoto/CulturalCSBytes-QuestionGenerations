@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Everyday Life",
+    "topic": "Stress Management and Coping Strategies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an up and coming software developer. They are currently working on a project with a team scattered across multiple time zones. They've noticed a significant amount of stress and miscommunication due to the different time zones, causing delays in project development. Alex wants to propose a new tool or method to better manage this stress and improve team collaboration and communication. What would be the best suggestion for Alex to propose to their team?\",\n    \"Answer1\": \"To start using a project management tool like Slack or Trello for better communication and effective time management.\",\n    \"Answer2\": \"To insist that everyone works according to Alex's local time zone schedule.\",\n    \"Answer3\": \"To use a more complicated coding software that requires a stronger skill set in order to finish the project faster.\",\n    \"Answer4\": \"To demand that everyone work longer hours to complete the project on time.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Consideration of communication tools such as Slack or Trello allows for better collaboration and efficiency while respecting the time zones and work schedules of all team members. This would lead to improved project management and reduced stress within the team.\"\n}"
+}

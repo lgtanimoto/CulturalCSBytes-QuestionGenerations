@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a meal planning app that uses an algorithm to generate balanced meals based on user's dietary preferences and calorie goals. The algorithm analyses the nutrition information of various foods and tries to combine them in a way that will meet the daily recommended intake of various nutrients. How could this algorithm be applied to problems in other disciplines?\",\n    \"Answer1\": \"In sports, to create optimal training routines based on an athlete's current performance and their training goals.\",\n    \"Answer2\": \"In finance, to create a diversified investment portfolio based on an investor\u2019s risk tolerance and financial goals.\",\n    \"Answer3\": \"In environmental science, to create sustainable farming plans based on the crop's nutrient needs and the soil's nutrient content.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The algorithm is essentially a optimization problem where the goal is to maximize or minimize a certain parameter (nutrition intake, performance, financial risk, crop yield) under certain constraints (calorie goals, training time, financial goals, soil nutrients). This type of problem is common across many disciplines.\"\n}"
+}

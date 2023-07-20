@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Everyday Life",
+    "topic": "Sleep and Restorative Practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a mobile application that tracks sleep patterns and makes recommendations for restorative practices. Alex found a third-party code library that perfectly fits their needs for this project. The code library is licensed under the GNU General Public License, which requires that all derivative works also be distributed under the same license. Alex wants to use this code library but plans to sell their app on the App Store. What should Alex do?\",\n    \"Answer1\": \"Alex can use the code library without attributing it to the original author since it fits perfectly with their app.\",\n    \"Answer2\": \"Alex should contact the author of the code library and request permission to use it in a commercial app.\",\n    \"Answer3\": \"Alex should use the code library and distribute their app under the GNU General Public License, crediting the author of the code library.\",\n    \"Answer4\": \"Alex should completely rewrite the code library themselves, thus avoiding any licensing issues.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Even though Alex wants to sell their app, the GPL license allows for this as long as they also distribute their app under the same license and give credit to the original author of the library. This requires that Alex's code also be made available for others to see and modify.\"\n}"
+}

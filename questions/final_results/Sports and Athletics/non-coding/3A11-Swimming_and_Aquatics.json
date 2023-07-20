@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A11",
+    "learning_objective": "Create clearly named variables that represent different data types and perform operations on their values.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a swimmer participating in a competition where they have to swim as many times as they can. They were able to swim a total of 30 laps in the pool. For each lap, Alex took 2 minutes. Calculate how much time Alex took to swim the 30 laps.\",\n    \"Answer1\": \"action GetTotalTime(LapCount) returns numbervariable TimePerLap = 2.0variable TotalTime = LapCount * TimePerLapreturn TotalTimeend\",\n    \"Answer2\": \"action GetTotalTime(LapCount) returns numbervariable TimePerLap = 2.0variable TotalTime = LapCount * TimePerLapreturn TimePerLapend\",\n    \"Answer3\": \"action GetTotalTime(LapCount) returns numbervariable TimePerLap = 2.0variable TotalTime = LapCount + TimePerLapreturn TotalTimeend\",\n    \"Answer4\": \"action GetTotalTime(LapCount) returns numbervariable TimePerLap = 2.0variable TotalTime = LapCount / TimePerLapreturn TotalTimeend\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct function initializes the variables TotalTime= 0 and TimePerLap= 2. Multiplying the number of laps by the time it takes to complete one lap gives us the TotalTime it took for Alex to swim all the laps.\"\n}"
+}

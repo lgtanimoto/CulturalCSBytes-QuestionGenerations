@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "Science and Engineering",
+    "topic": "Forces and acceleration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has decided to build a custom computer. They need a device designed to rotate and move air to cool down the components of the computer. What is the correct technical name for this device?\",\n    \"Answer1\": \"Heat sink\",\n    \"Answer2\": \"Liquid coolers\",\n    \"Answer3\": \"Fans\",\n    \"Answer4\": \"Radiators\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Fans are used in computers to move air and cool down the components. Heat sinks dissipate heat in the area of a heat-producing component, and liquid coolers or radiators also dissipate heat but via different mechanisms.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I19",
+    "learning_objective": "Brainstorm ways to improve the accessibility and usability of technology products for the diverse needs and wants of users.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has just started attending a fitness center and wants to use a popular weightlifting app to track their exercises. However, when setting up their account, they realize the app only has two gender options: male and female. Frustrated by this lack of representation, Alex starts to think of ways to make the app more accessible and inclusive for people of all genders, including nonbinary and transgender people as well. Which of the following options would NOT improve the accessibility and inclusion in the weightlifting app?\",\n    \"Answer1\": \"Include more gender options in the profile setup process, such as non-binary, transgender, prefer not to say, and an option to enter a custom gender\",\n    \"Answer2\": \"Include a pronoun selection option in user profiles\",\n    \"Answer3\": \"Offer a variety of training programs inclusive to all genders\",\n    \"Answer4\": \"Keep the two gender options, but include a statement in the app's privacy policy that it respects all gender identities\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While including a statement in the app's policy about respecting all genders may express intentions of inclusivity, it does not actively make any changes to ensure accessibility and inclusivity. Adding more gender options, adding a pronoun selection, and providing inclusive training programs are actionable changes that promote accessibility and inclusivity.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "School and Career",
+    "topic": "Self-Assessment: Identifying Interests, Skills, and Values",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has always been interested in art and design. They recently won a poster design contest and consider starting to pursue a career in graphic design. They enjoy using a tablet illustrate their designs, but currently they are using a normal laptop. Which internal parts upgrade will enhance Alex's graphic design workflow?\",\n    \"Answer1\": \"Installing a new graphics card\",\n    \"Answer2\": \"Increasing the hard disk storage\",\n    \"Answer3\": \"Upgrading to a faster processor\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"For graphic design, all three options would enhance Alex's workflow. A new graphics card would help render images and designs faster, more hard disk storage would allow Alex to store larger design files, and a faster processor would speed up overall performance.\"\n}"
+}

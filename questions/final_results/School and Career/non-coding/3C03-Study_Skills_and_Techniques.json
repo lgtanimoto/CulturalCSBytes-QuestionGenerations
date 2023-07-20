@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C03",
+    "learning_objective": "Systematically identify and fix problems with computing devices and their components.",
+    "interest_area": "School and Career",
+    "topic": "Study Skills and Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to study for an upcoming computer science exam but when they try to turn on their computer it is not starting. What systematic steps should they follow to troubleshoot this problem?\",\n    \"Answer1\": \"Unplug all peripherals, restart the computer, and check if the problem persists.\",\n    \"Answer2\": \"Install another operating system to see if it works.\",\n    \"Answer3\": \"Replace the computer's battery.\",\n    \"Answer4\": \"Smack the side of the computer to see if that jolts it into starting.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Before drastic measures are taken such as replacing components or installing another operating system, initial troubleshooting should be non-destructive and non-intrusive. The most logical step would be to first remove any peripherals (printer, mouse, external hard drive) as these could be causing the issue; then attempt to restart the computer.\"\n}"
+}

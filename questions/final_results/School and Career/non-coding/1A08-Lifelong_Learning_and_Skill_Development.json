@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "School and Career",
+    "topic": "Lifelong Learning and Skill Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is wanting to learn a new skill each month. The skills range from learning a musical instrument to mastering a cooking technique. Write the steps Alex could follow to learn a new skill each month.\",\n    \"Answer1\": \"Alex chooses a skill and leaves it for the month.\",\n    \"Answer2\": \"Alex picks a skill and practices it only when they feels like it.\",\n    \"Answer3\": \"Alex randomly picks a skill every day and tries to learn it.\",\n    \"Answer4\": \"Alex picks a skill at the start of the month, sets regular practice times, seeks out resources to help them learn, gets a mentor if possible, and reviews their progress at the end of the month.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"An algorithm is a step-by-step series of instructions. This timeline offers a way Alex can effectively master a new skill every month.\"\n}"
+}

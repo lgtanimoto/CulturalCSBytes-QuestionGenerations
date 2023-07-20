@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex's team is tasked with coding a traffic signal program for a small town. Alex is in charge of creating the code for the main intersection's traffic signals. Their task is to ensure the traffic light does its normal cycle: green for 60 seconds, yellow for 5 seconds, and red for 55 seconds. Based on the above context, which role will best suit Alex in the project?\",\n    \"Answer1\": \"Traffic Signal Designer\",\n    \"Answer2\": \"Project Manager\",\n    \"Answer3\": \"Town Planner\",\n    \"Answer4\": \"Coding Specialist\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"As Alex is responsible for creating the traffic signal program, they would most closely fit the role of a 'Traffic Signal Designer'. The other roles do not specifically relate to Alex's task of designing and coding the traffic signal system.\"\n}"
+}

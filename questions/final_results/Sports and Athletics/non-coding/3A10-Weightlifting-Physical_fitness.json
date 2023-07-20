@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A10",
+    "learning_objective": "Use flowcharts and/or pseudocode to address complex problems as algorithms.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program for a fitness robot trainer to guide them through a workout. The workout will consist of warm-up, weightlifting for a set number of reps per exercise, cooldown, and then stop. Which of the following are the correct flowchart or pseudocode for Alex's program?\",\n    \"Answer1\": \"Start -> WarmUp -> Repeat 10 times: Lifting -> CoolDown -> Stop\",\n    \"Answer2\": \"Start -> Repeat 10 times: Lifting -> WarmUp -> CoolDown -> Stop\",\n    \"Answer3\": \"WarmUp -> Repeat 10 times: Lifting -> CoolDown -> Stop\",\n    \"Answer4\": \"Start -> WarmUp -> Repeat 10 times: Lifting, CoolDown -> Stop\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct sequence for a workout is: Warmup first, do the weightlifting for a set number of reps, then cooldown. Finally, the program should stop. Therefore, the Start -> WarmUp -> Repeat 10 times: Lifting -> CoolDown -> Stop flowchart or pseudocode correctly represents Alex's program.\"\n}"
+}

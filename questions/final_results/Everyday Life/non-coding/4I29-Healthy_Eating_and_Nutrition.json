@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I29",
+    "learning_objective": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users.",
+    "interest_area": "Everyday Life",
+    "topic": "Healthy Eating and Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex decides to embark on a journey towards healthier eating and subscribes to a popular health and nutrition mobile app, which tracks their food intake, exercises, and even sleep patterns through automated processes. What could be an outcome of these automated processes that may directly contradict Alex's expected privacy?\",\n    \"Answer1\": \"The app will not have access to any other data on Alex's device, only those directly relevant to their diet and exercise habits.\",\n    \"Answer2\": \"The app will only store data on Alex's device, and not on any external server.\",\n    \"Answer3\": \"The app could be collecting additional data not directly relevant to Alex's diet and exercise habits, without Alex's knowledge.\",\n    \"Answer4\": \"The app will not be able to make any recommendations for Alex's diet or exercise habits as it cannot analyze the data it collects.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While most apps provide privacy policies, these documents are often complex and difficult for users to fully understand. As a result, users, including Alex, may not be fully aware that some apps continue to collect user data even when not directly related to their primary function. This may result in users unknowingly giving permission for their data to be used for purposes such as advertising, or shared with third parties, both of which can be considered as privacy concerns.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Business",
+    "topic": "International Business and Globalization",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a computer program to analyze the globalization impact on international business. The program will take statistical inputs on different business sectors and create comprehensive reports. An initial part of the program structure would be the code below:Which of the instructions was run first in these actions?\",\n    \"Answer1\": \"The procedure named Startup()\",\n    \"Answer2\": \"The variable declaration implementation named Statistics \",\n    \"Answer3\": \"The variable declaration named Business\",\n    \"Answer4\": \"The input given to the function named Report()\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The Startup procedure was executed first. Since it's the initial action of the program, it is usually designed to set up the necessary conditions or variables for the program. Here, the Startup procedure is likely initializing the Business and Statistics variables.\",\n    \"code_snippet\": \"action Startup()\\n    number Business = 0\\n    number Statistics = 0\\nend\\n\\naction CheckBusinessStatistics(number Business, number Statistics)\\n     if Business > Statistics \\n         output \\\"The business is doing well.\\\"\\n     else\\n         output \\\"Statistics indicate need for improvement.\\\"\\n     end\\nend\\n\\naction Report()\\n    CheckBusinessStatistics(Business, Statistics)\\nend\"\n}"
+}

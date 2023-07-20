@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Track and Field/Cross Country",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is planning on developing an artificial intelligence (AI) system that will provide coaching advice for track and field athletes. Alex wishes to train the AI on data from elite athletes. Alex also wants the system to be usable by athletes of all levels, genders, and from different geographic locations. What should Alex be considering to reduce bias and equity deficits in the coaching advice provided by the AI system?\",\n    \"Answer1\": \"Alex should only consider the training data of the top performing athletes from around the world, thereby ensuring best advice.\",\n    \"Answer2\": \"Alex should not consider the gender of athletes in training data as there is no difference between male and female athletes in terms of performance.\",\n    \"Answer3\": \"Alex should ensure a diverse data sample in terms of athletic level, gender and geography to get a balanced view of training techniques and requirements.\",\n    \"Answer4\": \"Alex's system should only provide advice to sprinters, as they are the most valued athletes in track and field.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To reduce bias and increase equity in the AI system, Alex should train the AI on a diverse data sample. This means considering athletes from a broad range of skill levels, taking into account gender specific training requirements, and considering practices from all geographic locations.\"\n}"
+}

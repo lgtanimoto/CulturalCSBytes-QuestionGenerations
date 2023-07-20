@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A10",
+    "learning_objective": "Develop programs with sequences and simple loops, to express ideas or address a problem.",
+    "interest_area": "Science and Engineering",
+    "topic": "Gravitational, Electric, and Magnetic forces",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to simulate the gravitational, electric, and magnetic forces acting on a small object in their game. They have code that runs but doesn't produce the right amount of force. In the code, 'g' stands for gravity, 'e' for electric, and 'm' for magnetic. What change should Alex make to correctly calculate the total force acting on the object?\",\n    \"Answer1\": \"Modify line 3: totalForce = totalForce + g\",\n    \"Answer2\": \"Modify line 4: totalForce = totalForce - e\",\n    \"Answer3\": \"Modify line 5: totalForce = totalForce * m\",\n    \"Answer4\": \"Modify line 2: number totalForce = 0.0\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In line 2, Alex set the initial totalForce to 1.0. However, this is incorrect because we want to start our sum from 0. Alex should modify line 2 to 'number totalForce = 0.0' so that each force is added freshly to the totalForce without any initial conditions affecting the sum.\",\n    \"code_snippet\": \"number g = 9.81\\nnumber totalForce = 1.0\\nnumber e = 1.0\\nnumber m = 0.5\\ntotalForce = totalForce + g\\ntotalForce = totalForce + e\\ntotalForce = totalForce + m\\noutput totalForce\"\n}"
+}

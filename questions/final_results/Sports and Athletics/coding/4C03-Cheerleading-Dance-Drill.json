@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing code for their school's drill team to evaluate each team member's steps according to the synchronized rhythm. Alex's peer is struggling to understand the function below. What explanatory comment should Alex provide for this code snippet?\",\n    \"Answer1\": \"// The function takes two parameters and calculates their product\",\n    \"Answer2\": \"// The function calculates the sum of total steps and steps not in rhythm in a dance routine\",\n    \"Answer3\": \"// The function calculates the percentage of steps in rhythm in a dance routine\",\n    \"Answer4\": \"// The function provides the difference between total steps and steps in rhythm in a dance routine\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The function rhythmEvaluator takes two parameters: total_steps and steps_not_in_rhythm. It calculates the difference between total_steps and steps_not_in_rhythm, divides it by total_steps and then multiplies by 100 to get the percentage of steps in rhythm. Hence Alex should advise the peer that the function calculates the percentage of steps in rhythm in a dance routine.\",\n    \"code_snippet\": \"action rhythmEvaluator(integer total_steps, integer steps_not_in_rhythm)\\n    return ((total_steps - steps_not_in_rhythm) / total_steps) * 100\\nend\"\n}"
+}

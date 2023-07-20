@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a volleyball player and a coding enthusiast. They decided to create a fun challenge for their team which involves both volleyball and coding. They displayed the binary representation of the numbers 1 through 15 on the volleyball court. The task for their team is to convert these binary numbers into decimal numbers by hitting the balls placed on the correct spots on the court in the order of a decimal number. For example, for number 5, the balls placed on the spots representing 4 and 1 should be hit. Which of the following pairs of binary numbers would they need to hit to represent number 12?\",\n    \"Answer1\": \"1100 (8 and 4)\",\n    \"Answer2\": \"1010 (8 and 2)\",\n    \"Answer3\": \"1001 (8 and 1)\",\n    \"Answer4\": \"1110 (8, 4 and 2)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In binary representation, the spots on the court represent the powers of 2 (1, 2, 4, 8, 16, etc.). To represent the decimal number 12, the spots representing 8 (2^3) and 4 (2^2) should be hit. Therefore, the binary representation for 12 is 1100.\"\n}"
+}

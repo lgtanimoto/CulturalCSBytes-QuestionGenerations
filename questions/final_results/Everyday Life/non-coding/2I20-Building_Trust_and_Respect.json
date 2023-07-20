@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Trust and Respect",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is building a website for their school club. The website contains information about the club, upcoming activities, and a photo gallery of past events. Alex wants to create a welcoming and inclusive environment. They decide to seek reviews and feedback from diverse sources including students within and outside of the club, teachers, alumni, and parents. Why is Alex seeking diverse perspectives in this case?\",\n    \"Answer1\": \"To ensure that the website is functioning well and free of glitches\",\n    \"Answer2\": \"To increase the number of visitors to the website\",\n    \"Answer3\": \"To improve the website based on a wide range of viewpoints and experiences, making it more inclusive and welcoming\",\n    \"Answer4\": \"To compile a list of errors and mistakes on the website\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Seeking diverse perspectives allows Alex to gather various viewpoints and experiences. This information can make the website more user-friendly, inclusive, and appealing for everyone\"\n}"
+}

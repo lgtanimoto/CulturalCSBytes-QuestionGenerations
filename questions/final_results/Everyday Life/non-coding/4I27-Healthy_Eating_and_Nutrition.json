@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Everyday Life",
+    "topic": "Healthy Eating and Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are developing an international recipe application. The users of the app can share and view recipes from all over the world in order to promote cultural exchange, healthy eating, and nutrition. They are now selecting a project management tool for their team, which is distributed across the world. Which tool can be most beneficial for Alex and their team?\",\n    \"Answer1\": \"A task tracking system to assign tasks, track progress and make sure all tasks are accomplished.\",\n    \"Answer2\": \"A code sharing system to share and collaborate on the project's code.\",\n    \"Answer3\": \"A video conferencing tool to hold regular team meetings and discuss project progress.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Collaborating on a project across different cultures and career fields often requires utilising a variety of tools. Task tracking systems can help manage tasks, code sharing systems help with code collaboration, and video conferencing tools help with communication.\"\n}"
+}

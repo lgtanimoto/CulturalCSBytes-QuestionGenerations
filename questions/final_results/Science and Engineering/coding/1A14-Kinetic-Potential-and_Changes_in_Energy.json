@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Science and Engineering",
+    "topic": "Kinetic, Potential, and Changes in Energy",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to develop a roller coaster simulation program. They need to calculate the kinetic, potential, and change in energy for the roller coaster over time. However, there seems to be a problem with the calculation of the total energy. Alex is getting the potential energy as zero. What correction should Alex make in the energy calculation program?\",\n    \"Answer1\": \"Modify line 4: totalEnergy = kineticEnergy + potentialEnergy\",\n    \"Answer2\": \"Modify line 3: potentialEnergy = mass * height\",\n    \"Answer3\": \"Modify line 1: while hasNextNumber()\",\n    \"Answer4\": \"Modify line 5: output totalEnergy\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The potential energy calculation formula is incorrect in the program. It should be potentialEnergy = mass * gravity * height. So, correcting the potential energy calculation to potentialEnergy = mass * height would resolve the issue.\",\n    \"code_snippet\": \"number kineticEnergy = 0.5 * mass * speed * speed\\nnumber potentialEnergy = mass * gravity\\nnumber totalEnergy = kineticEnergy\\nif potentialEnergy > 0\\n    totalEnergy = totalEnergy + potentialEnergy\\nend\\noutput totalEnergy\"\n}"
+}

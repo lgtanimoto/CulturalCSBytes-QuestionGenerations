@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a big fan of soccer and they follow multiple international soccer leagues. They have compiled a database where they store team names, player names, player's goals, and assists. Alex wants to retrieve a list of players who have over 10 goals and over 10 assists. Which of the following commands will help Alex retrieve such player data?\",\n    \"Answer1\": \"SELECT player_name FROM soccer_table WHERE goals>10 AND assists>10;\",\n    \"Answer2\": \"SELECT player_name FROM soccer_table WHERE goals=10 AND assists=10;\",\n    \"Answer3\": \"SELECT player_name FROM soccer_table WHERE goals<10 OR assists<10;\",\n    \"Answer4\": \"SELECT player_name FROM soccer_table WHERE goals>=10 AND assists>=10;\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The SQL statement in Answer 1 is correct. When we want to retrieve data based on more than one condition, we can use the AND / OR clauses. Answer 1 will retrieve players who have scored more than 10 goals and have more than 10 assists.\"\n}"
+}

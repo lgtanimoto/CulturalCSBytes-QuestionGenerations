@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "School and Career",
+    "topic": "Study Skills and Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is preparing for a high-stakes comprehensive examination. They decide to utilize their programming skills and knowledge to better manage this daunting task. How could they break down this problem or task into manageable subtasks to facilitate their studying process?\",\n    \"Answer1\": \"Alex could create a program to assess the entire syllabus, discussing all topics at once.\",\n    \"Answer2\": \"Alex could create a program that randomly picks a topic from the syllabus each day for them to study.\",\n    \"Answer3\": \"Alex could create a program to section the syllabus into key topics, then break down each topic into subtopics, to achieve a more structured study routine.\",\n    \"Answer4\": \"Alex could write a program that requires them to rewrite the entire syllabus.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Decomposing or breaking problems down into smaller, manageable subproblems is a key principle in computer science that helps to facilitate problem solving. In this case, Alex could best apply this principle by breaking down the comprehensive examination study material into key topics and further into subtopics, creating a more structured and manageable study routine.\"\n}"
+}

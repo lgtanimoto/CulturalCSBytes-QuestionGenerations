@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "Science and Engineering",
+    "topic": "Weather and climate",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Meteorologist Alex is conducting a climate research on the annual rainfall in a specific area for the past 50 years. They have collected a vast amount of data and stored it on a network file server at their workplace, protected by their personal password. One of the colleagues, who is aware about the importance of Alex's data, advises them to upgrade the strength of their password. What should Alex consider while creating a new, stronger password?\",\n    \"Answer1\": \"Their favorite color combined with the current year\",\n    \"Answer2\": \"A three digit number followed by their first name\",\n    \"Answer3\": \"A blend of uppercase and lowercase letters, numbers and symbols\",\n    \"Answer4\": \"The name of their favorite movie\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A strong password is critical for data protection. The strongest passwords are those that combine upper and lower case letters, numbers, and symbols. Additionally, they should not be common phrases or personal information, as these can easily be guessed.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I18",
+    "learning_objective": "Discuss computing technologies that have changed the world, and express how those technologies influence, and are influenced by, cultural practices.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a gymnastics enthusiast, has been watching the sport evolve over the years. They noticed that there has been a drastic change in scoring methodology with the introduction of a computerized scoring system. The system considers not just the completion of the exercise, but also the complexity of the technique and the level of execution. What was a significant influence of the integration of this computer technology in Gymnastics?\",\n    \"Answer1\": \"The athletes started focusing only on perfecting the landing of each technique to maximize their score.\",\n    \"Answer2\": \"The athletes started exploring more complex techniques in their routines to score higher.\",\n    \"Answer3\": \"The athletes started delivering crowd-pleasing performances that had less complex techniques but more aesthetics.\",\n    \"Answer4\": \"The athletes started lobbying for their scores to be based on their personal records and not just one performance.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The introduction of the computerized scoring system placed more emphasis on the complexity of the techniques and the level of execution. As a result, athletes, to maximize their scores, started incorporating more complex techniques in their routines. This was a significant shift in the sport, introducing more challenging and innovative techniques.\"\n}"
+}

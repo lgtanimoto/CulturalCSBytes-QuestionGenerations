@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are designing a computer program that simulates a volleyball game. They are all assigned different roles in the team. Which of the following is a role that Alex would NOT have in this project?\",\n    \"Answer1\": \"Coding the physics of the volleyball\",\n    \"Answer2\": \"Designing the graphical user interface\",\n    \"Answer3\": \"Drawing up the plans for the volleyball court\",\n    \"Answer4\": \"Baking cookies for the team's snack breaks\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While baking cookies could be a fun and appreciated activity for the team, it isn't a role involved in designing or developing the computational artifact of a volleyball game simulation.\"\n}"
+}

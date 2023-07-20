@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Science and Engineering",
+    "topic": "Kinetic, Potential, and Changes in Energy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tasked with creating a digital simulation that demonstrates the concept of kinetic, potential, and changes in energy as a ball rolls down a ramp. This simulation runs smoothly on a high-performance computer built for gaming. However, on their personal school-issued laptop which has lower power, the simulation freezes and lags. Which aspect of computer science layers of abstraction is Alex experiencing problems with?\",\n    \"Answer1\": \"Application software\",\n    \"Answer2\": \"System software\",\n    \"Answer3\": \"Hardware\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Hardware. The problem is emanating from the hardware layer. In this case, the school-issued laptop probably does not have the required processing power to run the simulation smoothly, which is a hardware limitation.\"\n}"
+}

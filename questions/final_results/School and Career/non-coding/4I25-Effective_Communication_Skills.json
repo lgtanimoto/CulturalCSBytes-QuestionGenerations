@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "School and Career",
+    "topic": "Effective Communication Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a machine learning model for an AI-powered chatbot designed to help students learn effective communication skills. It uses a historical dataset with transcripts of effective communications from various cultures. However, Serge, a fellow student, points out that there might be inherent biases in the model towards certain cultures or languages because the development team is predominantly English-speaking. How could Alex refine their computational artifact to ensure it addresses this bias and promotes equity?\",\n    \"Answer1\": \"Alex could ignore Serge's feedback since the team's experience largely aligns with the intended user's culture.\",\n    \"Answer2\": \"Alex could choose to only use English communication data to train the model.\",\n    \"Answer3\": \"Alex could consult with experts from diverse cultures and languages to help refine the artifacts and validate the model before deploying it.\",\n    \"Answer4\": \"Alex could integrate a built-in translator to address the language bias.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To ensure equity, Alex should bring in experts from a variety of cultures and languages. This will help them train the model with a more diverse dataset and validate its functionality across diverse cultures, which reduces bias and promotes fairness.\"\n}"
+}

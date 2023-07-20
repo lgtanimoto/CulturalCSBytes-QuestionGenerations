@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "Everyday Life",
+    "topic": "Exercise and Physical Activity",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex recently bought a new smart watch to track their exercise and physical activity. To ensure their health data on the smart watch is safe and protected, which of the following precautions should Alex take?\",\n    \"Answer1\": \"Feel secured with the existing security settings of the watch and do not take any action.\",\n    \"Answer2\": \"Share passwords with trustworthy friends to watch over each other\u2019s accounts.\",\n    \"Answer3\": \"Set up a strong, unique password and enable any available two-factor authentication.\",\n    \"Answer4\": \"Store passwords in a text document on their computer, so they cannot be forgotten.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"It\u2019s critical to protect personal information to prevent cyber attacks. In order to do so, Alex should set up a strong, unique password and enable two-factor authentication, if available. Sharing passwords or storing them in an insecure manner puts personal information \u2013 in this case, health data \u2013 at significant risk.\"\n}"
+}

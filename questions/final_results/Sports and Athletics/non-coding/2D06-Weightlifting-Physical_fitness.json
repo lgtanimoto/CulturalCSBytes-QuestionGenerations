@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a high school weightlifter who has been documenting their lifting progress every month over the past year. Alex plans to showcase this data to their colleagues in the form of a graph that proves the relationship between consistent weightlifting and increased strength. What type of graph should Alex use to best display this correlation?\",\n    \"Answer1\": \"Pie chart\",\n    \"Answer2\": \"Line graph\",\n    \"Answer3\": \"Bar graph\",\n    \"Answer4\": \"Scatter plot\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A line graph is the best option for displaying changes over time. In this case, Alex would be able to clearly show the increase in their weightlifting ability over the past year.\"\n}"
+}

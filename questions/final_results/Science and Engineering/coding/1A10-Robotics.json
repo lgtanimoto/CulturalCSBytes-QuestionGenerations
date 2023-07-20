@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A10",
+    "learning_objective": "Develop programs with sequences and simple loops, to express ideas or address a problem.",
+    "interest_area": "Science and Engineering",
+    "topic": "Robotics",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is preparing a robot for its leap year routine, which needs to happen every 4 years. He is writing the logic that outputs 'Leap year routine' every 4 years for a 20 year span. What would the output be if the current year is 2019, based on the code snippet below?\",\n    \"Answer1\": \"Outputs 'Leap year routine' 5 times\",\n    \"Answer2\": \"Outputs 'Leap year routine' every year for 20 years\",\n    \"Answer3\": \"Outputs 'Leap year routine' 6 times\",\n    \"Answer4\": \"Outputs 'Leap year routine' 4 times\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"As per the code, 'Leap year routine' will be executed every 4 years, starting from 2019 till 2039 (20 years in total). This will happen in the years 2023, 2027, 2031, 2035, 2039 - a total of 5 times.\",\n    \"code_snippet\": \"integer startYear = 2019\\ninteger endYear = startYear + 20\\nwhile startYear <= endYear\\n    if (startYear Mod 4 ) == 0 \\n       output('Leap year routine')\\n    end\\n    startYear = startYear + 1\\nend\"\n}"
+}

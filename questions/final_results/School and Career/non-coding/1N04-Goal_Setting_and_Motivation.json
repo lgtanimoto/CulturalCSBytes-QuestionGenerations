@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "School and Career",
+    "topic": "Goal Setting and Motivation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"While searching for ideas on goal setting and motivation, Alex found out about 'Password Goals' where they could use a personal growth goal as their password. For instance, if they want to go to the gym at least once a week, their password could be 'HitGym1xWk!' Why might this not be a good idea for Alex?\",\n    \"Answer1\": \"Because it's a weak password and can be easily guessed by others.\",\n    \"Answer2\": \"Because they would have to change their password every time they change their goal.\",\n    \"Answer3\": \"Because it may constitute a security risk, as personal information is often easier for attackers to obtain and guess.\",\n    \"Answer4\": \"Because passwords should not contain symbols or special characters.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Although motivating, the use of personal information, such as goals or hobbies, to create passwords can make it easier for attackers to guess passwords. It's important to use strong, random and unique passwords to protect our devices and information from unauthorized access. Good password practices also require avoiding personal information and using a combination of uppercase and lowercase letters, numbers, and special characters.\"\n}"
+}

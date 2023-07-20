@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N08",
+    "learning_objective": "Explain tradeoffs when selecting and implementing cybersecurity recommendations.",
+    "interest_area": "School and Career",
+    "topic": "Personal Finance and Budgeting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a financial advisor and they regularly access online platforms which contain sensitive information about their clients. As a result, they are thinking about enhancing their cybersecurity measures. Which opportunity could Alex consider, while still being mindful of their budget?\",\n    \"Answer1\": \"Alex could hire a full team of cybersecurity experts to monitor and defend against potential threats 24/7.\",\n    \"Answer2\": \"They can encrypt their data, ensuring that it is more difficult for unauthorized individuals to access.\",\n    \"Answer3\": \"They can move all their client's sensitive information to an external hard drive and disconnect it from the internet every time they aren't using it.\",\n    \"Answer4\": \"They can disable their internet connection completely and conduct all their client meetings face-to-face.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While all these measures increase security to some degree, they must be balanced against the cost and practicality. Hiring a full-time cybersecurity team can be expensive, and disconnecting from the internet, either when not in use or altogether, can be very limiting and potentially impractical. Data encryption provides a good balance of increased security without incurring significant costs or limiting usability too much.\"\n}"
+}

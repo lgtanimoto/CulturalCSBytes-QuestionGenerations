@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Science and Engineering",
+    "topic": "Ecosystems and biodiversity",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to represent the biodiversity in different ecosystems. They realize that different ecosystems have different amounts of species, and they want to represent each species with a unique binary number. If an ecosystem has 32 species, what is the minimum bit representation Alex can use to uniquely identify each species?\",\n    \"Answer1\": \"5 bit representation\",\n    \"Answer2\": \"6 bit representation\",\n    \"Answer3\": \"7 bit representation\",\n    \"Answer4\": \"32 bit representation\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A 5 bit representation, ranging from 00000 to 11111 in binary, can represent 32 unique possibilities, from 0 to 31 inclusive. This can uniquely represent each one of the 32 species.\",\n    \"code_snippet\": \"integer maxSpecies = 32\\ninteger minBitsNeeded = 0\\nwhile 2^minBitsNeeded < maxSpecies\\n    minBitsNeeded = minBitsNeeded + 1\\nend\\noutput minBitsNeeded\"\n}"
+}

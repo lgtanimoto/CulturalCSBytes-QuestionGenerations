@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Everyday Life",
+    "topic": "Meal Planning and Grocery Shopping",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is in charge of meal planning and doing grocery shopping for their family. They decided to create a program that keeps track of how much each item costs and the total cost of all ingredients required for each meal. If this Quorum code prints an output that shows incorrect totals, identify what change Alex should make to fix the error in the algorithm.\",\n    \"Answer1\": \"Alex should modify line 2: 'offer = totalcost '\",\n    \"Answer2\": \"Alex should modify line 4: 'if price < totalcost'\",\n    \"Answer3\": \"Alex should modify line 3: 'totalcost + price '\",\n    \"Answer4\": \"Alex should modify line 1: 'totalcost = 0'\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To accumulate the total cost of all ingredients, Alex should modify line 3 to 'totalcost = totalcost + price'. This modification will add the price of each item to the current total cost, thereby updating the total cost.\",\n    \"code_snippet\": \"number totalcost = 0\\nloop 5 times\\n    number price = askForNumber()\\n    if price > totalcost\\n        totalcost = price\\n    end\\nend\\noutput 'Total Cost: ' + totalcost\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Everyday Life",
+    "topic": "Mindfulness and Meditation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a Meditation app that includes a 'Mindfulness' feature by creating the following program. Looking at the code snippet below, what is one suitable code comment Alex might include to explain the decision they made when designing the 'Mindfulness' feature?\",\n    \"Answer1\": \"// The 'Mindfulness' feature helps the user to focus on their breathing\",\n    \"Answer2\": \"// The 'Mindfulness' feature allows users to play their favorite songs\",\n    \"Answer3\": \"// The 'Mindfulness' feature turns off all notifications on the user's device\",\n    \"Answer4\": \"// The 'Mindfulness' feature provides random motivational quotes to the user\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Based on the code snippet, the 'Mindfulness' feature is guiding the user through conscious breathing, thereby helping the user to focus on their breath which is a common practice in mindfulness meditation.\",\n    \"code_snippet\": \"output \\\"Welcome to the 'Mindfulness' feature.\\\"\\noutput \\\"Please, find a comfortable seat.\\\"\\noutput \\\"Close your eyes\\\"\\nfor 10 times\\n    output \\\"Take a deep breath in...\\\"\\n    wait(3)\\n    output \\\"...and breathe out.\\\"\\n    wait(3)\\nend\"\n}"
+}

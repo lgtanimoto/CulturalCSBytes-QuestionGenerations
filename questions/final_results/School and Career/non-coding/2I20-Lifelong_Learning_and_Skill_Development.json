@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "School and Career",
+    "topic": "Lifelong Learning and Skill Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a software engineer, is tasked with improving an existing application's user interface and functionality. The app is an educational tool that assists professionals in learning new skills and staying up-to-date in their respective fields. Alex understands the importance of seeking diverse perspectives to improve the app. What could be the reason behind this approach of seeking diverse perspectives?\",\n    \"Answer1\": \"Different people may use the application in different ways, and a variety of perspectives can help Alex understand the unique needs and usage patterns of different users.\",\n    \"Answer2\": \"By including only their own perspective, Alex can ensure that they understand the application best and thus make the best possible updates.\",\n    \"Answer3\": \"Alex may be able to obtain patents for every set of changes they implement in each version of the application and make a lot of money.\",\n    \"Answer4\": \"The users of the application would not want their usage patterns studied or used to modify the application.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Considering diverse perspectives leads to the development of computational artifacts that are accessible, relevant, and inclusive. Different users have different needs and usage patterns, therefore, understanding these can help Alex improve the app in a way that caters to the needs of a varied user base.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Everyday Life",
+    "topic": "Mindfulness and Meditation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has been practicing mindfulness and meditation and they want to create a meditation app for their school project. They started with a countdown timer code snippet they found online, but they want to add a feature that plays a calming sound at the end of the countdown. Which of the following modifications could achieve this!\",\n    \"Answer1\": \"Add a procedure that plays a sound after the countdown procedure is done.\",\n    \"Answer2\": \"Remove the original countdown procedure.\",\n    \"Answer3\": \"Send a notification every time the countdown completes.\",\n    \"Answer4\": \"Add a procedure that plays a sound before the countdown starts.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The best way to add this feature would be to create a new procedure, which Alex could call after the main countdown procedure is done. This would let the app play a calming sound once the countdown is completed, providing a built-in cue that the user's meditation session is finished.\",\n    \"code_snippet\": \"action Countdown:\\n   integer count = 5 \\n   repeat while count > 0\\n       output count\\n       count = count - 1\\n       wait(1)\\n   end\\nend action\"\n}"
+}

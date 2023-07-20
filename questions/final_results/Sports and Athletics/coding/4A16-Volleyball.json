@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Volleyball",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to keep the scoreboard of their school's volleyball team. The program increases the score of the team by one point every time the team scores a point. After Alex ran the program during the game, they noticed that the final score of the team was lower than the actual points they scored. What could be the potential issue with Alex's program?\",\n    \"Answer1\": \"Alex's program does not have an event handler to increment the score\",\n    \"Answer2\": \"The initial score set in Alex's program is too high\",\n    \"Answer3\": \"Alex's program increments the score by two points instead of one\",\n    \"Answer4\": \"Alex's program does not have a display function to show the score\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"From the issue, it seems like the program is not correctly counting every point scored by the team. This is likely due to the lack of an event handler that increments the score for each point earned. An event when the team scores needs to trigger the increment operation to correctly keep count of the score.\",\n    \"code_snippet\": \"integer teamScore = 0\\n\\naction ScorePoint()\\n    teamScore = teamScore + 1\\nend\\n\\naction DisplayScore()\\n    output teamScore\\nend\"\n}"
+}

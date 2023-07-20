@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Science and Engineering",
+    "topic": "Robotics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their Science Club have built a robot that can be programmed to complete specific tasks. However, they recently started having trouble with the coding. Sometimes, the robot doesn't move as directed, and sometimes it doesn't move at all. As the club's troubleshooter, Alex needs to propose a systematic approach to fixing these errors. What steps should Alex suggest?\",\n    \"Answer1\": \"Just reboot the robot and see if it works\",\n    \"Answer2\": \"Randomly change parts of the code and hope for the best\",\n    \"Answer3\": \"Start from the beginning by re-writing all the code\",\n    \"Answer4\": \"Identify the problem, understand the code causing it, strategize needed changes, implement changes, and test the solution\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The best way to go about troubleshooting in robotics (or any coding task) is systematic and follows a plan. First, identify the problem. Next, try to understand the code that is causing the issue. Then, strategize the needed changes - this step could involve research or reviewing of coding basics. Implement those changes, and finally test the solution to confirm that the problem is fixed. Rebooting or rewriting code without understanding the issue could potentially reproduce the same issue or create new ones.\"\n}"
+}

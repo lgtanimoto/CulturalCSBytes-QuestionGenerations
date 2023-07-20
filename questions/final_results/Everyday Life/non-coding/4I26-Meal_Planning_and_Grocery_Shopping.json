@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Everyday Life",
+    "topic": "Meal Planning and Grocery Shopping",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves cooking healthy meals at home but they find it difficult to keep track of all the ingredients needed for different recipes. They want to create an algorithm to generate a shopping list based on the meals they plan to cook for the week. Which of the following options should Alex use?\",\n    \"Answer1\": \"Alex only needs to keep track of ingredients they use frequently and exclude the rest.\",\n    \"Answer2\": \"Alex should create an algorithm that takes a list of meals as input, extracts the ingredient list for each meal, merges the ingredient lists, and eliminates any duplicates before printing it out.\",\n    \"Answer3\": \"Alex should create an algorithm that randomly selects ingredients and then finds meals they can cook with them.\",\n    \"Answer4\": \"Alex should ask their friends for their shopping lists and merge them all together.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"An effective meal planning algorithm would take a list of meals as input, traverse through each of them, extract the ingredient lists and consolidate them while removing any duplicates. This would yield a comprehensive shopping list based on the planned meals, eliminating the chance of forgetting any items while shopping.\"\n}"
+}

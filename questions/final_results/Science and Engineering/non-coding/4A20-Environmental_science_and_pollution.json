@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A20",
+    "learning_objective": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "interest_area": "Science and Engineering",
+    "topic": "Environmental science and pollution",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on an environmental science project involving air quality and pollution data. They found an open source code library that would be perfect for their project, but Alex is unsure if they can use all the code library's resources for their project. Alex is considering if the library's license restricts the use of the computational resources. Which of the following is the best course of action for Alex?\",\n    \"Answer1\": \"Alex should use the library's resources without checking the terms of the license.\",\n    \"Answer2\": \"Alex should assume the license will allow them to use all the resources and proceed with their project.\",\n    \"Answer3\": \"Alex should write their own code and not use the library's resources.\",\n    \"Answer4\": \"Alex should check the specific terms of the license before using the library's resources.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex should always check the requirements of a license before using any open source code or libraries. Different licenses have different restrictions or limitations, and it's essential to understand these before using the licensed resources in any project.\"\n}"
+}

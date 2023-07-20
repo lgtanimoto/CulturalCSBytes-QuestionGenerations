@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D07",
+    "learning_objective": "Represent data using multiple encoding schemes.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves American football and statistics. They are working on a project to collect and analyze football statistics for their Computer Science course. Alex has data like scores, team names, player information, and duration of games. They want to devise a novel way to represent this data using multiple encoding schemes. Which of the following is unlikely to benefit Alex in effectively presenting the data?\",\n    \"Answer1\": \"Using scatter plot to show correlation between duration of games and scores.\",\n    \"Answer2\": \"Using bar chart to show the number of games won by each team.\",\n    \"Answer3\": \"Using pie chart to show percentage distribution of player positions in a team.\",\n    \"Answer4\": \"Using a heat map to showcase the computer science concepts used in the project.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While all the options are encoding schemes, a heat map to showcase the computer science concepts used in the project is unlikely to provide meaningful insights relating to the football statistics data.\"\n}"
+}

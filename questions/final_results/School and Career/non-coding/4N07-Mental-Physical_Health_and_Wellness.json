@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N07",
+    "learning_objective": "Compare various security measures, considering tradeoffs between the usability and security of a computing system.",
+    "interest_area": "School and Career",
+    "topic": "Mental/Physical Health and Wellness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Kai is involved in mental and physical health wellness advocacy and they recently learned about potential security issues with some wellness apps. As a computer science enthusiast, they decide to educate others about the tradeoffs between usability and security in these apps. Which of the following options would be a good example of such a tradeoff?\",\n    \"Answer1\": \"An app uses password protection but some users find it tedious to enter password every time they use it\",\n    \"Answer2\": \"An app uses face recognition security measures which require users to have a good lighting environment\",\n    \"Answer3\": \"A meditation app lacks an auto logout feature, leaving a user's personal information possibly exposed if their device is lost or stolen\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All these answers are examples of tradeoffs between usability and security. While password protection and face recognition add an extra layer of security, users might find them inconvenient in certain situations. On the other hand, an app lacking auto logout feature boost convenience, but can risk user's information.\"\n}"
+}

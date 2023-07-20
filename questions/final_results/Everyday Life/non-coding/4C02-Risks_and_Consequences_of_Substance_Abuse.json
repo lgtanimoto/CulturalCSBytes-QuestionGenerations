@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Everyday Life",
+    "topic": "Risks and Consequences of Substance Abuse",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of a team working on a project to create an informational website about the risks and consequences of substance abuse. One of their coding tasks is to create a program that will read in data from various sources, such as statistics on substance abuse rates, and display it in a user-friendly format. Which abstraction is responsible for understanding how to retrieve and read in the data from these different sources?\",\n    \"Answer1\": \"Front-End\",\n    \"Answer2\": \"Back-End\",\n    \"Answer3\": \"Operating System\",\n    \"Answer4\": \"Database\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"An Operating System. At a high level, operating systems abstract away the raw data access, providing programs with a way to access files and other data sources without needing to understand how to physically read and write data.\"\n}"
+}

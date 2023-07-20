@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N06",
+    "learning_objective": "Apply multiple methods of encryption to model the secure transmission of information.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a passionate basketball player, wants to send their play strategies confidentially to their team. They know that some of their strategies got leaked in the past, so they decide to use a method of encryption for secure transmission of information. How should Alex handle this situation?\",\n    \"Answer1\": \"Alex should use a symmetric key encryption where the same key is used for both encryption and decryption. They should share the key with their team in a secure way.\",\n    \"Answer2\": \"Alex should encrypt the strategies with a key and send it uncovered with the e-mail. It's unlikely that someone will understand what to do with the key.\",\n    \"Answer3\": \"Alex should encrypt the information and share the key with everyone in the school. The more people have the key, the more secure the information.\",\n    \"Answer4\": \"Alex should use asymmetric encryption, where a public key is used for encryption and a private key for decryption. They should share the public key with their team.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Symmetric encryption will allow Alex's team to decipher the strategies correctly while keeping the encryption key secret. In asymmetric encryption, if the public key got into the wrong hands, information could be mistakenly deciphered by unintended parties.\"\n}"
+}

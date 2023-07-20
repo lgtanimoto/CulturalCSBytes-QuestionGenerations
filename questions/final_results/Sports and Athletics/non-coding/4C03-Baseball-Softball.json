@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a programmer and baseball enthusiast, has developed an application to automatically calculate a player's batting average in real time during a game. However, they have noticed that sometimes the calculation seems to be inaccurate. What can be Alex's systematic troubleshooting strategy to identify and fix this error?\",\n    \"Answer1\": \"Alex should panic and randomly try to fix different parts of his code\",\n    \"Answer2\": \"Alex should start with checking if each value required for the calculation is being captured accurately during the game, and whether the arithmetic operation is coded correctly\",\n    \"Answer3\": \"Alex should delete and recreate the entire application\",\n    \"Answer4\": \"Alex should ignore it, hoping the error will disappear over time\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The right troubleshooting approach would be to start with identifying whether the retrieved values during the game are accurate and check if the calculation process is implemented correctly. This step-by-step process will help Alex identify where the error occurrence is most probable.\"\n}"
+}

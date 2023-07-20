@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C03",
+    "learning_objective": "Systematically identify and fix problems with computing devices and their components.",
+    "interest_area": "Science and Engineering",
+    "topic": "Earth, moon, sun, and seasons",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a simulation of Earth's rotation around the sun and the moon's rotation around Earth to demonstrate the changing seasons and moon phases. They test their program but find that while the Earth and moon are rotating correctly, the seasons aren't changing accurately. What might be the problem with Alex's simulation program?\",\n    \"Answer1\": \"Alex might not have correctly incorporated Earth's tilt in their code\",\n    \"Answer2\": \"Alex's device has insufficient disk space\",\n    \"Answer3\": \"Alex's CPU is overheating\",\n    \"Answer4\": \"Alex's mouse is malfunctioning\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"If the Earth's tilt relative to the sun is not correctly modeled, the change of seasons will not be accurately represented in the simulation. Insufficient disk space, an overheating CPU, or a malfunctioning mouse would not affect the accuracy of the seasons in the simulation. Technical issues of this nature would prevent the software from running smoothly (or at all), but wouldn't inherently affect the correctness of the scientific model being simulated.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "Science and Engineering",
+    "topic": "Organism growth and reproduction",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project in their biology class, tracking and recording the growth of different organisms over time. To safely store the data, Alex's teacher has advised them to use a combination of physical and digital security measures. What might this advice entail?\",\n    \"Answer1\": \"Storing the data on a USB and hiding the USB in a sock drawer\",\n    \"Answer2\": \"Saving the data on Alex's personal computer and password-protecting the file\",\n    \"Answer3\": \"Uploading the data to a cloud server with encrypted access and keeping the encryption key in a secure location\",\n    \"Answer4\": \"Sharing the data on a public forum for peer review and criticism\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Both physical and digital security measures are necessary to protect electronic information. Uploading the data to a cloud server with encrypted access is a digital security measure, and keeping the encryption key in a secure location is a physical security measure. This combination ensures the data is not easily accessible by unauthorized users, thus protecting the integrity and confidentiality of the information.\"\n}"
+}

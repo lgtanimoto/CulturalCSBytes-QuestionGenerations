@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N06",
+    "learning_objective": "Recommend security measures to address various scenarios based on factors such as efficiency, feasibility, and ethical impacts.",
+    "interest_area": "Everyday Life",
+    "topic": "Common Health Issues and Chronic Conditions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been developing a health app that allows users to input their personal health records and track common issues like blood pressure, blood sugar levels, and heart rate. The app also has a feature where it reminds users to take medications for any chronic conditions they may have like diabetes or hypertension. Given the sensitivity of the information the app will store, what security measures should Alex implement to protect their user's data?\",\n    \"Answer1\": \"Alex must implement strong user authentication and enforce the creation of strong passwords.\",\n    \"Answer2\": \"Alex should encrypt all data and transactions within the app.\",\n    \"Answer3\": \"Alex can develop the app in a way that all user data is anonymized, making it impossible to tie the data back to any one individual user.\",\n    \"Answer4\": \"All of the above are measures Alex should implement in their health tracking application.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Given the sensitivity of health data, it is crucial to enforce strong user authentication, data encryption, and anonymization of data. These measures will help reduce the risk of data breaches and protect users' privacy.\"\n}"
+}

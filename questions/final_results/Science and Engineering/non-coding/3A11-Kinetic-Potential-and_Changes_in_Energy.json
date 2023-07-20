@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A11",
+    "learning_objective": "Create clearly named variables that represent different data types and perform operations on their values.",
+    "interest_area": "Science and Engineering",
+    "topic": "Kinetic, Potential, and Changes in Energy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is calculating the changes in potential and kinetic energy of an object of mass, m moving with a speed, v at a height, h from the ground. They wrote the following program to calculate the potential energy (PE) and kinetic energy (KE) of the object, and the changes in PE and KE. In the program, PE is calculated using the formula mgh and KE using the formula 1/2mv^2. What are the variables in this program?\\n\\ndouble mass = 2;\\ndouble velocity = 3;\\ndouble height = 4;\\ndouble PE = mass * gravity * height;\\ndouble KE = 0.5 * mass * velocity * velocity;\\ndouble deltaPE = newPE - PE;\\ndouble deltaKE = newKE - KE;\\n\\n\",\n    \"Answer1\": \"mass, velocity, height, PE, KE, deltaPE, deltaKE\",\n    \"Answer2\": \"mass, velocity, height, gravity, newPE, newKE\",\n    \"Answer3\": \"mass, velocity, height, gravity\",\n    \"Answer4\": \"2, 3, 4, PE, KE\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In the given program, mass, velocity, height, PE, KE, deltaPE, and deltaKE are the variables. They are assigned certain values and these values can be modified as the program progresses.\"\n}"
+}

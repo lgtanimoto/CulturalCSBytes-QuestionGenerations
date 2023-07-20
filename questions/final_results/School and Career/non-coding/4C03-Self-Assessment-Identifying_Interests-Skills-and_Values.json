@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "School and Career",
+    "topic": "Self-Assessment: Identifying Interests, Skills, and Values",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a budding programmer. They have been rigorously testing their newly developed website. Everything seemed to work perfectly until Alex realized that the 'Contact Us' page is not loading the way it should, and is instead showing an error. Based on logical deduction and systematic fault analysis, what should be Alex's first step in identifying and fixing this error?\",\n    \"Answer1\": \"Re-write the entire 'Contact Us' page from the beginning\",\n    \"Answer2\": \"Clear the browser's cache and cookies\",\n    \"Answer3\": \"Check the Error Log to identify specifics of the problem\",\n    \"Answer4\": \"Shut down the system and leave it for a while\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The most systematic approach to troubleshooting website errors starts with understanding more specifics about the issue. To do this, Alex should review the Error Log where errors are documented. This can help point out the source of the problem. Although clearing the browser's cache and cookies can sometimes solve the problem, in this scenario it is not the first step towards systematic problem solving.\"\n}"
+}

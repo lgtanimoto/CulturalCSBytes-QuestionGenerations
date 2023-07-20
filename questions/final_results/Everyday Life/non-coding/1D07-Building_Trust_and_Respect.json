@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Trust and Respect",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex noticed a pattern after implementing new trust-building activities with their peers. They saw an increase in the respect they received from them. Alex plotted this information in a chart over the course of 4 months. Using the chart, Alex wanted to predict what their peers' respect level would be if they continue these activities for two more months. What prediction could Alex likely make from the information presented in their chart?\",\n    \"Answer1\": \"Respect level will stagnant over the following two months\",\n    \"Answer2\": \"Respect level will decrease over the following two months\",\n    \"Answer3\": \"Respect level will slightly increase over the following two months\",\n    \"Answer4\": \"Respect level will significantly increase over the following two months\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"If the trend in the chart continues, the respect level might significantly increase over the next two months.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "School and Career",
+    "topic": "Study Skills and Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex sets up a study schedule on their laptop, with designated study, rest, and recreational times. During the schedule, they will extensively use several programs like a word processor for typing notes, a web browser for online research, graphic editing software to design diagrams, and a video playing software to watch lecture videos. Based on this, which physical hardware component is Alex most likely running their laptop high on?\",\n    \"Answer1\": \"RAM (Random Access Memory)\",\n    \"Answer2\": \"Hard Drive\",\n    \"Answer3\": \"Graphics Processing Unit (GPU)\",\n    \"Answer4\": \"Power Supply\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"RAM (Random Access Memory) determines the amount of data a laptop can handle at a given time, especially when it's running several programs simultaneously. If Alex is running a lot of programs at the same time, they are most likely using a lot of RAM.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Everyday Life",
+    "topic": "Emergency Preparedness and First Aid",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In response to the recent storm disaster, Alex is creating an emergency preparedness app, one feature of which will be a personalized first aid kit check-list. Alex plans to create a function named 'addItem' which accepts two parameters - 'item', for the name of the first aid item and 'quantity', for the number of that item required. Given this information, which of the following represents the correct way to reuse this function to add multiple items?\",\n    \"Answer1\": \"Call addItem function with no parameters and then set 'item' and 'quantity' separately afterwards\",\n    \"Answer2\": \"Call addItem function with 'item' only. 'Quantity' is not required\",\n    \"Answer3\": \"Call addItem function multiple times with different 'item' and 'quantity' each time\",\n    \"Answer4\": \"Create a new function for each item in the first aid kit\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The 'addItem' function is created with two parameters - item and quantity - to generalize the addition of items to the first aid kit. To reuse this function for different items, Alex would call the function multiple times giving different values for the parameters each time. This demonstrates how procedures with parameters can help in organizing code and making it more reusable.\"\n}"
+}

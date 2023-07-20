@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "School and Career",
+    "topic": "Financial Literacy and Money Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, an aspiring entrepreneur, has decided to keep track of their monthly earnings selling handmade bracelets. In January, they earned $200, in February they earned $220, in March they earned $240, in April they earned $210, and in May they earned $230. Which of the following are appropriate ways for Alex to visualize their earnings data over these 5 months? \",\n    \"Answer1\": \"Pie chart only.\",\n    \"Answer2\": \"Line chart and bar chart.\",\n    \"Answer3\": \"Scatter plot only.\",\n    \"Answer4\": \"Stacked area chart only.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Line chart and bar chart are the best options as they can properly visualize changes over a period of time, which is suitable for showing Alex's earnings over the 5 months. Pie chart is not suitable because it is used for visualizing parts of a whole. Scatter plots and stacked area charts are also not suitable for this simple data set.\"\n}"
+}

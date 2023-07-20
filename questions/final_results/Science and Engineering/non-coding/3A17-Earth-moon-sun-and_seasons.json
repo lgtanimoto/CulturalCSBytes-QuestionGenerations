@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "Science and Engineering",
+    "topic": "Earth, moon, sun, and seasons",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"\\\"Alex is designing a program that simulates the position of the earth, moon, and sun over a year to better understand what causes the different seasons. The program takes the current day of the year as input and displays a model of the sun, earth, and moon positions. Alex has devised a way to check their program using different test cases. In addition to the current day of the year, what else should be checked to accurately depict the seasons' effects?\\\"\",\n    \"Answer1\": \"The size of the moon\",\n    \"Answer2\": \"The distance between the sun and the earth\",\n    \"Answer3\": \"The temperature of the sun\",\n    \"Answer4\": \"The tilt of the earth's axis\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The tilt of the Earth's axis is the primary reason for the changing seasons. As the earth orbits the sun, the tilt of the earth changes the intensity of solar radiation reaching different parts of the earth at different times of the year. Alex must include this in the program to accurately simulate the seasons and verify its accuracy. The distance from the sun, while it does change due to the elliptical shape of the earth's orbit, its effect on the seasons is much less significant.\",\n    \"graphic_content\": \"A chart displaying the Earth's position in relation to the sun at different times of the year, demonstrating how the Earth's tilt affects the seasons.\"\n}"
+}

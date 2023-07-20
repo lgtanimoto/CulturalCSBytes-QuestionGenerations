@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I23",
+    "learning_objective": "Describe tradeoffs between allowing information to be public and keeping information private and secure.",
+    "interest_area": "School and Career",
+    "topic": "Self-Assessment: Identifying Interests, Skills, and Values",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is thinking about sharing their self-assessment which identifies their interests, skills, and values on a popular job search website. What could be a possible trade-off of such a decision?\",\n    \"Answer1\": \"By having their self-assessment public, Alex may get job offers from companies they wouldn't have otherwise considered, expanding their opportunities.\",\n    \"Answer2\": \"By keeping their self-assessment private, Alex reduces the risk of misuse of their personal information by malicious actors.\",\n    \"Answer3\": \"By sharing their self-assessment, Alex might receive unwanted contacts from companies that they have no interest in, which might be overwhelming or require them to constantly manage their communication settings.\",\n    \"Answer4\": \"By keeping their self-assessment private, Alex might miss out on networking opportunities that could lead to job offers or internships.\",\n    \"CorrectAnswer\": \"All\",\n    \"Explanation\": \"Whether or not to make personal information public in the context of job searching can involve a complex trade-off. On one hand, making information public can lead to increased visibility and potential job offers. On the other hand, keeping information private reduces the risk of misuse of personal information and unsolicited contacts. The best choice depends on one's personal priorities and circumstances.\"\n}"
+}

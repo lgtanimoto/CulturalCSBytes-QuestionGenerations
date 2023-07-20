@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Science and Engineering",
+    "topic": "Forces and acceleration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a physics experiment, where they are observing how different forces affect the acceleration of an object. They have collected data where they increased the force on an object and measured the corresponding acceleration. Based on Alex's data, how should they expect the acceleration to change if they increase the force applied to an object?\",\n    \"Answer1\": \"Acceleration will increase\",\n    \"Answer2\": \"Acceleration will decrease\",\n    \"Answer3\": \"Acceleration will stay the same\",\n    \"Answer4\": \"Acceleration will first increase then decrease\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"According to Newton's second law of motion, the acceleration of an object is directly proportional to the net force applied and is in the direction that the net force is applied. Thus, if the force is increased, the acceleration should also increase.\"\n}"
+}

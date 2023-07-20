@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves music and has recently developed an interest in computer science. They are now curious about how they could use algorithms to manipulate sound signals. Alex learns that an audio signal is essentially a sequence of numbers representing variations in air pressure over time. To change the speed of an audio signal without altering its pitch, which algorithm should Alex use?\",\n    \"Answer1\": \"An algorithm that multiplies each number in the sequence by a constant\",\n    \"Answer2\": \"An algorithm that inverts each number in the sequence\",\n    \"Answer3\": \"An algorithm that shifts each number in the sequence right or left\",\n    \"Answer4\": \"An algorithm that changes the sequence length by interpolation or decimation\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When the speed of an audio signal is changed without altering its pitch, its length changes. An algorithm that changes the sequence length by interpolation (increasing length) or decimation (reducing length) is therefore needed.\"\n}"
+}

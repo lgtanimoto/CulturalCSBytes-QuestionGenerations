@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D12",
+    "learning_objective": "Create computational models that represent the relationships among different elements of data collected from a phenomenon or process.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Sports Psychology and Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying sports psychology and interested in the impact of mental state on a player's performance. They collect data on their own performance in chess matches, documenting their feelings of stress before each match and the outcome of each game. Upon creating a scatterplot, they observe a clear pattern between increased stress and greater likelihood of losing. Alex wonders if they can use these findings to estimate their future performance. Which of the following would best represent a computational model for Alex's investigation?\",\n    \"Answer1\": \"A list of stress measurements\",\n    \"Answer2\": \"A bar chart displaying the number of games won vs. lost\",\n    \"Answer3\": \"A scatter plot with a trend line showing a correlation between stress level and game outcome\",\n    \"Answer4\": \"A diagram showing the layout of a chess board\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A computational model that best represents Alex's investigation is a scatter plot with a trend line showing a correlation between stress level and game outcome. This model successfully represents the relationship between two different elements of data, indicating a clear pattern and allowing for future predictions.\"\n}"
+}

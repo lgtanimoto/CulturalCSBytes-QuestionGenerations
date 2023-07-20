@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A20",
+    "learning_objective": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Gymnastics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Taylor is developing a website for their school's gymnastics team. They discover an amazing library of code that could add some really cool effects to the site. Taylor would like to share the website with all of the school, including other students who might learn from their code. While reading the license that comes with the library, they realize that it limits distribution and modification of the code. What is the most suitable course of action for Taylor?\",\n    \"Answer1\": \"Ignore the license and use the library.\",\n    \"Answer2\": \"Use the library but do not share the code with others.\",\n    \"Answer3\": \"Look for an equivalent library that allows distribution and modification.\",\n    \"Answer4\": \"Share the code with others but do not use it themselves.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Although the library with the license would be useful, it is important for Taylor to respect the license. By looking for an equivalent library that allows distribution and modification, Taylor would be able to still add cool effects to the website and share their source code with others, following the regulations of the license.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Football",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex manages their school\u2019s football team. They have to keep track of player stats, monitor player health, schedule practices and games, and coordinate with other teams. They use their computer and a variety of software applications to help them with all these tasks. How do the computer hardware and software work together to help Alex manage the team?\",\n    \"Answer1\": \"The computer's hardware executes the instructions of the software, and the software manages the operations of the hardware.\",\n    \"Answer2\": \"The software physically changes the hardware to perform tasks.\",\n    \"Answer3\": \"The hardware runs without any software.\",\n    \"Answer4\": \"The software operates independently of the hardware.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The computer's hardware executes the instructions of the software, and the software manages the operations of the hardware. Without both hardware and software, Alex wouldn\u2019t be able to perform their tasks. For example, the hardware (like the processor, RAM, and hard disk) execute the software\u2019s instructions, allowing Alex to enter and save data, run analyses, send emails, and more.\"\n}"
+}

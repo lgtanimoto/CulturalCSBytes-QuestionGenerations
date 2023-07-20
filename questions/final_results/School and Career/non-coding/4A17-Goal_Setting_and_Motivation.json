@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "School and Career",
+    "topic": "Goal Setting and Motivation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on an application to help users track their daily goals. Users should be able to add a new goal, view a list of their goals, mark a goal as completed, and see the percentage of their goals they have completed. Alex decides to decompose this problem into smaller components. How best can Alex decompose this problem?\",\n    \"Answer1\": \"Create a single procedure: 'HandleGoals' to add, view, mark and calculate the percentage of goals.\",\n    \"Answer2\": \"Create 4 procedures, each having distinct responsibility: 'AddGoal', 'ViewGoals', 'MarkGoal' and 'CalculateGoalPercentage'.\",\n    \"Answer3\": \"Create 2 procedures: one to handle adding and viewing of goals 'HandleAddAndView' and another to handle marking and calculating the percentage of goals 'HandleMarkAndCalculation'.\",\n    \"Answer4\": \"Create 3 procedures: 'AddAndMarkGoals', 'ViewGoals' and 'CalculateGoalPercentage'.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Decomposing a complex problem into smaller components is a key principle in CS, and is especially useful for debugging, maintaining and reusing code. In this case, it's advantageous to have each procedure perform a single, specific task. This approach aligns closely with the principle of single responsibility in programming, which recommends that a class or function should have a single responsibility.\"\n}"
+}

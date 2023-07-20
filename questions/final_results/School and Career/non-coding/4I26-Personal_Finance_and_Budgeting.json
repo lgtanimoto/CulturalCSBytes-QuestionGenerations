@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "School and Career",
+    "topic": "Personal Finance and Budgeting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has set a goal to save money for a big vacation by using an app that will help them budget expenses. The app uses an algorithm that categorizes spending into different areas (groceries, entertainment, transportation, etc.) and then projects future spending based on past behavior. Which of the following is not a way that Alex could leverage this algorithm to reach their savings goal?\",\n    \"Answer1\": \"Alex could track their spending habits in each category and try to adjust them to save more money.\",\n    \"Answer2\": \"Alex could ignore the algorithm and continue with their current spending habits.\",\n    \"Answer3\": \"Alex could use the algorithm to predict future expenses and make adjustments in their budget accordingly.\",\n    \"Answer4\": \"Alex could use the algorithm to visualize their spending habits and identify unnecessary expenditures.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Ignoring the algorithm would not help Alex to reach their savings goal. The purpose of the algorithm is to help Alex understand their spending and make informed decisions about their budget. Not using it would defeat the purpose of having the app.\"\n}"
+}

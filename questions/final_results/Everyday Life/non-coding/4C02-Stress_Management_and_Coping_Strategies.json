@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Everyday Life",
+    "topic": "Stress Management and Coping Strategies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been feeling overwhelmed with the amount of assignments they have lately. They have heard that using technology may help them to keep track of all their assignments and due dates, and therefore reduce their stress levels. What type of application software would be most beneficial to Alex in this situation?\",\n    \"Answer1\": \"A news app which constantly updates breaking news\",\n    \"Answer2\": \"A music app that helps them find new music\",\n    \"Answer3\": \"A task management or calendar app to help keep track of assignments and due dates\",\n    \"Answer4\": \"A weather app that will help them plan outdoor activities\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A task management or calendar app will provide the most benefit to Alex in this situation, because these types of apps are designed to help individuals organize tasks and deadlines so they can manage their time more effectively.\"\n}"
+}

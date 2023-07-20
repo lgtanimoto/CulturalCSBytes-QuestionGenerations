@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "School and Career",
+    "topic": "Relationships and Social Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a chatbot that they want their classmates to use. Alex started the project as part of the computer science club, stating the club members are the primary users. As it became popular, they decided to include the general student population's feedback more. Which of the following is the best approach for Alex to take when integrating their classmates' perspectives while designing the chatbot feature updates?\",\n    \"Answer1\": \"Alex should disregard the classmates' input as they are not members of the computer science club.\",\n    \"Answer2\": \"Alex should only implement the changes requested by a majority of their classmates.\",\n    \"Answer3\": \"Alex should only focus on the features that they find most interesting.\",\n    \"Answer4\": \"Alex should find a balance between their goals for the project, the club's goals, and the requests of their classmates.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When developing software or any other product, a critical part of the process is receiving and implementing feedback from its users. But Alex also has to maintain a balance between the different user groups and their own vision for the project.  Therefore, they need to consider their classmates' feedback but also integrate it with the requirements and motivations of the computer science club and their own project goals.\"\n}"
+}

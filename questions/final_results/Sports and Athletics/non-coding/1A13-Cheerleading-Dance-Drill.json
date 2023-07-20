@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A13",
+    "learning_objective": "Give attribution when using the ideas and creations of others while developing programs.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Cheerleading/Dance/Drill",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex choreographs a cheerleading routine for their school's upcoming sports event. They have drawn inspiration from several widely available online resources and other popular routines. How can Alex appropriately give attribution or credit for the sections of the routine inspired by these other resources within their program?\",\n    \"Answer1\": \"By simply not mentioning anything\",\n    \"Answer2\": \"By directly copying the routines without making any changes\",\n    \"Answer3\": \"By mentioning the source and/or original choreographer in the comments of the program\",\n    \"Answer4\": \"By changing the routine slightly and then claiming it as their own\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Proper attribution involves acknowledging the original source of the idea or material used. Alex should ensure to add comments within their program to clearly state the source or original choreographer of the parts of the routine inspired by these other resources.\",\n    \"code_snippet\": \"/* Routine inspired by the 2018 Nationals Championship routine by Some_School, specifically the section starting at 2:34 in video available at https://www.somewebsite.com  */\\n/* The final pyramid sequence is a slight modification of the sequence presented in the tutorial by Some_Cheer_Tutorial_Channel available at https://www.someothervideo.com  */\"\n}"
+}

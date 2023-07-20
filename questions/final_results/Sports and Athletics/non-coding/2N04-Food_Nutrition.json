@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N04",
+    "learning_objective": "Model how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the Internet, and reassembled at the destination.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is busy building an app to suggest healthy recipes based on the nutritional values of food items. The app gets data from an external API which provides information about the food items listed in a recipe. Which of the following best explains how this data is sent to Alex's app when a request for a recipe's nutritional content is made by the application?\",\n    \"Answer1\": \"The entire nutritional data set is downloaded entirely to the app before any recipes are listed.\",\n    \"Answer2\": \"A direct connection is established with the nutrition database and data corresponding to the requested recipe is sent in a single large file.\",\n    \"Answer3\": \"The information about the individual food items is divided into smaller packets, transmitted over multiple network paths, then reassembled in the app as they are received.\",\n    \"Answer4\": \"The app is pre-loaded with all nutritional data thus resulting in no need for data transmission.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Data is often broken down into smaller packets for transmission over the internet. These packets may take different routes depending on network conditions and are then reassembled in the correct order as they arrive in the app.\"\n}"
+}

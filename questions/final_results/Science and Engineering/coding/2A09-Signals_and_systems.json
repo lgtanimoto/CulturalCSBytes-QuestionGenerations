@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a signal transmission system for their school's radio club. They have written the following code to convert signals into binary values and calculate the equivalent decimal number:What is the value of the system output if the binary signal input is '1011'?\",\n    \"Answer1\": \"14\",\n    \"Answer2\": \"11\",\n    \"Answer3\": \"9\",\n    \"Answer4\": \"8\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex's code reads the binary signals right-to-left, i.e., least significant bit first. '1011' in binary translates to 1*2^0 + 1*2^1 + 0*2^2 + 1*2^3 = 1 + 2 + 0 + 8 = 11 in decimal format.\",\n    \"code_snippet\": \"text signal = \\\"1011\\\"\\ninteger equivalentDecimal = 0\\ninteger length = signal:GetLength()\\nfor i = 0 to length - 1\\n    integer bit = signal:GetSubstring(length - 1 - i, 1)\\n    if bit = 1\\n        equivalentDecimal = equivalentDecimal + 2^i\\n    end\\nend\\noutput equivalentDecimal\"\n}"
+}

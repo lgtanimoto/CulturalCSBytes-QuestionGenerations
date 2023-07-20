@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "Everyday Life",
+    "topic": "Risks and Consequences of Substance Abuse",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is coding an interactive and user-friendly software to educating teenagers about the risks and consequences of substance abuse. The software gathers feedback from its users and iterates based on this feedback. What coding strategy must Alex follow for successful implementation of this feature?\",\n    \"Answer1\": \"Rewrite the entire codebase for every update of the software.\",\n    \"Answer2\": \"Ask the user to provide feedback every time the software is used and make necessary changes to the code irrespective of the user feedback.\",\n    \"Answer3\": \"Take user feedback, identify problem areas, plan improvements with a diverse group of people considering varying perspectives, and iteratively add improvements to the code.\",\n    \"Answer4\": \"Never include user feedback as it isn't a good indicator of where the code might have flaws or areas of improvement.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Implementing an iterative development process ensures that the software is developed in a way that includes the perspectives of a diverse group of people and considers user feedback and preferences. This makes the software more relatable and useful to its users.\"\n}"
+}

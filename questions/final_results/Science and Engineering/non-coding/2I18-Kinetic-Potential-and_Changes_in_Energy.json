@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I18",
+    "learning_objective": "Discuss computing technologies that have changed the world, and express how those technologies influence, and are influenced by, cultural practices.",
+    "interest_area": "Science and Engineering",
+    "topic": "Kinetic, Potential, and Changes in Energy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a research, Alex notes that the production and use of cell phones over the last 20 years has transformed cultures across the world by enabling instant communication and providing easy access to information. They believe that the cultural adoption of cell phones has led to the creation of new technologies as well. Which of the following examples does NOT support Alex's thesis?\",\n    \"Answer1\": \"Cell phone use has led to the creation of GPS technologies.\",\n    \"Answer2\": \"The popularity of texting on cell phones has influenced the development of shorthand language and emojis.\",\n    \"Answer3\": \"The use of cell phones has spawned the creation of mobile games like Pokemon Go, impacting leisure time activities and public spaces.\",\n    \"Answer4\": \"The use of cell phones has caused a decrease in the popularity of traditional landlines phones.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While it's true that cell phone use has contributed to a decrease in landline popularity, this is a consequence of cultural shift, not an example of a new technology created by the influence of cell phone use.\"\n}"
+}

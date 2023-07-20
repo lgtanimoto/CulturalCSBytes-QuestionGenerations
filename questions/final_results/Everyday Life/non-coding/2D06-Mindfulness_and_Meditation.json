@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Everyday Life",
+    "topic": "Mindfulness and Meditation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been keeping a study-long diary. They recorded the number of minutes they meditated each day and any school exam results on that same day. Alex found that on the days they meditated for longer, their exam results were better. Alex wants to show their class the relationship between mindful meditation and academic results. Which of the followings would be the best type of chart for Alex to use?\",\n    \"Answer1\": \"Bar chart\",\n    \"Answer2\": \"Pie chart\",\n    \"Answer3\": \"Scatter plot\",\n    \"Answer4\": \"Line graph\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex wants to show a potential relationship or trend between meditation time and exam results. A scatter plot is the best choice here because it can show both the distribution of individual data points and any potential correlation or trend between the two variables.\"\n}"
+}

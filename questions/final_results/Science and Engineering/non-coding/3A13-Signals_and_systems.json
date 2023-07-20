@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Science and Engineering",
+    "topic": "Signals and systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tasked with creating a software to control a traffic light system. The traffic light system must function as follows: Red light for 60 seconds, then green light for 60 seconds, followed by yellow light for 20 seconds before going back to red light. How should Alex decompose this task into subproblems?\",\n    \"Answer1\": \"Create a function that counts down for a specific amount of time, then create individual functions to represent each light state. Stitch them together to create the traffic light system.\",\n    \"Answer2\": \"Start with coding the red light, then consider the other lights.\",\n    \"Answer3\": \"First conceptualize the entire traffic light system before thinking of any individual components.\",\n    \"Answer4\": \"Start with coding the green and yellow lights, as they are less common than the red light.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Decomposition involves breaking problems down into manageable parts. In this scenario, the manageable parts could be represented as individual functions controlling each light state and a timer function for time control, which collectively make up the overall traffic light system.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Science and Engineering",
+    "topic": "Environmental science and pollution",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing an application that uses real-time data to inform users about the air quality in their immediate vicinity. Alex's program has an array of air samples taken every hour for a week. Here is a snippet of Alex's code:Which of the following provides the correct explanation for how Alex's code executes when an 'unhealthy' reading is detected?\",\n    \"Answer1\": \"This code will print the unhealthy air quality message once and then stop the program.\",\n    \"Answer2\": \"This code will send a notification to the user every hour when the air quality is unhealthy.\",\n    \"Answer3\": \"This code will ignore the unhealthy air quality readings.\",\n    \"Answer4\": \"This code will only send a notification to the user if the air quality has been unhealthy for a week.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The loop in Alex's code executes once every hour, checking the air quality each time. If an 'unhealthy' reading is detected, it will trigger an event that sends a notification to the user. This will continue to occur every hour as long as the air quality remains 'unhealthy'.\",\n    \"code_snippet\": \"integer i = 0\\nwhile i < length of airSamples\\n    if airSamples[i] == 'unhealthy'\\n        output 'The air quality is currently unhealthy. Please take appropriate precautions.'\\n    end\\n    i = i + 1\\nend \"\n}"
+}

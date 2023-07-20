@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Science and Engineering",
+    "topic": "Environmental science and pollution",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project about air pollution levels in different cities over time. They have to collect, store and graph data to show the changes. Which software should Alex use to best manage this project?\",\n    \"Answer1\": \"Video Editing software (e.g., Adobe Premiere, iMovie)\",\n    \"Answer2\": \"Graphic Design software (e.g., Adobe Photoshop, GIMP)\",\n    \"Answer3\": \"Spreadsheet software (e.g., Google Sheets, Microsoft Excel)\",\n    \"Answer4\": \"Audio Editing software (e.g., Audacity, Adobe Audition)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Spreadsheet software like Google Sheets or Microsoft Excel would be the best choice for Alex to collect, store, and graph data. This type of software is built to handle large amounts of numerical data, and can also create different types of graphs to visualize that data.\"\n}"
+}

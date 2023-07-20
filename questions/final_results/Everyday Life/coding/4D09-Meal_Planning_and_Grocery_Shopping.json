@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Everyday Life",
+    "topic": "Meal Planning and Grocery Shopping",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is planning a meal for a family gathering. They're using a program to create a shopping list, which they plan to use to buy ingredients at the grocery store. The program converts the list of items into a binary representation for ease of data processing. However, because there are some produce items in the list, the binary representation should account for their varying weights rather than just presence or absence. Which of the following binary representations could accurately represent a grocery item taking weights into account?\",\n    \"Answer1\": \"Banana: 01\",\n    \"Answer2\": \"Apple: 0010\",\n    \"Answer3\": \"Potato: 1111\",\n    \"Answer4\": \"Cabbage: 1010\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The binary code '0010' could represent an apple with a weight of 2 units (assuming a unit weight is represented by each 1 in the binary code). The other binary codes do not indicate any difference in weights as they only account for the presence (1) or absence (0) of items.\",\n    \"code_snippet\": \"groceryList = [\\\"Banana: 10\\\", \\\"Apple: 0010\\\", \\\"Potato: 1111\\\", \\\"Cabbage: 1010\\\"]\\nclass ItemConverter\\n    action ConvertBinaryToWeight(string binary)\\n        integer weight = 0\\n        repeat over binary\\n            if binary:GetCurrent() = '1'\\n                weight = weight + 1\\n            end\\n        end\\n        return weight\\n    end\\nend\"\n}"
+}

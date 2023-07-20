@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is the captain of their high school soccer team and they have been tasked with designing a new team logo. They need input from other team members, coaching staff, and fans to make sure the logo represents the team and community well. Which of the following strategies would be the MOST effective in gathering feedback during the process?\",\n    \"Answer1\": \"Alex creates the logo by themselves, based on their liking, and shares the final design with everyone\",\n    \"Answer2\": \"Alex creates a survey to collect ideas and feedback from team members, coaches, and fans about what they want to see in the new logo\",\n    \"Answer3\": \"Alex designs several different logos and chooses the best one according to their personal preference\",\n    \"Answer4\": \"Alex asks for feedback after the final design is already printed on team jerseys\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By creating a survey, Alex can gather everyone's ideas and feedback at once, turning this task into a collaborative effort. This strategy can ensure that the new logo represents the views of the entire team and fans, rather than just Alex's personal preference.\"\n}"
+}

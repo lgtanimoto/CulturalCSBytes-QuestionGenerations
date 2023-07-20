@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Science and Engineering",
+    "topic": "Building Architecture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is programming a 3d visualization tool for city planning. The first version should be able to create simple building shapes like rectangular prisms and cylinders. The programming language Alex prefers has built-in methods for drawing shapes, but only 2d shapes such as rectangles and circles. With these 2d shapes, Alex needs to program building formats that the city planning tool can use. What is the best way for Alex to pursue this problem?\",\n    \"Answer1\": \"Start by creating a function that draws a 2d rectangle or circle, then transform it into a 3d shape\",\n    \"Answer2\": \"Alex should change the programming language to one that already has 3d shapes built-in\",\n    \"Answer3\": \"Alex should create a complex function that can draw any 3d shape right away\",\n    \"Answer4\": \"Create a function that draws a square, then nests this function within another that creates rows of squares, then nests this function within another that creates columns of these rows to create a 3d rectangular prism\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"This problem can be solved by defining simple steps first, such as drawing a square and then building upon these steps, like stacking rows of squares, to create a more complex structure. This is called the iterative process of program development where we start with simpler solutions and gradually make them more complex while reusing the earlier parts.\"\n}"
+}

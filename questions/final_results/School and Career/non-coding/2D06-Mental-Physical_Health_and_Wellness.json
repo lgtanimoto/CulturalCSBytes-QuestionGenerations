@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "School and Career",
+    "topic": "Mental/Physical Health and Wellness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex conducted a survey of their classmates regarding the number of hours they sleep each day and their ability to concentrate in class. They found that students who sleep 8 hours a day tend to rate their ability to concentrate in class as 'high', while those who sleep 6 hours or less rate it as 'low'.  Which type of chart or graph would best illustrate this apparent relationship?\",\n    \"Answer1\": \"Bar chart\",\n    \"Answer2\": \"Pie chart\",\n    \"Answer3\": \"Scatter plot\",\n    \"Answer4\": \"Line chart\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A scatter plot is the best choice to illustrate a potential relationship between two variables, in this case hours of sleep and ability to concentrate. A scatter plot allows a direct comparison between the variables and can show whether trends exist within the data.\"\n}"
+}

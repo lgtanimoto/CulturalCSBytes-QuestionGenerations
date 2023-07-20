@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "Science and Engineering",
+    "topic": "Earth, moon, sun, and seasons",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project related to the space mission, which includes sending data from the Earth to the Moon. They are required to design a protocol to ensure data transmitted via a network between devices on the two celestial bodies is reliable and efficient. In the context of the project, what does the term 'protocol' refer to in computer networking?\",\n    \"Answer1\": \"A protocol refers to the orbit of the moon around the Earth.\",\n    \"Answer2\": \"A protocol is an energy-efficient solar power system used in space missions.\",\n    \"Answer3\": \"A protocol refers to a suite of application softwares used for the mission.\",\n    \"Answer4\": \"A protocol refers to a set of rules that define how data is transmitted and received through the network.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A protocol in terms of computer networking is a set of standardized rules that allow computers to communicate. These rules govern the design, timing, synchronization, error handling, sequencing, and so forth, which makes it possible for network devices to communicate and transmit data efficiently and reliably.\"\n}"
+}

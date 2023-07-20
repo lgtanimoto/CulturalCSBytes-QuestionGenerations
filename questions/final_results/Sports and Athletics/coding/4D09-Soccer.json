@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Soccer",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex, a soccer enthusiast, decides to create a program that will predict the outcome of a soccer match based on the positions of all the players, ball, and goals. In order to accomplish this, Alex needs to create a representation of the players' positions using bits. Consider an 8-bit number where the first four bits represents the x-coordinate and the last four bits represents the y-coordinate. The position of a player is represented as '11010101'. What does this translate to in the real-world x,y coordinates of a soccer field?\",\n    \"Answer1\": \"x:13, y:5\",\n    \"Answer2\": \"x:5, y:13\",\n    \"Answer3\": \"x:10, y:1\",\n    \"Answer4\": \"x:1, y:10\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"An 8-bit number is divided into two 4-bit numbers, with each 4-bit number being a number from 0 to 15. By converting each 4-bit number from binary to decimal, we get '1101' as 13 and '0101' as 5. Therefore, the player's coordinates on a real-world soccer field would be x:13, y:5.\",\n    \"code_snippet\": \"text binary_representation = \\\"11010101\\\"\\nnumber x = binaryToDecimal(binary_representation:sub(1, 4))\\nnumber y = binaryToDecimal(binary_representation:sub(5, 8))\\noutput \\\"x: \\\" + x + \\\", y: \\\" + y\"\n}"
+}

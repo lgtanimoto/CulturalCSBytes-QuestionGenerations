@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "School and Career",
+    "topic": "College Planning, Application, and Selection",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a website to help their younger sister, who's a junior in high school, navigate the college application process. Alex wants to include an interactive map where you can click on a college and get information about it. Alex found a useful open-source map code on Github. What should Alex do in order to ethically use this code in their website?\",\n    \"Answer1\": \"Download the code, modify it for their needs, and use it in their website without any mention of the original Github code.\",\n    \"Answer2\": \"Download the code, modify it for their needs, and use it in their website with proper attribution to the original Github code.\",\n    \"Answer3\": \"Take a screenshot of the map display from the Github page, then use that screenshot on their website as the interactive map.\",\n    \"Answer4\": \"Download the code, modify it to include some errors, and then use it in their website without any mention of the original Github code.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When incorporating existing code into a new project, it's important to give credit to the original source, especially if the code is open-source and requires that any re-use includes attribution. This is an ethical responsibility and often a legal one.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Everyday Life",
+    "topic": "Sleep and Restorative Practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a wellness app. They want to track a user's sleep and wellness routine. Alex decides to represent 8 hours of sleep as '1' and less than 8 hours as '0'. What type of variable and symbol is Alex using to represent the user's sleep status?\",\n    \"Answer1\": \"Boolean; 0 or 1\",\n    \"Answer2\": \"Integer; 0 or 8\",\n    \"Answer3\": \"Double; 0.0 or 8.0\",\n    \"Answer4\": \"String; '0' or '1'\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex is using a boolean variable to represent the user's sleep status. Booleans are represented as '0' or '1'. In this case, '1' represents 8 hours of sleep and '0' represents less than 8 hours of sleep.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Science and Engineering",
+    "topic": "Robotics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is programming a robot to move to a light source when it's switched on. The robot navigates the movement by reading raw electrical signals from a light sensor, translating these signals into what it perceives as 'light' or 'dark', and then moves towards 'light'. Which level of abstraction is responsible for this kind of translation?\",\n    \"Answer1\": \"Hardware layer (physical components of the robot)\",\n    \"Answer2\": \"Application software layer (the specific navigation program Alex is using)\",\n    \"Answer3\": \"System software layer (operating systems or firmware running on the robot)\",\n    \"Answer4\": \"Data abstraction layer (translating raw data into meaningful information)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The System Software Layer is responsible for this kind of translation. It sits between the hardware layer (where the raw electrical signals are generated) and the application software layer (where these signals are used to make decisions). The system software interprets the raw signals, translating them into a form that the application software can use.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Science and Engineering",
+    "topic": "Ecosystems and biodiversity",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"As part of a science project, Alex is creating a computer program that simulates different ecosystems and recommends the best plants and animals to introduce to improve biodiversity. They also want to include a feature where the program suggests alternative species if the recommended ones aren't available. Alex finds a program online that predicts the impact of introducing a new species to an ecosystem. How should Alex proceed?\",\n    \"Answer1\": \"Alex should use the existing program as is, without modification, as it already does part of what they need to do.\",\n    \"Answer2\": \"Alex should modify the existing program, incorporating its portions into their own program to suggest alternate species based on the impact on the ecosystem.\",\n    \"Answer3\": \"Alex should not use the existing program because it might be illegal to do so.\",\n    \"Answer4\": \"Alex should rewrite the program from scratch because using someone else's program is considered cheating.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex is encouraged to modify, remix, or incorporate portions of an existing program into their own work because it helps in developing something new or adding more advanced features. However, Alex should ensure that they properly attribute the original creator of the program they are using.\"\n}"
+}

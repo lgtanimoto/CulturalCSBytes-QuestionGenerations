@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Everyday Life",
+    "topic": "Stress Management and Coping Strategies",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a wellness app to help people manage their stress levels. They have a function that tracks the user's stress level throughout the day and provides helpful tips and resources based on the level of stress. The function's code is hidden in the app, so the user doesn't see all the computations and logic the function uses to track and respond to the user's stress level. What is the computer science principle that Alex is applying by hiding the code?\",\n    \"Answer1\": \"Data Encapsulation\",\n    \"Answer2\": \"Algorithm Optimization\",\n    \"Answer3\": \"Abstraction\",\n    \"Answer4\": \"Parallel Processing\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Abstraction is the computer science principle that involves hiding the complexity and details of large systems and exposing the essential features to the users. In this scenario, Alex is applying the principle of abstraction by hiding the function's code and simplifying the user's interaction with the app.\",\n    \"code_snippet\": \"action TrackStressLevel(integer level)\\n    if level > 7\\n        output \\\"High stress level detected. Please take a breathe.\\\" \\n    else if level <= 7 and level >= 4\\n        output \\\"Moderate stress level. Consider short breaks throughout your day.\\\" \\n    else\\n       output \\\"Good job! You have low stress.\\\" \\n    end\\nend\"\n}"
+}

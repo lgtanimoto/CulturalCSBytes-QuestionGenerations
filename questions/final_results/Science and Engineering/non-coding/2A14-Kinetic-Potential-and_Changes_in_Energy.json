@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Science and Engineering",
+    "topic": "Kinetic, Potential, and Changes in Energy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed a program that calculates both potential and kinetic energy when given mass, height, velocity and gravitational constant. Recently, they found an open-source code that also calculates change in energy. Instead of writing his own code for calculating change in energy, Alex decides to use chunks of the open-source code in their program. What should Alex do to ensure they respect intellectual property rights?\",\n    \"Answer1\": \"Alex can just copy the code and use it in their program without indicating where it came from.\",\n    \"Answer2\": \"Alex should try to rewrite the code in a different way, so it does not look like they copied it.\",\n    \"Answer3\": \"Alex needs to mention in their program that parts of their code are derived from the open-source code and provide a link to the original code.\",\n    \"Answer4\": \"Since it is open-source, Alex doesn't need to do anything as they are free to use the code in any way they want.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Intellectual property rights should always be respected. Even if the code is open-source, it is professional decorum (and often required under the terms of use) to give proper attribution to the original creator or source.\"\n}"
+}

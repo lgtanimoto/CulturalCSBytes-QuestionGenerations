@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Food Nutrition",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Recently, Alex and their friends have been working on developing an app that can scan a food item's barcode and provide detailed nutritional information. This could potentially enable people to make healthier food choices. However, a concern arises about the implications that can arise from this app's mass usage. Which of the following could NOT be one of the impacts of using this app?\",\n    \"Answer1\": \"A significant decrease in sales of junk food due to increased awareness about their nutritional content.\",\n    \"Answer2\": \"Enhanced public health as people opt for healthier food options based on the app's nutritional information.\",\n    \"Answer3\": \"Increased economic inequality as only people with smartphones can gain access to such information- thereby alienating those who can't afford such devices.\",\n    \"Answer4\": \"Despite the newly available nutritional information, people continue to choose unhealthy food options because they prefer the taste.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex's app is designed to provide nutritional information and with that information, people can make more informed choices. However, whether or not people will make healthier choices based on this new information is highly dependent on personal factors on a case by case basis, and does not directly relate to the economic, social or ethical implications of the app usage.\"\n}"
+}

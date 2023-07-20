@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "School and Career",
+    "topic": "Time Management and Organization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex had been struggling with time management and decided to start tracking how they spend their time each day for a week. They recorded the amount of time spend on activities such as homework, chores, video gaming, exercising, and socializing. They wanted to make a graphical representation of their data to better understand their time management so they can improve it. Which of the following structures would be best to organize and visualize Alex's data?\",\n    \"Answer1\": \"A line graph with the amount of time on the y-axis and the different activities on the x-axis.\",\n    \"Answer2\": \"A Venn diagram with overlapping circles for each activity.\",\n    \"Answer3\": \"A bar graph with the amount of time on the y-axis and the different activities on the x-axis.\",\n    \"Answer4\": \"A flowchart that shows the sequence of Alex's daily activities.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A bar graph would be the most effective way for Alex to visualize the data. In this case, the y-axis would represent the amount of time spend on each activity (the data they are analyzing) and the x-axis would represent different activities, which would make the comparison between activities easier.\"\n}"
+}

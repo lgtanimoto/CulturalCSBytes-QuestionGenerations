@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "Everyday Life",
+    "topic": "Stress Management and Coping Strategies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an active student who loves their physical education classes. After school, they enjoy playing video games. Thinking about the security measures in place, Alex compares the concept of defending a goal post against opposing soccer players with password-protected game accounts. How could Alex relate these concepts to help understand how physical and digital security measures protect electronic information?\",\n    \"Answer1\": \"A sturdy goal post and a skilled goalie are equivalent to a strong password and a secure network.\",\n    \"Answer2\": \"A goal post is a physical boundary, equivalent to a firewall, keeping unauthorized players out, while a strong password grants authorized access to the game account.\",\n    \"Answer3\": \"The soccer field's boundary markers represent the boundaries of a network, while the password protects from trespassers just as the goal post and skilled goalie protect from opposing players.\",\n    \"Answer4\": \"A combination of all the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Both physical and digital security measures have the main goal of protecting valuable resources. In a soccer game, the goal post and the goalie represent physical security measures protecting a strategic point. Similarly, digital security measures like network boundaries (firewalls) and authorization methods (passwords) protect valuable electronic information.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I16",
+    "learning_objective": "Compare how people live and work before and after the implementation or adoption of new computing technology.",
+    "interest_area": "School and Career",
+    "topic": "Lifelong Learning and Skill Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to understand the impact of computer-based learning platforms on lifelong learning and skill development. Alex learns that in the past, many adults would enroll in traditional classrooms at local community colleges or universities for continuous learning opportunities but recently there has been a rise in online learning platforms. Which option could Alex NOT claim as a result of this transition from traditional classrooms to online learning platforms?\",\n    \"Answer1\": \"Participants can now learn at their own pace, without the time constraints of a traditional classroom setting.\",\n    \"Answer2\": \"Online learner's geographical constraints are largely removed, making the courses universally accessible.\",\n    \"Answer3\": \"Continuous learning has become less accessible and less affordable for many adults.\",\n    \"Answer4\": \"Online platforms allow for immediate feedback and interactive learning experiences.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"With the advent of online learning platforms, continuous learning has become more accessible and often more affordable than traditional classroom-based learning. Although there may be some challenges in accessibility due to technology and internet requirements, overall, the shift to digital learning platforms tends to increase access to learning opportunities.\"\n}"
+}

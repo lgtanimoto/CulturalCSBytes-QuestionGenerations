@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "School and Career",
+    "topic": "Self-Reflection and Personal Growth",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex posts pictures and updates about their life regularly on their social media accounts. One day, they receive a scam call, where the caller claimed to know personal details about Alex which they had never stated publicly. This made Alex nervous about the type of information they share to the world. What could be a possible step that Alex could take to avoid such situations in the future?\",\n    \"Answer1\": \"Alex could stop using the internet and all forms of digital communication.\",\n    \"Answer2\": \"Alex should review their personal online presence frequently, adjust privacy settings on social media accounts, and be selective about what they share online.\",\n    \"Answer3\": \"Alex should only interact with people they know personally on the internet.\",\n    \"Answer4\": \"Alex should close all their social media accounts immediately.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The correct answer is to review personal online presence. With increasing digitization, it's nearly impossible for Alex to avoid using the internet or interacting with people they don't know on the internet. Hence, the best solution is for Alex to be more careful about what information they are sharing, with whom, and how their information could be accessed.\"\n}"
+}

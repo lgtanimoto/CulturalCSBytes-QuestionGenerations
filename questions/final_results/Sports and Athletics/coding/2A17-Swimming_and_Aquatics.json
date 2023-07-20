@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Swimming and Aquatics",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program to calculate lap times for the members of their school's swim team. A code snippet of Alex's program looks as follows:Looking at Alex\u2019s code, their classmate Rio thinks the code could benefit from some comments. Where should Alex add a comment to improve understanding of the code?\",\n    \"Answer1\": \"After line 4, to explain the purpose of the lapTime variable\",\n    \"Answer2\": \"After line 1, to explain the purpose of the program\",\n    \"Answer3\": \"After line 2, to explain the purpose of the name variable\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Comments are helpful for understanding code at each step. They can explain the purpose of variables, what your code is intended for, and the logic you're using for the functions and structures. Hence, Alex should insert comments at all mentioned places to make their code more understandable.\",\n    \"code_snippet\": \"text name = getPlayerName()\\nnumber lapTime = getLapTime(name)\\nif lapTime < bestTime\\n     output name + \\\" has the best time.\\\"\\nelse\\n     output name + \\\" does not have the best time.\\\"\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Basketball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a basketball statistics tracking application. They want to include the most relevant stats in the app to make it useful for the users. Which process or method best describes how Alex should design their program?\",\n    \"Answer1\": \"Decide the features of the application only based on personal preferences\",\n    \"Answer2\": \"Determine the features of the app by picking random basketball stats\",\n    \"Answer3\": \"Work with prospective users to understand what statistics are most useful to them, design a first version, get user feedback, and continue to revise\",\n    \"Answer4\": \"Design the app with the most complicated statistics to make it more professional\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A successful application is designed by involving user preferences and feedback. This iterative process, where the creator works closely with users and constantly revises the product based on their feedback, is a common practice in the development of successful applications.\"\n}"
+}

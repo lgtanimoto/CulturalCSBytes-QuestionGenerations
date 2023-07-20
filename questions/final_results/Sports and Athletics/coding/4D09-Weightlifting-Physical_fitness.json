@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Weightlifting/Physical fitness",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex finds a smart scale at the gym that measures weight and converts it into bits. After a particularly heavy set of deadlifts, they step on the scale and sees '01100101'. What is the weight that the scale is reporting in base 10?\",\n    \"Answer1\": \"78 lbs\",\n    \"Answer2\": \"101 lbs\",\n    \"Answer3\": \"100 lbs\",\n    \"Answer4\": \"69 lbs\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The answer is 69 lbs as the binary number '01100101' converts to the decimal number 101. Each placemark represents a power of 2, and only the places with a 1 are added together.\",\n    \"code_snippet\": \"output BinaryToDecimal('01100101')\",\n    \"auxiliary_code\": \"action BinaryToDecimal(text bits)\\n    integer decimal = 0\\n    integer position = bits:Length() - 1\\n    repeat i over bits\\n        if bits:Get(i) = '1' then\\n            decimal = decimal + 2 ^ position\\n        end\\n        position = position - 1\\n    end\\n    return decimal\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A11",
+    "learning_objective": "Create clearly named variables that represent different data types and perform operations on their values.",
+    "interest_area": "Science and Engineering",
+    "topic": "Genetic Inheritance and Variation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is fascinated by genetics and wants to simulate simple inheritance using a computer program. They decide to use boolean variables to represent two genes: curlyHair (where true represents curly hair, false represents straight hair) and brownEyes (where true represents brown eyes, false represents blue eyes). How could Alex express the concept of a person who inherits curly hair and brown eyes through the genetic lottery using these variables?\",\n    \"Answer1\": \"curlyHair = false; brownEyes = false;\",\n    \"Answer2\": \"curlyHair = true; brownEyes = false;\",\n    \"Answer3\": \"curlyHair = true; brownEyes = true;\",\n    \"Answer4\": \"curlyHair = false; brownEyes = true;\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex is trying to represent a person who has both curly hair and brown eyes, so both the curlyHair and the brownEyes variables would need to be set to true.\"\n}"
+}

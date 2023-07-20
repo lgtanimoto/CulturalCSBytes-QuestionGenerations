@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A19",
+    "learning_objective": "Document programs in order to make them easier to follow, test, and debug.",
+    "interest_area": "School and Career",
+    "topic": "Relationships and Social Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program to simulate social interactions among characters in a video game. The program has a large and complex code base, but Alex hasn't documented the code properly. Now they are struggling to remember how certain parts of the program work. When adding documentation to their code, which of the following should Alex prioritize?\",\n    \"Answer1\": \"Adding comments to lines of code that are hard to understand at first glance, describing what each method or function does, and outlining the general logic of the program.\",\n    \"Answer2\": \"Rewriting all the code from scratch, using different variable names and simpler logic.\",\n    \"Answer3\": \"Using shorter variables and function names to make the code appear less complex.\",\n    \"Answer4\": \"Removing all comments from the original version, as they might be outdated.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Proper documentation of a program includes commenting complex parts of the code to describe their function, explaining the role of various methods or functions, and providing a general outline of the software's logic to allow others or your future self to understand and work with the codebase.\"\n}"
+}

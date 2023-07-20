@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Sports and Athletics",
+    "topic": "Baseball/Softball",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is the statistician for their school's softball team. They are asked to calculate Batting Average, a statistic calculated by dividing the number of hits by the number of at-bats. At the end of a recent game, Alex realized they accidentally deleted their teammate Jordan's data. Alex remembers that Jordan had a batting average of 0.370 and 27 at-bats. Using this information, can Alex calculate the number of hits Jordan had? If so, how?\",\n    \"Answer1\": \"No, Alex can't calculate the number of hits because the data was deleted.\",\n    \"Answer2\": \"Yes, by multiplying Jordan's batting average by the number of at-bats.\",\n    \"Answer3\": \"Yes, by dividing Jordan's batting average by the number of at-bats.\",\n    \"Answer4\": \"Yes, by subtracting Jordan's batting average from the number of at-bats.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Yes, Alex can multiply Jordan's batting average by the number of at-bats to calculate number of hits. The formula would be as follows: Hits = batting average * at-bats = 0.370 * 27 = 9.99. In baseball statistics, we would round this down to 9 hits.\"\n}"
+}

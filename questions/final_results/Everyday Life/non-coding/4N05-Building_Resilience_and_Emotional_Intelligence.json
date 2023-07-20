@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Resilience and Emotional Intelligence",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Imagine that Alex is working on a school project about building emotional resilience. They spend hours researching, creating charts and graphics, and writing their findings in a document that gets saved on their computer. One day, they find that their project file is corrupted and unreadable due to malware. Fabricated data about 'improving emotional intelligence through hypnosis' also appears in their work. What is the best explanation of what's happened?\",\n    \"Answer1\": \"The malware has added additional data to Alex's file to make it more comprehensive.\",\n    \"Answer2\": \"The malware has edited and corrupted Alex's file, possibly changing or destroying their original work.\",\n    \"Answer3\": \"The malware has only affected the aesthetics of Alex's project file.\",\n    \"Answer4\": \"The malware has improved Alex's project by adding new, insightful data points.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Malware can affect sensitive data in various ways. Here, Alex's work was both corrupted (making it unreadable) and modified (adding fabricated information), significantly impacting the reliability of Alex's work and potentially wasting their time and effort.\"\n}"
+}

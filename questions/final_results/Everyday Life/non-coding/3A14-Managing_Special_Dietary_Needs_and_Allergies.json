@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Everyday Life",
+    "topic": "Managing Special Dietary Needs and Allergies",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a mobile app to help manage their family's special dietary needs and allergies. They want to list all family members with their allergens and dietary restrictions. Also when adding a new menu, they should check for violations with family member\u2019s dietary needs. Alex has already written the code to gather family member\u2019s information, and a unique identifier (id) was assigned to each family member. Now, to simplify the application, they is considering writing a procedure to reuse the code for validation. What should the parameter(s) be for the procedure?\",\n    \"Answer1\": \"The id of each family member\",\n    \"Answer2\": \"The name and allergens of the family member\",\n    \"Answer3\": \"The entire dataset for the family\",\n    \"Answer4\": \"The allergens and dietary restrictions of the family member\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex should write a procedure that takes a family member's unique identifier (id) as a parameter. This parameter will allow the procedure to extract the relevant data from the family's data set and perform necessary validation, simplifying the rest of the code.\"\n}"
+}

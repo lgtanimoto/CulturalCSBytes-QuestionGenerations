@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "Everyday Life",
+    "topic": "Exercise and Physical Activity",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves to monitor their physical activities using a fitness tracker. This fitness tracker communicates with Alex's smartphone using a protocol. What is the role of this protocol in the process?\",\n    \"Answer1\": \"The protocol is used to boost the fitness tracker's battery life\",\n    \"Answer2\": \"The protocol is responsible for the conversion of Alex's physical data into electronic data\",\n    \"Answer3\": \"The protocol defines how to format, transmit, and receive data so that the devices can understand each other\",\n    \"Answer4\": \"The protocol measures Alex's physical activity\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A protocol is a set of rules that dictates how data is formatted, transmitted, and received. It provides the necessary guidelines so that different devices can communicate effectively with each other. So in the case of Alex's fitness tracker and smartphone, they are using a protocol to ensure they can exchange data reliably.\"\n}"
+}

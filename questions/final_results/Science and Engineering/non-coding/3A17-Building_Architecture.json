@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "Science and Engineering",
+    "topic": "Building Architecture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program to simulate the building process of a skyscraper structure. Alex wants to ensure their program works as expected and catches any potential problems before implementing on the real site. Which one of the following test cases would NOT be a useful test of Alex's program?\",\n    \"Answer1\": \"Setting the materials' strengths to the maximum possible values on the whole structure and verifying that it stands and performs as expected\",\n    \"Answer2\": \"Simulating a case where the building is built with the wrong type of material to see how the program reacts and whether it issues a warning\",\n    \"Answer3\": \"Running a simulation with average mass and strength values for all the materials\",\n    \"Answer4\": \"Testing if the program prints out a recipe for cooking spaghetti\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Even though it is essential to design a variety of test cases, the spaghetti recipe doesn't relate to the building architecture, and it would not provide useful or meaningful information on the program's performance or potential bugs.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A19",
+    "learning_objective": "Document programs in order to make them easier to follow, test, and debug.",
+    "interest_area": "Science and Engineering",
+    "topic": "Environmental science and pollution",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a program to calculate the level of air pollution at a specific location based on the amount of harmful gases detected in the air. They define initial variables like emissionLevelCO2 (Carbon dioxide), emissionLevelSO2 (Sulfur dioxide), and emissionLevelNO2 (Nitrogen dioxide), but they do not provide any comments or notes about what the variables represent or what types of calculations they are performing. Adding more comments to their code could help others understand and debug the program. What are some suitable places to add comments?\",\n    \"Answer1\": \"On the lines where they define the variables.\",\n    \"Answer2\": \"On the lines where they perform calculations.\",\n    \"Answer3\": \"At the beginning of the program where they define the purpose of the program.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Comments should be added in all of the above cases. They help readers understand what is being stored in a variable, what a specific section of code does (such as calculations), and what the overall program is designed to do.\"\n}"
+}

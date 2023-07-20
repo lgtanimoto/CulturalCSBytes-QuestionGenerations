@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Science and Engineering",
+    "topic": "Forces and acceleration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is using JavaScript to simulate a basic physics problem for their science class. They have written code that calculates acceleration given the net force applied and the mass of the object. Which of the following choices is the best way for Alex to document design decisions in the development of this program?\",\n    \"Answer1\": \"Include a visual diagram of the forces being applied to the object in the project.\",\n    \"Answer2\": \"Include code comments explaining how acceleration is calculated from net force and mass.\",\n    \"Answer3\": \"Present the project to the class, explaining the physics behind the program.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All these methods are valid ways of documenting design decisions. Visual diagrams help visualize the problem, comments help understand the code, and presentations help demonstrate how it all comes together.\",\n    \"code_snippet\": \"let netForce = F; // Net force applied on the object\\nlet mass = m; // Mass of the object\\n// Acceleration is calculated by dividing net force by mass\\nlet acceleration = netForce / mass; \"\n}"
+}

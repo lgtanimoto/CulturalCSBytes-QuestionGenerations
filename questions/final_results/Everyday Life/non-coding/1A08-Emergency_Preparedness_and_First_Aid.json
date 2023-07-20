@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Everyday Life",
+    "topic": "Emergency Preparedness and First Aid",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program to help guide their younger sister in the event of an earthquake. Alex wants to make sure his program follows every safety step sequentially. One sequence could be as follows: 1. If shaking occurs, drop to the ground instantly. 2. Cover yourself. 3. Hold on until the shaking stops. 4. Once shaking ceases, look around to ensure it is safe to rise. 5. Exit the building if it is not safe. How could Alex model this sequence in an algorithmic form in a program?\",\n    \"Answer1\": \"1. Detect shakes 2. Count the shakes 3. Give a warning each time a shake is detected 4. Stop when shaking ends\",\n    \"Answer2\": \"1. If shaking detected, play a sound alert 2. Continue playing sound until shaking stops\",\n    \"Answer3\": \"1. If shaking occurs, start timer 2. Stop timer when shaking ends 3. Output time shaking occurred\",\n    \"Answer4\": \"1. If shaking starts: 2. Output 'Drop!' 3. Output 'Cover!' 4. Output 'Hold!' 5. Check if shaking has stopped: If yes, 6. Output 'Look!' 7. Is it safe? If no, output 'Exit!'\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"This sequence correctly translates the step-by-step instructions Alex wants to follow in an earthquake. It includes safety advice, monitors the conditions and prepares for the next step accordingly. It encapsulates an algorithmic approach to a real-world problem. \"\n}"
+}

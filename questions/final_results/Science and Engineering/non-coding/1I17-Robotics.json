@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Science and Engineering",
+    "topic": "Robotics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of an online robotics team. Every member has a specific role in the development of the robot: Alex is in charge of designing the robot, Dru is responsible for assembling the parts, and Jesse is handling the programming. However, Alex has been having difficulties because Dru often dismisses their suggestions without giving any constructive feedback. Which of the following is the best course of action for Alex?\",\n    \"Answer1\": \"Directly confront Dru in front of all the online team members about their dismissive behavior.\",\n    \"Answer2\": \"Stop contributing and let the rest of the team handle the project.\",\n    \"Answer3\": \"Deny Dru's inputs and stick to their own ideas.\",\n    \"Answer4\": \"Arrange a private conversation with Dru to understand why their suggestions are being dismissed and establish a more productive method of communication.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Working respectfully and responsibly with others online involves addressing issues directly and privately to avoid causing conflict within the team. Alex should constructively communicate with Dru to understand their perspective and find a compromise.\"\n}"
+}

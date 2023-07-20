@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Science and Engineering",
+    "topic": "Gravitational, Electric, and Magnetic forces",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to create an interactive educational software program which accurately represents the interactions between gravitational, electric and magnetic forces. Their idea is to allow the user to modify parameters like mass, charge, and the applied magnetic field and see the effects on a simulated particle. What kind of event-driven programming features should Alex consider integrating into their program?\",\n    \"Answer1\": \"Simulate a button press event every time the value of a parameter is updated\",\n    \"Answer2\": \"Trigger an update of the simulated particle's trajectory whenever a parameter value is changed\",\n    \"Answer3\": \"Randomly generate new parameters at set time intervals\",\n    \"Answer4\": \"Implement an event that automatically resets all parameters to their initial values after a simulation\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In an event-driven programming model, Alex should tie the update of the simulation to the event of changing a parameter value. This kind of implementation means the simulation is immediately responsive to the user's input, and will update to reflect the new parameter values as soon as they are entered.\"\n}"
+}

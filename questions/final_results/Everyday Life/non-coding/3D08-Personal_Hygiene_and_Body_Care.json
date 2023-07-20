@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D08",
+    "learning_objective": "Collect data using computational tools and transform the data to make it more useful and reliable.",
+    "interest_area": "Everyday Life",
+    "topic": "Personal Hygiene and Body Care",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex uses an app to track how often they wash their hands throughout the day. The app categorizes each hand-washing event as 'Brief', 'Sufficient', or 'Thorough' based on the length of time. If Alex wants to see which category they fall into most often, what would be an effective way of transforming the raw data collected by the app into a useful visual format?\",\n    \"Answer1\": \"Create a pie chart where each slice represents a category and its size represents the number of events in that category\",\n    \"Answer2\": \"Just list out each hand wash, along with its duration\",\n    \"Answer3\": \"Plot a scatter plot where each dot represents a category and the x-axis represents time duration\",\n    \"Answer4\": \"Create a histogram where the x-axis represents hourly intervals and the y-axis represents the total time of hand-washing in each interval\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A pie chart would provide a clear visual representation of how Alex's hand-washing events are distributed across the three categories. This would make it easier for Alex to identify which category they fall into most often compared to simply listing out each hand wash.\"\n}"
+}

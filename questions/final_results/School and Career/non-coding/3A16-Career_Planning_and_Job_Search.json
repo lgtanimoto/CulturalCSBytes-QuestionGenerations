@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "School and Career",
+    "topic": "Career Planning and Job Search",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a portfolio website to showcase their projects for future employers in the tech industry. In order to save time, Alex wants to incorporate an open-source JavaScript library into their website to create an interactive graph of their programming skills. Why might Alex want to give attribution or credit to the original creator of the library?\",\n    \"Answer1\": \"To avoid legal problems\",\n    \"Answer2\": \"To indicate respect for the original creator's work\",\n    \"Answer3\": \"To be transparent about the sources of their code\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Giving credit or attribution for a work someone else created is a good ethic and can contribute to avoid legal issues, it also shows respect for the original creator's efforts and provides transparency about the origins and reliability of your own code.\"\n}"
+}

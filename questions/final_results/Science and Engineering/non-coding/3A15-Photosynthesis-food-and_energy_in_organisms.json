@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Science and Engineering",
+    "topic": "Photosynthesis, food, and energy in organisms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program for their Biology class that models how plants convert sunlight into glucose through photosynthesis. Their teammate suggested that they could represent the amount of sunlight a plant gets and the amount of glucose it produces as variables `sunlightHours` and `glucoseProduced`. Which of the below feedbacks could Alex incorporate to refine their program?\",\n    \"Answer1\": \"Add another variable to represent water because it is an essential ingredient in the process of photosynthesis.\",\n    \"Answer2\": \"Add a list to store the amount of glucose produced each day, which can be used to track the plant's output over time.\",\n    \"Answer3\": \"Change the `sunlightHours` variable to `sunlightMinutes` for a more precise measure of sunlight.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While `sunlightHours` and `glucoseProduced` are a good start, incorporating other factors like water (which is necessary for photosynthesis) can provide a more accurate model. Storing the amount of glucose produced daily can be helpful for tracking changes over time. Also, measuring sunlight in minutes rather than hours can provide a more precise and accurate measure for photosynthesis.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I30",
+    "learning_objective": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics.",
+    "interest_area": "School and Career",
+    "topic": "Career Planning and Job Search",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is graduating from high school this year and starting the hunt for their first job. They have created professional social media profiles and a robust online resume. However, they are concerned about maintaining their privacy during the job application process. Which of the following is NOT a good practice for protecting Alex's privacy during their job search process?\",\n    \"Answer1\": \"Using strong, unique passwords across different online platforms.\",\n    \"Answer2\": \"Avoiding posting personal phone numbers and addresses publicly.\",\n    \"Answer3\": \"Sharing their social security number and personal information with potential employers via email.\",\n    \"Answer4\": \"Being selective and careful about the personal information they share on online job sites.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Sharing sensitive personal information such as a social security number over email or non-secure ways is not a safe practice. Email transmission is not always secure, and perpetrators can intercept this information and use it for malicious purposes.\"\n}"
+}

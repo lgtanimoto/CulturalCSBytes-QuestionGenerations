@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C03",
+    "learning_objective": "Systematically identify and fix problems with computing devices and their components.",
+    "interest_area": "School and Career",
+    "topic": "Public Speaking and Presentation Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is rehearsing their presentation using a laptop and a projector, but they find that the projector is not showing the correct colors. Alex suspects that it is an issue with the VGA cable connecting the laptop and the projector. What steps should Alex take to troubleshoot this problem?\",\n    \"Answer1\": \"Check if the VGA cable is properly plugged in at both ends\",\n    \"Answer2\": \"Try a different VGA cable\",\n    \"Answer3\": \"Check for any physical damage on the VGA cable\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All of the options are valid ways of identifying the issue. A VGA (Video Graphics Array) cable is used to connect a computer to a projector or other display device. A loose connection, a defective cable, or physical damage on the cable can cause color distortion or other display issues.\"\n}"
+}

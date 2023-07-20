@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "School and Career",
+    "topic": "Time Management and Organization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to organize their day more efficiently. They have classes, homework, extracurriculars, and social activities to fit into each day. Alex plans on using an algorithm (a step-by-step instruction set) to help with this task. Which of the following algorithms would be the most helpful to Alex in accomplishing their daily tasks?\",\n    \"Answer1\": \"1. Wake up 2. Go to school 3. Attend extracurriculars 4. Do homework 5. Go to bed\",\n    \"Answer2\": \"1. Wake up 2. Do homework 3. Go to school 4. Eat dinner 5. Go to bed\",\n    \"Answer3\": \"1. Prioritize tasks based on importance and deadline 2. Allocate dedicated time-slots to each activity, starting with school, then homework, extracurriculars, and finally, social activities 3. Adjust schedule as necessary based on unforeseen circumstances 4. Follow the planned schedule 5. Review at the end of day and plan for next day\",\n    \"Answer4\": \"1. Wake up 2. Randomly choose a task to do 3. Repeat step 2 until all tasks are done 4. Go to bed\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The efficient way to manage time is to prioritize tasks based on their importance and deadline, then allocate dedicated time-slots to each of them. Reviewing at the end of each day and pre-planning for the next day also help to improve time management.\"\n}"
+}

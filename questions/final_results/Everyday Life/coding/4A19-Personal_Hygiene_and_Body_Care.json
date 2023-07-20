@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Everyday Life",
+    "topic": "Personal Hygiene and Body Care",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has developed a simple program that helps remind people about daily hygiene and body care routines. The program output isn't aligning with the expected results according to the feedback from the initial users. Alex is using the following code:What modification can Alex make to improve the program based on user feedback?\",\n    \"Answer1\": \"Execute the event of brushing teeth before breakfast in the sequence of events.\",\n    \"Answer2\": \"Execute the event of applying sunscreen only when necessary.\",\n    \"Answer3\": \"Increase the counter in the repeat bathing event for twice a day.\",\n    \"Answer4\": \"Include an option for applying skincare products for those interested in skincare routines.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Incorporating the feedback from users is crucial in developing programs to suit the needs of a broad audience. The user feedback states that they would like a routine reminder of skincare products along with their hygiene routine.\",\n    \"code_snippet\": \"integer teethBrushing = 2\\nboolean sunscreen = false\\nrepeat\\n    teethBrushing = teethBrushing + 1\\n    if teethBrushing > 2\\n        sunscreen = true\\n    end\\nuntil sunscreen\\noutput \\\"Don't forget to apply sunscreen after brushing your teeth!\\\"\"\n}"
+}

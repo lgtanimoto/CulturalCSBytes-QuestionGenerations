@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "School and Career",
+    "topic": "Effective Communication Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has created an innovative app that utilizes geolocation to help concert-goers locate accessible parking spaces in the vicinity of the venue. They have beta tested the app with a small group of their friends, however, they understand that it's important to seek diverse perspectives to improve their software. Which of the following actions demonstrate this understanding?\",\n    \"Answer1\": \"Alex decides to primarily seek input from those who regularly go to concerts as they would be the principal users of the app.\",\n    \"Answer2\": \"Alex limits their testing group to those who live in their city, as the infrastructure can significantly vary in different places.\",\n    \"Answer3\": \"Alex consults with people using wheelchairs or with mobility challenges to understand how the app could better serve them.\",\n    \"Answer4\": \"Alex doesn't ask for perspectives from older adults because they assume that this demographic isn't technologically savvy.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Gathering diverse perspectives, particularly from users with different accessibility needs, can significantly improve the usability and inclusivity of Alex's app. Assumptions about user capabilities or needs could lead to creating an app that is not as user-friendly or as useful as it may be.\"\n}"
+}

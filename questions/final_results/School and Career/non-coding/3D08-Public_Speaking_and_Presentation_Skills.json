@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D08",
+    "learning_objective": "Collect data using computational tools and transform the data to make it more useful and reliable.",
+    "interest_area": "School and Career",
+    "topic": "Public Speaking and Presentation Skills",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has a big presentation coming up for their school's Science Fair. They decide to do a survey among their classmates to gauge the level of interest in various science topics. They obtain the following data: 15 showed interest in Physics, 10 in Biology, 20 in Chemistry and 5 in Computer Science. They would like to present this data in a visually enticing manner to showcase these interests. Which computational tool would Alex use to transform this data into a more useful and reliable format for their presentation?\",\n    \"Answer1\": \"Microsoft Word Document\",\n    \"Answer2\": \"Adobe Photoshop\",\n    \"Answer3\": \"Google Sheets or Microsoft Excel\",\n    \"Answer4\": \"Notepad\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Google Sheets or Microsoft Excel have built-in functionalities that allow users to easily convert data into different types of charts and graphs - bar graphs, pie charts, scatter plots, etc. This visual representation makes the data more understandable, useful, and reliable.\"\n}"
+}

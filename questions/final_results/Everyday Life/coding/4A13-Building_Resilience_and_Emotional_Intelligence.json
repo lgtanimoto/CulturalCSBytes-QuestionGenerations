@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Everyday Life",
+    "topic": "Building Resilience and Emotional Intelligence",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is very interested in building resilience and improving emotional intelligence. To track their progress, they have decided to create a program which will output positive affirmations every day for a month. A part of their code looks like this:What is the output of the program on day 3?\",\n    \"Answer1\": \"Day 3: Never Stop Believing In YourselfDay 3: You Are Full Of PotentialDay 3: It's Okay To Make Mistakes\",\n    \"Answer2\": \"Day 3: Keep Going ForwardDay 3: Learn From Your MistakesDay 3: Believe In Yourself\",\n    \"Answer3\": \"Day 3: Learn From Your MistakesDay 3: Believe In YourselfDay 3: Keep Going Forward\",\n    \"Answer4\": \"Day 3: Never Give UpDay 3: You Are CapableDay 3: Believe In Yourself\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Following the control flow to analyze the output by each line in the day3 procedure: Line #StatementOutputLine 2day1()// Day 3: Keep Going ForwardLine 3day2()// Day 3: Learn From Your MistakesLine 4output \\\"Day 3: Believe In Yourself\\\"// Day 3: Believe In Yourself\",\n    \"code_snippet\": \"action day3()\\n    day1()\\n    day2()\\n    output \\\"Day 3: Believe In Yourself\\\"\\nend\\n\\naction day2()\\n    day1()\\n    output \\\"Day 3: Learn From Your Mistakes\\\"\\nend\\n\\naction day1()\\n    output \\\"Day 3: Keep Going Forward\\\"\\nend\"\n}"
+}

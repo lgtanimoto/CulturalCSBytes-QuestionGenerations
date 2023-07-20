@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "School and Career",
+    "topic": "College Planning, Application, and Selection",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to install a college planning software on their computer, but the installation process keeps failing. They check the software requirements and find that their computer doesn't meet the requirement for the necessary hard disk space. What is the issue that Alex is facing?\",\n    \"Answer1\": \"Insufficient RAM\",\n    \"Answer2\": \"Outdated software version\",\n    \"Answer3\": \"Poor internet connection\",\n    \"Answer4\": \"Insufficient storage\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The issue that Alex is facing is insufficient storage. In other words, they don't have enough room on their hard drive to install the new software. This explains why the installation process keeps failing. Other options such as insufficient RAM, outdated software version, and poor internet connection might cause issues with the operation of the software once installed, but wouldn't typically prevent installation.\"\n}"
+}
