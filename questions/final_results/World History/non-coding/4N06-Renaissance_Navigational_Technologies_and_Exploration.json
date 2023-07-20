@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N06",
+    "learning_objective": "Recommend security measures to address various scenarios based on factors such as efficiency, feasibility, and ethical impacts.",
+    "interest_area": "World History",
+    "topic": "Renaissance Navigational Technologies and Exploration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Astro is designing an app about Renaissance Era sea explorations for a class project. The app includes interactive maps and logs containing details about famous journeys and the nautical technologies used during that period. Which of the following is an appropriate security measure Astro should implement to protect the interactive content in the app?\",\n    \"Answer1\": \"Making all nautical logs public, so they can be verified for accuracy by users\",\n    \"Answer2\": \"None, as it's a historical app and has no sensitive information\",\n    \"Answer3\": \"Implement an authentication system so only registered users can access certain interactive contents\",\n    \"Answer4\": \"Encrypt the app to make it inaccessible without a decryption key\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Even if the app primarily contains readily available historical information, implementing an authentication system is a good security measure. It creates a level of access control, which can protect against illegitimate changes to interactive content such as maps or logs. This not only safeguards the app's content integrity but also enhances user experience by allowing personalized interactions.\"\n}"
+}

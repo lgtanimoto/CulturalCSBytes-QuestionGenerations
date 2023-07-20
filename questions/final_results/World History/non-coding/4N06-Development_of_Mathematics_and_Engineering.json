@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N06",
+    "learning_objective": "Recommend security measures to address various scenarios based on factors such as efficiency, feasibility, and ethical impacts.",
+    "interest_area": "World History",
+    "topic": "Development of Mathematics and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is in charge of developing a security protocol for their school's computer science department. They need to balance efficiency, feasibility, and the ethical impacts of these measures. In particular, Alex is concerned about preserving both the privacy of students' data and access to academic resources. Which of the following measures should Alex most likely recommend?\",\n    \"Answer1\": \"Block access to all social media websites on the school network to prevent potential data breaches.\",\n    \"Answer2\": \"Ensure that all computers in the department have the latest antivirus software installed and regularly updated.\",\n    \"Answer3\": \"Encrypt all data on the school's servers, making them accessible only to Alex.\",\n    \"Answer4\": \"Require all students to submit their personal devices for a security check before they can connect to the school network.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Answer 2 provides a good balance between protecting the department's computers without excessively infringing on students' privacy or access to resources. Anti-virus software protects against a variety of common threats and is a generally accepted security measure. Blocking access to sites or requiring device checks might be seen as an unnecessary invasion of privacy. Encrypting data is good, but making it only accessible to Alex is not feasible or ethically proper.\"\n}"
+}

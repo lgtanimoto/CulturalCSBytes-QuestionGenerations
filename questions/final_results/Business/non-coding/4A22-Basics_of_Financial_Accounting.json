@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Business",
+    "topic": "Basics of Financial Accounting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are working on a project to build a financial ledger system for a startup. They are required to divide the task and collaborate on different parts of the project online. Consider the following parts: 1- User Interface, 2- Backend Database, 3- Transaction Processing, 4- Reporting. Which of the following could be a reasonable allocation of roles for the team members?\",\n    \"Answer1\": \"Alex - Reporting, Chris - User Interface, Sam - Backend Database, Lee - Transaction Processing\", \n    \"Answer2\": \"All team members working on User Interface\",\n    \"Answer3\": \"Alex - User Interface, User Interface - Chris\",\n    \"Answer4\": \"Alex, Chris, Sam, Lee - Reporting\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In order to work together effectively, each team member needs a distinct role. Irrespective of how the team decides to allocate roles, it\u2019s important that each essential elements of the project are covered.\"\n}"
+}

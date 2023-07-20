@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Business",
+    "topic": "Financial Statements and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is coding an application to help her younger brother understand personal financial planning. He is currently trying to balance his high school job earnings, club fees, and a small coffee habit. Which of the following processes would best assist Alex in breaking down this problem into simpler tasks:\",\n    \"Answer1\": \"Calculate total income, then subtract the costs of all expenses and finally calculate the balance\",\n    \"Answer2\": \"Calculate total income, calculate the cost of each individual expense, and then calculate the balance\",\n    \"Answer3\": \"Calculate the cost of each individual expense, calculate total income, and then calculate the balance\",\n    \"Answer4\": \"Calculate the balance, calculate total income, and then calculate the cost of each individual expense\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"First, Alex should add up the total earnings (income). Then, she needs to calculate the cost for each expense item. This will give insight into where the money is going. Eventually, subtracting the total expenses from the total income gives the balancing amount. This approach divides the problem into manageable sub-problems to solve it efficiently.\"\n}"
+}

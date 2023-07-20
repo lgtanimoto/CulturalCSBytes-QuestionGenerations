@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Business",
+    "topic": "Inventory Management and Supply Chain",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing an inventory management program for their family's grocery store. Alex noticed that the application used by their cousin's hardware store has a useful feature for tracking stock. How can Alex use this for their grocery inventory management program dynamically to monitor and update grocery items in stock?\",\n    \"Answer1\": \"By completely rewriting the program and only borrowing the UI design\",\n    \"Answer2\": \"By copying the entire application's code and using it as their own\",\n    \"Answer3\": \"By identifying the parts of the cousin's application that deals with stock tracking and incorporating similar logic into their grocery program\",\n    \"Answer4\": \"By creating an entirely new feature that's unrelated to stock tracking\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The best approach would be to understand, modify and incorporate only the parts of the cousin's program that handle stock tracking - this aligns with the principle of reusing and remixing existing code to create something new or add more features to a program.\",\n    \"code_snippet\": \"action updateInventory(item : text, quantity : integer)\\n    if items:HasKey(item)\\n        integer currentStock = items:Get(item)\\n        items:Set(item, currentStock + quantity)\\n    else\\n        items:Set(item, quantity)\\n    end\\nend\"\n}"
+}

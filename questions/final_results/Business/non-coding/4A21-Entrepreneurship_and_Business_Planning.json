@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Business Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed a mobile application for their entrepreneurship class. The app was intended to help customer to order groceries from their local shops. After a round of user testing, Alex noticed that older users were having trouble navigating the app due to the small font size and complex interface. Which of the following revisions would be the most effective way of making the app more accessible for the older users?\",\n    \"Answer1\": \"Increase the number of features on the home screen to provide more options.\",\n    \"Answer2\": \"Add flashy animations and sound effects\",\n    \"Answer3\": \"Use brighter, contrasting colors and larger fonts while reducing unnecessary complexity in the user interface.\",\n    \"Answer4\": \"Reduce the number of available shops to make the list shorter and easier to read.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Accessibility in any application is a key factor in attracting and keeping a wide range of users. Large font sizes and high contrast colors make text more readable. Additionally, a less complex interface makes it easy for anyone to use the app, regardless of their technological proficiency.\"\n}"
+}

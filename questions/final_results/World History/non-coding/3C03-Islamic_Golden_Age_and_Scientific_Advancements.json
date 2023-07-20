@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C03",
+    "learning_objective": "Systematically identify and fix problems with computing devices and their components.",
+    "interest_area": "World History",
+    "topic": "Islamic Golden Age and Scientific Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an interactive timeline of advancements during the Islamic Golden Age, but they are facing issues with their animation software. The software is not correctly triggering transitions between eras. What systematic approach should Alex take to fix this problem?\",\n    \"Answer1\": \"Just remove the eras that aren\u2019t working properly\",\n    \"Answer2\": \"Contact the software support team and ask them to fix the problem\",\n    \"Answer3\": \"Identify the specific eras that aren\u2019t transitioning correctly, recreate the transitions, and test each era individually\",\n    \"Answer4\": \"Give up and find another way to represent the information\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"They should identify the specific eras that aren\u2019t transitioning correctly, recreate the transitions, and test each era individually. Through the process of identifying the specifics of the problem, Alex can understand where the error lies and start troubleshooting how to fix it. This systematic approach allows Alex to isolate the problem down to a subset of eras and transitions, and to test the effectiveness of their solution.\"\n}"
+}

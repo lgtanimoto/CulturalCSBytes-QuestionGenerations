@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Business",
+    "topic": "Budgeting and Financial Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is starting their first job and has decided they need to start budgeting their income.  Which of the following types of software would be best suited to help Alex plan their monthly spending and saving?\",\n    \"Answer1\": \"Video editing software (e.g., Adobe Premiere, HitFilm Express)\",\n    \"Answer2\": \"Audio recording software (e.g., GarageBand, Adobe Audition)\",\n    \"Answer3\": \"Personal finance software (e.g., Quicken, Mint.com)\",\n    \"Answer4\": \"Graphic design software (e.g., Adobe Illustrator, Canva)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Personal finance software like Quicken or Mint.com provides tools to track income, spending, and to plan budgets. They are specifically designed for managing personal finances, including budget planning. While the other software types mentioned have a lot of advantages in their respective fields, they are not applicable when it comes to budgeting and financial planning.\"\n}"
+}

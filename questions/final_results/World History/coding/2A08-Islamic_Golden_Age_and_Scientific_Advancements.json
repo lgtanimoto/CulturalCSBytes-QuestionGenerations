@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "World History",
+    "topic": "Islamic Golden Age and Scientific Advancements",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is studying the Islamic Golden Age and is fascinated by their advancements in the field of Mathematics and Science. Alex decides to write a function in Quorum to calculate Arabic method of multiplication (also known as lattice multiplication) and Western method of multiplication. Which algorithm would usually be quicker to run on a modern computer?\",\n    \"Answer1\": \"The Western method of multiplication\",\n    \"Answer2\": \"The Arabic method of multiplication\",\n    \"Answer3\": \"Both methods would run at the same speed\",\n    \"Answer4\": \"The speed depends on other factors not related to the algorithm\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The Western method of multiplication is generally quicker to run on a modern computer due to its simplicity compared to the Arabic method. However, it's important to remember that the efficiency of the algorithm can also depend on factors like the programming language used, the computer's processing speed, etc.\",\n    \"code_snippet\": \"action ArabicMultiplication(integer x, integer y)\\n   // Insert Arabic multiplication code here\\nend\\n\\naction WesternMultiplication(integer x, integer y)\\n   // Insert Western multiplication code here\\nend\"\n}"
+}

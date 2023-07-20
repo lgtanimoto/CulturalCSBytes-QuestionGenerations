@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "World History",
+    "topic": "Advances in Medicine and Public Health",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works at a local hospital where they use an electronic health record (EHR) system to manage patient data. One morning, Alex comes in to find that the system is not loading any patient records. Which of the following troubleshooting strategies should Alex initially pursue to identify and resolve the issue?\",\n    \"Answer1\": \"Restart the EHR system or the device\",\n    \"Answer2\": \"Check for network connectivity issues\",\n    \"Answer3\": \"Reach out to the system software support team\",\n    \"Answer4\": \"Perform a system software update\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"One of the first steps in troubleshooting any software or hardware-related issue is to conduct a simple system reset by restarting the system or the device first. This isn't a resolution, but it can often correct a variety of common issues. If the problem persists, then progressing to answers 2, 3, or 4 may be necessary.\"\n}"
+}

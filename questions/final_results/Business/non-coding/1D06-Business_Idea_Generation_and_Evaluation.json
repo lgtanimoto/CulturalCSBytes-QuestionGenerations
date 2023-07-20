@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Business",
+    "topic": "Business Idea Generation and Evaluation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is taking an entrepreneurship class and for their final project, they are working on a potential start-up idea. They create an online survey and ask their classmates to rate their idea on a scale of 1-5 (1 being Poor and 5 being Excellent). After collecting the data, Alex got 10 votes for 5, 15 votes for 4, 12 votes for 3, 8 votes for 2, and 5 votes for 1. Which are the best visual formats for Alex to present this data in class?\",\n    \"Answer1\": \"Pie chart and Bar chart\",\n    \"Answer2\": \"Line graph and Scatter plot\",\n    \"Answer3\": \"Bar chart and Line graph\",\n    \"Answer4\": \"Scatter plot and Pie chart\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Since Alex's data is categorical and shows frequency counts for different categories (1-5 ratings), both a bar chart and pie chart can effectively visualize this information. Line graphs and Scatter plots generally illustrate trends over some variable (often time) or relationships between two continuous variables, respectively, so they wouldn't be as suitable for Alex's data.\"\n}"
+}

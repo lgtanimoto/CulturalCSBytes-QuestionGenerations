@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Business",
+    "topic": "Intellectual Property Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex designs a new and unique device involving the integration of several central processing units (CPUs) together to create a high-speed computing system. They want to protect their design so that others cannot copy it. What is the best way for Alex to protect their innovative system?\",\n    \"Answer1\": \"Register the system as a trademark\",\n    \"Answer2\": \"Register the system as copyright\",\n    \"Answer3\": \"Apply for a patent for the system\",\n    \"Answer4\": \"Get an ISBN number for the system\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Given that Alex's innovation involves a unique design of hardware, they should apply for a patent. A patent gives an inventor the right to prevent others from making, using, or selling an invention for a certain number of years. Trademarks protect brand names and logos, copyright protects original works of authorship, and ISBN numbers are used for identifying books.\"\n}"
+}

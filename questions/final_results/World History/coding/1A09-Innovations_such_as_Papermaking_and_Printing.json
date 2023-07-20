@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "World History",
+    "topic": "Innovations such as Papermaking and Printing",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to model the process of creating a book, from making paper to printing. They start by setting up the variables to represent the stages. Alex writes the following code to represent the stages:What does the code output on line 6?\",\n    \"Answer1\": \"\\u00a0\\u00a0Papermaking stage completed\\u00a0\\u00a0\",\n    \"Answer2\": \"\\u00a0\\u00a0Book binding stage completed\\u00a0\\u00a0\",\n    \"Answer3\": \"\\u00a0\\u00a0Printing stage completed\\u00a0\\u00a0\",\n    \"Answer4\": \"\\u00a0\\u00a0Distribution stage completed\\u00a0\\u00a0\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The code snippet is depicting the process of creating books starting from the Papermaking stage. At each stage, it checks if the previous stage is completed. On line 6, the output is 'Papermaking stage completed' and papermakingStage becomes true. The next stages will likewise be completed, but the code snippet provided only goes up to line 6.\",\n    \"code_snippet\": \"boolean papermakingStage = false\\nboolean printingStage = false\\nboolean bookbindingStage = false\\nif (!papermakingStage) \\n    output \\\"Papermaking stage completed\\\"\\n    papermakingStage = true\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "World History",
+    "topic": "Invention of Writing Systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a digital keyboard layout for an ancient, diverse writing system. They want to make sure their digital tool can be used by a wide range of individuals. To reduce the bias and equity deficits within the tool, which steps should Alex consider during the testing and refinement process?\",\n    \"Answer1\": \"Performing usability tests with a numerous diverse group of people and adjusting the user interface based on the results.\",\n    \"Answer2\": \"Restricting the use of the digital tool only to people who can provide critical reviews and extensive feedback.\",\n    \"Answer3\": \"Using their intuition and personal life experience to determine how to refine the tool.\",\n    \"Answer4\": \"Releasing the digital tool immediately after creation and collecting feedback at a later stage.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By testing the digital tool with a diverse group of people, Alex can ensure that the user interface elements of the tool are accessible to a wide array of users, and that it doesn't unconsciously favor a particular group over another.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Business",
+    "topic": "International Business and Globalization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an intern at a multinational organization. Their task is to create a program that finds out the best time zone for an online meeting where attendees are located in different parts of the world. As the first step, what is the subproblem that Alex should solve?\",\n    \"Answer1\": \"Making a count of how many countries each employee is from\",\n    \"Answer2\": \"Finding out the most spoken languages in the company\",\n    \"Answer3\": \"Finding out the current time in each city where attendees are located\",\n    \"Answer4\": \"Writing a program to automatically send meeting invites\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While all of these could be part of a larger program, in this context, the most helpful subproblem to solve first would be finding the current time in each city where attendees are located. This step is necessary before Alex can determine the best meeting time.\"\n}"
+}

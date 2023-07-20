@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex runs a small produce stand. They use a laptop and a barcode scanner for checkout and managing daily business transactions. How do these devices work together as a system to allow Alex to manage his produce stand?\",\n    \"Answer1\": \"The barcode scanner scans the barcode, and the laptop sends this information to Alex's produce supplier.\",\n    \"Answer2\": \"The laptop uses the barcode scanner to input product data, calculate costs, and maintain inventory levels.\",\n    \"Answer3\": \"The barcode scanner communicates with the produce to gather nutritional information, and sends this data to the laptop.\",\n    \"Answer4\": \"The laptop scans the produce, and the barcode scanner calculates the cost.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In this system, the barcode scanner reads the codes on the produce items which is then input into the laptop. The laptop software can then use this information to calculate costs, maintain inventory levels, and carry out many other necessary functions for running the produce stand.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Business",
+    "topic": "Business Innovation and Technology",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is the CEO of a new startup company and wants to implement a customer relationship management (CRM) system. They want to create a procedure which calculates the average response time to customer queries. However, they know that the response time can vary greatly depending on the mode of communication (email, phone, etc.). How can Alex design their procedure to accommodate this variety?\",\n    \"Answer1\": \"Create a single, general procedure without any parameters that calculates the average response time for all modes of communication.\",\n    \"Answer2\": \"Create a separate procedure for each distinct mode of communication.\",\n    \"Answer3\": \"Create a procedure with two parameters: total response time and number of queries.\",\n    \"Answer4\": \"Create a procedure with a parameter representing the mode of communication that calculates the average response time accordingly\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Creating a procedure with a parameter representing the mode of communication allows Alex to reuse the same procedure for each mode. This will make their program more efficient and easier to manage.\"\n}"
+}

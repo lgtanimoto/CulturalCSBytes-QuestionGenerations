@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A20",
+    "learning_objective": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "interest_area": "Business",
+    "topic": "Market Research and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been asked to perform market research and analysis for their company's newest project. While browsing online, they stumble upon a code library that perfectly fits their needs. However, they notice it has a license attached. Why should Alex evaluate the license before using the code library?\",\n    \"Answer1\": \"To understand whether the license allows them to redistribute and edit the code\",\n    \"Answer2\": \"So Alex can find out if they need to hire a lawyer\",\n    \"Answer3\": \"To know if the code is free\",\n    \"Answer4\": \"To see if the code is outdated\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"License evaluation is crucial when utilizing libraries or open-source software. This will allow Alex to understand the rules of using, editing, and redistributing the code. Software licenses can have restrictions, and violating these can lead to legal issues. It's worth noting that 'free' in terms of open-source usually refers to freedom, not price. Hence, even 'free' software can come with restrictive licenses.\"\n}"
+}

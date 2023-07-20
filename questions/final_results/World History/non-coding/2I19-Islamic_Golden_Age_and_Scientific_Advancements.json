@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I19",
+    "learning_objective": "Brainstorm ways to improve the accessibility and usability of technology products for the diverse needs and wants of users.",
+    "interest_area": "World History",
+    "topic": "Islamic Golden Age and Scientific Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is interested in the Islamic Golden Age and its numerous scientific advancements. They decide to create an educational app that presents the information engagingly with links, images, videos, and text. However, there is one thing they are particularly concerned about: making the app accessible and usable for a wide range of users. What should Alex keep in mind during development?\",\n    \"Answer1\": \"Ensure the font size is small so they can fit more information on the screen.\",\n    \"Answer2\": \"Exclusively use high contrast colors for text to make it stand out against the background.\",\n    \"Answer3\": \"Add auto-captioning feature to support users who are deaf or hard of hearing and options for text-to-speech for those who are visually impaired.\",\n    \"Answer4\": \"Make the app available only in English to simplify the development process.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Creating an accessible app means considering the diverse needs of all users. While high contrast colors can be helpful, the best option provided is to add auto-captioning features for videos to support users with hearing impairments and text-to-speech for users who are visually impaired. They should attempt to cater to all possible user needs.\"\n}"
+}

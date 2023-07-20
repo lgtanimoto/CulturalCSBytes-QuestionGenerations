@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "Business",
+    "topic": "Quality Control and Improvement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Leah is developing a software to help their boss keep track of the performance and efficiency of the team. Leah has decided to incorporate a third-party performance analytics library into the software. What strategy should Leah apply to give attribution for the third-party library and why?\",\n    \"Answer1\": \"Leah should acknowledge the library in the user manual only, because it is not related to the code\",\n    \"Answer2\": \"Leah should simply state in the code comment that a third-party library has been used, without specifying its name\",\n    \"Answer3\": \"Leah should not give any attribution since the library used may not be known to their boss\",\n    \"Answer4\": \"Leah should clearly state in the code comments that a third-party performance analytics library has been used and specify its name and source. She should also include it in the User Manual, to ensure every user is aware about the intellectual ownership\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When incorporating an external library, it's a good practice and often a requirement to definitely give proper attribution to its creators. This includes specifying its name, version, source, and license type where applicable in the code comments, as well as in any user-facing documentation. Failure to do so can result in legal consequences as well as mistrust from others who look at the code\"\n}"
+}

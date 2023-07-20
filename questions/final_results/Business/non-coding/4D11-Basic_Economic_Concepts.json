@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D11",
+    "learning_objective": "Create interactive data visualizations using software tools to help others better understand real-world phenomena.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has begun an internship at a company studying market trends. They notice that over the past four years, sales of a certain product increased during times when local unemployment rates decreased. Alex decides to create an interactive line graph to demonstrate this correlation. What two variables should be plotted on the x and y-axes?\",\n    \"Answer1\": \"Product sales on the x-axis, unemployment rates on the y-axis\",\n    \"Answer2\": \"Product sales and unemployment rates on the x-axis, time on the y-axis\",\n    \"Answer3\": \"Time on the x-axis, product sales and unemployment rates on the y-axis\",\n    \"Answer4\": \"Unemployment rates on the x-axis, time on the y-axis\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"When illustrating time-series data, it is conventional to place the independent variable 'time' on the x-axis and the dependent variable(s) - in this case, product sales and unemployment rates - on the y-axis in order to visually demonstrate how these vary over time.\"\n}"
+}

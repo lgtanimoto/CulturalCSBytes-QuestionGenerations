@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "World History",
+    "topic": "Industrial Revolution: Steam Power and Manufacturing Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to create a simulation showing the transition from manual production methods to machines during the Industrial revolution. They decide to focus on steam power and manufacturing advancements using architectural, mechanical, and other artifact designs. Which of the following approaches should they take?\",\n    \"Answer1\": \"Develop separate simulation programs for each artifact, run independently each time.\",\n    \"Answer2\": \"Create a combined program for all artifacts, where artifacts can't be simulated separately.\",\n    \"Answer3\": \"Create a program for each artifact but ensure they can interact with each other in the larger simulation of the Industrial Revolution.\",\n    \"Answer4\": \"Create a single program that haphazardly includes all the different advancements without consideration for their relationship to each other.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The best approach would be to create separate yet interconnected programs for each artifact. This allows for individual simulations and enables a comprehensive combined simulation, mirroring the interrelatedness of advancements during the Industrial Revolution.\"\n}"
+}

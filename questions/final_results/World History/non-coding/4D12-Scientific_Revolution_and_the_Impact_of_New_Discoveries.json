@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D12",
+    "learning_objective": "Create computational models that represent the relationships among different elements of data collected from a phenomenon or process.",
+    "interest_area": "World History",
+    "topic": "Scientific Revolution and the Impact of New Discoveries",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been studying the Scientific Revolution and the impact new discoveries had during that time. Alex decides to create a computational model to represent the relationships among different elements collected from this process, like the relationship between the number of documented discoveries and the increase in scientific publications. Given an increase by 10 documented discoveries, how many scientific publications should Alex predict?\",\n    \"Answer1\": \"30 publications\",\n    \"Answer2\": \"50 publications\",\n    \"Answer3\": \"100 publications\",\n    \"Answer4\": \"200 publications\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Given the trend line in their model, for every 10 documented discoveries, there is an associated increase of approximately 50 scientific publications. Alex's computational model allows for a visualization of the existing relationship between these two elements of data.\"\n}"
+}

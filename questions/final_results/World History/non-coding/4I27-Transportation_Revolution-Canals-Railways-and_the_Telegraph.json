@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "World History",
+    "topic": "Transportation Revolution: Canals, Railways, and the Telegraph",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a group project about the Transportation Revolution. Their role is to research and present on the impact of canals on commerce. As they live in a different timezone and have a differing schedule from their group members, this could cause challenges in coordinating who does what by when. What tools or methods could Alex use to augment collaboration and connectivity despite these location and time differences?\",\n    \"Answer1\": \"Alex could use a cloud-based platform (like Google Docs) to document their research and access other members' work anytime and anywhere.\",\n    \"Answer2\": \"Alex could suggest synchronous video meetings with the other group members to discuss the overall progress of the project and each member\u2019s contribution.\",\n    \"Answer3\": \"Use an online project management tool to schedule tasks, assign responsibilities, and track the progress of the project.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All options are examples of tools and methods that Alex can use to overcome geographical and temporal barriers in collaborative work. Using cloud-based platforms allows real-time and asynchronous collaboration. Video meetings help build connections and understanding. Project management tools assist with coordinating tasks and responsibilities in group projects.\"\n}"
+}

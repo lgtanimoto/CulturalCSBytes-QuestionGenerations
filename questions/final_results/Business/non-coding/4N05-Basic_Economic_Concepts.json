@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a business owner, and they've come to realize that the sensitive data in their company's network may be threatened by institutional cyber threats. Which of these measures would Alex, as a business owner, most likely need to implement to safeguard sensitive company data?\", \n    \"Answer1\": \"Hiring a professional gardener\",\n    \"Answer2\": \"Subscribing to a magazine on current affairs\",\n    \"Answer3\": \"Hiring a team of cybersecurity professionals\",\n    \"Answer4\": \"Purchasing new office furniture\", \n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Data within a company's network can be protected from malware and other digital attacks by employing cybersecurity measures. This involve setting up firewalls, network monitoring, data encryption, and regularly updating security patterns. This task is best performed by professionals in the field of cybersecurity.\"\n}"
+}

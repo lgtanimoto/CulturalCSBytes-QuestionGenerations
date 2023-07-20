@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Business Planning",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a budding entrepreneur who has come up with an excellent idea for a new app. They know that their app (which is the application software) has to interact with various layers of the system like the operating system (system software) and the hardware of the device it will run on. If Alex is operating their application on a smartphone, which of the following best describes a direct interaction between the application software and a hardware component?\",\n    \"Answer1\": \"Alex's app sending a notification which lights up the screen of the smarthphone.\",\n    \"Answer2\": \"Alex's app getting an OS update.\",\n    \"Answer3\": \"Alex's app being downloaded from an app store.\",\n    \"Answer4\": \"Alex's app changing the brightness of the screen when the phone is unlocked.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The Screen of a smartphone is a hardware component. When Alex's app sends a notification, the application software directly interacts with the hardware by making it light up. Alex's app changing the brightness of the screen is also a direct interaction but only happens if the phone is unlocked which is a condition dependent on the System Software (OS). Hence, Answer 1 is a more direct interaction.\",\n    \"code_snippet\": \"action SendNotification() \\n    if appIsActive = false \\n        DisplayNotification(\\\"New update!\\\") \\n    end \\nend\"\n}"
+}

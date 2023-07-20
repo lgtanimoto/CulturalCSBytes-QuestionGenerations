@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "World History",
+    "topic": "Development of Mathematics and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex just learned that the word 'cognition' can be represented in ASCII, which forms a string of binary numbers. If the ASCII code for 'cognition' is '01100011 01101111 01100111 01101110 01101001 01110100 01101001 01101111 01101110', what is the decimal representation of the second character 'o'?\",\n    \"Answer1\": \"72\",\n    \"Answer2\": \"78\",\n    \"Answer3\": \"111\",\n    \"Answer4\": \"115\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The second character 'o' is represented by the binary number '01101111' which when converted to decimal, it becomes 111. By using ASCII tables, one can confirm this reading.\"\n}"
+}

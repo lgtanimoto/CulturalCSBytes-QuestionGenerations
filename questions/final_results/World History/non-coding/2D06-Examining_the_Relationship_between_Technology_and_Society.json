@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "World History",
+    "topic": "Examining the Relationship between Technology and Society",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has a theory that the growth in the number of people with home internet access over the last 20 years has directly influenced the number of people shopping online. They have collected data from their local city office showing the percentage of homes with internet access for each year as well as data showing the sales from online shopping for each year. Alex wants to present this data to their class. What would be the most appropriate way for Alex to visually present this data to support their theory?\",\n    \"Answer1\": \"A pie chart for each year showing the percentage of homes with internet and the amount of online sales.\",\n    \"Answer2\": \"A scatter plot with two series, one for the homes with internet access and the other for online sales.\",\n    \"Answer3\": \"Two separate bar charts, one for the percentage of homes with internet and another for the online sales.\",\n    \"Answer4\": \"A single bar chart with the data on homes with internet access and online sales stacked for each year.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A scatter plot with two series would allow a visual comparison of the rates of change over time for both home internet access and online shopping sales. This would display the correlation and possibly suggest a cause-and-effect relationship, supporting Alex's theory.\"\n}"
+}

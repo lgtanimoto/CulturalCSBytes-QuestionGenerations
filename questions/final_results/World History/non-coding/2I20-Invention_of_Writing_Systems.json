@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "World History",
+    "topic": "Invention of Writing Systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a transcribing program that transforms spoken language into written characters for a linguistics project. The software is currently capable of transcribing English speeches into written text successfully. However, when Alex trialed the software with multiple languages around the world, they found that the software struggled with certain non-roman script based languages. What should Alex do next to improve the computational artifact?\",\n    \"Answer1\": \"Alex should seek the assistance of native speakers of the problematic languages to understand the nuances and complexities that the program is getting wrong.\",\n    \"Answer2\": \"Alex should only focus on English as it is the most important language to transcribe.\",\n    \"Answer3\": \"Alex should release the software as it is and wait for user complaints to fix the bugs.\",\n    \"Answer4\": \"Alex should focus on adding more features to the program instead of making it multi-lingual.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Seeking diverse perspectives, especially from native speakers in this case, would help Alex understand the complexities and idiosyncrasies of the languages that are hard to transcribe. This would lead to the improvement of the computational artifact.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "Business",
+    "topic": "Recruitment and Hiring Process",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working with their school to develop a program to streamline their recruitment and hiring process. They are using different procedures within their program to manage job postings, review applications, schedule interviews, and notify applicants. What would be an efficient way to structure their program?\",\n    \"Answer1\": \"Put all procedures into one program and sequentially call each procedure depending on the stage the applicant is in without interlinking or correlating them.\",\n    \"Answer2\": \"Separate all procedures into independent programs which do not interact with each other.\",\n    \"Answer3\": \"Integrate all procedures into one massive function, processing and managing numerous operations at once.\",\n    \"Answer4\": \"Create independent but interrelated procedures which respond to each other's results, and are organized according to the hiring process stages within the program.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Creating independent but interrelated procedures allows Alex to handle each stage of the hiring process separately yet systematically. This enables easy updates to specific processes without affecting others and allows for efficient datasharing between processes, improving the entire hiring procedure.\"\n}"
+}

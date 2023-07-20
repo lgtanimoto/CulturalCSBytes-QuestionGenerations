@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "World History",
+    "topic": "Renaissance Navigational Technologies and Exploration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Charlie is developing an educational game that allows players to navigate a replica of the globe during the Renaissance era using various historical navigational technologies. They need to create a simple scoring system for the game. When a player successfully travels from one location to another, they receive 'x' points, where 'x' represents the number of nautical miles traveled. Charlie uses the variable 'milesTravelled' to track the distance a player has traveled, and 'playerScore' to track the player's score. If a player travels 3000 nautical miles, what will be the value of 'playerScore' at the end of the journey?\",\n    \"Answer1\": \"3000\",\n    \"Answer2\": \"1000\",\n    \"Answer3\": \"0\",\n    \"Answer4\": \"Cannot be determined from the given information\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"According to the game's scoring system, each successful journey increases the 'playerScore' by 'x' points, where 'x' represents the number of nautical miles traveled. As such, if a player has traveled 3000 nautical miles, their 'playerScore' will be increased by 3000 points.\",\n    \"code_snippet\": \"number playerScore = 0\\n\\naction travel(number milesTravelled)\\n    playerScore = playerScore + milesTravelled\\nend action\"\n}"
+}

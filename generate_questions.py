@@ -190,7 +190,7 @@ def generate_questions(
     topic_list: list[str],
     examples: list[dict],
     num_examples: int,
-    output_folder=None,
+    output_folder,
     coding: bool = False,
     verbose: bool = False,
     filter_grades: bool = False,
@@ -241,7 +241,7 @@ def generate_questions(
 
         """Save / print question"""
         if output_folder:
-            f_name = q['MQCode'] + "-" + q['topic'].replace(" ", "_").replace("/", "-")
+            f_name = q['MQCode'] + "-" + q['topic'].replace(", ", "-").replace(": ", "-").replace("/", "-").replace(" ", "_")
             write_json(q, output_folder + f_name)
             if verbose:
                 print(f"\nQuestion saved at {output_folder + f_name}")
@@ -279,19 +279,18 @@ def main():
 
     """define CLI arguments"""
     parser.add_argument("num_questions", type=int, help="The number of questions to generate.")
-    parser.add_argument("-m", "--model", type=str, default="gpt-3.5-turbo", help="The name of the LLM to use for generating questions. Defaults to 'gpt-4'. Other model options include: 'gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-curie-001'. Note, the gpt-4 and gpt-3.5 options auto-fit their context window to the provided prompt length.")
-    parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to 'resources\\coding_question_examples.json' if '--coding' flag is included. Defaults to 'resources\\default_question_examples.json' if '--coding' flag is ommitted.")
+    parser.add_argument("-m", "--model", type=str, default="gpt-3.5-turbo", help="The name of the LLM to use for generating questions. Defaults to 'gpt-3.5-turbo'. Use the '--list-models' flag to see a list of available models.")
+    parser.add_argument("-e", "--examples-file", type=str, default=None, help="The relative path to the .json file containing a list of few-shot examples. Defaults to '.\\resources\\coding_question_examples.json' if '--coding' flag is included, otherwise to '.\\resources\\default_question_examples.json'.")
     parser.add_argument("-n", "--num-examples", type=int, default=3, help="The number of examples to use in few-shot prompting. Defaults to 3.")
-    parser.add_argument("-s", "--save", action="store_true", help="Include flag to save generated questions to .json files. Specify output folder with '-o, --output-folder'.")
-    parser.add_argument("-o", "--output-folder", type=str, default=None, help="The relative path to the folder where generated questions should be saved. Defaults to 'questions\\date\\time\\' if '-s, --save' flag is included.")
-    parser.add_argument("-i", "--interest-areas", type=str, nargs="+", default=read_json("interest_areas"), help="The interest areas to generate questions for. Defaults to all interest areas. Notes: interest areas are case-sensitive and multi-word interest areas should use dashes. e.g. '--interest-areas=Diversity-and-inclusion Business'. Refer to resources\\interest_areas.json for a list of valid interest areas. Interest areas should be separated by spaces.")
+    parser.add_argument("-s", "--save", nargs='?', default="don't save", help="Include flag to save generated questions to .json files. Optionally specify the relative path to the folder where generated questions should be saved. Defaults to '.\\questions\\date\\time\\' if no path is provided.")
+    parser.add_argument("-i", "--interest-areas", type=str, nargs="+", default=read_json("interest_areas"), help="The interest areas to generate questions for. Defaults to all interest areas. Notes: interest areas are case-sensitive and multi-word interest areas should use dashes. e.g. '--interest-areas=Diversity-and-inclusion Business'. Use the '--list-interest-areas' flag to see the full list of interest areas.")
     parser.add_argument("-a", "--api-key", type=str, default=None, help="Your OpenAI-api-key. Defaults to reading from .env file.")
     parser.add_argument("-c", "--coding", action="store_true", help="Include flag to generate questions with code. By default, questions do not include code.")
     parser.add_argument("-f", "--filter-grades", action="store_true", help="Include flag to filter out 11th and 12th grade learning standards when generating questions. By default, all learning standards are used during generation.")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose mode to print generated questions.")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode to print debug messages.")
-    parser.add_argument("-lm", "--list-models", action="store_true", help="Include flag to list available LLMs. Use with required argument num_questions=0 (e.g. 'python generate_questions.py 0 -lm').")
-    parser.add_argument("-li", "--list-interest-areas", action="store_true", help="Include flag to list available interest areas. Use with required argument num_questions=0 (e.g. 'python generate_questions.py 0 -li').")
+    parser.add_argument("-lm", "--list-models", action="store_true", help="Include flag to list available LLMs. Use with required argument num_questions=0 (i.e. 'python generate_questions.py 0 -lm').")
+    parser.add_argument("-li", "--list-interest-areas", action="store_true", help="Include flag to list available interest areas. Use with required argument num_questions=0 (i.e. 'python generate_questions.py 0 -li').")
 
     """parse CLI arguments"""
     args = parser.parse_args()
@@ -302,8 +301,7 @@ def main():
     filter_grades = args.filter_grades
     coding = args.coding
     verbose = args.verbose
-    output_folder = args.output_folder
-    save = args.save
+    output_folder = args.save.replace("\"", "") if args.save else None
     debug = args.debug
 
     """list available models"""
@@ -351,15 +349,17 @@ def main():
         exit(1)
 
     """parse output folder"""
-    if save and not output_folder:
+    if output_folder == None:
         dt = str(datetime.datetime.now()).replace(" ", "\\").split(".")[0].replace(":", "-")
         output_folder = "questions\\" + dt + "\\"
-    if output_folder:
+    if output_folder != "don't save":
         # add trailing slash to output folder if not present
         output_folder += "\\" if output_folder[-1] != "\\" else ""
         # create the output folder if it doesn't exist
         if batch_size > 0 and not os.path.exists(output_folder):
             os.makedirs(output_folder)
+    else:
+        output_folder = False
 
     topic_list = generate_topic_list(batch_size, interest_areas)
 
@@ -368,7 +368,7 @@ def main():
     llm = get_llm(ex_prompt, model_name, openai_api_key)
 
     if verbose:
-        print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\noutput_folder = {output_folder}\ncoding = {coding}\ninterest_areas = {interest_areas}\nfilter_grades = {filter_grades}\n")
+        print(f"\nllm = {llm._identifying_params['model_name']}\nbatch_size = {batch_size}\napi_key = {openai_api_key}\nexamples_file = {path_to_examples}\nnum_examples = {num_examples}\nsave = {output_folder}\ncoding = {coding}\ninterest_areas = {interest_areas}\nfilter_grades = {filter_grades}\n")
 
     generate_questions(llm, topic_list, examples, num_examples, output_folder, coding, verbose, filter_grades, debug)
 

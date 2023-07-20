@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "World History",
+    "topic": "Islamic Golden Age and Scientific Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been studying the Islamic Golden Age and its scientific advancements, particularly the invention of the astrolabe. The astrolabe, a device used to solve problems related to time and the position of the stars, has multiple rotating parts each playing a specific role. Similarly, a computer also has many internal and external parts that function together to form a system. Which part of the computer is similar to the rotating parts of the astrolabe that use data to solve calculations?\",\n    \"Answer1\": \"The Central Processing Unit (CPU)\",\n    \"Answer2\": \"The Solid-State Drive (SSD)\",\n    \"Answer3\": \"The RAM (Random Access Memory)\",\n    \"Answer4\": \"The Wi-Fi Card\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The Central Processing Unit (CPU), similar to the rotating parts of the astrolabe, performs most calculations within a computer. Like how the rotating parts of the astrolabe use data to solve calculations, the CPU processes instructions to solve tasks.\"\n}"
+}

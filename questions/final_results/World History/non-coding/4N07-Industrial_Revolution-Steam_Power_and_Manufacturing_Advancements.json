@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N07",
+    "learning_objective": "Compare various security measures, considering tradeoffs between the usability and security of a computing system.",
+    "interest_area": "World History",
+    "topic": "Industrial Revolution: Steam Power and Manufacturing Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is analyzing an early steam-powered weaving loom design from the Industrial Revolution for a computer science project. Alex's goal is to apply principles of system security to this historical context. What contemporary computer system security concept is most similar to a safety valve, a device used in these early looms to release excess steam and prevent an explosion?\",\n    \"Answer1\": \"Encryption\",\n    \"Answer2\": \"Firewall\",\n    \"Answer3\": \"Circuit breaker\",\n    \"Answer4\": \"Password\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The safety valve in the steam-powered loom provides a pressure release mechanism, much like a circuit breaker in a computing system, which interrupts an electric circuit to prevent excessive currents from causing damage to the device. Encryption, firewall, and password are key security measures but they do not have this 'pressure release' mechanism functionality.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Business",
+    "topic": "Budgeting and Financial Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is planning their monthly budget. They have recently started learning programming and they want to write a program to handle their finances. Alex thought of representing his salary, expenses, and savings digitally. Which of the following best represents how Alex should represent these variables in a program?\",\n    \"Answer1\": \"Salary: string, Expenses: Integer, Savings: Integer\",\n    \"Answer2\": \"Salary: Integer, Expenses: Integer, Savings: Integer\",\n    \"Answer3\": \"Salary: Float, Expenses: String, Savings: Float\",\n    \"Answer4\": \"Salary: Float, Expenses: Float, Savings: Float\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In Alex's case, they would likely want to use a data type that can handle decimal numbers since money often involves cents. This would mean using a float (or double) for the salary, expenses, and savings.\",\n    \"code_snippet\": \"float salary = 5000.0\\nfloat expenses = 2000.5\\nfloat savings = salary - expenses\\noutput \\\"This month's savings: \\\" + savings\"\n}"
+}

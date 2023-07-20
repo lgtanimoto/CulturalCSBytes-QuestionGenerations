@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "World History",
+    "topic": "Examining the Relationship between Technology and Society",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex builds an app aimed at teaching users about the historical relationship between technology and society. However, after receiving user feedback, they realize a significant number of users find the interface to be too complex and hard to navigate. Which of the following steps should Alex take next to address this feedback?\",\n    \"Answer1\": \"Ignore the feedback as there's always room for users to learn and adapt to the complex interface.\",\n    \"Answer2\": \"Decide to remove advanced features to simplify the interface without seeking further feedback.\",\n    \"Answer3\": \"Promptly redesign the interface without taking user suggestions into account.\",\n    \"Answer4\": \"Gather more specific feedback, then design and implement iterative changes to the interface, prioritizing user accessibility and experience.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When developing apps for a broad user base, user feedback is crucial for continuous improvement. Therefore, gathering more specific feedback, making iterative changes, and prioritizing user accessibility and experience should be the next step after receiving negative feedback about a complex user interface. This systematic approach enables Alex to identify and resolve the specific issues users are facing.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I18",
+    "learning_objective": "Keep login information private, and log off of devices appropriately.",
+    "interest_area": "World History",
+    "topic": "Innovations such as Papermaking and Printing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex recently discovered a passion for ancient bookbinding and has started using an online platform that provides resources for learning about this craft. The website contains instructions for ancient papermaking, printing techniques, binding styles, and restoration tips. Alex is generally concerned about safety and cybersecurity. In this context, which is the most appropriate measure Alex should take to keep their login information private and secure?\",\n    \"Answer1\": \"Alex should share their login details with friends so they can also learn from the website.\",\n    \"Answer2\": \"Alex should use a simple, easy-to-remember password for their login, such as 'password123'.\",\n    \"Answer3\": \"Alex should use a unique, strong password for their login, and they should remember to log off after each session on the website.\",\n    \"Answer4\": \"Alex should stay logged in on all devices, so they do not have to remember their password every time they want to access the website.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex should use a unique, strong password for their login, and they should remember to log off after each session to prevent anyone else who might use their device from accessing their account. Sharing login details and using easy-to-guess passwords can expose the user's personal information to potential risk.\"\n}"
+}

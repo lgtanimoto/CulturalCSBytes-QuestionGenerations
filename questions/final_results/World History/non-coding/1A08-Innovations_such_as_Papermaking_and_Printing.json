@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "World History",
+    "topic": "Innovations such as Papermaking and Printing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is intrigued by advancements in the field of mechanical engineering and interested to understand the process by which older innovations like printing and papermaking took place. If Alex were to make a simple version of printing press at home, what would be a suitable algorithm for it?\",\n    \"Answer1\": \"Adjust the movable type, Ink it. Place the paper over the type, Apply the pressure evenly and firmly across the paper. Carefully remove the paper.\",\n    \"Answer2\": \"Ink the design area first, Place the paper over it, Apply pressure, Remove the paper.\",\n    \"Answer3\": \"Dip the paper in ink, Press it on a carved surface, Apply pressure, Remove the paper.\",\n    \"Answer4\": \"Cut a design into a surface, Dip the engraving in ink, Press a paper onto it, Remove the paper.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The invention of the printing press involved using movable characters, inking them, placing paper on top and applying uniform pressure to ensure an even print, and finally removing the paper. Options 2, 3 and 4 do not reflect this process accurately.\"\n}"
+}

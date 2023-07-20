@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "World History",
+    "topic": "Invention of Writing Systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying ancient civilizations for their history class and becames intrigued by the invention of writing systems. They decided to research and collect data on the earliest known forms of writing systems and their times of discovery. This includes cuneiform from Sumer, hieroglyphs from Egypt, oracle bone script from China and other fascinating systems of symbolic representation. After gathering all their data, how should Alex present this information in various visual formats?\",\n    \"Answer1\": \"Alex can create a timeline showcasing the chronology of when these writing systems were discovered.\",\n    \"Answer2\": \"Alex can create a world map pinpointing the locations where these writing systems were discovered, with callouts for the specific time of discovery.\",\n    \"Answer3\": \"Alex can develop pie charts showing the distribution of these writing systems in different continents or regions over time.\",\n    \"Answer4\": \"All of the above are valid ways to visually represent the data.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Different visual formats cater to different aspects of the data. The timeline helps to understand how writing systems evolved over time. The world map shows the geographical distribution and discoveries, and the pie charts can provide a clear picture of the prevalence of different writing systems in different regions. So, all stated ways are good examples of presenting the data.\"\n}"
+}

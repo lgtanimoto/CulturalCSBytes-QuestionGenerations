@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "Business",
+    "topic": "Business Ethics and Corporate Social Responsibility",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works at a coding company that is building an application to manage personal finances. The application would need access to users' bank information to function properly. The company plans to store user information in its own servers. Alex is concerned about the privacy and security of the users' information. Which of the following should be Alex's immediate course of action?\",\n    \"Answer1\": \"Alex should do nothing, as their job is only to code.\",\n    \"Answer2\": \"Alex should disregard this as a non-issue because the company surely has safeguard measures.\",\n    \"Answer3\": \"Alex should bring up their concerns in the next team meeting or with their supervisor and discuss the need for robust cybersecurity measures to protect user data.\",\n    \"Answer4\": \"Alex should quit their job because the company is unethical.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex is correct to think about the privacy and security of users' information. It's important that companies take necessary steps to ensure the protection of personal data of its users, especially when dealing with sensitive information such as bank accounts. Alex should bring up their concerns within the company to ensure necessary security measures are put in place to protect user data.\"\n}"
+}

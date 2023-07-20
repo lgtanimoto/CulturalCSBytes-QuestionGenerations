@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Business",
+    "topic": "Inventory Management and Supply Chain",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works at a distribution warehouse for a global eCommerce company. They use integrated management software that automates ordering and inventory check for optimal efficiency. They remember a time before these systems were implemented, when things were done manually. Alex is discussing the changes with their colleague, whose perspective of the improvements is quite negative. Out of the following, which is NOT a valid argument that Alex could make in favor of the new system?\",\n    \"Answer1\": \"Since the system is automated, it significantly reduces the chance of human-error in processing orders.\",\n    \"Answer2\": \"The new system allows for real-time inventory checks, which makes the ordering process more efficient and ensures products are rarely out of stock.\",\n    \"Answer3\": \"The system has resulted in job losses, as fewer people are needed to manage inventory and process orders.\",\n    \"Answer4\": \"The use of such systems has made the global supply chain more connected, enabling businesses to better coordinate and manage their inventory flow.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Although technology can sometimes replace human labor, this is not a valid argument in favor of the new system from an economic and social perspective, as job losses can negatively impact individuals and communities.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "World History",
+    "topic": "Impact of Technological Progress on Society during the Renaissance",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex realizes that technology has profoundly changed society throughout history. They are especially interested in the Renaissance period when the invention of the printing press revolutionized knowledge-sharing. This situation can be paralleled to modern-day software engineering principles where different software layers interact and affect each other. In this analogy, consider the printing press as an application software. What would the paper, used in the printing press, represent?\",\n    \"Answer1\": \"System software\",\n    \"Answer2\": \"Hardware layer\",\n    \"Answer3\": \"Network layer\",\n    \"Answer4\": \"User interface\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In this analogy, the printing press, being the application software, uses paper to print and disseminate information. This closely aligns with how the hardware layer is used by system software to perform tasks across different parts of the computer system, similar to how paper was essential for the functioning of the printing press.\",\n    \"code_snippet\": \"class Information\\n    action Print()\\n        Text document = \\\"This is the Era of Renaissance\\\"\\n        output document\\n    end\\nend\\n\\naction main\\n    Information information\\n    information:Print()\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A13",
+    "learning_objective": "Give attribution when using the ideas and creations of others while developing programs.",
+    "interest_area": "World History",
+    "topic": "Innovations such as Papermaking and Printing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a history project about innovations in papermaking and printing technology. They decide to develop a computer program as part of their project that showcases the timeline of these innovations. Which of the following actions would be the most appropriate way for Alex to give attribution for the information used in their program?\",\n    \"Answer1\": \"Copying and pasting information directly from the internet into their program with no reference to the source\",\n    \"Answer2\": \"Rewording the information found on the internet and not citing the sources\",\n    \"Answer3\": \"Including a 'Credits' page in their program that lists all the sources and their respective authors where they obtained the information\",\n    \"Answer4\": \"Informing the teacher privately about the sources but not including it in the program\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Providing attribution in the form of a 'Credits' page in their program is the appropriate way of crediting the sources. This will make the source information accessible to everyone who uses the program.\"\n}"
+}

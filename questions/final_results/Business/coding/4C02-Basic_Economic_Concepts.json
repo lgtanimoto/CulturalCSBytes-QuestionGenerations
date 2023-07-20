@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"In Alex's economics class, they have been discussing the concept of supply and demand. After class, Alex was curious if they could apply their Computer Science knowledge to illustrate this economic model visually. They come up with the following Quorum code to model the interaction between price (P), demand (D), and supply (S). Can you understand the code and note which line indicates 'Supply equals Demand', which is the point of equilibrium?\",\n    \"Answer1\": \"Line 9\",\n    \"Answer2\": \"Line 7\",\n    \"Answer3\": \"Line 8\",\n    \"Answer4\": \"Line 10\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The line 'if D = S' (Line 8) represents that Supply equals Demand, which is the point of equilibrium in this economic model. When supply and demand are equal, the economy is said to be at equilibrium. The price at which this occurs is the equilibrium price and the quantity is the equilibrium quantity.\",\n    \"code_snippet\": \"action main()\\n    integer P = 1\\n    integer D = 10\\n    integer S = 5\\n    repeat while P <= 10\\n        D = 10 - P\\n        S = P\\n        if D = S\\n            output \\\"Equilibrium at Price: \\\" + P\\n        end\\n        P = P + 1\\n    end\\nend\"\n}"
+}

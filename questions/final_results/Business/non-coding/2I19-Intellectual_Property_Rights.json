@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I19",
+    "learning_objective": "Brainstorm ways to improve the accessibility and usability of technology products for the diverse needs and wants of users.",
+    "interest_area": "Business",
+    "topic": "Intellectual Property Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has just finished designing a mobile game that's fun and educational. However, they\u2019ve received feedback from some users that they're struggling to navigate through the game due to color blindness. Alex realizes that they need to increase the accessibility of the game for all users. What can Alex do to make the game more accessible to color-blind users?\",\n    \"Answer1\": \"Alex can change the color scheme of the game to bright neon colors.\",\n    \"Answer2\": \"Alex can add patterns or textures in addition to color to distinguish game elements.\",\n    \"Answer3\": \"Alex can add more levels to the game to divert attention from color issues.\",\n    \"Answer4\": \"Alex can write a disclaimer in the game description warning color-blind users of potential navigation difficulties.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Adding additional visual cues such as patterns or textures can supplement color differentiation, making elements distinguishable to color-blind users. This increases accessibility by ensuring that everyone, regardless of their vision, can navigate and enjoy the game.\"\n}"
+}

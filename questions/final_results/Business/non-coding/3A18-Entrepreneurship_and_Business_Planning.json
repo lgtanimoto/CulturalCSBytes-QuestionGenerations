@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Business Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are planning to start a small business selling handcrafted jewelry online. They decide to divide the tasks among themselves. Alex is responsible for creating and maintaining the website. In addition, there's product designing, product creation, marketing, inventory management, and customer service to handle. Which one of the following methods can help Alex and their team track their progress efficiently?\",\n    \"Answer1\": \"Dividing the tasks randomly and hoping everyone will remember their duties\",\n    \"Answer2\": \"Throwing a dart on a task board to select a task everyone works on\",\n    \"Answer3\": \"Using a project management tool to keep track of individual tasks and deadlines\",\n    \"Answer4\": \"Deciding the tasks during morning coffee, every day\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Option 3 allows team members to see who is doing what, when, and what tasks are yet to be performed or are overdue. It promotes responsibility and accountability among the team members. Project management tools are beneficial for tracking progress, estimating timelines, and ensuring that all members are aware of the various tasks in your project.\"\n}"
+}

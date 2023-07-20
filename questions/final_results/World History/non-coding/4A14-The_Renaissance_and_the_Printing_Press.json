@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "World History",
+    "topic": "The Renaissance and the Printing Press",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project on the impact of the Renaissance and the Printing Press. They want to create a timeline of the 10 most significant events happening during this period. Each event will have a year and a brief description. How should Alex store this information in their program?\",\n    \"Answer1\": \"Create a simple variable for each event's year and description\",\n    \"Answer2\": \"Create a list with just the years of the events\",\n    \"Answer3\": \"Create a list of 10 tuples, with each tuple containing the year of an event and a brief description\",\n    \"Answer4\": \"Create a list with just the descriptions of the events\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Since each event has a year and a description, and we have multiple events, it makes sense to create a list of tuples. In each tuple, one element could store the year, and the other element could store the description. This approach simulates a 'bag' of events, where each event is represented by a couple (year, description).\"\n}"
+}

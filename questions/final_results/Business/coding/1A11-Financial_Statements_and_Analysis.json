@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "Business",
+    "topic": "Financial Statements and Analysis",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is preparing a program for analyzing financial statements. They're trying to write a program that calculates the net income from revenues and expenses. A snippet from Alex's code is below: What will be the output when calculateNetIncome is called with parameters 80000 (revenue) and 35000 (expenses)?\",\n    \"Answer1\": \"The net income is 80000\",\n    \"Answer2\": \"The net income is 35000\",\n    \"Answer3\": \"The net income is 45000\",\n    \"Answer4\": \"The net income is 115000\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The net income is calculated by subtracting expenses from the revenue. Here, 35000 (expenses) is subtracted from 80000 (revenue) which results in 45000 as the net income.\",\n    \"code_snippet\": \"action calculateNetIncome (number revenue, number expenses) returns number\\n    number netIncome = revenue - expenses\\n    output \\\"The net income is \\\" + netIncome\\nend\"\n}"
+}

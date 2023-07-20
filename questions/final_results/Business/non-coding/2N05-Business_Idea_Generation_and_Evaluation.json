@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "Business",
+    "topic": "Business Idea Generation and Evaluation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has a business idea to create an app that makes it easier for people to manage their personal finances. However, they live in a country where identity theft is a common issue. What actions can Alex take to protect their users' sensitive data?\",\n    \"Answer1\": \"Alex can store user data in plain text for easier access and manipulation.\",\n    \"Answer2\": \"Alex can store all user data on an external hard drive that only they have access to.\",\n    \"Answer3\": \"Alex doesn't need to worry about this because their app won't be storing any important information.\",\n    \"Answer4\": \"Alex can encrypt user data, utilize secure protocols for data transmission, and implement strong access control mechanisms.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Protecting users' information is critical in a digital world, not least for apps handling personal finances. Storing data in plain text, using unsecure storage methods like external hard drives, or disregarding the issue can lead to data breaches, theft or loss. Encryption, secure transmission protocols, and strict access control are proven techniques for data protection.\"\n}"
+}

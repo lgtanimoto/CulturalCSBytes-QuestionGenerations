@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Business",
+    "topic": "International Business and Globalization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a website for their international business class to showcase the effects of globalization. The website includes interactive visualizations and charts. Alex's friend Pat can't make sense of the code behind one of the data visualizations on the website. What should Alex do to clarify the code for Pat?\",\n    \"Answer1\": \"Ignore Pat's query as it's not important\",\n    \"Answer2\": \"Explain the code to Pat verbally without showing any visual or practical demonstrations\",\n    \"Answer3\": \"Point Pat to the documentation of the data visualization library they used without explaining how exactly they used this library in their project\",\n    \"Answer4\": \"Provide comments in their code explaining each step and also give a presentation with a demonstration walking through the implementation of the data visualization\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Choices in program development should be well-documented using code comments. Additionally, presentations and demonstrations serve as excellent tools for making these choices and their effects clear to everyone.\"\n}"
+}

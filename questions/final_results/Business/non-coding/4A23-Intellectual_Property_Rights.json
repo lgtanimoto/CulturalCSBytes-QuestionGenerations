@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Business",
+    "topic": "Intellectual Property Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been working tirelessly on developing a new kind of algorithm for image recognition. Their work has been significant and they want to document their accomplishments, preserving their intellectual property rights. What are the potential ways Alex could document and protect their work?\",\n    \"Answer1\": \"Alex should only submit their work to academic journals and avoid sharing their research online.\",\n    \"Answer2\": \"Alex should take photographs of their work and keep them in a secure location.\",\n    \"Answer3\": \"Alex could use a combination of a software source-code repository, detailed algorithm design documents, and possibly applying for a patent.\",\n    \"Answer4\": \"Alex could tell their friends about their work as word-of-mouth is the most effective form of protection.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex should document their design decisions and algorithm flow using text and graphics. Using a software source-code repository like GitHub allows for version control as well as public or private sharing of their code. Detailed design documents give insight into the reasoning and iterative process behind algorithm development. If the work is very significant and meets certain criteria, Alex could consider applying for a patent for further protection under intellectual property law.\"\n}"
+}

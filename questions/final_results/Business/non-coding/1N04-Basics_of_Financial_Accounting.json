@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "Business",
+    "topic": "Basics of Financial Accounting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex's accounting teacher has started a new module on data security within accounting systems. Their teacher emphasizes the importance of strong passwords to protect sensitive data from unauthorized access. Keeping this in mind, if the school were to update its password policies, which of the following is the best example of a strong password?\",\n    \"Answer1\": \"Alex's name followed by their birth year.\",\n    \"Answer2\": \"The word 'Password' followed by a series of sequential numbers (123456).\",\n    \"Answer3\": \"A random sequence of capital and lowercase letters, numbers and symbols, such as '!5Zg29#ht&9'.\",\n    \"Answer4\": \"The name of the school followed by the current year.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"As per the computer science principles, a strong password should be difficult to guess or brute force. It's recommended to include a mix of upper and lowercase letters, numbers and special characters. It shouldn't contain personal information like your name, birthdate, or common words/phrases.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A16",
+    "learning_objective": "Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation, and review stages of program development.",
+    "interest_area": "World History",
+    "topic": "Transportation Revolution: Canals, Railways, and the Telegraph",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of a group project on the 'Transportation Revolution'. The group decides to animate the birth and growth of canals, railways, and telegraph lines over time. Alex\u2019s role is to write the codes for the animation. What should Alex do first to ensure successful collaboration within the team?\",\n    \"Answer1\": \"Alex should start writing the code for the animation immediately\",\n    \"Answer2\": \"Alex should wait for the team to provide precise instructions before starting to code\",\n    \"Answer3\": \"Alex should independently do research on the revolution to ensure the animation is historically accurate\",\n    \"Answer4\": \"Alex should have a clear discussion with the team to understand their expectations on visual depiction, timeline, and additional visual cues to add more context to the animation\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The most effective and collaborative way forward is for Alex to discuss and understand the expectations and requirements of the team. Building such a comprehensive animation would require a good understanding of historical points, significant events, aesthetic expectations, important visual cues, and so forth. Gathering this information would also help Alex contribute meaningful suggestions about the animation.\"\n}"
+}

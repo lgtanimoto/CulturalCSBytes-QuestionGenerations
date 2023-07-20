@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Business",
+    "topic": "Inventory Management and Supply Chain",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project to improve the inventory management system for a local bookstore. They want to design a system where the bookstore's software communicates with the supplier's software to automatically order more books when inventory gets low. Which combination of software and hardware might Alex need for this project?\",\n    \"Answer1\": \"Text editing software and a printer\",\n    \"Answer2\": \"Inventory management software and a barcode scanner\",\n    \"Answer3\": \"Social media platform and a smartphone\",\n    \"Answer4\": \"Music streaming service and earphones\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Inventory management software helping in tracking and maintaining inventory levels can be integrated with a barcode scanner that scans the books in stock. When the inventory level of a certain book gets low, the software can automatically send a request to the supplier's server to order more copies.\"\n}"
+}

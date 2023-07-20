@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "World History",
+    "topic": "Electrical Revolution and the Development of Communication",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex wants to determine the electricity bill for different devices in a month. Each device may run for different hours. Alex wants to create a procedure for this which will take the power rating of the device and the number of hours it is run as parameters. However, Alex's deviceCost() procedure is not giving the correct results when called as follows: deviceCost(1000,10). Where in the following code snippet should Alex apply changes to get correct output?\",\n    \"Answer1\": \"Modify line 2: number cost = powerRating * hoursRun\",\n    \"Answer2\": \"Modify line 3: cost = powerRating * hoursRun * 0.001 * 30\",\n    \"Answer3\": \"Modify line 1: action deviceCost(number powerRating, number hoursRun)\",\n    \"Answer4\": \"Modify line 4: output cost\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The cost of using the device for a month is calculated by multiplying the power rating (in watts), the number of hours it is run, the cost per kilowatt-hour (in this case, we're assuming it is $0.001 per Wh), and the number of days in a month. So, Alex should correct line 3 to: cost = powerRating * hoursRun * 0.001 * 30.\",\n    \"code_snippet\": \"action deviceCost(number powerRating, number hoursRun)\\n    number cost = 0\\n    cost = powerRating * hoursRun\\n    output cost\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "World History",
+    "topic": "Electrical Revolution and the Development of Communication",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"During the electrical revolution in the mid-19th century, communication became much faster due to the widespread use of telegrams. Alex found data showing that in the 19th century, the number of telegrams sent increased by about 20% each year. If a line plot shows the number of telegrams sent each year, what does Alex predict about the trend?\",\n    \"Answer1\": \"The number of telegrams sent each year might remain unchanged.\",\n    \"Answer2\": \"The number of telegrams sent each year might show a downward trend.\",\n    \"Answer3\": \"The number of telegrams sent each year might show an upward trend.\",\n    \"Answer4\": \"The number of telegrams sent each year might fluctuate violently.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Considering that the number of telegrams sent each year increased by about 20%,  Alex should predict that the line plot would show an upward trend.\"\n}"
+}

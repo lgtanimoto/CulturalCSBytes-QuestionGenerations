@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Business",
+    "topic": "Market Research and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project to analyze customer reviews from an e-commerce website for a market research. They have access to a library that can scrape reviews from websites, and another library that can perform sentiment analysis on text. How can Alex remix these components to create a new program that not only fetches reviews but also analyzes sentiment?\",\n    \"Answer1\": \"Create a new program that uses the scraping library to fetch reviews, then input each review into the sentiment analysis library.\",\n    \"Answer2\": \"Create two separate programs: one for scraping reviews and the other for sentiment analysis.\",\n    \"Answer3\": \"Run the sentiment analysis library on the whole website instead of individual reviews.\",\n    \"Answer4\": \"Use the scraping library to fetch reviews and print them, without any sentiment analysis.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The concept of remixing in coding involves constructing new programs by reusing and re-configuring existing blocks of code. Alex can create a new, single program that imports and utilizes both the scraping library and the sentiment analysis library to achieve the desired result. This is a more efficient solution than creating two separate programs or ignoring the sentiment analysis entirely.\"\n}"
+}

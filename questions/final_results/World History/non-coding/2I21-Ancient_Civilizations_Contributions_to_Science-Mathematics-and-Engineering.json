@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "World History",
+    "topic": "Ancient Civilizations Contributions to Science, Mathematics, and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a website that discusses the contributions of ancient civilizations to today's science, mathematics and engineering practices. They have found images of ancient artifacts and diagrams online that they believe will enhance their website's content. What would be an appropriate approach for Alex to take regarding the online images they want to use?\",\n    \"Answer1\": \"Alex should directly download and upload the images to their website without any changes.\",\n    \"Answer2\": \"Alex should change the colors of the images to create a more cohesive design and avoid copyright claims.\",\n    \"Answer3\": \"Alex should look for images that are labeled for reuse or are part of the public domain, and provide appropriate credits if required.\",\n    \"Answer4\": \"Alex should take screenshots of the images to avoid directly copying them and then upload them to their website.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex must check whether the images are labeled for reuse or are in the public domain. They must also provide appropriate credits, if needed. This will ensure respect for the creators' rights and adherence to copyright laws.\"\n}"
+}

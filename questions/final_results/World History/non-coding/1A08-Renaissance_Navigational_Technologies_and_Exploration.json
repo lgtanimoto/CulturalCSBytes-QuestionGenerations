@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "World History",
+    "topic": "Renaissance Navigational Technologies and Exploration",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to model the process of how 15th century explorers used the astrolabe during their expeditions. Using simple commands such as `turnRight`, `moveForward`, `lookAtStar`, `calculateAngle`, `determineDirection`, which of the following pseudo-codes best describes this process?\",\n    \"Answer1\": \"start\\nturnRight\\ndetermineDirection\\nlookAtStar\\ncalculateAngle\\nmoveForward\\nend\",\n    \"Answer2\": \"start\\nlookAtStar\\nturnRight\\nmoveForward\\ncalculateAngle\\ndetermineDirection\\nend\",\n    \"Answer3\": \"start\\nlookAtStar\\ncalculateAngle\\ndetermineDirection\\nmoveForward\\nend\",\n    \"Answer4\": \"start\\ndetermineDirection\\nlookAtStar\\nturnRight\\ncalculateAngle\\nmoveForward\\nend\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The explorers had to first look at a star, then calculate its angle to determine their direction using the astrolabe. Once they knew which direction they had to go, they then moved forward in that direction. The actions `turnRight` does not properly represent any part of this historical process.\"\n}"
+}

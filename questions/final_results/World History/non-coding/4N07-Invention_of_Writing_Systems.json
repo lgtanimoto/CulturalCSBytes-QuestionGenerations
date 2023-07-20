@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N07",
+    "learning_objective": "Compare various security measures, considering tradeoffs between the usability and security of a computing system.",
+    "interest_area": "World History",
+    "topic": "Invention of Writing Systems",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a fictional language for their fantasy novel. They want to create a script for the language that fits the society and the culture of the people in it. However, they also want to make sure the script does not compromise on the security of the information. Considering security measures and usability, which one of the following could be a reasonable way for Alex to approach this task?\",\n    \"Answer1\": \"Create a very complex writing system that only a select few can understand.\",\n    \"Answer2\": \"Design a writing system which includes a varying number of symbols for each sound to ensure unpredictability.\",\n    \"Answer3\": \"Develop a script which is easy to understand and write, but includes certain symbols that are only known to a select few for sending secret messages.\",\n    \"Answer4\": \"Invent a writing system that can only be read under specific light conditions.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While all other options provide high security, they compromise on usability. A writing system too complex or unpredictable will be hard to use in daily life and one that can only be read under specific conditions limits accessibility. Option 3 balances between usability, with an easy to understand and write system, and security by including secret symbols.\"\n}"
+}

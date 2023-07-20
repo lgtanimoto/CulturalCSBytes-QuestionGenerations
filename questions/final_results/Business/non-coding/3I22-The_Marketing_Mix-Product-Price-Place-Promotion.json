@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Business",
+    "topic": "The Marketing Mix: Product, Price, Place, Promotion",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a budding entrepreneur working on a new mobile app. As part of their marketing strategy, Alex wants to ensure that they cover all aspects of the 'marketing mix' - product, price, place, and promotion. Alex has already conducted some market research to identify potential users and refine the app's features. They have also decided on a price point, and plan to promote the app using social media and word of mouth. What approach could Alex use to decide where to distribute their app?\",\n    \"Answer1\": \"Alex could choose to distribute their app on a single platform that is most popular amongst their friends.\",\n    \"Answer2\": \"Alex could distribute their app everywhere without considering the preferences of their potential users.\",\n    \"Answer3\": \"Alex could perform a survey or start a crowdsourcing campaign with their potential users to understand their preferred app stores.\",\n    \"Answer4\": \"Alex should distribute their app only on the newest and most technologically advanced app stores.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Crowdsourcing or a survey would let Alex tap into insights from many contributors - in this case, potential users - and understand their preferred platforms for obtaining apps. This knowledge would then help them distribute the app through the right 'place', completing the marketing mix.\"\n}"
+}

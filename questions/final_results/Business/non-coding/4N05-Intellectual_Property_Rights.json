@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Business",
+    "topic": "Intellectual Property Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a graphic designer who sells their work online. Recently, someone stole their designs and started profiting off them. Alex suspects that someone hacked into their computer and stole their files. Which type of malicious software might have been used to carry out this kind of theft?\",\n    \"Answer1\": \"A worm, which autonomously replicates itself in order to spread to other computers in a network.\",\n    \"Answer2\": \"A keylogger, which records every keystroke that Alex makes on their computer.\",\n    \"Answer3\": \"Ransomware, which encrypts Alex's files and demands payment to unlock them.\",\n    \"Answer4\": \"Spyware, which collects information about Alex's activities on their computer and sends it to an external entity.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Spyware can be used to monitor a user's activities and collect personal data without their knowledge. In this case, spyware likely provided the hacker with access to Alex's design files. It is important to use up-to-date security software to detect and prevent such threats.\"\n}"
+}

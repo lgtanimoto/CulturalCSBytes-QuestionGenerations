@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D07",
+    "learning_objective": "Represent data using multiple encoding schemes.",
+    "interest_area": "Business",
+    "topic": "International Business and Globalization",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works for an international business and is organizing a global virtual meeting with partners from across the world. They decide to schedule the meeting time in Coordinated Universal Time (UTC). Alex tells their team, 'Our meeting is scheduled for 12:00 PM UTC.' Their team members are in three different time zones: Eastern Standard Time (EST) (-5 hours), China Standard Time (CST) (+8 hours), and Indian Standard Time (IST) (+5:30 hours). Use the numerical encoding of hours to identify what is the local time for each of their team members.\",\n    \"Answer1\": \"EST: 7:00 AM, CST: 8:00 PM, IST: 5:30 PM\",\n    \"Answer2\": \"EST: 5:00 PM, CST: 8:00 AM, IST: 5:30 AM\",\n    \"Answer3\": \"EST: 7:00 AM, CST: 8:00 PM, IST: 5:30 AM\",\n    \"Answer4\": \"EST: 5:00 AM, CST: 8:00 PM, IST: 5:30 PM\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"UTC offsets are used to adjust the time to the correct local time. Thus, for EST (-5) the time will be 7:00 AM (12:00 PM UTC - 5 hours), CST (+8)  will be 8:00 PM (12:00 PM UTC + 8 hours) and IST (+5:30) will be 5:30 PM (12:00 PM UTC + 5:30 hours).\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "World History",
+    "topic": "Transportation Revolution: Canals, Railways, and the Telegraph",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a virtual game, Alex is in charge of building an efficient railway system to transport goods and people through different cities from 1800s. The game features a built-in computing system that allows Alex to create and manage the railway network. The system outputs the travel time, distance covered, and efficiency of the entire network. Alex finds out that the current layout results in a longer travel time and wants to optimize it. What steps should Alex take to make the system more efficient?\",\n    \"Answer1\": \"Build more railway stations in each city\",\n    \"Answer2\": \"Decrease the speed of trains\",\n    \"Answer3\": \"Refine the railway network by computing shortest paths between cities\",\n    \"Answer4\": \"Build longer tracks\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Computational thinking allows us to derive a plan for optimizing systems as complex as a railway network. The most efficient way to improve the system in this context would be to refine the railway network by computing the shortest paths between cities. This would significantly reduce travel time and increase overall system efficiency. Such tasks could typically employ algorithms like Dijkstra's or other shortest path algorithms. Remember, simply building more railway stations or longer tracks would not necessarily make the system more efficient.\"\n}"
+}

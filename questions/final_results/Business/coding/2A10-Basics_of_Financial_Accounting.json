@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Business",
+    "topic": "Basics of Financial Accounting",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a program that processes the financial transactions of a small business. They want to develop a code snippet that calculates the total inventory cost, given the number of items and their costs. The code also applies a discount if the total cost exceeds a certain value. What will the function totalCost(3,10) return when the threshold value is set to 25 and the discount is 10%?\",\n    \"Answer1\": \"30\",\n    \"Answer2\": \"27\",\n    \"Answer3\": \"10\",\n    \"Answer4\": \"3\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The function totalCost(3,10) calculates the total cost of the items by multiplying the number of items by the cost per item (3*10=30). Since this cost exceeds the threshold value of 25, it applies a discount of 10%. This discount calculates as 30-30*0.1=27, so the function returns 27.\",\n    \"code_snippet\": \"integer totalCost(integer items, integer cost)\\n    integer threshold = 25\\n    integer total = items * cost\\n    if total > threshold\\n        total = total - total * 0.1\\n    end\\n    return total\\nend\"\n}"
+}

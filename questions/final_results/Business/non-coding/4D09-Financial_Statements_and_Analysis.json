@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Business",
+    "topic": "Financial Statements and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Drew has been asked to write a program to extract key financial data from the annual reports of publicly traded companies, which are typically provided in PDF format. Drew used a PDF-to-text conversion library to extract the character data from the PDF.  However, instead of seeing the expected amounts for 'Net Income' and 'Total Stockholders' Equity', Drew sees '8 C 1 ow7WWpwXX00' and '-J 0l0'.What is the most likely reason that Drew is not seeing the expected amounts?\",\n    \"Answer1\": \"Drew did not use a library that can translate from the PDF's character encoding to Unicode.\",\n    \"Answer2\": \"The PDF is encrypted and Drew needs to first decrypt the file.\",\n    \"Answer3\": \"Drew needs to also extract the dollar amounts and percentages using a specialized financial library.\",\n    \"Answer4\": \"Drew is reading the credit score of the company and not the financial numbers.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The problem is with character encoding. Each character in a PDF has a unique code that represents each character. However, these codes do not necessarily map directly to the Unicode standard that we normally operate with. Drew is seeing '8 C 1 ow7WWpwXX00' and '-J 0l0' because the conversion library is not correctly decoding the characters. Drew needs a library that can do this or a workaround that correctly translates the characters.\"\n}"
+}

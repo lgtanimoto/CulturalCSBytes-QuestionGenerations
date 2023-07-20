@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "World History",
+    "topic": "The Renaissance and the Printing Press",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Muse is developing a text-based computer game set in the Renaissance era. Players are scribes who must leap through dimensional portals (websites) and decode holy scripts (passwords) to progress through the game. In designing one of the in-game password challenges, Muse wants to highlight the importance of strong passwords while still respecting the time setting. Which of the following in-game prompts best accomplishes Muse's goal?\",\n    \"Answer1\": \"Create a simple password consisting of your birth year.\",\n    \"Answer2\": \"Use the Holy Name, understood by all men of faith, as your password.\",\n    \"Answer3\": \"Create a holy script made of 12 or more, composed of both familiar and strange symbols from the sacred alphabet (letters, numbers, and special symbols).\",\n    \"Answer4\": \"Write down your password and place it in a public library for all to see.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A strong password is generally one that is long, complex and uses a variety of characters. In a modern context, this includes a mix of upper and lower case letters, numbers, and special symbols. Answer 3 is the only option that respects time setting and emphasizes the importance of strong passwords.\"\n}"
+}

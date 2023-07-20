@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "World History",
+    "topic": "Ancient Civilizations Contributions to Science, Mathematics, and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Tech historian Alex is writing a computer simulation to demonstrate the genius of early engineering feats. One aspect they want to showcase is the ancient Egyptians' method for constructing pyramids. How can Alex break down this process into precise steps for their simulation?\",\n    \"Answer1\": \"Build the pyramid in one go without any prior planning.\",\n    \"Answer2\": \"Create a rough sketch and start building without any measurements.\",\n    \"Answer3\": \"Randomly place blocks and hope the pyramid forms itself.\",\n    \"Answer4\": \"First, determine the dimensions and slope of the pyramid. Then, calculate the number of blocks required. Next, lay out the base of the pyramid and sequentially arrange the blocks layer by layer, reducing the size of each layer until the pyramid is complete.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Breaking down a complex task into smaller, precise steps is key in both engineering and coding. Alex's approach in answer 4 is correct because it breaks down the task into clear, sequential steps, allows for calculations to ensure accuracy, and follows a logical progression from start to finish, very similar to how algorithms work in computer programming.\"\n}"
+}

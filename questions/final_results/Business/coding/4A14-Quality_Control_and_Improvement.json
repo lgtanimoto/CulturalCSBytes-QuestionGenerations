@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Business",
+    "topic": "Quality Control and Improvement",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is an intern at a tech startup that builds smart-home appliances. They have been tasked to implement quality control measures for temperature readings of their latest Smart-AC. Alex decides to accomplish this by creating a list of the last 100 temperature readings and then detecting anomalies if the temperature fluctuates more than 5 degrees within a minute. What would be the first step in Alex's code?\",\n    \"Answer1\": \"Initialize a list with 100 zeros\",\n    \"Answer2\": \"Start a loop that runs for 100 iterations\",\n    \"Answer3\": \"Initialize a variable 'anomaly' as false\",\n    \"Answer4\": \"Create a list of 5 elements\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex's first step would be to initialize a list to store the last 100 temperature readings. This is the data structure they will use to hold the temperature readings and detect any anomalies. They will initially fill it with zeros or any arbitrary placeholder values, and then update it with real temperature readings as they come in.\",\n    \"code_snippet\": \"List<number> temperatureReadings is 100 fill 0.0\"\n}"
+}

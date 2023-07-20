@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "World History",
+    "topic": "Examining the Relationship between Technology and Society",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been exploring the relationship between internet usage and individual behavior, specifically focusing on how increased screen time has impacted social interaction. They created a line graph to represent the increase in internet usage over the years and noticed the unprecedented surge during the pandemic. Contrarily, the line representing social interactions outside the home saw a drastic dip. Based on this visual, what prediction can Alex make about the social interaction outside home, should internet usage continue to rise?\",\n    \"Answer1\": \"Social interaction outside of home will likely increase with internet usage.\",\n    \"Answer2\": \"Social interaction outside of home will remain stagnant regardless of internet usage.\",\n    \"Answer3\": \"Social interaction outside of home will likely decline further with increased internet usage.\",\n    \"Answer4\": \"Social interaction outside of home cannot be predicted based on internet usage.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The pattern shown in the graph Alex created indicates an inverse relationship between internet usage and social interactions outside the home. It shows that as internet usage increases, social interaction outside the home decreases. Therefore, it can be predicted that if internet usage continues to rise, social interaction outside the home will likely decline further.\"\n}"
+}

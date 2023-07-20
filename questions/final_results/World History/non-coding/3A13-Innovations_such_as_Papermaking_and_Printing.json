@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "World History",
+    "topic": "Innovations such as Papermaking and Printing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex's history class is working on a project about papermaking and printing innovations. They need a program to display a timeline of significant events in the history of these innovations. Which approach should Alex take to decompose the problem?\", \n    \"Answer1\": \"Create a list of all events and their corresponding years. Then, write a function to display each event, in the correct order, in a timeline structure.\",\n    \"Answer2\": \"Write a function to draw a line, separate the line into equal segments for the years, and directly write the significant events on those segments.\",\n    \"Answer3\": \"Write a function to display a timeline. Inside this function, call another function for each event that will display it on the timeline.\",\n    \"Answer4\": \"First create the timeline. Then, add the events one by one starting from the oldest and ending with the newest.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By decomposing the problem into parts, Alex can implement and review individual parts more easily. Creating a list of all events and their corresponding years allows for easy additions or removals of events. It also helps to ensure that they are displayed in the correct order.\"\n}"
+}

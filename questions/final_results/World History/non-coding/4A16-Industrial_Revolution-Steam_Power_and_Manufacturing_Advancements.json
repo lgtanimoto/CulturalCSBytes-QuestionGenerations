@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "World History",
+    "topic": "Industrial Revolution: Steam Power and Manufacturing Advancements",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tasked to simulate the steam engine that powered the textile machines during the Industrial Revolution. It triggers at different pressure levels, powering on and off the machines. How should Alex design this program using events to initiate instructions in the simulation?\",\n    \"Answer1\": \"Create a program that simply powers on and off without any triggers\",\n    \"Answer2\": \"Design an event-driven program where different pressure levels of the steam engine initiate the power on and power off events for the machines in the simulation\",\n    \"Answer3\": \"Build a program where the machines are manually powered on and off, regardless of the steam engine's pressure levels\",\n    \"Answer4\": \"Design a program where the machines are always on, disregarding the steam engine's pressure\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In an event-driven program, different inputs or triggers initiate the execution of instructions. In this case, the changing pressure levels of the steam engine should initiate the power on or off events of the machines in the simulation.\"\n}"
+}

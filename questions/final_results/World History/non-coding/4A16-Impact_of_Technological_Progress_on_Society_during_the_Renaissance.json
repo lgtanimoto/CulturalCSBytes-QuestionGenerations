@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "World History",
+    "topic": "Impact of Technological Progress on Society during the Renaissance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing an interactive timeline detailing societal changes during the Renaissance due to technological progress. They want to initiate different informational pop-ups when the user hovers over or clicks on different events of the timeline. How should Alex design the computational artifact?\",\n    \"Answer1\": \"Write a program to display a static timeline with textual information\",\n    \"Answer2\": \"Include only hover-based instructions without any clickable events\",\n    \"Answer3\": \"Design a timeline with both hover and click events that will display information about technology during the Renaissance\",\n    \"Answer4\": \"Create a complex coding script that allows users to edit the timeline themselves\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In this scenario, Alex should develop an interactive timeline. This requires the use of both hover and click events which will initiate instructions to display useful information to the user. A static timeline or a timeline without clickable events will not provide the interactive experience required. Additionally, a script that allows users to edit the timeline can lead to misinformation and is not necessary for their purpose. \"\n}"
+}

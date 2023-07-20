@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex decided to develop a simple economy tracking program for their favorite video game. The game has a limited resources system, where the players can collect wood, stone, and iron. They want to keep track of how much of each resource they have at any given moment. How should Alex decompose this problem to start writing the program?\",\n    \"Answer1\": \"Create a variable for the total number of resources without distinguishing the resource types\",\n    \"Answer2\": \"Create a separate variable for each resource - wood, stone, and iron - and update them as resources are collected or spent\",\n    \"Answer3\": \"Write a function that predicts the amount of resources that will be available in the future\",\n    \"Answer4\": \"Write a function for the purchase of each type of resource individually\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex needs to keep track of each resource separately, as they have different values and usages within the game. By creating a separate variable for each resource, they can update the amount of each resource as it is gathered or spent. This is an example of decomposing the problem into smaller, more manageable problems.\"\n}"
+}

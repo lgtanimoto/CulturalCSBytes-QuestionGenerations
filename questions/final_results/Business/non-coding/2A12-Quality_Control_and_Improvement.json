@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Business",
+    "topic": "Quality Control and Improvement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Dos is working in a company that produces high volume of data across various departments. They've been assigned a task to incorporate a pre-existing program that checks the quality of data, and modify it to not only check for quality but also improve it where necessary. Dos is currently studying Arrays and Methods. Which of the following solutions will best match Dos' task?\",\n    \"Answer1\": \"Modify the program to include an array, and for each element in the array, call a method that checks each data value against a quality standard and corrects it if it fails.\",\n    \"Answer2\": \"Modify the program to function only during the operating hours of the company.\",\n    \"Answer3\": \"Remix the program with another existing program that already perform the task perfectly.\",\n    \"Answer4\": \"Modify the program to include a series of conditional statements that check the size of the data set, and if it's too large, the data quality process will return an error.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Arrays can be used to handle a large volume of data, and methods within the program can be written to perform the checks and improvements. It wouldn't just run during operating hours and ensuring a program already performs the existing task is unlikely. The size of the data set shouldn't prevent the data quality process either.\"\n}"
+}

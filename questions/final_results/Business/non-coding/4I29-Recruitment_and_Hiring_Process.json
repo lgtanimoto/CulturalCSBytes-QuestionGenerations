@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I29",
+    "learning_objective": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users.",
+    "interest_area": "Business",
+    "topic": "Recruitment and Hiring Process",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a software that is used for recruitment and hiring processes. The software uses automated processes to collect data about applicants from various sources without explicitly asking for their permissions. Which of the following raises the most significant privacy concern and why?\",\n    \"Answer1\": \"The software collects information about an applicant's past employers, job titles, and durations from their publicly available LinkedIn profile.\",\n    \"Answer2\": \"The software tracks an applicant's browsing history on job search platforms to understand their job preferences.\",\n    \"Answer3\": \"The software gathers information from an applicant's social media for insights about their personality.\",\n    \"Answer4\": \"The software pulls data from an applicant's public GitHub repositories to evaluate their programming skills.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Tracking an applicant's browsing history without their explicit consent or knowledge is a clear violation of their privacy, even if it is intended for improving job matching. It is information that a user may not expect to be used for hiring decisions and constitutes a considerable privacy concern.\"\n}"
+}

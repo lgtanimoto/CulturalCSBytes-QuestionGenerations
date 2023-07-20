@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "World History",
+    "topic": "Ancient Civilizations Contributions to Science, Mathematics, and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying ancient civilizations and their contributions to modern day science, mathematics, and engineering. They need a software application to organize their notes, sources, and final report. Which of the following software would be BEST suited for Alex's task?\",\n    \"Answer1\": \"Presentation software (e.g., PowerPoint, Google Slides)\",\n    \"Answer2\": \"Website designer software (e.g., WordPress, Wix)\",\n    \"Answer3\": \"Word processing software (e.g., Word, Google Docs)\",\n    \"Answer4\": \"Image editing software (e.g., Photoshop, GIMP)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Word processing software like Word or Google Docs is the most suitable software for Alex's task. These applications allow for organization of notes, sourcing, creation of a detailed report, and formatting of the text. Moreover, it allows for collaboration and cloud storage, which are also beneficial for such tasks.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "Business",
+    "topic": "Budgeting and Financial Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is starting to budget and plan their financials. They think it's important to keep track of their receipts. Alex scans all receipts and saves them on their phone. To protect these important financial documents, what steps should Alex take to secure their electronic information?\",\n    \"Answer1\": \"Alex should store all scanned receipts on a thumb drive and hide it.\",\n    \"Answer2\": \"Alex should set a passcode on their phone to restrict unauthorized access. They should also use a secure app to store the scanned images and frequently backup the data to a trusted virtual cloud storage.\",\n    \"Answer3\": \"Alex does not need to do anything since scanned documents can\u2019t be stolen or lost.\",\n    \"Answer4\": \"Alex should share the scanned images with a trusted friend for safekeeping.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Setting up a passcode, use of secure app and consistent back-up are beneficial security measures that Alex should perform to protect their electronic information. Sharing private information even with trusted ones can potentially risk its security. Copying data only to a thumb drive doesn't secure it against data loss and storing data on phone without security also risk theft or unauthorized access.\"\n}"
+}

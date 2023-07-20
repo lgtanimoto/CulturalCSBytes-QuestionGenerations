@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D11",
+    "learning_objective": "Create interactive data visualizations using software tools to help others better understand real-world phenomena.",
+    "interest_area": "World History",
+    "topic": "Scientific Revolution and the Impact of New Discoveries",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"As part of an assignment for their history class, Alex wants to create an interactive data visualization to illustrate the impact of key scientific discoveries during the Scientific Revolution. Alex collected data and organized it into a table, showing the year, scientist, discovery, and its societal impact. Which tool would be the most appropriate to help Alex create his interactive data visualization?\",\n    \"Answer1\": \"A simple text editor like Notepad or TextEdit\",\n    \"Answer2\": \"A graphic design software like Adobe Illustrator\",\n    \"Answer3\": \"A virtual collaboration tool like Google Meet\",\n    \"Answer4\": \"A data visualization software like Tableau\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A data visualization software like Tableau is designed to help present data in a visually powerful and engaging manner. With such tools, Alex can create interactive charts and graphs where the watchers can interact with the data, exploring different facets of the Scientific Revolution.\"\n}"
+}

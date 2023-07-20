@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "World History",
+    "topic": "Development of Mathematics and Engineering",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex developed an artifact that aids in the development of Mathematics and Engineering, a programming language that focuses on technical and mathematical computing. However, it seems not many students are able to use it efficiently. What can Alex do to make their programming language more usable for their peers? \",\n    \"Answer1\": \"Provide a user guidebook explaining the syntax and semantics of the language with examples.\",\n    \"Answer2\": \"Add features like syntax highlighting, code hinting and auto-completion in the IDE where the programming language would be used.\",\n    \"Answer3\": \"Organize workshops to explain how to code effectively in this new language.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Making computational artifacts more usable and accessible often involves not only refining the artifact itself, but also providing useful educational materials, trainings, and user-friendly interface features.\"\n}"
+}

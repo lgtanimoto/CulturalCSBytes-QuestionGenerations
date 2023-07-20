@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "World History",
+    "topic": "Industrial Revolution: Steam Power and Manufacturing Advancements",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is studying the Industrial Revolution, specifically examining the impacts of steam power on manufacturing advancements. They've decided to run a simulation that calculates how changing the amount of coal used affects the steam produced and hence the power generated. Although Alex made a mistake when naming their variables, making the code snippet difficult to comprehend:Which of the following options makes the best sense when renaming Alex's variables X, Y, and Z?\",\n    \"Answer1\": \"X: coalUsed, Y: steamProduced, Z: powerGenerated\",\n    \"Answer2\": \"X: totalProduction, Y: hourRate, Z: steamRate\",\n    \"Answer3\": \"X: dailyCoal, Y: monthlySteam, Z: yearlyPower\",\n    \"Answer4\": \"X: coalPrice, Y: steamMarket, Z: powerCost\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The variable X stores the amount of coal used in kilograms, Y stores the amount of steam produced in cubic meters, and Z calculates the power generated in Watts. Therefore, logically, it makes sense to rename X as 'coalUsed', Y as 'steamProduced', and Z as 'powerGenerated'.\",\n    \"code_snippet\": \"number X = 20\\nnumber Y = X * 8.43\\nnumber Z = Y * 2.50\"\n}"
+}

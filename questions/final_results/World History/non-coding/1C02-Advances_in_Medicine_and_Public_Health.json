@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "World History",
+    "topic": "Advances in Medicine and Public Health",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a school project about the advancement in medical technology. Among the technologies they're studying, one of them is an MRI machine (Magnetic Resonance Imaging) which gives detailed images of the inside of a patient\u2019s body. Which of the following components is crucial for the MRI Machine to function and store the images it produces?\",\n    \"Answer1\": \"Speaker\",\n    \"Answer2\": \"Keyboard\",\n    \"Answer3\": \"Hard Drive\",\n    \"Answer4\": \"Monitor\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The hard drive is crucial for storing the images produced by the MRI machine. While the monitor displays the images, and the keyboard might be used to input patient data or control the machine, it\u2019s the hard drive that stores the amount of data involved in MRI images.\"\n}"
+}

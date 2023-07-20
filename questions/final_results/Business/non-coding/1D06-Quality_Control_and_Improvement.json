@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Business",
+    "topic": "Quality Control and Improvement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works in a factory building car engines. They are asked to chart the number of defective parts found in their inspections every day for one month. Here are their results: Week 1 = 30, Week 2 = 25, Week 3 = 15, and Week 4 = 10. Which of the following are appropriate ways for Alex to present this data visually?\",\n    \"Answer1\": \"Pie chart only\",\n    \"Answer2\": \"Line chart only\",\n    \"Answer3\": \"Bar chart only\",\n    \"Answer4\": \"Both the line chart and the bar chart\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Both a bar chart and a line chart can be used to properly visualize the week-by-week changes in defective parts counted. A pie chart wouldn't be helpful in this scenario because it is better suited to compare parts of a whole, while in this situation, it is important to show the change of numbers over time.\"\n}"
+}

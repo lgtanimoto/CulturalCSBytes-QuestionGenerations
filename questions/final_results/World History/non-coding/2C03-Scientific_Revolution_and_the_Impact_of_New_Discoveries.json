@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "World History",
+    "topic": "Scientific Revolution and the Impact of New Discoveries",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex's history teacher assigns a project on the Scientific Revolution. Alex decides to put together a presentation using a multimedia presentation software. However, they find that the software crashes whenever they try to import large historical paintings. What could be a potential solution for Alex?\",\n    \"Answer1\": \"Change the resolution of the images to a lower setting\",\n    \"Answer2\": \"Write a complaint letter to the software company\",\n    \"Answer3\": \"Buy a higher-end computer\",\n    \"Answer4\": \"Show the picture from a projector\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Lowering the resolution of the images reduces the file size. This could prevent the software from crashing as it will no longer have to process large files which could be causing it to run out of memory or other system resources.\"\n}"
+}

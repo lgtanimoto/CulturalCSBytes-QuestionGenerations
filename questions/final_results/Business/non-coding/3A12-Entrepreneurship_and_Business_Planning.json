@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A12",
+    "learning_objective": "Design and iteratively develop programs that combine control structures, including nested loops and compound conditionals.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Business Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex wants to start a t-shirt business where they sell unique custom designs. They plan to create a program that calculates the profit for each design sold, taking into account varying costs such as production fees, artist fees, and taxes. Which of the following describes a potential sequence for Alex's program?\",\n    \"Answer1\": \"CalculateProfit()repeat for each design subtract production fees, artist fees, and tax from selling price end repeatPrint total profit\",\n    \"Answer2\": \"Print total profitCalculateProfit()repeat for each design subtract production fees, artist fees, and tax from selling price end repeat\",\n    \"Answer3\": \"CalculateProfit()for each design add production fees, artist fees, and tax to selling price end for eachPrint total profit\",\n    \"Answer4\": \"CalculateProfit()repeat for each design subtract selling price from production fees, artist fees, and tax end repeatPrint total profit\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In option 1, Alex first defines a function to calculate profit \u2013 a sequence of events. They then start a loop for each design, where they subtract the costs (production fees, artist fees, and taxes) from the selling price \u2013 a form of event manipulation. After the loop ends (after calculating the profit for all designs), they print the total profit \u2013 a final action triggering the sequence end.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "World History",
+    "topic": "Industrial Revolution: Steam Power and Manufacturing Advancements",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating a program to simulate a basic manufacturing assembly line in the Industrial Revolution era, using the concept of steam power. They are finding it hard to manage the code because they've tried to write it all in one piece. What should Alex do to simplify the management of their code and make it easier to handle?\",\n    \"Answer1\": \"Copy and paste the same logic everywhere.\",\n    \"Answer2\": \"Write all the code in one big procedure.\",\n    \"Answer3\": \"Break down the problem into smaller procedures and modules that handle specific aspects of the manufacturing process.\",\n    \"Answer4\": \"Avoid any use of procedures or modules to keep the code simple.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"By breaking down a problem into smaller, manageable procedures and modules, Alex can handle specific aspects of the manufacturing process. This process, known as decomposition, simplifies code management, increases readability, and enables code reusability.\",\n    \"code_snippet\": \"action Main\\n    SteamEngine()\\n    TransportGoods()\\n    ProcessGoods()\\nend\\n\\naction SteamEngine\\n    \\n    // Write code for steam engine\\nend\\n\\naction TransportGoods\\n    \\n    // Write code for transportation of goods\\nend\\n\\naction ProcessGoods\\n    \\n    // Write code for goods processing\\nend\"\n}"
+}

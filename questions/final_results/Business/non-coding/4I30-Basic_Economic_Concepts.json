@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I30",
+    "learning_objective": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics.",
+    "interest_area": "Business",
+    "topic": "Basic Economic Concepts",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is considering setting up an online business where they would sell handmade crafts. However, they are worried about how privacy laws might impact their venture, especially the ones surrounding customer data. Alex knows that they need to gather certain data from customers to successfully run their business and make strategic decisions, but they also understand the importance of their customers' privacy. What is one way in which privacy laws could potentially negatively impact Alex's online business?\",\n    \"Answer1\": \"Privacy laws could limit the amount of personal data Alex can collect, potentially limiting their understanding of their customers' preferences.\",\n    \"Answer2\": \"Privacy laws could make the business seem more trustworthy, potentially attracting more customers.\",\n    \"Answer3\": \"Privacy laws could lead to increased transparency, potentially improving relationships with customers.\",\n    \"Answer4\": \"Privacy laws could ensure that Alex avoids legal problems, potentially increasing overall business stability.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Privacy laws often restrict the amount and kind of personal data that businesses can collect from their customers. While these laws are designed to protect individuals' privacy, they could potentially limit a business owner's understanding of their customers, thereby impacting decision-making and marketing strategies.\"\n}"
+}

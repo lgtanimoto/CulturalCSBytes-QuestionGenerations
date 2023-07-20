@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "World History",
+    "topic": "Transportation Revolution: Canals, Railways, and the Telegraph",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a history enthusiast and is currently studying the transportation revolution. They wrote a program to perform a simulation of the amount of data a telegraph can carry from one railway station to another. The telegraph simulation function telegraphDataCarry() carries '1' bit of data per second. Given a piece of information that has 'n' bits, Alex's function should return how many seconds it will take to carry that data from one station to another. The function is as follows:If Alex calls the function with argument 60 (e.g., telegraphDataCarry(60) ), what will be the output of Alex's program?\",\n    \"Answer1\": \"It will take 60 seconds to carry the data.\",\n    \"Answer2\": \"It will take 30 seconds to carry the data.\",\n    \"Answer3\": \"It will take 15 seconds to carry the data.\",\n    \"Answer4\": \"It will take 120 seconds to carry the data.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Since the telegraph sends 1 bit of data per second, for 60 bits of data, Alex's program will output 'It will take 60 seconds to carry the data.'\",\n    \"code_snippet\": \"action telegraphDataCarry(integer bits)\\n    output \\\"It will take \\\" + bits + \\\" seconds to carry the data.\\\"\\nend\"\n}"
+}

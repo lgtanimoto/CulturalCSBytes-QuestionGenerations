@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A15",
+    "learning_objective": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+    "interest_area": "Business",
+    "topic": "Market Research and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex works as a market researcher and they are given a task to analyze the revenue of different products over past few years. In order to simplify the task, Alex decided to use a sorting algorithm to sort the data in descending order of revenue. Which of the following is a logical justification for Alex's decision to use a sorting algorithm?\",\n    \"Answer1\": \"Sorting algorithms are always faster than other algorithmic solutions\",\n    \"Answer2\": \"The choice of a sorting algorithm can be more readable and has better performance characteristics\",\n    \"Answer3\": \"Sorting algorithms are more easy to implement than other algorithmic solutions\",\n    \"Answer4\": \"All computational problems can be simplified using a sorting algorithm\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Different control structures can be applied to a computational problem to achieve the same outcome. However, the choice of a specific control structure depends on several factors such as implementation ease, code readability, and program performance. In Alex's case, using a sorting algorithm can help break down a large task (analyzing all the data) into smaller, more manageable pieces (analyzing data for one product at a time), thus making the solution more efficient and readable.\"\n}"
+}

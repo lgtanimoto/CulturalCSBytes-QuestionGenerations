@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Business",
+    "topic": "Entrepreneurship and Business Planning",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a scheduling application for local businesses. They have developed multiple algorithms for assigning employee shifts based on factors such as availability, expertise, and workload distribution. Which of the following factors should Alex consider to determine which algorithm is the most appropriate?\",\n    \"Answer1\": \"Which algorithm can run the fastest on Alex's computer\",\n    \"Answer2\": \"Which algorithm was the most fun for Alex to write\",\n    \"Answer3\": \"Which algorithm results in the most equitable distribution of shifts while considering employee availability and expertise\",\n    \"Answer4\": \"Which algorithm generates the random schedule\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While speed of an algorithm might be important, the true value in Alex's application will be in how effectively it balances shifts amongst employees, taking into account the key factors of availability and expertise. This ensures that all employees are scheduled fairly, leading to higher satisfaction and less turnover.\"\n}"
+}

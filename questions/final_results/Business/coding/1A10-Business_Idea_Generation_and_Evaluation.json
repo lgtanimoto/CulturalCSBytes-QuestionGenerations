@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A10",
+    "learning_objective": "Develop programs with sequences and simple loops, to express ideas or address a problem.",
+    "interest_area": "Business",
+    "topic": "Business Idea Generation and Evaluation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is interested in starting a business and wants to ensure they choose a well-rounded idea. They've created an algorithm that rates each business idea on attributes such as profitability, creativity, and feasibility. Based on the following code snippet, if 'Profitability' is set to 'High', 'Creativity' is set to 'Medium', and 'Feasibility' is set to 'Low', what value would 'IdeaRating' take?\",\n    \"Answer1\": \"Good Idea\",\n    \"Answer2\": \"Average Idea\",\n    \"Answer3\": \"Poor Idea\",\n    \"Answer4\": \"Excellent Idea\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex assigns 3 points for 'High', 2 points for 'Medium', 1 point for 'Low'. So if Profitability = 'High' (3 points), Creativity = 'Medium' (2 points), Feasibility = 'Low' (1 point), the total score will be 6. According to Alex's conditionals, a score of 6 will output 'Good Idea'.\",\n    \"code_snippet\": \"integer Profitability = 3 //High\\ninteger Creativity = 2 //Medium\\ninteger Feasibility = 1 //Low\\ninteger IdeaRating = Profitability + Creativity + Feasibility\\n\\nif IdeaRating > 8\\n    output \\\"Excellent Idea\\\"\\nelif IdeaRating > 6\\n    output \\\"Good Idea\\\"\\nelif IdeaRating > 4\\n    output \\\"Average Idea\\\"\\nelse\\n    output \\\"Poor Idea\\\"\\nend\"\n}"
+}
