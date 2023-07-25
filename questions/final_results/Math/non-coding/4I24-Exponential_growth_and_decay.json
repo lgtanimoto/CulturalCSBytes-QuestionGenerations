@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex started a popular blog that has a number of subscribers that doubles every six months. After 18 months, Alex's friend Taylor, who also started a blog, had half as many subscribers as Alex. But suddenly, the number of Taylor's blog subscribers began to halve every six months. What will be the trend of the number of subscribers after 3 years for both blogs?\",\n    \"Answer1\": \"Alex's blog will continue to grow, while Taylor's blog will almost disappear.\",\n    \"Answer2\": \"Both blogs will continue to grow, but Alex's will grow at a faster rate.\",\n    \"Answer3\": \"Both blogs will continue to grow at the same rate.\",\n    \"Answer4\": \"Both blogs will lose subscribers, but Taylor's will lose them at a faster rate.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"This question deals with the concept of exponential growth and decay. Alex's blog subscriber count doubles every half-year demonstrating exponential growth. In contrast, Taylor's blog subscriber count halves every half-year which is an example of exponential decay. This shows the impact of understanding exponential functions not just in computing, but also in social media growth strategies.\"\n}"
+}

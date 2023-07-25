@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "Agriculture",
+    "topic": "Importance of Agriculture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of an Agriculture class where they cultivate various plants for learning. They've now been asked to automate the watering system so it can water plants when the soil moisture is below a certain level. Which hardware components would Alex need to create this system?\",\n    \"Answer1\": \"Central Processing Unit (CPU) and Random Access Memory (RAM)\",\n    \"Answer2\": \"Motherboard and Power Supply\",\n    \"Answer3\": \"Hard Disk Drive (HDD) and Solid State Drive (SSD)\",\n    \"Answer4\": \"Microcontroller and Soil Moisture Sensor\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In such a system, a soil moisture sensor would be used to determine the moisture level of the soil, and a microcontroller (like an Arduino or Raspberry Pi) would then control the watering system based on sensor readings.\"\n}"
+}

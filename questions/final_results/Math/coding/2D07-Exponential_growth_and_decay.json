@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a biology student studying populations of bacteria in a lab. They use a simple model for bacterial growth where the population doubles every hour. Alex wrote this program to calculate the bacterial population after a certain number of hours given an initial population size. What is the output produced by this program if Alex provides 10 as the initial population and 3 as the number of hours?\",\n    \"Answer1\": \"80\",\n    \"Answer2\": \"40\",\n    \"Answer3\": \"20\",\n    \"Answer4\": \"60\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The population doubles every hour, so after a given number of hours, the population is initial population * 2^number of hours. In this case, that is 10 * 2^3 = 80.\",\n    \"code_snippet\": \"action CalculatePopulation (integer initialPopulation, integer numberOfHours) returns integer\\n    return initialPopulation * 2^numberOfHours\\nend\"\n}"
+}

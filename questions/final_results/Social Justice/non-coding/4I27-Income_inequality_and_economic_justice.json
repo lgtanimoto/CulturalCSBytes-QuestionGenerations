@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Social Justice",
+    "topic": "Income inequality and economic justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is interested in issues of income inequality and economic justice. For a school project, they decide to collaborate with a friend in another country, Jordan, who shares the same interest. They decide to use online tools and methods to work on a project comparing the income gap in their respective countries. What would be the most appropriate and effective way for them to work on this project?\",\n    \"Answer1\": \"Alex can share their data on a cloud-based platform, allowing Jordan to add their own data, and they can jointly analyze and draw conclusions.\",\n    \"Answer2\": \"Alex should do all the data collection and analysis themselves without involving Jordan.\",\n    \"Answer3\": \"Alex and Jordan should work independently and then combine the data at the end to assess the results.\",\n    \"Answer4\": \"Alex should let Jordan do all the work while they focus on writing the final report.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Using a cloud-based platform allows for collaboration across different geographical locations. Both Alex and Jordan can contribute to data collection and analysis, and it ensures that they work jointly on the project and keep communicating throughout.\"\n}"
+}

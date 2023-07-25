@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Social Justice",
+    "topic": "Income inequality and economic justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project to design a mobile payment app targeted at reducing income inequality by facilitating micro-financing in underprivileged communities. They've noticed that while many individuals in these communities own smartphones, not everyone has consistent access to high-speed internet or sophisticated newer phone models. Which of the below decisions in the design of the app would be considered biased and potentially exacerbate issues of economic justice?\",\n    \"Answer1\": \"Making the app feature-rich and using a lot of high-resolution images and animation\",\n    \"Answer2\": \"Including support for multiple languages in the app\",\n    \"Answer3\": \"Providing round-the-clock customer support and a comprehensive FAQ\",\n    \"Answer4\": \"Designing the app to work in poor latency and low internet speed environments\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"While having a rich, visually engrossing app might enhance user experience, this would require high-speed internet and newer models of mobile phones. This could exclude users with slower internet connections or older phones, which would be counterproductive to Alex's goal of economic justice and inclusivity.\"\n}"
+}

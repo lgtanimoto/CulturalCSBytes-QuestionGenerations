@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Fertility and Nutrient Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Jordan has created a web resource for farmers to manage their soil fertility.  Users can enter the type of crop they want to grow and the results of a soil sample, and the site will suggest treatment options to optimize the soil for the desired crop. The feedback from users is that the resource is too complicated and hard to use. The treatment options are too high theoretical without practical advice. How should Jordan refine the computational artifact to make it more usable and accessible?\",\n    \"Answer1\": \"Make the site more visually appealing using images, videos and info-graphics\",\n    \"Answer2\": \"Provide detailed instructions for all possible interactions with the website\",\n    \"Answer3\": \"Simplify the output by reducing the amount of information presented and provide more practical advice\",\n    \"Answer4\": \"Extend the treatment options by adding more complex and detailed information\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Based on the feedback, it seems that the output is too complex, without enough practical advice. Simplifying the information and providing more practical advice will help to make the website more accessible.\"\n}"
+}

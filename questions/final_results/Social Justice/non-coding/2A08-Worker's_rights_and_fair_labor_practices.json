@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Social Justice",
+    "topic": "Worker's rights and fair labor practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is debating between two algorithms for computing the average weekly working hours for the employees in a factory which employs 1000 workers. Algorithm A computes the average by first storing all weekly working hours in an array and then computing the average. Algorithm B uses a running total to compute the average directly, without storing all of the data. The values from the previous week are discarded as the new week starts. Which algorithm should Alex choose if the most significant concern is minimizing the program's memory usage?\",\n    \"Answer1\": \"Algorithm A, because it stores all the data\",\n    \"Answer2\": \"Algorithm A, because it computes the average afterwards\",\n    \"Answer3\": \"Algorithm B, because it does not store all the data\",\n    \"Answer4\": \"Algorithm B, because it computes the average directly\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Algorithm B is the more efficient choice in terms of memory usage because it does not involve storing all the data. Instead, it maintains a running total of the weekly hours worked and the number of workers, allowing the average to be calculated without retaining the weekly data for each individual worker. This is a good example of a trade-off in computer science - choosing a more memory-efficient algorithm over one that allows for more detailed data analysis.\"\n}"
+}

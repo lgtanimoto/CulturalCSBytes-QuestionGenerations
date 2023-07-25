@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Nutrition and Feeding",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex volunteers at the local animal shelter and is responsible for feeding the various animals. They need to create a system to keep track of when and what each animal has been fed. Alex wants to design a program to help with this process. Which among the following information should NOT be included in the data to be stored?\",\n    \"Answer1\": \"Time of the last feeding\",\n    \"Answer2\": \"Type of food given\",\n    \"Answer3\": \"Birthday of the employee assigned to feeding\",\n    \"Answer4\": \"The pet's dietary restrictions, if any\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While all information would be beneficial in some contexts, the birthday of the employee assigned to feeding doesn't aid directly in tracking animal nutrition and feeding. Therefore, it isn't necessary for this specific program.\"\n}"
+}

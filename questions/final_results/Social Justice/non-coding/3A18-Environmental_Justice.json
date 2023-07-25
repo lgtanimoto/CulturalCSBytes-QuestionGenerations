@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Social Justice",
+    "topic": "Environmental Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their classmates are tasked to build a computer model to represent the distribution of pollution in their city and its relation to environmental justice. Each student is given a different assignment, such as gathering data, programming the model, testing the model, and getting local citizens involved. If Alex is tasked with programming the model, which of the following tasks is not likely part of their responsibilities?\",\n    \"Answer1\": \"Coding the model to represent the distribution of pollution in the city.\",\n    \"Answer2\": \"Creating visual representations of the model's outputs to share with the public.\",\n    \"Answer3\": \"Conducting interviews with local community members as part of the data gathering process.\",\n    \"Answer4\": \"Testing and debugging the model with input data before the final version is released.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"As the programmer who codes the model, Alex would be primarily concerned with the tasks within this domain, such as coding the model, creating visual representations of the data for public engagement and debugging. Interviewing community members would likely be the responsibility of the student tasked with data gathering, not the student responsible for programming.\"\n}"
+}

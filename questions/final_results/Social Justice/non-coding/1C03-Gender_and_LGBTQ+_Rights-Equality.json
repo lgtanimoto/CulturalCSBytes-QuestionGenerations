@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Social Justice",
+    "topic": "Gender and LGBTQ+ Rights/Equality",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been tasked to create a website for their school's Gender and LGBTQ+ Rights Club. The website works fine on Alex's computer, but some of the club members complain that they aren't able to load certain parts of the website on their laptops. What could be the likely cause of this issue?\",\n    \"Answer1\": \"The members' Internet connection might be slow\",\n    \"Answer2\": \"The members' laptops might be infected with viruses\",\n    \"Answer3\": \"The website might not be compatible with all types of browsers or devices\",\n    \"Answer4\": \"The members might not have given the necessary permissions to the website\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The most likely cause of the issue would be that Alex's website might not be compatible with all types of browsers or devices. When designing a website, it's important to account for the fact that users will have different browser types, versions, and device types (desktop, laptop, tablet, smartphone, etc.).\"\n}"
+}

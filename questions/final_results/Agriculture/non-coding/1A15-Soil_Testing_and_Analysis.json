@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Testing and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to record soil sample data for a school garden restoration project. They want the program to input sample data, analyze the nutrient levels, compare against optimal levels, and suggest improvements if needed. Which of the following best describes Alex's steps and choices during the program development process?\",\n    \"Answer1\": \"Alex wrote code, ran it, fixed bugs, and repeated the process until the program worked.\",\n    \"Answer2\": \"Alex first defined what input the program needs (soil sample data) and what output it should produce (nutrient analysis and suggestions). Next, they developed an algorithm to analyze the data and make recommendations. They then wrote code implementing this algorithm, tested the code, and corrected errors they found during testing.\",\n    \"Answer3\": \"Alex wrote the soil testing code in one go, without testing any parts of it beforehand.\",\n    \"Answer4\": \"Alex completed all the programming in a single day, leaving no time for testing or debugging.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The steps and choices Alex made are reflective of the iterative nature of program development - design, code, test, debug. Here, they identified the problem, planned out their solution, coded it, and then ran iterations of testing and debugging to refine it.\"\n}"
+}

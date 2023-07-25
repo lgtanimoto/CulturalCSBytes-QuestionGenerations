@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been given an old calculator from a thrift shop and assigned to upgrade it. The calculator can currently only perform addition and subtraction, but Alex wants to program it to also perform multiplication and division. It is a simple machine with buttons for digits 0-9, equals, plus, minus, multiply, divide, and clear. How could Alex approach this task to fulfill their goal?\",\n    \"Answer1\": \"By adding a few more buttons for the new operations\",\n    \"Answer2\": \"By providing the physical means to display more digits\",\n    \"Answer3\": \"By writing a new software program to interpret the button presses and perform the operations\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To accomplish this task, Alex would need to write a new software program that would interpret the button presses and correctly perform the operations of multiplication and division. The physical components of the calculator are likely sufficient for this task, but the software needs to be updated to support the additional functions.\"\n}"
+}

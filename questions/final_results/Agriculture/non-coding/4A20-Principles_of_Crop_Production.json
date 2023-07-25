@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A20",
+    "learning_objective": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "interest_area": "Agriculture",
+    "topic": "Principles of Crop Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a computer science student is working on an Agri-tech project. They require data for the project and they found it in an online database that is under copyright law. What should Alex do to use this data?\",\n    \"Answer1\": \"Alex can use the data without any reference since it's for an educational project\",\n    \"Answer2\": \"Alex can take screen shots of the data and use it. This way they doesn't infringe any copyright\",\n    \"Answer3\": \"Alex can use excerpts of the data and cite the original source\",\n    \"Answer4\": \"Alex should mail the creator of the database for permission to use the data\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When dealing with resources such as online databases and libraries that are under copyright law, it is always recommended to seek permission from the creator of the resource before using the data. This not only ensures respecting intellectual property rights, but also prevents legal complications.\"\n}"
+}

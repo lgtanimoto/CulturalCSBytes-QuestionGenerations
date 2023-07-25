@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program for their math class to solve rates and proportion problems. Alex's program calculates the time it would take both John and Lisa to complete a task if they worked together. The code segment for Alex's program is as follows:With the goal of improving the program\u2019s readability and accuracy, which of the following implementations is the best modification of Alex's program?\",\n    \"Answer1\": \"action workTogether(integer workJohn, integer workLisa) returns number\\n    return 1/(workJohn + workLisa)\\nend\",\n    \"Answer2\": \"action workTogether(integer workJohn, integer workLisa) returns number\\n    return workJohn + workLisa\\nend\",\n    \"Answer3\": \"action workTogether(integer workJohn, integer workLisa) returns number\\n    return workJohn * workLisa\\nend\",\n    \"Answer4\": \"action workTogether(integer workJohn, integer workLisa) returns number\\n    return 1/(1/workJohn + 1/workLisa)\\nend\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When John and Lisa are working together, their combined rate equals to the sum of their individual rates. Since rate = 1/time, we should sum the rates first, then reverse it to calculate the time. Therefore, the correct formula should be 1/(1/workJohn + 1/workLisa).\",\n    \"code_snippet\": \"action workTogether(integer workJohn, integer workLisa) returns number\\n    return workJohn + workLisa\\nend\"\n}"
+}

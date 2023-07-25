@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Agriculture",
+    "topic": "Principles of Crop Production",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project using coding to determine the effect of different variables on crop yield. Alex's code takes in variables such as temperature, rainfall, and fertilizer application amount. Which of the following code lines should Alex include to set up a correlation between rainfall, temperature, fertilizer application, and crop yield?\",\n    \"Answer1\": \"Yield = Rainfall + Temperature + Fertilizer\",\n    \"Answer2\": \"Output Rainfall + Temperature + Fertilizer\",\n    \"Answer3\": \"Crop = Rainfall + Temperature + Fertilizer\",\n    \"Answer4\": \"Yield = Rainfall * Temperature * Fertilizer\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In this case, 'Yield = Rainfall + Temperature + Fertilizer' is the correct line of code to establish a correlation between the given variables. This straightforward linear relationship means that increase or decrease in either of the inputs (rainfall, temperature, fertilizer) would directly affect the crop yield. Note that in the real world, the relationship might not be this linear and may require more complex algorithms or statistical models.\",\n    \"code_snippet\": \"integer Rainfall = 20\\ninteger Temperature = 30\\ninteger Fertilizer = 40\\ninteger Yield = Rainfall + Temperature + Fertilizer\\noutput Yield\"\n}"
+}

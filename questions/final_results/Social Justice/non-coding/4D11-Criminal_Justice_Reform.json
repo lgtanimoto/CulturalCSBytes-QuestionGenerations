@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D11",
+    "learning_objective": "Create interactive data visualizations using software tools to help others better understand real-world phenomena.",
+    "interest_area": "Social Justice",
+    "topic": "Criminal Justice Reform",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is passionate about criminal justice reform and is highlighting the issue for their senior project. They decide to carry out an analysis on incarceration rates across various states in the U.S. They decide to use Python's Matplotlib library to present the data graphically in an interactive way. What does Alex need to ensure to make their data visualization most effective?\",\n    \"Answer1\": \"Use fancy, creative visuals to create a dramatic impact\",\n    \"Answer2\": \"Include as much data in one graph as possible\",\n    \"Answer3\": \"Ensure the graph is simple, clear, and allows users to interact with the data\",\n    \"Answer4\": \"Make the chart monochrome to avoid distracting the audience\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While charts and graphics can be useful tools for displaying data, the most effective visualizations are often the easiest to understand. Keeping the chart simple and clear helps the audience understand the data quickly and easily. Providing interactivity can allow others to engage with the data more effectively, helping them to understand more complex insights.\"\n}"
+}

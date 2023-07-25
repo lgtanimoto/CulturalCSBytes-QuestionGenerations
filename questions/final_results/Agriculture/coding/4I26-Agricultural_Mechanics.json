@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Agriculture",
+    "topic": "Agricultural Mechanics",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex loves Agricultural Mechanics and is currently working on a project to optimize the watering system for a large field of crops. They want to equally distribute the water to each plant and need to calculate the proper timing for each sprinkler placement. They are using a Quorum program to do this. Alex's code snippet is as follows: What will the program output for a given time, say 5 seconds?\",\n    \"Answer1\": \"Sprinkler 1: 5 seconds, Sprinkler 2: 10 seconds, Sprinkler 3: 15 seconds\",\n    \"Answer2\": \"Sprinkler 1: 5 seconds, Sprinkler 2: 5 seconds, Sprinkler 3: 5 seconds\",\n    \"Answer3\": \"Sprinkler 1: 5 seconds, Sprinkler 2: 15 seconds, Sprinkler 3: 25 seconds\",\n    \"Answer4\": \"Sprinkler 1: 5 seconds, Sprinkler 2: 7.5 seconds, Sprinkler 3: 10 seconds\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The program assigns each subsequent sprinkler a watering time that is increased by five second intervals. To arrive at the correct answer, we apply this consistent increment across all sprinklers.\",\n    \"code_snippet\": \"action Sprinkler_Time(integer time)\\n    integer i = 1\\n    repeat while i <= 3\\n        output \\\"Sprinkler \\\"+ i +\\\": \\\" + time + \\\" seconds\\\"\\n        time = time+5\\n        i = i+1\\n    end\\nend\"\n}"
+}

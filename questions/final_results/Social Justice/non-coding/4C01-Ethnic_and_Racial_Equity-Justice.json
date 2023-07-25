@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Social Justice",
+    "topic": "Ethnic and Racial Equity/Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a machine learning program to determine racial and ethnic bias in stop-and-frisk data. However, the implementation elements of machine learning are quite complex and not visible to the end user. What computing concept enables this machine learning program to process data and provide results without revealing its internal computation mechanisms?\",\n    \"Answer1\": \"Database Systems\",\n    \"Answer2\": \"Algorithm Implementation\",\n    \"Answer3\": \"Abstraction\",\n    \"Answer4\": \"Web Services\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Abstraction in computer science is a method of arranging complexity of a system. It allows the programmer to hide all but the relevant data about an object in order to reduce complexity and increase efficiency. In this case, uses of machine learning like this hide complex calculations and data processing (i.e., \\\"underlying implementation details\\\") behind a simpler interface (the machine learning algorithm output).\"\n}"
+}

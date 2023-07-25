@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Math",
+    "topic": "Sequences and series",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In class, Alex is learning about arithmetical sequences and how they can be used in programming. Alex decides to create a function that will generate the nth term of a given arithmetical sequence. The function will take three parameters: the first term (a), the common difference (d), and the term number (n). Which of the following best describes the procedure Alex should use to create their function?\",\n    \"Answer1\": \"term = a + (n-1) * d; return term;\",\n    \"Answer2\": \"term = a * n * d; return term;\",\n    \"Answer3\": \"term = (a + d) / n; return term;\",\n    \"Answer4\": \"term = a + n / d; return term;\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In an arithmetic sequence, each term after the first is received by adding a constant difference to the previous term. The formula for any term is a + (n-1) * d, where a is the first term, d is the common difference, and n is the term number.\"\n}"
+}

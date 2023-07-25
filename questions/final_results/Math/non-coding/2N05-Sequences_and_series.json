@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "Math",
+    "topic": "Sequences and series",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves to shop online and they have been asked to enter their credit card information on a site they have just discovered. They remember a lesson their computer science teacher did on phishing and fraud on the internet. Which of the following should Alex do with their personal information?\",\n    \"Answer1\": \"Provide the store with the credit card details as asked.\",\n    \"Answer2\": \"Provide an old expired credit card for their first purchase to see if the store is legitimate.\",\n    \"Answer3\": \"Check if the website is using secure web protocols and looking for reviews about the site before sharing their personal information.\",\n    \"Answer4\": \"Avoid online shopping and only shop in brick-and-mortar stores.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"What Alex really need to do before providing their personal data to any online website, especially new ones, is to make sure it's secure (uses HTTPS not HTTP), look for reviews about the website or contact its customer service to ensure its legitimacy. It's also advisable to use secure payment options like PayPal or credit cards with fraud protection. Ensuring cybersecurity is a fundamental skill for any responsible Internet user.\"\n}"
+}

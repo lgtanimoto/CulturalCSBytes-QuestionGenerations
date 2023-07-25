@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Social Justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is passionate about addressing the digital divide and ensuring digital privacy for all, thus they decided to create a procedure that computes and returns the average age of Internet users in a certain area. However, they are not sure how to explain their code. What code comment should Alex add to explain what their procedure does and how they ensure privacy?\",\n    \"Answer1\": \"// This procedure calculates the total number of internet users in a district\",\n    \"Answer2\": \"// This procedure collects individual data about internet usage + names and aliases\",\n    \"Answer3\": \"// This procedure computes the average age of internet users in a district, ensuring privacy by not recording individual ages\",\n    \"Answer4\": \"// This procedure records the individual ages of internet users in a district\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex's procedure computes the average age of internet users in a given district, but it protects each user's privacy by not recording individual ages.\",\n    \"code_snippet\": \"integer numberOfUsers = 0\\ninteger totalAge = 0\\ninteger age = 0\\nwhile isDataAvailable()\\n    age = getNextUserAge()\\n    totalAge = totalAge + age\\n    numberOfUsers += 1\\nend\\ninteger averageAge = totalAge / numberOfUsers\\nreturn averageAge\"\n}"
+}

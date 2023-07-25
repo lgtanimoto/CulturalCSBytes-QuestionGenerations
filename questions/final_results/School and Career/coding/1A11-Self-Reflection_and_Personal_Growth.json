@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "School and Career",
+    "topic": "Self-Reflection and Personal Growth",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a journal app that helps users track their personal growth. This is a snippet of Alex's code designed to provide statements of self-evaluation based on the number of self-enhancement activities completed in a week.What would be the output if Alex inputs '5' as the number of activities completed?\",\n    \"Answer1\": \"Keep Going, You Can Do More\",\n    \"Answer2\": \"Great job, but there's always room for more\",\n    \"Answer3\": \"Amazing! You're on a roll!\",\n    \"Answer4\": \"Incredible! You're making great progress\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex's program decomposes self-evaluation messages based on the number of personal growth activities completed by the user in a week. If a user inputs '5', given that it is greater than or equal to 5 and less than 7, the program will output 'Amazing! You're on a roll!'\",\n    \"code_snippet\": \"integer activitiesCompleted\\ninput activitiesCompleted\\n\\nif activitiesCompleted < 3\\n    output \\\"Keep Going, You Can Do More\\\"\\nelse if activitiesCompleted >= 3 and activitiesCompleted < 5\\n    output \\\"Great job, but there's always room for more\\\"\\nelse if activitiesCompleted >= 5 and activitiesCompleted < 7\\n    output \\\"Amazing! You're on a roll!\\\"\\nelse\\n    output \\\"Incredible! You're making great progress\\\"\\nend\"\n}"
+}

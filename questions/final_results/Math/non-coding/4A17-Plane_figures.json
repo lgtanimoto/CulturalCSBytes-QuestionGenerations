@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an object-oriented program in Python where different geometric shapes are represented as objects. Each shape\u2014triangle, square, and circle\u2014will be drawn based on the number of sides and the length of each side. The program will use a method to calculate and display the area of the shape. What's the best way for Alex to decompose this problem?\",\n    \"Answer1\": \"Create a single object that includes all the shapes and their properties, then create a giant if-else branch to process the different shapes.\",\n    \"Answer2\": \"Create a different object for each shape, each with methods for calculating the area.\",\n    \"Answer3\": \"Create a separate program for each shape.\",\n    \"Answer4\": \"Decomposition is not useful in this scenario.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Decomposing problems into smaller components allows for easier management and understanding of complex problems. In this case, Alex would maintain clarity by creating a separate object for each shape type\u2014triangle, square, circle\u2014with each object encapsulating its own properties and behaviors (like calculating its own area), adhering to object-oriented principles.\"\n}"
+}

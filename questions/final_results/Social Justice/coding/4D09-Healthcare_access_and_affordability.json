@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Social Justice",
+    "topic": "Healthcare access and affordability",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a program for a healthcare clinic that wants to classify its patients based on their financial capability and medical needs. Each patient is assigned a binary and hexadecimal code depending on different factors such as their income, medical history, and health insurance coverage. What will be the correct hexadecimal representation of a patient designated by the binary code '11110111'?\",\n    \"Answer1\": \"'E7'\",\n    \"Answer2\": \"'99'\",\n    \"Answer3\": \"'F7'\",\n    \"Answer4\": \"'A7'\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The hexadecimal system is a base-16 number system. It uses 16 unique symbols to represent different values. The binary number '11110111' can be divided into two groups of 4 bits each (1111, 0111). The hexadecimal equivalent of 1111 is 'F', and of 0111 is '7'. Hence, the correct hexadecimal representation for the binary code '11110111' is 'F7'.\",\n    \"code_snippet\": \"text binaryCode = \\\"11110111\\\"\\nnumber decimalCode = binaryToDecimal(binaryCode)\\ntext hexaCode = decimalToHexa(decimalCode)\\noutput hexaCode\"\n}"
+}

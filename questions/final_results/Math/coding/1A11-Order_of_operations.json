@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "Math",
+    "topic": "Order of operations",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is making a program to calculate the result of an operation, considering the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponential/Orders, Division, Multiplication, Addition, Subtraction). They have a code snippet implementing this order. But there seems to be a mistake in the calculation. Which of the following corrections will have it calculate the result accurately?\",\n    \"Answer1\": \"Change the sequence of operations to Addition, Subtraction, Division, Multiplication, Parentheses, Exponential\",\n    \"Answer2\": \"Change line 3 to: number result = ProcMultiplication(ProcDivision(ProcExponential(ProcParentheses(operation))));\",\n    \"Answer3\": \"No changes are required, it's already implementing PEMDAS/BODMAS order correctly\",\n    \"Answer4\": \"Change line 3 to: number result = ProcParentheses(ProcExponential(ProcDivision(ProcMultiplication(operation))));\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"According to the order of operations, Parentheses should be processed first, followed by Exponentials, Division, and then Multiplication. The correct line sequence should be Parentheses, Exponential, Division, and Multiplication.\",\n    \"code_snippet\": \"action CalculateOperation (number operation) returns number\\n    number result = ProcAddition(ProcSubtraction(ProcMultiplication(ProcDivision(ProcExponential(ProcParentheses(operation))))));\\n    output result\\nend\"\n}"
+}

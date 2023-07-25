@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is helping their friend to create an algorithm to solve linear equations. One of the equations they want to solve is 'y = 3x + 2'. What will be the value of 'y' if 'x' equals to 4, according to the code below?\",\n    \"Answer1\": \"14\",\n    \"Answer2\": \"12\",\n    \"Answer3\": \"16\",\n    \"Answer4\": \"18\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By substituting x with the number 4 in Alex's function, the result will be y = 3*4 + 2 which equals to 14.\",\n    \"code_snippet\": \"integer x = 4\\ninteger y = 0\\n\\ny = 3 * x + 2\\noutput y\"\n}"
+}

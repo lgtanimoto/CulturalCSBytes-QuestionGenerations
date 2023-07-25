@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Nutrition and Feeding",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is using an animal nutrition software to analyze the diet of different animals in their local zoo. Alex wants to get feedback on the functionality of the software from other zookeepers and veterinarians. What steps should Alex take to incorporate feedback into further development of the software?\",\n    \"Answer1\": \"Alex should ignore all feedback and continue with the current software format.\",\n    \"Answer2\": \"Alex should obtain the feedback but not make any changes to the software.\",\n    \"Answer3\": \"Alex should reach out to various team members, get their input, make changes accordingly, and then confer again for additional feedback.\",\n    \"Answer4\": \"Alex should reach out to only one person for feedback and make the changes according to their opinion.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A key part of development is the ability to seek feedback and incorporate it into further iterations and improvements of the software. Alex needs to communicate with team members to understand their needs and experiences with the software, then make changes based on their input. Once changes are made, it's important to seek additional feedback to ensure the changes made were beneficial.\"\n}"
+}

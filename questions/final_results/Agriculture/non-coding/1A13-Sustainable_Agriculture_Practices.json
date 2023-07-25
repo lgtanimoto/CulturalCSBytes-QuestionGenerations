@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A13",
+    "learning_objective": "Give attribution when using the ideas and creations of others while developing programs.",
+    "interest_area": "Agriculture",
+    "topic": "Sustainable Agriculture Practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been researching sustainable agriculture practices for their latest program and has gathered valuable information from a variety of sources. Their program will educate their users about various sustainable practices and the benefits of implementing them in farming. According to good programming practices which of the following should Alex do to attribute the sources properly?\",\n    \"Answer1\": \"He should include the names of the authors or creators in the comments of their code.\",\n    \"Answer2\": \"He should specify in the user interface that the information came from other people.\",\n    \"Answer3\": \"He should include the names of the authors or creators in the user manual or help resources.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When using the ideas and creations of others while developing programs, it is important to give the correct attribution. This can be done through comments in the code, attribution on the user interface, and in supplementary materials like user manuals or help resources.\"\n}"
+}

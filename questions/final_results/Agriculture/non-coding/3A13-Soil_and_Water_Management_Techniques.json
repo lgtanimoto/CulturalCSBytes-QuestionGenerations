@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Agriculture",
+    "topic": "Soil and Water Management Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program that visualizes the effect of various water and soil management techniques on crop growth. Alex needs to divide this program into smaller, more manageable parts. Which of the following best represents how Alex can break down this problem?\",\n    \"Answer1\": \"Part 1: Visualizing crop growth, Part 2: Implementing soil management techniques, Part 3: Implementing water management techniques\",\n    \"Answer2\": \"Part 1: Visualizing soil and water, Part 2: Modeling crop growth, Part 3: Implementing management techniques\",\n    \"Answer3\": \"Part 1: Coding the visualization, Part 2: Coding the soil and water, Part 3: Coding the crops\",\n    \"Answer4\": \"Part 1: Managing soil, Part 2: Managing water, Part 3: Growing crops\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Breaking down the problem can help Alex manage the complexity of the program. First, Alex can focus on coding a function to visualize crop growth. Next, Alex can develop functions to implement the different soil management techniques. Lastly, Alex can work on the functions that implement the various water management techniques.\"\n}"
+}

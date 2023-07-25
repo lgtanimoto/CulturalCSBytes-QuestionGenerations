@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Social Justice",
+    "topic": "Fair and affordable housing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program that will help residents in their city find affordable housing options. They are comparing three algorithms to determine which one will be most effective at selecting appropriate housing options based on a variety of factors including cost, location, and size of the unit. Which of the following is the best way for Alex to determine which algorithm is the most appropriate for their task?\",\n    \"Answer1\": \"Alex should choose the algorithm that is the fastest to code and test.\",\n    \"Answer2\": \"Alex should pick the algorithm that selects the most housing options as this means it's working correctly.\",\n    \"Answer3\": \"Alex should create a scoring criteria for each relevant factor and use it to score how well each algorithm fulfills these criteria.\",\n    \"Answer4\": \"Alex should just pick the algorithm that looks the most complicated as this means it's the most advanced.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Determining the most appropriate algorithm requires factoring in a variety of factors relevant to the task at hand. Alex should create a set of criteria for what their program needs to accomplish and use this to evaluate how well each algorithm fulfills these needs. It's not about complexity or speed of coding, but rather effectiveness in solving the problem.\"\n}"
+}

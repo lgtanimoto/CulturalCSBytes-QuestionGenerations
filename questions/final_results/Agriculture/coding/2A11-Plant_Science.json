@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Agriculture",
+    "topic": "Plant Science",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex decides to create an automated watering system in their garden to help the plants to grow optimally. To build this system, they are trying to decompose their problem into subproblems. Which of the following options is a correct breakdown of Alex's problem?\",\n    \"Answer1\": \"Just water all plants at once\",\n    \"Answer2\": \"Determine the amount of water needed by each type of plant, check the weather forecast for rain, and adjust from automatic watering system accordingly\",\n    \"Answer3\": \"Turn on the watering system whenever Alex remembers to do so\",\n    \"Answer4\": \"Buy new plants whenever old one dies\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Breaking down complex problems into smaller, more manageable sub-problems is a fundamental strategy in computational thinking and programming. For Alex, it is not important just to keep the plants watered but also to ensure they receive the right amount of water. Hence, determining the amount of water each plant needs, checking the weather forecast to adjust watering, and programming the system accordingly, are all relevant sub-problems for Alex's problem.\",\n    \"code_snippet\": \"action WaterPlants(boolean isItRainingToday)\\n  integer waterAmount = DetermineWaterAmount()\\n  if isItRainingToday\\n     output \\\"No need to water plants today.\\\"\\n  else\\n     output \\\"Watering plants with \\\" + waterAmount + \\\" litres.\\\"\\n  end\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Math",
+    "topic": "Fractions, decimals, and percentages",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Diana is working on a program that will take a fraction as input, convert it to a decimal, and then convert that decimal to a percentage. The first version of her code converts fractions to decimals correctly, but the decimal to percentage conversion is incorrect. The program returns 75% for the input 1/2 instead of 50%. What should Diana do to correct her program?\",\n    \"Answer1\": \"Diana should check her code where she is converting the decimal to a percentage. She needs to multiply the decimal number by 100 to convert it to a percentage\",\n    \"Answer2\": \"There's nothing wrong. The error is with the user, decimals and percentages are same\",\n    \"Answer3\": \"Diana should divide the fraction by 100 to get the correct percentage conversion\",\n    \"Answer4\": \"Diana should change the input from fraction to decimal directly and ignore the percentage conversion\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"To convert a decimal to a percentage, one must multiply by 100. Therefore, if Diana is receiving the wrong result in her program, she must review the part of her code that makes this conversion and modify it accordingly.\"\n}"
+}

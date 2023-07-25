@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is using a calculator app on their smartphone to solve a math problem involving addition, subtraction, multiplication, and division with whole numbers. Which part of the smartphone processes these mathematical operations?\",\n    \"Answer1\": \"The battery\",\n    \"Answer2\": \"The screen\",\n    \"Answer3\": \"The Operating System\",\n    \"Answer4\": \"The Central Processing Unit (CPU)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The Central Processing Unit (CPU) of the smartphone, also known as the 'brain' of the computer, processes the mathematical operations when Alex uses the calculator app. While the Operating System manages the hardware and software resources, CPU carries out the arithmetical, logical, and input/output operations of the system.\"\n}"
+}

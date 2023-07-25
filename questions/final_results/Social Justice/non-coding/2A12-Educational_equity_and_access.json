@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Social Justice",
+    "topic": "Educational equity and access",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex lives in a remote town with limited internet access. To help the students in their town learn programming, they decided to modify an existing open-source educational software to make it downloadable and accessible offline. Alex also wanted to add a feature that allows students to periodically sync their progress when they have internet connectivity. Which of the following programming activities best represents what Alex is about to do?\",\n    \"Answer1\": \"Creating a new web-based educational software\",\n    \"Answer2\": \"Downloading an open-source software without modifying it\",\n    \"Answer3\": \"Modifying and remixing an existing open-source software and adding new features\",\n    \"Answer4\": \"Using an existing educational software without adding new features\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex is taking an existing open-source educational software, modifying it to make it accessible offline (remixing), and also adding new features (syncing of learning progress). Therefore, the correct answer is 'Modifying and remixing an existing open-source software and adding new features'.\"\n}"
+}

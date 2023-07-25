@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to solve multi-variable equations, but they're running into some issues. They need to break the program into smaller parts to make it manageable. To solve the equation: '3x+2y-5 = 0', what could be the set of smaller tasks that Alex can break the problem into?\",\n    \"Answer1\": \"1. Isolate 'x' to one side. 2. Simplify the equation. 3. Evaluate 'y'. 4. Substitute 'y' value into the original equation to find 'x'.\",\n    \"Answer2\": \"1. Evaluate 'x'. 2. Substitute 'x' value into the original equation to find 'y'. 3. Solve for 'y'.\",\n    \"Answer3\": \"1. Solve the equation in one step.\",\n    \"Answer4\": \"1. Solve for 'y'. 2. Substitute 'y' value into the original equation to find 'x'.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In order to solve the multi-variable equation for both 'x' and 'y', it can be helpful to break the problem down into smaller tasks. This could involve isolating 'x' on one side, simplifying the equation, and then solving for 'y'. Once 'y' is found, its value can be substituted back into the original equation to find 'x'.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program that computes the perimeter of different basic geometric figures. Below is a part of the code:What should the function 'computePerimeterSquare()' return when called with a parameter of 5?\",\n    \"Answer1\": \"10\",\n    \"Answer2\": \"20\",\n    \"Answer3\": \"15\",\n    \"Answer4\": \"25\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The function 'computePerimeterSquare()' takes a parameter 'side' which is the length of a side of the square. The perimeter of a square is the sum of all its sides, and since a square has four equal sides, the perimeter is calculated by '4 * side'. Therefore, calling 'computePerimeterSquare(5)' will return a value of 20.\",\n    \"code_snippet\": \"action computePerimeterSquare(integer side) returns integer\\n    return (4 * side)\\nend\"\n}"
+}

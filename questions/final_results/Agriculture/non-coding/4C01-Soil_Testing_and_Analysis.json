@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Testing and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has a smart soil analyzer device which checks temperature, light intensity, moisture and pH levels. Whenever they insert the probes into the soil, it sends the data to their phone. The phone displays this data as easy-to-read charts. What abstraction is most significant in this scenario?\",\n    \"Answer1\": \"The transformation of the raw data into charts\",\n    \"Answer2\": \"The gathering of data by the probes\",\n    \"Answer3\": \"The display of the results on their phone\",\n    \"Answer4\": \"The wireless transfer of data from the device to the phone\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The transformation of the raw data into charts. This abstraction hides the complex underlying computing processes. Instead of needing to interpret raw numbers, Alex can easily understand the data because it gets converted into easy-to-read charts.\"\n}"
+}

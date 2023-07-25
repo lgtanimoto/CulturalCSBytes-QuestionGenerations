@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D11",
+    "learning_objective": "Create interactive data visualizations using software tools to help others better understand real-world phenomena.",
+    "interest_area": "Math",
+    "topic": "Fractions, decimals, and percentages",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on their math homework, which requires them to learn more about fractions, decimals, and percentages. Alex loves to use visual aids to help them understand concepts better and they decided to visualize these concepts using a pie chart. Each slice of the pie chart represents a different fraction, decimal, and percentage. Can you help Alex write a code to create an interactive pie chart where each slice represents a different fraction, decimal and percentage when clicked?\",\n    \"Answer1\": \"'PieChart' class in Python cannot create interactive pie charts\",\n    \"Answer2\": \"Use matplotlib in Python to create an interactive pie chart\",\n    \"Answer3\": \"Use seaborn in Python to create an interactive pie chart\",\n    \"Answer4\": \"Use 'PieChart' class in JavaScript to create an interactive pie chart\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"matplotlib library in Python can create interactive pie charts. When you hover over each slice, you can see the respective fraction, decimal, or percentage.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Agriculture",
+    "topic": "Precision Agriculture and Technology",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an emerging farmer who uses technology to monitor their crops. By collecting data on variables such as soil moisture and sunlight exposure, they're able to improve the health of their crops. Alex wants to show others the value of precision agriculture by visually demonstrating the relationship between data collected and crop yields. How might Alex organize and present this data to best support their claim?\",\n    \"Answer1\": \"Alex can create a pie chart showing the percentage of crops harvested with and without precision agriculture.\",\n    \"Answer2\": \"By creating a scatter plot with soil moisture on the X-axis and crop yields on the Y-axis, Alex can highlight the positive correlation between them.\",\n    \"Answer3\": \"Alex could use a bar graph to compare the average crop yields with and without precision agriculture for different types of crops.\",\n    \"Answer4\": \"Alex could use a line graph to plot crop yield over time, showing improvement since they started using precision agriculture.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A scatter plot would be the most effective way for Alex to visually present this data because it could clearly demonstrate the positive correlation between data collected (soil moisture, sunlight exposure) and crop yields, therefore supporting their claim about the benefit of precision agriculture.\"\n}"
+}

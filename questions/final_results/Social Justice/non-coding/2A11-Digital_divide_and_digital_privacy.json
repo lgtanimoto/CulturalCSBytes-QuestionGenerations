@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Social Justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is aware of the digital divide and digital privacy issues in their community. They want to build an app to help educate and provide resources to fellow citizens. How should Alex decompose or break down this problem to facilitate their app development process?\",\n    \"Answer1\": \"Start coding and figure out the problems on the go\",\n    \"Answer2\": \"Decompose the problem into smaller subproblems like app interface design, content creation, digital privacy resources, solutions to digital divide and then start working on each subproblem individually\",\n    \"Answer3\": \"Ask others to solve it\",\n    \"Answer4\": \"Start by building the most complex feature\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Decomposition is the process of breaking down a problem into smaller, manageable subproblems. For this project, Alex can begin by identifying smaller tasks such as app design, content creation, researching digital privacy resources, and identifying solutions to the digital divide. This approach allows them to focus on each part individually, making the problem more manageable.\"\n}"
+}

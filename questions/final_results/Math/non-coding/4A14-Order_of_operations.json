@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Math",
+    "topic": "Order of operations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Tony is creating a program to simplify a list of mathematical operations. He must make sure that the program follows the order of operations, also known as BIDMAS (brackets, indices, division and multiplication (from left to right), addition and subtraction (from left to right)). His current input is the list [\\\"2 * 3\\\", \\\"+ 7\\\", \\\"- 4\\\", \\\"/ 2\\\"]. The correct output for this input would be 5.5 based on the order of operations. However, his program returns 3.0.  Which of the following represents the most likely structure of his loop that is currently processing the list?\",\n    \"Answer1\": \"for op in operations:return eval(operation[0])\",\n    \"Answer2\": \"result = 0for op in operations:result += eval(op)return result\",\n    \"Answer3\": \"result = eval(operations[0])for op in operations[1:]:result = eval(str(result) + op)return result\",\n    \"Answer4\": \"for i in range(len(operations))[-1::-1]:operations[i] = eval(operations[i])return operations[0]\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Tony's program returns 3.0, which corresponds to the operations being evaluated from left to right without prioritizing multiplication or division over addition or subtraction.  So, it's most likely that his loop is structured as in Answer 3:  it first calculates 2*3 (equal to 6), then adds 7 to get 13, then subtracts 4 to get 9, and finally divides by 2 to return 4.5.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A11",
+    "learning_objective": "Create clearly named variables that represent different data types and perform operations on their values.",
+    "interest_area": "Social Justice",
+    "topic": "Social Inequality and Poverty",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a senior high school student, is volunteering at a local non-profit organization that focuses on addressing social inequality and poverty. One of their tasks is to develop a simple program to calculate and display the GINI coefficient \u2013 a measure of income inequality within a population. The formula for the GINI coefficient is G = 1 - 2B, where B is the area between the line of perfect equality and the Lorenz curve. Considering that the value for B is 0.25, which of the following Python code snippets correctly calculates and displays the GINI coefficient?\",\n    \"Answer1\": \"B = 0.25\\nG= 1 - 2B\\nprint(G)\",\n    \"Answer2\": \"B = 0.25\\nGINI = 1 - 2(B)\\nprint('GINI Coefficient is: ', GINI)\",\n    \"Answer3\": \"GINI = 0.25\\nG = 1 - 2GINI\\nprint('The GINI Coefficient is: ', G)\",\n    \"Answer4\": \"B = 0.25\\nG = 1 - 2 * B\\nprint('The GINI Coefficient is: ', G)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The fourth option correctly uses a named variable B to represent the given area value and uses it to calculate the GINI coefficient G. The print statement also correctly displays the calculated variable G as the GINI coefficient. The other options either don't correctly represent the GINI coefficient calculation or use inaccurate variable names.\"\n}"
+}

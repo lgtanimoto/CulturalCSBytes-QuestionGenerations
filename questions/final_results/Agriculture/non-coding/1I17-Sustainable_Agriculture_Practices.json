@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Agriculture",
+    "topic": "Sustainable Agriculture Practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their peers are working in an online team project on sustainable agriculture practices. Each student has to research a different aspect of sustainable farming. Alex notices that one of their teammates, Skylar, has included information that Alex believes is outdated and could potentially mislead readers. Which of the following actions should Alex avoid to display respectful and responsible behavior online?\",\n    \"Answer1\": \"Alex edits Skylar's work without discussing it with them, to prevent the spread of misleading information.\",\n    \"Answer2\": \"Alex contacts Skylar privately and respectfully points out the outdated information, inquiring if they could discuss it further.\",\n    \"Answer3\": \"Alex proposes a team meeting to discuss the components of their project and suggests external professionals to verify the facts they have gathered.\",\n    \"Answer4\": \"Alex verifies their belief through further research and comes up with updated information to present to their team.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Without open communication and mutual respect, conflict could amplify in a team setting. Hence, Alex should involve Skylar in the process rather than changing their work without consent.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Social Justice",
+    "topic": "Fair and affordable housing",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project that addresses the issue of fair and affordable housing. They want to calculate the average housing price in their city and compare it with the median wage. They found a program that gives the median wage, but they need to modify it to also calculate the average house price. Which of the following modifications should Alex make?\",\n    \"Answer1\": \"Add a loop to add all the prices and divide by the number of houses\",\n    \"Answer2\": \"Change the code to output the maximum house price\",\n    \"Answer3\": \"Remove the wage calculation part\",\n    \"Answer4\": \"Modify the loop to subtract house prices instead of adding them\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By adding all the prices of the houses and dividing by the total number of houses, we will get the average house price. This adds a new functionality to the program Alex found that fits their needs.\",\n    \"code_snippet\": \"number totalWage = 0.0\\nnumber wageCount = 0\\nwhile hasNextNumber()\\n    number wage = getNextNumber()\\n    totalWage = totalWage + wage\\n    wageCount = wageCount + 1\\nend\\nnumber medianWage = totalWage / wageCount\\noutput medianWage\"\n}"
+}

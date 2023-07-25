@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Math",
+    "topic": "Quadratic functions and equations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In their math class, Alex has learned about quadratic functions and how they form a parabolic graph when plotted. They are intrigued by this and decide to plot their own graphs in a Python coding environment. Alex creates a graph of the quadratic equation y = (x-3)^2 - 9, and observes the parabolic curve on the plot.If the parabolic curve represents the growth of a certain biological species against time, Alex knows that the vertex of the curve would indicate the time when the growth rate of the population is highest. Based on the graph Alex created, when does the growth rate of the population reach its peak?\",\n    \"Answer1\": \"At x = 0\",\n    \"Answer2\": \"At x = 3\",\n    \"Answer3\": \"At x = -3\",\n    \"Answer4\": \"At x = 9\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The formula of a quadratic function is y = (x - h)^2 + k, where (h, k) is the vertex of the parabola. In this case, h=3, so the growth rate of the population reaches its peak at x=3.\"\n}"
+}

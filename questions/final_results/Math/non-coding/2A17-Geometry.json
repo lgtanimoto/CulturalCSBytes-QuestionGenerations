@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In geometry class, Alex thought of a coding program to calculate the volume of a cube. Alex\u2019s program reads the input length of the cube\u2019s side, calculates the volume and displays it on the screen. After writing a code snippet to fulfill this task, Alex needs to document their code for the other group members by appropriately commenting it. Which of the following comment use is the most appropriate?\",\n    \"Answer1\": \"/* This is a program made by Alex. */\",\n    \"Answer2\": \"/* The volume of the cube is calculated by multiplying the length, width, and height of the cube. */\",\n    \"Answer3\": \"/* The volume of the cube is calculated by cubing the length of one of its sides. */\",\n    \"Answer4\": \"/* Here is the mathematical formula used: volume = a*a*a. */\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Option 3 is the best use of a comment in this case. It is clear, concise and accurately describes what the code does, which is calculating the cube's volume by the cube of the length of one of its sides. Comments are meant to explain the code and make it easier for others to understand.\"\n}"
+}

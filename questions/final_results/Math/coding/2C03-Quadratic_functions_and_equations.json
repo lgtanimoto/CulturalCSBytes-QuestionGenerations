@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "Math",
+    "topic": "Quadratic functions and equations",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program to help them calculate the roots of a quadratic equation, ax^2+bx+c=0, helping them for their math class. However, the code is not giving the correct output. The output should be real roots, but the program is giving complex roots. How can Alex fix the problem?\",\n    \"Answer1\": \"Change the input values of a, b, and c\",\n    \"Answer2\": \"Change the calculation of discriminant\",\n    \"Answer3\": \"Change the calculation of the roots\",\n    \"Answer4\": \"Input complex values for a, b, and c\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"When a problem occurs with the software, Alex needs to understand how the quadratic roots function works and use that knowledge to debug the problem. In this case, the wrong output may be due to incorrect computation of the roots. Alex needs to verify and correct the computation if there is any error.\",\n    \"code_snippet\": \"action QuadraticRoots(integer a, integer b, integer c)\\n    number discriminant = b*b - 4*a*c\\n    \\n    if discriminant > 0\\n        number root1 = (-b + sqrt(discriminant)) / (2*a)\\n        number root2 = (-b - sqrt(discriminant)) / (2*a)\\n        output root1, root2\\n    elseif discriminant == 0\\n        number root1 = -b / (2*a)\\n        output root1\\n    else\\n        output \\\"Complex Roots\\\"\\n    end\\nend\"\n}"
+}

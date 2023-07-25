@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "Agriculture",
+    "topic": "Importance of Agriculture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project about the importance of agriculture and food security in their country. They come across an article about the implementation of digital security measures in agricultural systems to protect the electronic information related to crop production from potential cyber attacks. Which of the following methods could be easily implemented to enhance the digital security?\",\n    \"Answer1\": \"Installation of a high-tech alarm system in the field\",\n    \"Answer2\": \"Use strong, unique passwords for all systems and change them regularly\",\n    \"Answer3\": \"Perform physical checks on crop health\",\n    \"Answer4\": \"Leave all systems open for easy access and troubleshooting\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Strong, unique passwords are a fundamental security measure to protect any computer systems, including agricultural systems, from unauthorized access. Regularly changing passwords further helps to secure the system. Physical security measures such as installing alarm systems in fields, or conducting physical checks on crop health, while important, do not directly affect digital security. Leaving systems open may compromise their security.\"\n}"
+}

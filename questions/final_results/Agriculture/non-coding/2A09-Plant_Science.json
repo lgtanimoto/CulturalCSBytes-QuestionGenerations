@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Agriculture",
+    "topic": "Plant Science",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a botanist, is measuring the growth of their plants. They have created a simple program that starts with the initial height of a plant and adds the growth each day for a week. If 'initial_height' represents the plants first height and 'growth' represents the daily increase in height, which of the following program segments will accurately represent the plant's height at the end of the week?\",\n    \"Answer1\": \"initial_height + (7 * growth)\",\n    \"Answer2\": \"initial_height * 7 + growth\",\n    \"Answer3\": \"initial_height * growth + 7\",\n    \"Answer4\": \"7 * (initial_height + growth)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct answer is 'initial_height + (7 * growth)'. This equation correctly models the growth of the plant over a week by multiplying the daily increase in height by 7 and then adding this to the initial height of the plant.\"\n}"
+}

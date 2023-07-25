@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Social Justice",
+    "topic": "Ethnic and Racial Equity/Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing an app to raise awareness about issues in racial and ethnic equity/justice. In their app, users can submit their stories and experiences related to these issues. After beta testing, Alex received feedback from users that the app is difficult to navigate, and there is a lack of filter options for categorizing and finding specific types of stories. What could be Alex's next step in the iterative process of developing their program?\",\n    \"Answer1\": \"Ignore the users' feedback and publish the app\",\n    \"Answer2\": \"Develop a new app from scratch\",\n    \"Answer3\": \"Modify the user interface to make it more user-friendly and include filter options\",\n    \"Answer4\": \"Add unrelated features to the app for aesthetics\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"During the iterative process of development, feedback plays a crucial role. It's important to address the issues highlighted by beta testers to improve the user experience. In this case, Alex should modify the navigation to make the app more user-friendly and should include filter options for efficiently categorizing and finding specific types of stories, addressing the feedback from their beta testers.\"\n}"
+}

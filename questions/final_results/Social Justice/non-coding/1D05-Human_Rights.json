@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Social Justice",
+    "topic": "Human Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been tasked with creating a database of human rights abuses around the world for a project. They understand that after storing this information, they will likely need to update, search, retrieve, and delete information as more data comes in or situations change. Which of the following is least important for Alex to consider when creating this database?\",\n    \"Answer1\": \"The ability to access data at any time\",\n    \"Answer2\": \"The ability to restrict access to the database\",\n    \"Answer3\": \"The manufacturer of the computing device\",\n    \"Answer4\": \"The ability to easily search for and retrieve data\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"When creating a database, it's less important what device is being used. Instead, the priority should be on the ability to search for, retrieve, and alter data easily, ensuring that all changes are saved and that there are appropriate restrictions for data access for security purposes.\"\n}"
+}

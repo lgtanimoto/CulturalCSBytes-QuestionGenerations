@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A15",
+    "learning_objective": "Using correct terminology, describe steps taken and choices made during the iterative process of program development.",
+    "interest_area": "Agriculture",
+    "topic": "Soil and Water Management Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on an agriculture application that models the growth productivity of different plants using various soil and water management techniques. They have a list of plants, each associated with its own list of growth parameters for each technique, such as Accessible Moisture Capacity and Water Utilization Efficiency. To optimize the application, Alex is considering using a two-dimensional list, where each plant refers to a list of its growth parameters. Which step would be a reasonable next step for Alex in the program development process?\",\n    \"Answer1\": \"Compare the growth productivity of the plants without considering the techniques\",\n    \"Answer2\": \"Compile and debug the application\",\n    \"Answer3\": \"Develop a function that calculates the growth productivity of a plant using a specific technique\",\n    \"Answer4\": \"Run the application without testing it\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex's next step should involve directly solving the problem. Writing a function that calculates the growth productivity of a plant given a technique uses the two-dimensional list constructed and furthers the goals of the application development. This step involves the development process of implementing features and functionality. The next step after would be to test this function.\"\n}"
+}

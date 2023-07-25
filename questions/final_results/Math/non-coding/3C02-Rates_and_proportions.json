@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are conducting an experiment for their math class to understand how the height of a ramp impacts how far a toy car can travel. They want to ensure that they are able to collect accurate data and want to use technology to aid them in this data collection. Which combination of hardware and software could they use for this experiment?\",\n    \"Answer1\": \"Use a measuring tape for the distance and a stopwatch for the time, and record the data manually in a notebook.\",\n    \"Answer2\": \"Use a video camera to record the experiment and use a software that can analyze video footage to extract the distance and time data.\",\n    \"Answer3\": \"Use a ruler to measure the distance and count the time manually.\",\n    \"Answer4\": \"Use a spreadsheet program to record their estimates of the distance and time travelled.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Using a video camera and software that can analyze video footage will allow them to accurately measure the distance and time data, reducing the possibility of human error in their measurements.\"\n}"
+}

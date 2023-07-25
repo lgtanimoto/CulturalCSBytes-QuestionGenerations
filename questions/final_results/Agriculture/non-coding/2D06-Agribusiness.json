@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Agriculture",
+    "topic": "Agribusiness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is performing a research project on the change in coffee prices over the last ten years. They observe that coffee beans have had spikes in price due to various factors such as weather conditions, labor availability, and pest outbreaks. Alex has collected data on coffee prices over the past decade and wants to visually represent the data to understand the price trends. Which chart should Alex choose to best visualize and analyze the trend in coffee prices over time?\",\n    \"Answer1\": \"Bar Graph\",\n    \"Answer2\": \"Pie Chart\",\n    \"Answer3\": \"Line Graph\",\n    \"Answer4\": \"Scatter Plot\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Line graphs are best for visualizing data that changes over a period of time. The x-axis represents the time scale, and the y-axis represents the changes in the data value. By connecting data points with lines, one can clearly see the trend or pattern of changes over time.\"\n}"
+}

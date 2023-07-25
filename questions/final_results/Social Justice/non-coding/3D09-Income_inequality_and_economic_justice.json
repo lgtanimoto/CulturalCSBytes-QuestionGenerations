@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Social Justice",
+    "topic": "Income inequality and economic justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying income inequality for a social studies project. They have downloaded the annual incomes of 100 randomly selected families living in their city. After running some calculations, they discover that the mean income is $55,000, the median is $45,000, and the mode is $30,000. Alex has a strong interest in economic justice and is wondering how they can refine their computational model to highlight disparities in income distribution. Which of the following modifications would best serve Alex's purpose?\",\n    \"Answer1\": \"Show the data on a line graph with income on the y-axis and the number of families on the x-axis.\",\n    \"Answer2\": \"Calculate the standard deviation of incomes to objectively measure income dispersion.\",\n    \"Answer3\": \"Group the incomes into brackets and create a bar graph to show the number of families in each income bracket.\",\n    \"Answer4\": \"Calculate the average income for each family and use this as the sole metric for income disparity.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Standard deviation is a measure of how spread out numbers are. It is a good way of identifying how much income varies from the 'average' income. It is a crucial statistical tool to understand income dispersion and should work well to highlight income disparities.\"\n}"
+}

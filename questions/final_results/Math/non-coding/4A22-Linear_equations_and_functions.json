@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are working on a project to build a program which plots a graph for linear equations. Alex is tasked to write a piece of code which inputs string as a linear equation  and outputs the slope and y-intercept of the line represented by equation. Alex must consider the team's merge and conflict resolution strategies while incorporating their code into the team's project. Which of the following is the appropriate way for Alex to proceed?\",\n    \"Answer1\": \"Upload their code immediately to the shared repository\",\n    \"Answer2\": \"Directly make changes into the team's main code without communicating\",\n    \"Answer3\": \"Email the code to team lead and ask them to merge the code\",\n    \"Answer4\": \"First merge the latest version of team's project into their own workspace. Test their code with the merged version and after successful test, push their code to the shared repository\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Always merge the latest version of team's project before adding own code. This helps to identify and resolve any merge conflict at individual end. Testing the code with merged version ensures that new changes are not breaking the project. After these steps, code can be pushed to shared repository\"\n}"
+}

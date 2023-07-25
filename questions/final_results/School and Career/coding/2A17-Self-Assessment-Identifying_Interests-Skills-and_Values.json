@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "School and Career",
+    "topic": "Self-Assessment: Identifying Interests, Skills, and Values",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to develop a program for self-assessment that will help their peers identify their key interests, skills, and values. Alex wants to represent each characteristic as a boolean variable that is either true or false. Below is part of the code:\\n\\nboolean isInterestedInSports\\nboolean isGoodAtMath\\nboolean valuesTeamwork\\n\\nBased on this code snippet, which of the following comments would best help another programmer understand Alex's variable choices?\",\n    \"Answer1\": \"// Boolean variables to store user's personal characteristics.\",\n    \"Answer2\": \"// Variables represent whether a user is interested in sports, good at math, or values teamwork.\",\n    \"Answer3\": \"// These variables store true or false values.\",\n    \"Answer4\": \"// All these variables are booleans.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Although all options describe the variables to some extent, answer 2 gives the most context about what each variable specifically represents, which would help another programmer understand Alex's choices.\",\n    \"code_snippet\": \"boolean isInterestedInSports\\nboolean isGoodAtMath\\nboolean valuesTeamwork\"\n}"
+}

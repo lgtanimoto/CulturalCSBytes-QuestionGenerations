@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N06",
+    "learning_objective": "Apply multiple methods of encryption to model the secure transmission of information.",
+    "interest_area": "Agriculture",
+    "topic": "Plant Science",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is doing a study on the gene sequence of a common houseplant and wants to share the sequence information with their friend Ben, who is interested in botany. How can Alex transmit this sensitive information securely?\",\n    \"Answer1\": \"Alex can write down the gene sequence and give the paper to Ben.\",\n    \"Answer2\": \"Alex can send it over email without encrypting the data.\",\n    \"Answer3\": \"Alex can convert the gene sequence into a binary sequence and then apply a cipher algorithm to encrypt the data before sending it.\",\n    \"Answer4\": \"Alex can directly send the sequence in a public chat.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Since the gene sequence is sensitive information, it's best not to send without protecting it. Alex could convert the gene sequence into a binary sequence and use a cipher (a code for encryption) to convert it into another form before sending it. Only someone who knows the key to the cipher (in this case, Ben) would be able to convert it back and read it. This is a basic example of how sensitive information should be transmitted over the internet.\"\n}"
+}

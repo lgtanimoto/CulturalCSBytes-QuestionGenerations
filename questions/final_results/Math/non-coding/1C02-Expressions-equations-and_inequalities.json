@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C02",
+    "learning_objective": "Use appropriate terminology in identifying and describing the function of common physical components of computing systems (hardware).",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is building a gaming computer and is working on putting the components together. While fixing the components, they realize the small metal box they were given needs to be attached to the motherboard. This small box distributes power across the different components. Identify the component.\",\n    \"Answer1\": \"CPU (Central Processing Unit)\",\n    \"Answer2\": \"RAM (Random Access Memory)\",\n    \"Answer3\": \"SSD (Solid State Drive)\",\n    \"Answer4\": \"PSU (Power Supply Unit)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The component in question here is the 'PSU (Power Supply Unit)'. This is responsible for supplying power to the different parts of a computer system.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an educational app for young students to learn addition, subtraction, multiplication, and division with whole numbers. They realize that their user base can have diverse learning styles and needs. Which of the following should Alex NOT do when seeking diverse perspectives for the purpose of improving this computational artifact?\",\n    \"Answer1\": \"Ask for feedback only from students who are already proficient in these mathematical operations\",\n    \"Answer2\": \"Include features in the app to support students with learning disabilities\",\n    \"Answer3\": \"Invite parents and teachers to provide constructive feedback on the app\",\n    \"Answer4\": \"Work on creating a multicultural and inclusive interface to attract a diverse group of users.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex should not only seek feedback from those who are already proficient in these mathematical operations. They should also consider the perspectives and needs of students who may struggle with these concepts or have different learning styles. This will ensure that the app is inclusive and suitable for a wider range of users.\"\n}"
+}

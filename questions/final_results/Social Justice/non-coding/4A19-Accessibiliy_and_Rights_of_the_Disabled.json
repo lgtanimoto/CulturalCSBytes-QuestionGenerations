@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Social Justice",
+    "topic": "Accessibiliy and Rights of the Disabled",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing an interactive educational website for their school. They want to make their website accessible to all students, including those who have hearing impairments. What feature can Alex include to meet this objective?\",\n    \"Answer1\": \"Include a 'Dark Mode' option\",\n    \"Answer2\": \"Include closed captioning or subtitles for any audio and video content\",\n    \"Answer3\": \"Include an option to change the font size\",\n    \"Answer4\": \"Include an option to change the language of the website\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While all the options would make the website more accessible overall, the feature that specifically caters to students with hearing impairments is providing closed captioning or subtitles for any audio and video content.\"\n}"
+}

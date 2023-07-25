@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Agriculture",
+    "topic": "Plant Science",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex, who loves botany, has a potted plant that requires differing amounts of water depending on its growth stage. Alex's plant needs watering every day when it's just sprouted, every other day when it's grown a bit, and only once a week when it's fully bloomed. Alex decides to write a Quorum programming code to remind them this schedule. If the following snippet was inserted to implement this schedule, what would be the output if the plant stage value was set to 'Sprouting'?\",\n    \"Answer1\": \"Water the plant today.\",\n    \"Answer2\": \"Water the plant every other day.\",\n    \"Answer3\": \"Water the plant once a week.\",\n    \"Answer4\": \"There is no output.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"If-else statements in the provided Quorum programming code examine the plant stage and accordingly output a message for watering the plant. As the plant stage is 'Sprouting', it matches with the first condition and so the output will be 'Water the plant today'.\",\n    \"code_snippet\": \"text plantStage = \\\"Sprouting\\\"\\n\\nif plantStage == \\\"Sprouting\\\"\\n    output \\\"Water the plant today.\\\"\\nelif plantStage == \\\"Growing\\\"\\n    output \\\"Water the plant every other day.\\\"\\nelif plantStage == \\\"Blossoming\\\"\\n    output \\\"Water the plant once a week.\\\"\\nend\"\n}"
+}

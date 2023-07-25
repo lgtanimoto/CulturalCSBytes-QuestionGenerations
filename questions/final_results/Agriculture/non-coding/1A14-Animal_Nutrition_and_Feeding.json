@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Nutrition and Feeding",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been given an assignment to create a program which calculates the amount of feed needed for farm animals. The program requests the type and number of animals before calculating the required feed. The program uses a simple loop to calculate the feeds for multiple animals. However, Alex observed that their program is giving incorrect required feed calculations. What possible errors should Alex look for in their program?\",\n    \"Answer1\": \"Check if the condition in the loop is set correctly\",\n    \"Answer2\": \"Check if the right variables for each type of animal are being used\",\n    \"Answer3\": \"Check if the calculations for the feed are done correctly\",\n    \"Answer4\": \"Check all the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"When debugging, it's important to check all aspects of the program. Alex should verify the condition in their loop, if they have used the right variable for each type of animal and also confirm that the calculations performed inside the loop are correct.\"\n}"
+}

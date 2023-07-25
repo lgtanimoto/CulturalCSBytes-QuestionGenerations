@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Math",
+    "topic": "Order of operations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to write a code that performs a given sequence of operations: addition, subtraction, multiplication, and division. However, their code isn't giving them the correct answer.  They show you their code and ask for help in identifying their error. Which of the following would you suggest they do to improve their code?\",\n    \"Answer1\": \"Replace all '+' operations with '*'.\",\n    \"Answer2\": \"Replace all '-' operations with '/'.\",\n    \"Answer3\": \"Compute multiplication and division operations before addition and subtraction operations.\",\n    \"Answer4\": \"Add parentheses around all operation symbols.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In mathematics, the order of operations is Parentheses, Exponents (ie Powers and Square Roots, etc.), Multiplication and Division (left-to-right), Addition and Subtraction (left-to-right). So, the same principle should be applied in the code to get correct results. Multiplication and division should be computed before addition and subtraction.\",\n    \"code_snippet\": \"n = 5 + 4 * 3 / 2 - 1\"\n}"
+}

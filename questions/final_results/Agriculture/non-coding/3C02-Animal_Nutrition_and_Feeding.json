@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Nutrition and Feeding",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is conducting a research study on a wildlife preserve. They are attempting to observe changes in feeding behavior of a certain type of bird across various seasons. They decide to equip the birds with lightweight sensors that track and transmit data about their feeding behavior. Which combination of hardware and software components could Alex use to collect and process the data?\",\n    \"Answer1\": \"Image processing software and wildlife tracking collar\",\n    \"Answer2\": \"Video editing software and drone\",\n    \"Answer3\": \"Data analysis software and IoT trackers\",\n    \"Answer4\": \"3D modeling software and game console\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"IoT trackers can be lightweight enough to be attached to the birds and be programmed to capture feeding behavior. Data analysis software can then be used to analyze the collected data to deduce patterns and changes in feeding behavior across seasons.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I19",
+    "learning_objective": "Brainstorm ways to improve the accessibility and usability of technology products for the diverse needs and wants of users.",
+    "interest_area": "Social Justice",
+    "topic": "Healthcare access and affordability",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Jules, a high school junior, is an enthusiastic coder and aspiring medical professional. Jules has a cousin named Alex who has a chronic health condition and often faces barriers when accessing healthcare, including finding reliable information online. Inspired by Alex's struggles, Jules wants to develop a health information app that is easily accessible and usable to users with diverse needs. Which of the following features should Jules consider including in her app to make it more accessible to a diverse user base like Alex?\",\n    \"Answer1\": \"Integrate a chatbot or voice assist feature to help understand user queries in more interactive way\",\n    \"Answer2\": \"Provide options for text resizing and high contrast themes for users with visual difficulties\",\n    \"Answer3\": \"Integrate translation feature for user's with diverse linguistic backgrounds\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"For an app to be accessible, it needs to address diverse needs of the users. A chatbot or voice assist feature can help those with difficulty typing or reading, text resizing and high contrast themes can assist users with vision problems, and a translation feature can serve a more diverse user population.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I16",
+    "learning_objective": "Compare how people live and work before and after the implementation or adoption of new computing technology.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex's home is located on top of a hill with a steep slope. Over the years, Alex and their family have noticed soil erosion due to rain. Recently, they implemented a new computing technology: an AI soil monitoring system that provides data to help prevent soil erosion. How might Alex and their family's life and work change after implementing this technology?\",\n    \"Answer1\": \"Alex and their family might need to plant more trees to counterbalance the technology's negative environmental impact.\",\n    \"Answer2\": \"Alex and their family no longer have to manually monitor the soil conditions or worry about unexpected soil erosion.\",\n    \"Answer3\": \"Alex and their family might have to spend more time maintaining the technology than they did monitoring the soil themselves.\",\n    \"Answer4\": \"Alex and their family's life may not change much as the technology may not be reliable enough to replace human monitoring.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The integration of AI technology into soil monitoring can help prevent soil erosion by accurately predicting when and where it is likely to occur. This means that Alex and their family, after adopting this new system, will have a reduced workload in terms of manually monitoring the soil and can take preventative steps informed by the AI's predictions.\"\n}"
+}

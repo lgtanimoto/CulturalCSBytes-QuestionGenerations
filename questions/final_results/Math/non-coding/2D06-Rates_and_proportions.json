@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex conducts a survey on streaming music preferences among their peers. They collects responses from 100 different students and finds that 55 students prefer hip-hop, 30 prefer pop music, 10 prefer country music, and 5 prefer classical music. Alex wants to visually present this data to their music class in a way that best highlights the most popular genre. How should Alex present their data?\",\n    \"Answer1\": \"In a line graph\",\n    \"Answer2\": \"In a pie chart\",\n    \"Answer3\": \"In a scatter plot\",\n    \"Answer4\": \"In a bar graph\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A pie chart would be the best way to present this data because it clearly shows proportions and percentages, allowing the most popular genre of music (hip-hop) to be easily identified.\"\n}"
+}

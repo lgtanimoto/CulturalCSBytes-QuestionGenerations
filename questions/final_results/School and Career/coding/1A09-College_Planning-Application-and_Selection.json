@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "School and Career",
+    "topic": "College Planning, Application, and Selection",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program that will allow high school students to search for and compare different colleges based on several criteria such as location, tuition, major offerings, etc. A section of their code for this program is as follows: What does the variable 'cSearch' represent?\",\n    \"Answer1\": \"The list of all colleges in the system\",\n    \"Answer2\": \"The college that the student is currently attending\",\n    \"Answer3\": \"The algorithm for comparing two colleges\",\n    \"Answer4\": \"The student's search criteria for the college\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"'cSearch' refers to the student's college search criteria, which could include various factors such as location, cost, and offered programs. The program uses this criteria to find colleges that match the student's needs.\",\n    \"code_snippet\": \"text cSearch = \\\"\\\"\\naction SearchForCollege(cSearch)\\n    collegesList = GetListofColleges()\\n    for each college in collegesList\\n        if matchesCriteria(college, cSearch)\\n            output college\\n        end\\n    end\\nend\"\n}"
+}

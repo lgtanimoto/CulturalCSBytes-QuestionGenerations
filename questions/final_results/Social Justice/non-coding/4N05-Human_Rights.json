@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Social Justice",
+    "topic": "Human Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Pax, a human rights activist, is regularly communicating with several sources confidentially over the internet. In light of their activism, Pax becomes targeted by an unknown group trying to gain access to their sensitive data. The group lays a malware attack on Pax's computer. Which of the following are the most likely consequences of this attack?\",\n    \"Answer1\": \"The malware may send a copy of those confidential communications to the attacker, compromising the confidentiality of the information.\",\n    \"Answer2\": \"The attack may result in Pax's software to malfunction and crash regularly, disrupting the workflow.\",\n    \"Answer3\": \"The malware may redirect Pax to seemingly safe but malicious websites, possibly stealing more personal data.\",\n    \"Answer4\": \"All of the above could be potential consequences of a malware attack.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Malware can have multiple functions such as direct observation and copying of sensitive data, affecting the stability and functionality of the computer system, and redirecting to phishing websites to steal personal or sensitive data. It's crucial for Pax to prevent or deal promptly with such cybersecurity threats to maintain the confidentiality of their sources.\"\n}"
+}

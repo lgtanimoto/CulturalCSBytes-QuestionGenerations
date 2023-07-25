@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A11",
+    "learning_objective": "Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.",
+    "interest_area": "Social Justice",
+    "topic": "Gender and LGBTQ+ Rights/Equality",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project that collects and analyzes data about gender and LGBTQ+ rights around the world. They coded a program where each time a country implements a new law that positively affects the LGBTQ+ community, the country gets a point. What is the output if we are checking for the country 'Spain'?\",\n    \"Answer1\": \"Spain: 4\",\n    \"Answer2\": \"Spain: 5\",\n    \"Answer3\": \"Spain: 3\",\n    \"Answer4\": \"Spain: 6\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The value of 'points' associated with 'Spain' is initially set as 3. The conditional within the loop checks for the country 'Spain' and if this condition is true, it increments points by 1 and exits the loop. Therefore, the final output when 'Spain' is checked would be 'Spain: 4'.\",\n    \"code_snippet\": \"text country = \\\"\\\"\\ninteger points = 0\\nrepeat 10 times\\n    get country\\n    if country = \\\"Spain\\\"\\n        points = points + 1\\n        break\\n    end\\nend\\noutput country + \\\": \\\" + points\"\n}"
+}

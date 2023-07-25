@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Agriculture",
+    "topic": "Crop Diseases and Pest Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of an international team of scientists working to prevent and manage pest and crop disease outbreaks affecting global food security. To manage their collaborative project, they need a system that can help them share findings, discuss strategies, and keep track of tasks. Considering their objective of effectively managing crop diseases and pests, what features would be important to include in their collaboration tool?\",\n    \"Answer1\": \"Real-time messaging and discussion boards to facilitate immediate communication and exchange of ideas\",\n    \"Answer2\": \"File sharing and storage capabilities for the sharing of scientific findings and data\",\n    \"Answer3\": \"Task management features to keep track of ongoing and completed work\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All these features are critical in fostering effective collaboration. Real-time messaging enables immediate communication, discussion boards provide a platform for brainstorming, file sharing allows for necessary data exchange, and task management features ensure the progress is tracked.\"\n}"
+}

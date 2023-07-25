@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "Social Justice",
+    "topic": "Indigenous Rights and Sovereignty",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an interactive game about Indigenous Rights and Sovereignty. They have found an open-source library that has detailed graphics of plants indigenous to the area, and they want to use this in their game. What are the steps Alex should take to correctly use and attribute this library in their game while respecting the creators of the library?\",\n    \"Answer1\": \"Alex can directly use the library in their game without giving any credit as it is open-source.\",\n    \"Answer2\": \"Alex should contact the creators of the library and ask for permission to use it in their game.\",\n    \"Answer3\": \"Alex needs to understand the license under which the library was released, abide by the conditions specified, and give proper attribution in their game\u2019s code or documentation.\",\n    \"Answer4\": \"Alex can create similar graphics by themselves and use it in their game to avoid copyright issues.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Open-source does not mean free of all copyright. It means that creators of the library have allowed others to use it, often with some conditions attached. These conditions are expressed through the type of open-source license the library is released under. It is important for Alex to understand these conditions (such as attribution requirements) and abide by them.\"\n}"
+}

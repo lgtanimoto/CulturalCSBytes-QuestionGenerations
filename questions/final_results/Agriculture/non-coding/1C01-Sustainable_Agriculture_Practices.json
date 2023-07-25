@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Agriculture",
+    "topic": "Sustainable Agriculture Practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an avid gardener and they are thinking of implementing sustainable practices into their gardening. They need a software that can help them create a layout of their garden, recognize the growth patterns of different plants and also track the nutrient levels in the soil. What software tool does Alex likely need for their gardening project?\",\n    \"Answer1\": \"Game Development Software (e.g., Unity, Unreal Engine)\",\n    \"Answer2\": \"3D Modeling Software (e.g., Blender, AutoCAD)\",\n    \"Answer3\": \"Music Production Software (e.g., GarageBand, Ableton)\",\n    \"Answer4\": \"Garden Planning Software (e.g., GrowVeg, Garden Planner)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Garden planning software like GrowVeg or Garden Planner allows users to digitally lay out their garden plan, recognize the growth patterns, and record data about nutrient levels. While 3D modeling software could theoretically be used to create a layout, it would not have the features to recognize plant growth patterns or track soil nutrients.\"\n}"
+}

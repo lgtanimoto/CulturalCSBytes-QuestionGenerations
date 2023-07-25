@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is playing with a new game that requires them to solve simple arithmetic problems. But instead of giving the actual operation, the game uses four symbols: @ for addition, # for subtraction, $ for multiplication, and % for division. Considering the placeholder code Alex wrote, what operation does @ symbol represent?\",\n    \"Answer1\": \"Addition\",\n    \"Answer2\": \"Subtraction\",\n    \"Answer3\": \"Multiplication\",\n    \"Answer4\": \"Division\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Abstraction in programming allows us to represent complex operations with simple terms, symbols or processes. In this case, the symbol '@' is used to represent the addition operation. The underlying implementation, e.g., the actual addition operation, is hidden from the user.\",\n    \"code_snippet\": \"integer x = 2\\ninteger y = 3\\ninteger result = x @ y\\noutput result\"\n}"
+}

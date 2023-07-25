@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "Agriculture",
+    "topic": "Agribusiness",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex's family runs an agribusiness and they are developing a program to automate their inventory management. They have written a first version of the program but it's not very user-friendly. It doesn't consider the user interface and experience, due to which his parents and siblings are having trouble using it. What should be Alex's next steps to rectify the problem?\",\n    \"Answer1\": \"Alex should discard this program and write a new one from scratch.\",\n    \"Answer2\": \"Alex should force his family to learn the program as it is.\",\n    \"Answer3\": \"Alex should consider his family's feedback, brainstorm ideas and iteratively make improvements on the user interface and user experience of the program.\",\n    \"Answer4\": \"Alex doesn't need to do anything as it's not his problem if his family can't use the program.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Considering other people's perspectives and user preferences is essential to make a program successful. Receiving feedback and iteratively improving the program will move it closer to the desired outcome.\",\n    \"code_snippet\": \"integer numberOfApples = 0\\ninteger numberOfOranges = 0\\n\\nask \\\"Enter the number of apples:\\\"\\ninput numberOfApples\\nask \\\"Enter the number of oranges:\\\"\\ninput numberOfOranges\\n\\noutput \\\"Total number of fruits in inventory: \\\" + (numberOfApples + numberOfOranges)\"\n}"
+}

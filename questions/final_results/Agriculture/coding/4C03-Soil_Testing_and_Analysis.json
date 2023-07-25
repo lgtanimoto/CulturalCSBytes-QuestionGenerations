@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Testing and Analysis",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program which uses sensor data from a robotic soil tester to identify the type of soil based on its texture and color. Sometimes the program is misidentifying the soil. To troubleshoot this, Alex decided to insert print statements to display intermediate results. The code of Alex\u2019s program is as follows:What line should Alex insert a print statement to verify if the color detection algorithm is correctly identifying the soil color?\",\n    \"Answer1\": \"Line 2\",\n    \"Answer2\": \"Line 3\",\n    \"Answer3\": \"Line 5\",\n    \"Answer4\": \"Line 6\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A print statement should be put just after the color detection algorithm (Line 4) to verify whether the color has been correctly identified. Therefore, it should be inserted on Line 6. This will help Alex to isolate where the error occurs.\",\n    \"code_snippet\": \"texture = getSoilTexture()\\ncolor = getSoilColor()\\nsilt = identifySilt(texture)\\nclay = identifyClay(texture)\\npeat = identifyPeat(color)\\nloam = identifyLoam(texture, color)\\noutput identifySoil(silt, clay, peat, loam)\"\n}"
+}

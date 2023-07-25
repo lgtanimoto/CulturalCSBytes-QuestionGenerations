@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "Math",
+    "topic": "Sequences and series",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to create a program that prints the first 10 terms of the Fibonacci series. They wrote a program, but it's not printing the correct sequence. Examine the code snippet and identify the line of code that Alex must change to correct the program:\",\n    \"Answer1\": \"Modify line 2: number term1 = 1\",\n    \"Answer2\": \"Modify line 3: number term2 = 1\",\n    \"Answer3\": \"Modify line 7: term2 = term1 + term1\",\n    \"Answer4\": \"Modify line 9: repeat loopCount times\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The mistake is in line 7. Instead of term2 = term1 + term1, it should be term2 = temp + term1. That way, term2 will always be the sum of previous two terms, as needed for the Fibonacci sequence.\",\n    \"code_snippet\": \"number loopCount = 10\\nnumber term1 = 0\\nnumber term2 = 1\\nnumber temp\\noutput term1\\noutput term2\\nrepeat loopCount times\\n    temp = term1\\n    term1 = term2\\n    term2 = term1 + term1\\n    output term2\\nend\"\n}"
+}

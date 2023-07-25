@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Social Justice",
+    "topic": "Healthcare access and affordability",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tracking healthcare access and affordability across different countries, which they will represent using numbers. They have three variables: 'countryName' (a string), 'averageCostOfHealthcare' (a floating-point number), and 'accessibilityScore' (an integer). Alex wants to calculate a 'healthcareEfficiency' score for each country where 'healthcareEfficiency' is equivalent to 'accessibilityScore' divided by 'averageCostOfHealthcare'. Write the expression to calculate 'healthcareEfficiency'.\",\n    \"Answer1\": \"healthcareEfficiency = averageCostOfHealthcare / accessibilityScore\",\n    \"Answer2\": \"healthcareEfficiency = accessibilityScore - averageCostOfHealthcare\",\n    \"Answer3\": \"healthcareEfficiency = accessibilityScore * averageCostOfHealthcare\",\n    \"Answer4\": \"healthcareEfficiency = accessibilityScore / averageCostOfHealthcare\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Based on Alex's definition of 'healthcareEfficiency', it is equivalent to 'accessibilityScore' divided by 'averageCostOfHealthcare'. Thus, the correct expression is 'healthcareEfficiency = accessibilityScore / averageCostOfHealthcare'. The other choices incorrectly use multiplication, subtraction, or have the division components in the wrong order.\",\n    \"code_snippet\":\"string countryName = 'Country A'\\nfloat averageCostOfHealthcare = 75.50\\ninteger accessibilityScore = 85\\nfloat healthcareEfficiency\"\n}"
+}

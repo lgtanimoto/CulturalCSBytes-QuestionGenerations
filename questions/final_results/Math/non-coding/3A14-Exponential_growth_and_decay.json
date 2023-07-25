@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is asked to write a program that calculates the population of a bacteria colony after a given number of hours. They know that the colony doubles every hour. Which one of the following could be the procedure for this calculation, where 'P' represents the initial population and 'H' represents the number of hours?\",\n    \"Answer1\": \"procedure CalculatePopulation(P, H)returns number P = P * (2/H)end\",\n    \"Answer2\": \"procedure CalculatePopulation(P, H)returns number P = P * Hend\",\n    \"Answer3\": \"procedure CalculatePopulation(P, H)returns number P = P * 2^Hend\",\n    \"Answer4\": \"procedure CalculatePopulation(P, H)returns number P = P * H^2end\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In the case of exponential growth, such as the doubling of a bacteria population, we use the formula P * 2^H. In this expression, 'P' represents the initial population and '2^H' represents the doubling of the population every hour 'H'.\"\n}"
+}

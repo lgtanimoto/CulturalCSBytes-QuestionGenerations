@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is using a simple computer graphics program to draw plane figures like triangle, square and pentagon. They used the following code to draw a square:What modification should Alex make to the code snippet if they want to draw a pentagon instead of a square?\",\n    \"Answer1\": \"Change the loop count to 5\",\n    \"Answer2\": \"Change the angle to 90 degrees\",\n    \"Answer3\": \"Change the loop count to 5 and the angle to 72 degrees\",\n    \"Answer4\": \"Change the angle to 108 degrees\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To draw a pentagon, the code must repeat 5 times (once for each side of the pentagon) and the pen should turn by 72 degrees after drawing each side.\",\n    \"code_snippet\": \"integer sides = 4\\ninteger angle = 90\\ninteger sideLength = 100\\nrepeat sides times\\n    drawForward(sideLength)\\n    turnRight(angle)\\nend\"\n}"
+}

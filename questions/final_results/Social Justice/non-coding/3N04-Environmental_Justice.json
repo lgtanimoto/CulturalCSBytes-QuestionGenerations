@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "Social Justice",
+    "topic": "Environmental Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Stream, an environmental justice advocate, is setting up a web portal for community members to report potential environmental hazards in their neighborhoods. They plan to model the role of protocols in transmitting data across networks and the Internet to ensure secure and reliable operations. Which protocol should Stream use to send potentially sensitive user information from the website to the server?\",\n    \"Answer1\": \"HTTP\",\n    \"Answer2\": \"FTP\",\n    \"Answer3\": \"HTTPS\",\n    \"Answer4\": \"TCP\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"HTTPS protocol should be used for transmitting potentially sensitive data as it encrypts the data during transmission, protecting against eavesdropping and man-in-the-middle attacks. HTTP and FTP are unsecured, while TCP is a lower-layer transport protocol and does not provide encryption.\"\n}"
+}

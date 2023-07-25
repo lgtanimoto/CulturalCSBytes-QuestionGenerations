@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Agriculture",
+    "topic": "Importance of Agriculture",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tasked with creating a presentation on the 'Importance of Agriculture' for their class assignment. They find a labeled diagram of crop rotation on a website without any indication of its copyright status. Should Alex use this image in their presentation without referencing it?\",\n    \"Answer1\": \"Yes, the internet is a public domain, and Alex may use any material found here.\",\n    \"Answer2\": \"No, unless Alex can confirm the image is in the public domain or licensed under creative commons, they should not use it.\",\n    \"Answer3\": \"Yes, if the website does not explicitly state that the image is copyrighted, Alex can use it without issue.\",\n    \"Answer4\": \"Yes, as long as Alex changes some parts of the image, copyright law doesn\u2019t apply.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should only use an image if it is explicitly mentioned to be licensed under a Creative Commons license or in public domain. Using copyrighted material without permission or appropriate citation is unethical and may lead to legal issues.\"\n}"
+}

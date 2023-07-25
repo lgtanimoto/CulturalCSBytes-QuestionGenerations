@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program that generates a user-defined geometric shape. What kinds of design decisions might they have to document in their work?\",\n    \"Answer1\": \"The color and size of the shape.\",\n    \"Answer2\": \"The user interface and expected user input.\",\n    \"Answer3\": \"The algorithms and data structures used.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex would need to document all these aspects of the program. This would include user-interface decisions (like how the user specifies their shape), algorithmic decisions (how the shape is generated), and data-structure decisions (how the characteristics of the shape are stored).\"\n}"
+}

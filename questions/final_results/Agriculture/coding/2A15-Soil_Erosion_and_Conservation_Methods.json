@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A15",
+    "learning_objective": "Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program to simulate the effect of using cover crops one year, on the soil erosion for the subsequent year. The 'erosionRate' variable tracks the rate at which soil is being eroded. In the current state, the rate of erosion decreases if cover crops are planted in the preceding year. But the program is not giving the expected output: What changes should Alex make to fix the program and output the correct erosion rate?\",\n    \"Answer1\": \"Modify line 5: if coverCrop = SoilErosion(true)\",\n    \"Answer2\": \"Modify line 3: boolean coverCrop = true\",\n    \"Answer3\": \"Modify line 6: erosionRate = erosionRate * 1.5\",\n    \"Answer4\": \"Modify line 2: number erosionRate = 100.0\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The issue in the program is that the 'TotalErosionRate()' action multiplies the 'erosionRate' variable by 0.5 instead of 1.5, which would represent an increase in soil erosion. By modifying line 6 to: 'erosionRate = erosionRate * 1.5', the program will correctly increase the erosion rate if cover crop is not planted.\",\n    \"code_snippet\": \"number erosionRate = 0.0\\nboolean coverCrop = false\\n\\naction TotalErosionRate()\\n    if coverCrop != true\\n        erosionRate = erosionRate * 0.5\\n    end\\noutput erosionRate\\nend\"\n}"
+}

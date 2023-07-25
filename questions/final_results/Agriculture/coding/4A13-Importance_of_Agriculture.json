@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Agriculture",
+    "topic": "Importance of Agriculture",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has a budding interest in agriculture. They decide to write a program that calculates the total cost of seeds required to plant crops in a farm of a given area based on the type of crop. Alex writes the following code:What does the function calculateCost do?\",\n    \"Answer1\": \"The function calculates the cost of the seeds required to plant the specified crop in an area.\",\n    \"Answer2\": \"The function calculates the total area of the farm.\",\n    \"Answer3\": \"The function returns the type of crop to be planted.\",\n    \"Answer4\": \"The function calculates the overall budget required for farming.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The function calculateCost takes crop and area as parameters. The pricePerSeed is a hypothetical cost for a seed of the given crop type. It then calculates the total cost by multiplying the price per seed with the area.\",\n    \"code_snippet\": \"number pricePerSeed = getCostPerSeed(crop)\\nnumber totalCost = pricePerSeed * area\\noutput totalCost\"\n}"
+}

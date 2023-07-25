@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A10",
+    "learning_objective": "Develop programs with sequences and simple loops, to express ideas or address a problem.",
+    "interest_area": "Social Justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex believes that there exists a growing Digital Divide and is concerned about the students who do not have dependable access to the internet, hence using public internet in libraries or cyber cafes. However, using public networks may also raise security issues about digital privacy. Alex starts to develop a program where students can securely login and log out in public places. In the program given below, what output does Alex's program print on Line 5?\",\n    \"Answer1\": \"2\",\n    \"Answer2\": \"3\",\n    \"Answer3\": \"4\",\n    \"Answer4\": \"5\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The integer value for 'numberOfLogins' starts at 0. Alex's program includes a loop where the 'numberOfLogins' increases by 1 for every loop completed. After two loops, the program outputs the value of 'numberOfLogins', which is 2.\",\n    \"code_snippet\": \"integer numberOfLogins = 0\\nrepeat 2 times\\n    numberOfLogins = numberOfLogins + 1\\nend\\noutput \\\"Number of Logins: \\\" + numberOfLogins\"\n}"
+}

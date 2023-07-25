@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "School and Career",
+    "topic": "Relationships and Social Skills",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is collecting statistics about their friends' social lives. They decide to track the number of get-togethers their friends have each week. Each friend starts with 0 get-togethers and the number may increase or decrease based on their social schedule. They need a variable to keep track of the change in the number of get-togethers. Select the best choice for variable declaration and update in Alex's program.\",\n    \"Answer1\": \"number getTogether = 0 \\ngetTogether = getTogether + 1 \",\n    \"Answer2\": \"number getTogether = 0 \\ngetTogether = 1 \",\n    \"Answer3\": \"number getTogether = 1 \\ngetTogether + 1 \",\n    \"Answer4\": \"number getTogether = 0 \\ngetTogether = 0 + 1 \",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex should initialise the variable getTogether with 0, and to track each get-togethers, Alex should increment the variable by 1. So the first choice is correct.\",\n    \"code_snippet\": \"number getTogether = 0  \\nwhile hasNextNumber()\\n    if getTogetherHappened()\\n        getTogether = getTogether + 1\\n    end\\nend\\noutput getTogether\"\n}"
+}

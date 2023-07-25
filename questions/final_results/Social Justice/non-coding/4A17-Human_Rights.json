@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "Social Justice",
+    "topic": "Human Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is passionate about human rights issues. They decide to develop a program that charts the progression of different countries on various human rights factors over time. To structure their program efficiently, Alex decides to decompose the problem into smaller modules. Which of these sets of modules best represents a possible breakdown of Alex's program?\",\n    \"Answer1\": \"1) Getting population data, 2) Getting GDP data, 3) Getting temperature data\",\n    \"Answer2\": \"1) Analyzing picture quality, 2) Recognizing faces in the pictures, 3) Identifying locations in the pictures\",\n    \"Answer3\": \"1) Fetching human rights data from a particular source, 2) Comparing human rights indicators across different countries, 3) Representing data progression over time on charts\",\n    \"Answer4\": \"1) Fetching latest sports scores, 2) Analyzing players' performances, 3) Predicting future match outcomes based on past data\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The set of modules must be relevant to the overarching goal of the program. Alex's program is aimed at charting the progression of human rights indicators over time. Thus, modules should revolve around accessing, analyzing, and displaying this data.\"\n}"
+}

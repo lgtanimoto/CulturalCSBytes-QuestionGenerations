@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Morgan loves geometry and coding. They decide to decompose the problem of finding the area of a triangle into a simpler step: finding the base and height of the triangle. A triangle is given with the base of 10 and a height of 5. Which of the following codes will correctly calculate and return the area of the triangle?\",\n    \"Answer1\": \"action Area(height, base) returns numbernumber output = height * base / 2return outputendArea(5,10)\",\n    \"Answer2\": \"action Area(height, base) returns numbernumber output = height + base / 2return outputendArea(5,10)\",\n    \"Answer3\": \"action Area(height, base) returns numbernumber output = height * base + 2return outputendArea(5,10)\",\n    \"Answer4\": \"action Area(height, base) returns numbernumber output = height * base * 2return outputendArea(5,10)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The formula for the area of a triangle is 1/2 * base * height. Therefore, the correct process is to initialize a variable (in this case, 'output') with the value of height * base / 2. Then, return this value.\"\n}"
+}

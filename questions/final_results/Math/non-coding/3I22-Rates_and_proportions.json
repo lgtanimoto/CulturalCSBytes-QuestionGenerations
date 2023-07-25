@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an app that calculates the proportions and rates of ingredients needed for a recipe based on the number of people it needs to serve. To ensure that the app's functionality meets users' needs, they decide to involve potential users in the creation process. Which of the following strategies would NOT be suitable for Alex's project?\",\n    \"Answer1\": \"Alex asks users to stream videos of their cooking process to gather data of their cooking habits.\",\n    \"Answer2\": \"Alex sends out a survey to potential users asking about their preferred cooking measurements and common recipe sizes.\",\n    \"Answer3\": \"Alex sets up a crowdsourcing platform where users can contribute their recipe, portion sizes, and the appropriate measurements of ingredients they used.\",\n    \"Answer4\": \"Alex uses a public recipe forum to ask users for the most common recipes they cook and the number of people these recipes serve.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Streaming videos of users' cooking habits presents potential privacy issues, and the relevant information for Alex's project (users' preferred cooking measurements and common recipe sizes) can be more effectively gathered through a survey or crowdsourcing. Hence, this approach would not be suitable for Alex's project.\"\n}"
+}

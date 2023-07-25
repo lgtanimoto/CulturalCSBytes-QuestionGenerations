@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an educational app that helps students learn geometry. During the beta testing, they noticed that their app is very good at teaching concepts related to 2D shapes but struggles with 3D shapes. The feedback from users indicates that learning about 3D shapes turns out to be much more challenging in the app compared to 2D shapes. What should Alex do to address this issue?\",\n    \"Answer1\": \"Alex should eliminate the 3D shapes section from the application.\",\n    \"Answer2\": \"Alex should enhance the features and add more interactive tools to visualize and manipulate 3D shapes in the app.\",\n    \"Answer3\": \"Alex can just pass a notice that the application is more suitable for 2D shapes learning.\",\n    \"Answer4\": \"Alex should ignore the feedback and continue to market the app as is.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex could address biases or deficits in their app by fine-tuning and refining the computational artifacts. In this case, they could improve the visualization and interaction tools for 3D shapes in the education app to make it more user-friendly and effective for learning.\"\n}"
+}

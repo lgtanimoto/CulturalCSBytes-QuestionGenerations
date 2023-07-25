@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Social Justice",
+    "topic": "Accessibiliy and Rights of the Disabled",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, who is visually impaired, relies on screen reader software to interact with digital content. The software reads out the textual content of a webpage to Alex, allowing them to surf the web. However, one day, Alex encounters a website where the images have no alternative text (alt text) descriptions. This makes it impossible for the screen reader software to describe those images to Alex. As a result, Alex is unable to comprehend some critical content on the page. Which Computational practice can be related to this scenario?\",\n    \"Answer1\": \"Abstraction in web development\",\n    \"Answer2\": \"Decomposition in software debugging\",\n    \"Answer3\": \"Reuse and Modification in software development\",\n    \"Answer4\": \"Digital Accessibility and Inclusivity Practices\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Digital Accessibility and Inclusivity Practices. The implementation of these practices, such as adding alternative text (alt text) for images, ensures that digital content is accessible to all users, regardless of their abilities. The lack of alternative text descriptions on website images can prevent screen reading software from describing the images, thereby obstructing accessibility for users who rely on such software.\"\n}"
+}

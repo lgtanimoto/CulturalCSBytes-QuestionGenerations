@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is tasked with creating a software that helps assess the degree of Soil Erosion in their local town and suggests suitable conservation methods based on some measurements made. Based on where the soil erosion is most severe, the software should recommend a conservation method. If Erosion Level is greater than 70%, it should recommend 'Terracing', less than 70% but greater than 40% it should recommend 'Planting Trees' and less than 40% it should recommend 'Organic Matter'. What would be the most suitable way for Alex to structure their program?\",\n    \"Answer1\": \"Write a sequence of steps that test the erosion level and ignore the conditionals\",\n    \"Answer2\": \"Create an event-driven program that reacts to the measuring process of soil erosion\",\n    \"Answer3\": \"Use a loop structure that will continue assessing soil erosion indefinitely\",\n    \"Answer4\": \"Use conditionals to assess the degree of soil erosion and link it with the corresponding conservation method\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The ideal way to represent this problem in a program would be through conditionals. Based on the conditions representing the degree of soil erosion, the program could decide upon and show suitable soil conservation methods.\"\n}"
+}

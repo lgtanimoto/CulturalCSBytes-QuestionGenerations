@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Social Justice",
+    "topic": "Human Rights",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is preparing a presentation on the number of international human rights treaties ratified by each country over the past decade. They want to highlight the cause-and-effect relationship between the ratification of human rights treaties and the mortality rate in each country. How could Alex present the data in such a way as to illustrate this effect best?\",\n    \"Answer1\": \"Present the number of ratified treaties and the mortality rate in a pie chart.\",\n    \"Answer2\": \"Present the number of ratified treaties in a bar chart and the mortality rate in a line graph.\",\n    \"Answer3\": \"Present the number of ratified treaties and mortality rates over the years in two different bar charts.\",\n    \"Answer4\": \"Use a scatter plot to present the number of ratified treaties against the mortality rate for each country.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In such a case, a scatter plot would best represent the relationship between two quantities. Each point would represent a country, one axis would show the number of ratified treaties, and the other axis would display the mortality rate. This would visually demonstrate any correlation between the two quantities.\"\n}"
+}

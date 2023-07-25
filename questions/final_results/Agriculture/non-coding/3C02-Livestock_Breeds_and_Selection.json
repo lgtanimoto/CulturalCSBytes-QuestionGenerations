@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Agriculture",
+    "topic": "Livestock Breeds and Selection",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project that involves identifying specific characteristics of various livestock breeds. They are tasked with collecting data from different farms and exchanging this data with their classmates for comparative analysis. In order to accomplish this task effectively, what combination of hardware and software components would be most appropriate for Alex to use?\",\n    \"Answer1\": \"A notepad and pen\",\n    \"Answer2\": \"A mobile phone with no specific software\",\n    \"Answer3\": \"A digital camera and email service\",\n    \"Answer4\": \"A laptop with data analysis software and internet access\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In order to effectively collect and exchange data, Alex would need a device such as a laptop that allows for the input of data, connection to the internet for exchanging data, and software that allows for analysis of collected data.\"\n}"
+}

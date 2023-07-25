@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "School and Career",
+    "topic": "Personal Finance and Budgeting",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to design a personal finance application to keep track of their monthly expenses. The code below is a rough draft of Alex's idea. Which of the following descriptions best explains how this software will interact with Alex's computer hardware?\",\n    \"Answer1\": \"The software will directly manipulate the physical components inside the computer to calculate the remaining balance.\",\n    \"Answer2\": \"The software will issue commands to the operating system, which will then execute these commands using the system's hardware.\",\n    \"Answer3\": \"The software will bypass both the operating system and hardware to directly access the internet and fetch data.\",\n    \"Answer4\": \"The software will only work with hardware, with no need for any system software.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The personal finance software that Alex is designing is an example of application software. Application software interacts with the computer's hardware through the system software, not directly. When Alex's program issues a command (like a calculation or a request to save data), it goes to the operating system. The operating system then communicates with the hardware to execute the command.\",\n    \"code_snippet\": \"number income = 5000 \\nnumber expenses = 2500\\nnumber remainingBalance = income - expenses\\noutput \\\"Your remaining balance is: \\\" + remainingBalance\"\n}"
+}

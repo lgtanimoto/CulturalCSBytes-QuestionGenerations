@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Social Justice",
+    "topic": "Worker's rights and fair labor practices",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project related to workers' rights and fair labor practices. They are gathering data from various sources, conducting surveys and interviews, and are also tracking events related to their topic. What type of software should Alex use to effectively manage and analyze this diverse set of information?\",\n    \"Answer1\": \"Graphics editing software (e.g., Adobe Photoshop, GIMP)\",\n    \"Answer2\": \"Audio editing software (e.g., Audacity, Adobe Audition)\",\n    \"Answer3\": \"Data Management software (e.g., Microsoft Access, MySQL)\",\n    \"Answer4\": \"Gaming software (e.g., Roblox, Fortnite)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Data Management software is designed to manage and organize large amounts of data, making it easy for users like Alex to analyze and interpret. This type of software will allow Alex to collate data from different sources, analyze them and draw meaningful conclusions.\"\n}"
+}

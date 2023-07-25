@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Social Justice",
+    "topic": "Human Rights",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating an app to raise awareness about human rights around the world. They create a procedure to calculate a country's human rights score based on several indicators, such as freedom of speech, freedom of press, etc, and a weight for each indicator. The code for this procedure is as follows:What will be the output if Alex calls humanRightScore() with the input (3,4,2,1,5) where each number represents a particular human right indicator score?\",\n    \"Answer1\": \"41\",\n    \"Answer2\": \"43\",\n    \"Answer3\": \"38\",\n    \"Answer4\": \"45\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When Alex calls the humanRightScore() function with indicators (3,4,2,1,5), the function looks at each score and multiplies it by its corresponding weight. The result is then summed up to compute the total score. The output of this set of indicators would be 43.\",\n    \"code_snippet\": \"action humanRightScore(integer a, integer b, integer c, integer d, integer e) returns number\\n    integer weight_1 = 2\\n    integer weight_2 = 3\\n    integer weight_3 = 1\\n    integer weight_4 = 2\\n    integer weight_5 = 4\\n    return a * weight_1 + b * weight_2 + c * weight_3 + d * weight_4 + e * weight_5\\nend\"\n}"
+}

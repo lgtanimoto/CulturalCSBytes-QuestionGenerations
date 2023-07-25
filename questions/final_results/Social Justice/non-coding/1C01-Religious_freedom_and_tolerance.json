@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Social Justice",
+    "topic": "Religious freedom and tolerance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of a non-profit organization that promotes religious tolerance. They need to raise awareness about various beliefs, cultures, and customs to foster understanding and respect in their community. They decide to design a website to reach out to everyone.  What software would be most appropriate to assist Alex in creating this website?\",\n    \"Answer1\": \"A web design software (e.g., Adobe Dreamweaver, WordPress)\",\n    \"Answer2\": \"A spreadsheet software (e.g., Google Sheets, Microsoft Excel)\",\n    \"Answer3\": \"A word processor software (e.g., Google Docs, Microsoft Word)\",\n    \"Answer4\": \"A video editing software (e.g., Adobe Premiere Pro, Final Cut Pro)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"While all these software could be used in managing different aspects of the non-profit organization, a web design software like Adobe Dreamweaver or WordPress would be the most appropriate for creating a website.\"\n}"
+}

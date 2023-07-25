@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Agriculture",
+    "topic": "Agricultural Mechanics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project for their Agricultural Mechanics class. They are looking for images and diagrams to include in their PowerPoint presentation to visually support the research they've conducted on different types of tractors. Which of the following is NOT a proper method for Alex to obtain images and diagrams for their presentation?\",\n    \"Answer1\": \"Directly copying images from a manufacturer's website without permission.\",\n    \"Answer2\": \"Using creative commons licensed images and citing the source.\",\n    \"Answer3\": \"Using images and diagrams from a public domain database.\",\n    \"Answer4\": \"Taking their own photos of tractors and including them in the presentation.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Copying images directly from a manufacturer's website without permission is a violation of copyright laws, even if the images are not used for commercial purposes. Alex should look for images and diagrams that are in the public domain, use creative commons licensed material, or take their own pictures, to avoid infringing on copyright.\"\n}"
+}

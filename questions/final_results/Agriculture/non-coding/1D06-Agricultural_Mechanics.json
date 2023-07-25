@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Agriculture",
+    "topic": "Agricultural Mechanics",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"By recording data over a five year period, Alex shows that their family farm grew 1500 lbs of apples, 1800 lbs of oranges, 1600 lbs of bananas and 2000 lbs of cherries. Which of the following could Alex use to visualize this data?\",\n    \"Answer1\": \"Scatter plot only\",\n    \"Answer2\": \"Line graph only\",\n    \"Answer3\": \"Pie chart only\",\n    \"Answer4\": \"Both a bar graph and a pie chart\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"For categorical data like the types of fruit, Alex can use both a bar graph and a pie chart. The line graph or scatter plot is not suitable since they are typically used for numerical and continuous data.\"\n}"
+}

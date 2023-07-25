@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex creates a program that calculates the value of `y` for any given `x` in a linear equation. Here is their code:What should Alex's classmates understand about the function `calculateY` from the code?\",\n    \"Answer1\": \"The function `calculateY` calculates the area under the line of a linear equation.\",\n    \"Answer2\": \"The function `calculateY` calculates the slope of the linear equation.\",\n    \"Answer3\": \"The function `calculateY` calculates the y-intercept of the linear equation.\",\n    \"Answer4\": \"The function `calculateY` calculates the value of `y` for any given `x` in the linear equation.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The function `calculateY` is created by Alex to calculate the value of `y` in the linear equation y = mx + b for any given `x`. The values of `m` and `b` are provided as parameters to the function. Thus, by substituting a value for `x` in the function call, Alex can calculate the corresponding `y` value in the equation.\",\n    \"code_snippet\": \"number m\\nnumber b\\n\\naction Start\\n    m = 2\\n    b = 3\\n    calculateY(5)\\nend\\n\\naction calculateY(number x)\\n    number y = m * x + b\\n    output \\\"The value of y is: \\\" + y\\nend\"\n}"
+}

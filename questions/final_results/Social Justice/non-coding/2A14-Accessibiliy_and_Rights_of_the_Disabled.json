@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Social Justice",
+    "topic": "Accessibiliy and Rights of the Disabled",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an app to help people with physical disabilities navigate public spaces. In doing so, they incorporate some code they found online that another developer wrote. Which of the following actions should Alex take?\",\n    \"Answer1\": \"Alex should use the code without making any changes to it.\",\n    \"Answer2\": \"Alex should make sure to give credit to the original developer in their app.\",\n    \"Answer3\": \"Alex should change the code a bit and then they don't have to credit the original developer.\",\n    \"Answer4\": \"Alex doesn't need to credit the original developer since the code was found online.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When using code written by another developer, it is essential to give appropriate credit to the original developer. Not doing so can be a violation of intellectual property rights.\"\n}"
+}

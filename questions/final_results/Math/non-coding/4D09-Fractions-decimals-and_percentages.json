@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Math",
+    "topic": "Fractions, decimals, and percentages",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"After a spelling test, Alex is calculating their score. They have answered 25 questions correctly out of 30 questions total. They wish to represent this score as a fraction, a decimal, and a percentage. In which of the following ways has Alex accurately represented their score?\",\n    \"Answer1\": \"Fraction: 25/30, Decimal: 0.83, Percentage: 83%\",\n    \"Answer2\": \"Fraction: 30/25, Decimal: 1.2, Percentage: 120%\",\n    \"Answer3\": \"Fraction: 25/30, Decimal: 0.25, Percentage: 25%\",\n    \"Answer4\": \"Fraction: 30/25, Decimal: 0.83, Percentage: 83%\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex has answered 25 questions correctly out of 30. This can be represented as a fraction 25/30. To convert this fraction to a decimal, Alex would simply divide the numerator by the denominator resulting in 0.833... , which is approximately 0.83. And to convert this decimal to a percentage, Alex would multiply it by 100 to get 83%.\"\n}"
+}

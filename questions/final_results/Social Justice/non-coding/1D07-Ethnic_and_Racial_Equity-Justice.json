@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Social Justice",
+    "topic": "Ethnic and Racial Equity/Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The city where Alex's high school is located has recently released a data set that plot the racial demographics over the last five years with the percentage of each racial group shown in a pie chart for each year. Alex notices that there has been an increasing trend in the percentage of one specific racial group year on year, while the others have stayed relatively stable. This group had 30% representation five years ago and has 40% representation in the latest year's data. Alex wants to use this data to predict the percentage representation for next year. Which expectation would sound reasonable based on the observed trend?\",\n    \"Answer1\": \"The group's representation will likely stay the same at 40%.\",\n    \"Answer2\": \"The group's representation will likely decrease less than 5%.\",\n    \"Answer3\": \"The group's representation will likely increase between 5-10% based on the past trend.\",\n    \"Answer4\": \"The group's representation will dramatically increase by over 25% in the next year.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The dataset shows a consistent increase in the group's representation over time. Given this pattern, Alex can infer that the group's representation will likely continue to grow in the next years at the same rate, which has been approximately 2% per year. Therefore, an estimate of an increase between 5-10% seems reasonable, taking into account possible minor fluctuations.\"\n}"
+}

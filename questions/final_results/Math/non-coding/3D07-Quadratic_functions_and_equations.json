@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D07",
+    "learning_objective": "Represent data using multiple encoding schemes.",
+    "interest_area": "Math",
+    "topic": "Quadratic functions and equations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on their math homework and needs to graph the quadratic function y = (x - 1)\u00b2 + 3. They understand that to graph it, they need to find the vertex, the axis of symmetry and the direction of the parabola. They also need to understand that the vertex form of a quadratic function is given by y = a(x - h)\u00b2 + k, where (h, k) are coordinates of the vertex. However, as they are more interested in using code to solve problems, Alex wants to write a Python function that takes the coefficients a, h, and k as inputs and returns the vertex and direction of the parabola. How should their function look?\",\n    \"Answer1\": \"def quadratic_info(a: int, h: int, k: int) -> tuple: return ((h, k), 'Up' if a > 0 else 'Down')\",\n    \"Answer2\": \"def quadratic_info(a: int, h: int, k: int) -> tuple: return ((h, a), 'Up' if a > 0 else 'Down')\",\n    \"Answer3\": \"def quadratic_info(a: int, h: int, k: int) -> tuple: return (('h', 'k'), 'Up' if a > 0 else 'Down')\",\n    \"Answer4\": \"def quadratic_info(a: int, h: int, k: int) -> tuple: return ((k, h), 'Down' if a > 0 else 'Up')\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The function returns a tuple where the first element is another tuple representing the vertex of the quadratic function and the second element is a string that represents the direction of the parabola which is taken by evaluating if a is more than 0 ('Up') or not ('Down').\"\n}"
+}

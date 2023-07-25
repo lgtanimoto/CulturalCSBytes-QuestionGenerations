@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Agriculture",
+    "topic": "Soil and Water Management Techniques",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to analyze and present the best soil and water management techniques for different types of crops. Based on an initial user testing, Alex found that users are having difficulty understanding the results. How should they modify the code snippet below to improve the user interface?\",\n    \"Answer1\": \"Add detailed explanations of the results.\",\n    \"Answer2\": \"Increase the number of crops handled by the program.\",\n    \"Answer3\": \"Include graphical representations of the data.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To ensure user-friendly interaction with the program, adding detailed explanations of the results can help users understand the conclusions made by the program. Increasing the number and variety of crops covered by the software ensures a broader and more inclusive audience. Including graphical representations of data is often a more effective way to impart information, significantly aiding in comprehension.\",\n    \"code_snippet\": \"ComputeSoilType(crop)\\nComputeWaterRequirement(crop)\\nif soil type = \\\"sandy\\\"\\n    output \\\"Implement contour ploughing technique\\\"\\nend\\nif water requirement > 500\\n    output \\\"Consider drip irrigation system\\\"\\nend\"\n}"
+}

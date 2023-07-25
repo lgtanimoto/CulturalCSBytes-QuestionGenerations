@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Math",
+    "topic": "Sequences and series",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is the captain of a school basketball team, and they have been keeping track of the number of points each of the 10 players in the team scored in different matches. If Alex wants to find out the average scores in an easy efficient way, which data structure should they use?\",\n    \"Answer1\": \"Boolean variable\",\n    \"Answer2\": \"String variable\",\n    \"Answer3\": \"List\",\n    \"Answer4\": \"Individual integer variables for each player\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Lists are capable to hold different types of data, and they can be easily manipulated (like calculating the average value) and accessed. This is more efficient compared to using individual integer variables for each player.\"\n}"
+}

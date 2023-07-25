@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a programmer and an avid fan of airplane models. Alex's friends send them different airplane models as gifts. However, Alex found a suspicious USB stick that came with the latest airplane model. What should Alex do?\",\n    \"Answer1\": \"Ignore the USB and continue building their model.\",\n    \"Answer2\": \"Plug the USB into their computer to see what is on it.\",\n    \"Answer3\": \"Ask the sender about the USB stick before plugging it into the computer.\",\n    \"Answer4\": \"Throw the USB stick away.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Though it might be tempting to see what is on the USB stick, Alex should be cautious. Malware can be transferred through infected USB sticks, potentially compromising Alex's sensitive data. It's best to confirm its contents from the sender before using it.\"\n}"
+}

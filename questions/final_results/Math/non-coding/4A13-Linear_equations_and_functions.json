@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Instead of solving the usual linear equation like '2x + 3 = 7' by hand, Georgina intends to make a Python function that automates this process.  The function should take in the coefficients and constants as input, and output the value of 'x'. Using Georgina's design, can you help her figure out which of the solutions below is the right prototype for this problem?\",\n    \"Answer1\": \"def solve_linear_eqn(a, b, c): return (b - a) / c\",\n    \"Answer2\": \"def solve_linear_eqn(a, b, c): return (c - a) / b\",\n    \"Answer3\": \"def solve_linear_eqn(a, b, c): return (c - b) * a\",\n    \"Answer4\": \"def solve_linear_eqn(a, b, c): return (b * c) - a\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The algebraic solution to the formula 'ax + b = c' is 'x = (c - b) / a'. Hence, Georgina's function should carry out exactly this calculation.\"\n}"
+}

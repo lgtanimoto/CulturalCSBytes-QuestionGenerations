@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has been working on a code for their biology project that calculates the rate of bacterial growth under certain conditions. They found a similar code on an open source website that does exactly what they need. If Alex uses this code in their project, what should they do to observe intellectual property rights and give appropriate attribution?\",\n    \"Answer1\": \"Alex can simply use the code without attributing it because it is available on an open source website.\",\n    \"Answer2\": \"Alex can use the code and make minor changes to it to make it look like their own.\",\n    \"Answer3\": \"Alex should give appropriate attribution by crediting the original coder and the source where they obtained the code from.\",\n    \"Answer4\": \"Alex can credit the source in a private communication with their teacher only.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"When using or remixing someone else's code, it is important to give proper credit to the original author and source, even if it comes from an open source site. This is a part of observing intellectual property rights in computing and is fundamental to ethical coding practices.\",\n    \"code_snippet\": \"action ExponentialGrowth (integer initialCount, integer time, number rate)\\n    number finalCount = initialCount * power(e, rate * time)\\n    output finalCount\\nend\"\n}"
+}

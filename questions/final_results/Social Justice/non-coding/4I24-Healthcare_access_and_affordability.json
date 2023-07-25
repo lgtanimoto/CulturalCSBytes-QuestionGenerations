@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Social Justice",
+    "topic": "Healthcare access and affordability",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex lives in a remote rural town with limited access to healthcare facilities. They have come up with an idea to develop an app that connects people in rural areas with doctors for virtual consultations. What is one potential negative social or economic impact of this computing solution?\",\n    \"Answer1\": \"The app could potentially decrease the demand for doctors in cities.\",\n    \"Answer2\": \"It may cause hospitals to lose income as patients choose virtual consultations over hospital visits.\",\n    \"Answer3\": \"It could create a digital divide between those who can afford internet connectivity and smart devices and those who cannot.\",\n    \"Answer4\": \"The app could lead to an oversupply of doctors.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While Alex's app could make healthcare more accessible in rural areas, it could also exacerbate existing inequities by creating a digital divide. Not everyone in rural areas may have access to reliable internet or be able to afford smart devices, limiting their ability to use Alex's app.\"\n}"
+}

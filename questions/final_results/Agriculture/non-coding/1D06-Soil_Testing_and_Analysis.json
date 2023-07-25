@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Testing and Analysis",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying the nutritional content of soil in different spots of their school's garden as part of their environmental science project. They have gathered data on the pH, potassium, nitrogen, and phosphorus content of the soil samples. Which of the following would be the best way for Alex to visualize the data they've collected from the soil testing and analysis?\",\n    \"Answer1\": \"Creating a line graph of each nutrient's levels across the samples.\",\n    \"Answer2\": \"Making a separate bar chart for each type of nutrient, highlighting the amounts present in each sample on a numerical scale.\",\n    \"Answer3\": \"Designing a pie chart that breaks down the proportion of each nutrient's level in total within a given sample.\",\n    \"Answer4\": \"Generating a stacked bar chart for each sample showing the relative levels of each nutrient.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Option 4, generating a stacked bar chart for each sample showing the relative levels of each nutrient, is best suited to represent data. A stacked bar chart would allow Alex and their audience to understand the full nutritional profile of each soil sample - and within each sample, the relative proportion of each nutrient as well.\"\n}"
+}

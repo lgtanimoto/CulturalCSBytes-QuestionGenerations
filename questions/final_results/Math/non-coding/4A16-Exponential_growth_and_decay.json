@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on an algorithm to simulate a population of rabbits over time. Every month, each pair of rabbits produces another pair. However, Alex wants to introduce a factor to represent a natural disaster such as a fire or flood, which can remove half of the population in one month. Which event should trigger the execution of the function to represent the disaster?\",\n    \"Answer1\": \"When the population of rabbits exceeds a certain limit\",\n    \"Answer2\": \"When the algorithm starts\",\n    \"Answer3\": \"After every iteration of multiplying the rabbit population\",\n    \"Answer4\": \"When the function to calculate the rabbit population has finished\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"A natural disaster should occur when the population becomes too large, so triggering the execution of the disaster function when the rabbit population exceeds a certain limit best represents this phenomenon. \"\n}"
+}

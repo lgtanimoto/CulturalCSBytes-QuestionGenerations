@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Math",
+    "topic": "Quadratic functions and equations",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to upgrade an application they have been working on to solve quadratic equations. The current version of the program just calculates and prints the discriminant. Alex wants to modify this program to also find the roots of the quadratic equation. What modification should Alex make?\",\n    \"Answer1\": \"Add code to calculate the roots using the discriminant and the coefficients of the quadratic equation.\",\n    \"Answer2\": \"Change the calculation of the discriminant.\",\n    \"Answer3\": \"Add code to check if the discriminant is a perfect square.\",\n    \"Answer4\": \"Change the code to solve linear equations instead.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"To find the roots of a quadratic equation, Alex needs to calculate them using the coefficients of the equation (a, b, c) and the discriminant. The formulas are (-b + sqrt(discriminant)) / (2*a) and (-b - sqrt(discriminant)) / (2*a).\",\n    \"code_snippet\": \"number a = 1\\nnumber b = -3\\nnumber c = 2\\nnumber discriminant = b*b - 4*a*c\\noutput discriminant\"\n}"
+}

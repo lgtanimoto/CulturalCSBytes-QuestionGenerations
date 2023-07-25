@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N04",
+    "learning_objective": "Evaluate the scalability and reliability of networks, by describing the relationship between routers, switches, servers, topology, and addressing.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is learning about plane figures in their geometry class. They realize that the concept of connectivity in plane figures is similar to connectivity in computer networks, where points can be compared to routers, edges to network cables, and planes to subnets. Alex is given a task to construct a plane figure with 6 points where each point is connected to every other point. Can you help Alex calculate how many edges will they need to connect all points?\",\n    \"Answer1\": \"15\",\n    \"Answer2\": \"12\",\n    \"Answer3\": \"18\",\n    \"Answer4\": \"21\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In this scenario, Alex needs to connect each point to every other point and not to itself. Since there are 6 points, each point will connect to 5 others, making a total of 30 connections. However, each edge connects two points, hence each edge is counted twice in the total 30 connections. Therefore, Alex needs 30/2 = 15 edges to connect all 6 points.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Social Justice",
+    "topic": "Criminal Justice Reform",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project to build an application for criminal justice reform. They want to help users understand how software and hardware interact and also compare the different levels of abstraction. They use the following code snippet as a starting point. If Alex runs this code, what will be the output on Line 4?\",\n    \"Answer1\": \"The mobile processor runs at 2.4 GHz\",\n    \"Answer2\": \"Your mobile device has 16 GB storage\",\n    \"Answer3\": \"Your mobile device supports 5G Network\",\n    \"Answer4\": \"The mobile processor runs at 1.7 GHz\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In line 1, Alex creates processor class and sets the processor speed as 2.4 GHz. In line 4, Alex calls the GetProcessorSpeed() method which  outputs 'The mobile processor runs at 2.4 GHz'.\",\n    \"code_snippet\": \"class Processor\\n    action GetProcessorSpeed()\\n        output \\\"The mobile processor runs at 2.4 GHz\\\"\\n    end\\nend\\nProcessor myProcessor = new Processor\\nmyProcessor:GetProcessorSpeed()\"\n}"
+}

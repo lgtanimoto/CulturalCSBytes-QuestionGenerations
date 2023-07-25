@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Health and Disease Prevention",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex volunteers at a local animal shelter and they noticed that some of the puppies have been getting sick recently. Alex decides to build a system which can keep track of vaccination, feeding, and any signs of sickness which could be analyzed for patterns. Alex explains to the other volunteers not to worry if the system goes down or throws an error. They even provide a basic troubleshooting guide. What should be at the top of the troubleshooting guide?\",\n    \"Answer1\": \"Check if the system is receiving power\",\n    \"Answer2\": \"Restart the computer\",\n    \"Answer3\": \"Contact IT support\",\n    \"Answer4\": \"Check if internet connection is stable\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Restarting the computer is a basic and often helpful step in any troubleshooting process. Different reasons may cause the system to behave unusually, freeze or stop working. Often these issues are solved by just restarting your computer since that will clear your current system's memory and shut down any processes that may be running in the background.\"\n}"
+}

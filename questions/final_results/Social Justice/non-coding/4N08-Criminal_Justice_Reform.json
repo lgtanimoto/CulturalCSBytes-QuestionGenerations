@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N08",
+    "learning_objective": "Explain tradeoffs when selecting and implementing cybersecurity recommendations.",
+    "interest_area": "Social Justice",
+    "topic": "Criminal Justice Reform",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a case management system for a non-profit that works for criminal justice reform. The non-profit team has asked for an easy and quick login process, however, Alex needs to balance this request with the need for security as sensitive client information will be stored on the system. What approach can Alex recommend that provides a good balance between quick access and security?\",\n    \"Answer1\": \"Use of a four-digit pin code for every login.\",\n    \"Answer2\": \"No password required, just a username.\",\n    \"Answer3\": \"Biometric login along with password authentication.\",\n    \"Answer4\": \"Require users to change passwords weekly.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Biometric login along with password authentication provides a good balance between easy access and security. The biometric login is quick, easy and secure, while the password provides an additional line of defense. A four-digit pin code is not very secure while no password is extremely insecure. Lastly, changing passwords weekly is secure, but may not be convenient for the users and might lead to more forgotten passwords.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Math",
+    "topic": "Order of operations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating an educational video about the order of operations in mathematics. They decide to include a catchy song by a famous artist in their video to make it more engaging for the viewers. Which of the following actions by Alex would NOT be respecting the rights of the artist?\",\n    \"Answer1\": \"Alex decides to reproduce the song on their own and includes it in the video.\",\n    \"Answer2\": \"Alex credits the artist for the song in their video.\",\n    \"Answer3\": \"Alex asks the artist for permission to use the song in the video.\",\n    \"Answer4\": \"Alex uses a karaoke version of the song and credits the karaoke channelvfor the music in their video.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Reproducing the song without the permission of the artist is a violation of the artist's intellectual property rights. Even if Alex recreates the song on their own\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Agriculture",
+    "topic": "Principles of Crop Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a farmer who uses a soil moisture monitoring system to know when to water their crops. Their system has sensors placed in the ground that send data through the Internet to an application on Alex's computer. Recently, Alex has noticed that the data doesn't show up on his computer. The sensors seem to be working perfectly, the internet connection is stable, but their application is unable to input any new data. What could be the likely cause of this issue?\",\n    \"Answer1\": \"The operating system is outdated\",\n    \"Answer2\": \"The software application has crashed\",\n    \"Answer3\": \"The internet connection is slow\",\n    \"Answer4\": \"There's a problem with the hardware components of the computer\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Most likely, the problem arises from the software application used to monitor the soil moisture readings. The software might have crashed or might not be working properly, preventing it from registering the new data sent from the sensors.\"\n}"
+}

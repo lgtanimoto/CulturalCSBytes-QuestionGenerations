@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Agriculture",
+    "topic": "Precision Agriculture and Technology",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is coding a precision agriculture program which includes algorithms that were adapted from an open source farming software. As Alex wants to adhere to the intellectual property rights, what should they ensure to include in their own software?\",\n    \"Answer1\": \"The name of the original software and the developers\",\n    \"Answer2\": \"A thank you note to the developers of the original software\",\n    \"Answer3\": \"The same open source license that the original software used\",\n    \"Answer4\": \"A warning that the original software developers are not responsible for any bugs in Alex's code\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"When creating or remixing programs, it is important to respect the intellectual property rights of original software developers. This includes crediting them properly, and where applicable, adhering to licensing terms and conditions of the original software. Answer choice 1 is correct because it involves giving appropriate credit to the original software and its developers.\",\n    \"code_snippet\": \"action Main\\n    RunOriginalAlgorithm()\\n    RunAdaptedAlgorithm()\\nend\\n\\naction RunOriginalAlgorithm() \\n    output \\\"Running Original Algorithm\\\"\\n    output \\\"Developed by XYZ\\\"\\nend\\n\\naction RunAdaptedAlgorithm() \\n    output \\\"Running Adapted Algorithm\\\"\\n    output \\\"Developed by Alex, adapted from XYZ\\\"\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Social Justice",
+    "topic": "Ethnic and Racial Equity/Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is finalizing a program replicating a traditional game from their ancestor's culture, wanting to share it with school. What should Alex keep in mind about cultural sensitivity and intellectual property rights while doing so?\",\n    \"Answer1\": \"Alex should completely ignore cultural values and themes as those are not important in a computer game\",\n    \"Answer2\": \"Alex should give credit to the source of the game and acquire permission wherever it is required\",\n    \"Answer3\": \"Alex should claim this game as their own creative work\",\n    \"Answer4\": \"Alex should not tell anyone about the cultural significance of the game\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When borrowing from cultures that are not your own, or when using intellectual property, it's crucial to seek permissions and give credit. Building a culturally sensitive representation is as critical as the technical aspects of a program. It also falls under the realm of digital citizenship, respecting cultural and intellectual property rights.\"\n}"
+}

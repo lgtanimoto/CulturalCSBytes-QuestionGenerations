@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D07",
+    "learning_objective": "Represent data using multiple encoding schemes.",
+    "interest_area": "Agriculture",
+    "topic": "Soil and Water Management Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying the effects of different soil and water management techniques on crop yield. They collected data on the crop yield (in tonnes) for each technique: 1) Natural 2) Organic manure 3) Chemical fertilizers 4) Combination of organic and chemical. Which of the following coding techniques could Alex use to represent this data graphically for a report?\",\n    \"Answer1\": \"Encode the data in binary and display a binary tree\",\n    \"Answer2\": \"Encode the data as numerical values and create a pie chart\",\n    \"Answer3\": \"Encode the data as strings and create a histogram\",\n    \"Answer4\": \"Encode the data into Morse code and create a line graph\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Encoding the data as numerical values is the best option out of the given, as it allows the direct creation of a pie chart which can effectively compare the crop yields of each technique. The other encoding schemes do not lend themselves to graphical representation for this type of data.\"\n}"
+}

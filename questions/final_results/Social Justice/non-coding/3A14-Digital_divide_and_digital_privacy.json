@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Social Justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project about the digital divide and digital privacy. They decide to create a program to simulate data collection and influence, and would like to see the impact on different populations. Alex noticed that they've been repeating similar lines of code and they want to organize their code better. What code modification could Alex make to adhere to the principle of DRY (Don't Repeat Yourself) coding?\",\n    \"Answer1\": \"Alex could wrap the repetitive code into a procedure with parameters\",\n    \"Answer2\": \"Alex should rewrite the complete code from scratch\",\n    \"Answer3\": \"Alex should continue repeating the code to maintain clarity\",\n    \"Answer4\": \"Alex could copy and paste the similar lines of code to extend the script\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Creating procedures with parameters is a good way to avoid repeating code, making the code not only more concise and readable, but also easier to debug and maintain. Having such a procedure would allow Alex to reuse code and better organize their program.\"\n}"
+}

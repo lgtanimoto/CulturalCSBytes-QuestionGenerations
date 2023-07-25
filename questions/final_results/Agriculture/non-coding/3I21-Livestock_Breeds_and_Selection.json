@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Agriculture",
+    "topic": "Livestock Breeds and Selection",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Drew has compiled a database of different livestock breeds. They are designing a website for farmers where they can input their farm's location and resources to recommend suitable livestock breeds. However, they find that some breeds are underrepresented due to fewer resources and information about them. This potentially biases the results for certain regions and small farmers. What design aspects could Drew consider changing to address this bias issue?\",\n    \"Answer1\": \"Ignore the underrepresented breeds since they are not widely used.\",\n    \"Answer2\": \"Crowdsource data about the underrepresented breeds to enrich the database.\",\n    \"Answer3\": \"Remove breeds for which there is not much information.\",\n    \"Answer4\": \"Restrict the website to large-scale farmers to eliminate the bias against small farmers.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By crowdsourcing data about the underrepresented breeds, Drew can improve the representation and provide a more comprehensive recommendation to users. The other options propose limiting the database or its accessibility, which could compound existing biases or accessibility issues.\"\n}"
+}

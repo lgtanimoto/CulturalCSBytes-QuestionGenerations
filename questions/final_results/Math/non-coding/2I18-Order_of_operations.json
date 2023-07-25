@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I18",
+    "learning_objective": "Discuss computing technologies that have changed the world, and express how those technologies influence, and are influenced by, cultural practices.",
+    "interest_area": "Math",
+    "topic": "Order of operations",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves playing video games and dreams of developing their own game someday. They have recently learned about the concept of 'order of operations' (PEMDAS) in their maths class and wonders how this concept might be important to know in writing game code.  In what ways can the understanding of order of operations influence the development of video games?\",\n    \"Answer1\": \"Knowing the order of operations can help Alex properly order their game code to ensure that the game runs smoothly without any logical errors.\",\n    \"Answer2\": \"The order of operations is not necessary to understand for developing video games as it is only applicable to mathematics.\",\n    \"Answer3\": \"Understanding the order of operations is important in programming because it allows Alex to properly structure mathematical equations within their game code to get correct results.\",\n    \"Answer4\": \"Alex would primarily use the order of operations to sequence the events in the game storyline.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The concept of order of operations (PEMDAS) applies to mathematical expressions within a code, too. In the development of video games, math is used extensively, from graphics rendering to physics simulations. Therefore, a good understanding of the order of operations can help a developer like Alex avoid bugs related to miscalculations.\"\n}"
+}

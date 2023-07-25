@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Social Justice",
+    "topic": "Indigenous Rights and Sovereignty",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is creating an educational game about indigenous rights and sovereignty. The game uses binary representations to allow understanding of different cultural artifact symbols. Alex runs this piece of code snippet to represent 'Eagle' - an important indigenous symbol. Can you identify which binary representation in the code snippet corresponds to 'Eagle'?\",\n    \"Answer1\": \"01100101\",\n    \"Answer2\": \"01000101\",\n    \"Answer3\": \"10100101\",\n    \"Answer4\": \"10000101\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"A common way to represent characters in computers is using the ASCII standard, where 'Eagle' would begin with an Upper Case 'E'. 'E' in ASCII is represented as '01000101'. Hence, the binary representation of 'Eagle' will start with '01000101'.\",\n    \"code_snippet\": \"text a = binary:fromBin('01000101 01100001 01100111 01101100 01100101')\\noutput a\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N04",
+    "learning_objective": "Model how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the Internet, and reassembled at the destination.",
+    "interest_area": "School and Career",
+    "topic": "Goal Setting and Motivation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is an aspiring musician and has decided to share their music online. They just finished a song which they plan to send to their friend through internet. Which of the following best describes the process in which Alex's music file will be sent to their friend?\",\n    \"Answer1\": \"The file is sent as a whole directly from Alex's computer to their friend's computer.\",\n    \"Answer2\": \"The music file is broken down into smaller packets, and each packet potentially takes a different path through the network. When all packets reach the destination, they are reassembled into the original file.\",\n    \"Answer3\": \"Alex sings the song again through a video call and their friend records it.\",\n    \"Answer4\": \"The music is compressed into a single packet and then sent to the friend's computer for decompression.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"This process best describes the concept of how information is broken down into smaller pieces or packets, transmitted through multiple devices over networks and the internet, and reassembled at the destination.\",\n    \"code_snippet\": \"action SendFile(Path name)\\n    File file\\n    string data\\n    if file:OpenRead(name) then\\n        data = file:ReadToEnd()\\n        output data\\n    end\\n    file:Close()\\nend \\n\\nSendFile(`track.mp3`)\"\n}"
+}

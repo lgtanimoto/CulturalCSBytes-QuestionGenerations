@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "Math",
+    "topic": "Plane figures",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a web-based app for calculating the area and perimeter of different plane figures. However, Alex noticed that the tool was not as intuitive and user-friendly as they wanted. Alex decided to seek some diverse perspectives to improve it. Who amongst the following can Alex NOT seek advice from for this purpose?\",\n    \"Answer1\": \"Taylor, a blind user to understand how the app interface can be more accessible.\",\n    \"Answer2\": \"Jordan, a middle school math teacher to understand what would make the tool more useful for teaching plane figures.\",\n    \"Answer3\": \"Bailey, a UX/UI designer to understand how the tool interface could be more intuitive.\",\n    \"Answer4\": \"Cameron, a car mechanic who doesn\u2019t know much about plane figures and currently has no use for the app.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Cameron, being a car mechanic, and having little to no knowledge or use for a tool that calculates the area and perimeter of plane figures, may not be able to provide feedback that will be beneficial for improving the computational artifact.\"\n}"
+}

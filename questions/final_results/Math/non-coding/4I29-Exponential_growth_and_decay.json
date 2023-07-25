@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I29",
+    "learning_objective": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users.",
+    "interest_area": "Math",
+    "topic": "Exponential growth and decay",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their band are nervous and excited. Their first single, 'Heartbeat Acceleration', was just posted on a new streaming service. The service promises to pay the band $0.01 for each stream. After three months, Alex receives the first royalty check: $215.67. They gasp at the amount, but an uneasy thought crosses their mind. If the band got $215.67 for 3 months, it means their song was streamed more than 2 million times. Alex starts to question how the streaming service is using their data. Which of the following should Alex primarily be concerned about?\",\n    \"Answer1\": \"The streaming service may be undercounting how many times their song was played.\",\n    \"Answer2\": \"The streaming service may use collected data to favor certain types of music over others.\",\n    \"Answer3\": \"The streaming service may reveal the song's listening patterns to other bands or companies.\",\n    \"Answer4\": \"The streaming service may not be able to keep up with the exponential growth of streams.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While all of these are valid concerns, privacy concerns related to the collection and generation of data could allow the streaming service to reveal the song's listening patterns to other bands or companies. This could be done without Alex and their band's knowledge or consent, which might give those entities an unfair advantage.\"\n}"
+}

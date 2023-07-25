@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Social Justice",
+    "topic": "Indigenous Rights and Sovereignty",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is assigned to create a presentation on Indigenous rights and sovereignty for their social science class. They decide to include various media, such as photos and music, representing Indigenous cultures and contributions. However, Alex is unsure about the legality of using certain images and audio files. Which of the following is an acceptable practice for Alex when sourcing their media files?\",\n    \"Answer1\": \"Borrowing images from museum websites without attribution since they are public institutions.\",\n    \"Answer2\": \"Using music clips downloaded from a peer-to-peer sharing site.\",\n    \"Answer3\": \"Using photographs of Indigenous artwork found on a tourist website without asking for permission.\",\n    \"Answer4\": \"Using photos and music licensed under Creative Commons, with proper attribution.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Creative Commons licensed media allows others to use, share, and sometimes even alter a creator's work, as long as they give proper attribution. Using media without proper permissions or attributions can infringe on intellectual property rights, and in Alex's case, disrespect the communities they are studying.\"\n}"
+}

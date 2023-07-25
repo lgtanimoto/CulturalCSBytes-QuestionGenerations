@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Social Justice",
+    "topic": "Accessibiliy and Rights of the Disabled",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex, an app developer, is creating a Braille learning application. This app would teach how to read Braille by showing a symbol in dots, with the user entering the corresponding letter from the keyboard. They notice that for some letters, the program is not providing the correct output. Below is a part of Alex's code:What steps can Alex take to improve their code and ensure proper functionality?\",\n    \"Answer1\": \"Change line 5: if letter = 'B' or letter = 'b'\",\n    \"Answer2\": \"Change line 7: output 'Dot 2'\",\n    \"Answer3\": \"Replace line 2 with 'Get input from user'\",\n    \"Answer4\": \"Replace line 6: output 'Dot 1, 2' \",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The Issue in the code is, letter is being compared to 'B' only. Alex has not accounted for instances when the user might input a lowercase 'b'. By checking for both 'B' and 'b', the program will output the right braille representation, irrespective of whether the user enters a lowercase or uppercase letter.\",\n    \"code_snippet\": \"text letter = \\\"B\\\" \\nif letter = 'B'\\n    output 'Dot 1, 2'\\nelse\\n    output 'Not a valid letter'\\nend\"\n}"
+}

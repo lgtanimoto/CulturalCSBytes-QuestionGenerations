@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a two-player math game where a player wins if they can form a valid equation using numbers and operators. The game requires a function named isValidEquation that takes a string as an input and validates if the string forms a valid equation or not. Alex's current implementation of the function doesn't seem to work correctly. What can Alex do to fix their code?\",\n    \"Answer1\": \"Add more mathematical operators in the function for string validation.\",\n    \"Answer2\": \"Change the conditional statement in line 3 from '<' to '>' \",\n    \"Answer3\": \"Modify the loop condition in line 2 to start from the beginning of the string.\",\n    \"Answer4\": \"Introduce regex to validate the string rather than checking character by character.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To make the verification process more efficient and reliable, Alex should leverage regular expressions (regex) to validate the string instead of manually checking each character. \",\n    \"code_snippet\": \"action isValidEquation(String input)\\n    for i = input:length - 1 to 0 step -1\\n        if not input:get(i).isDigit() and \\n           input:get(i) != '+' and \\n           input:get(i) != '-' and \\n           input:get(i) != '*' and \\n           input:get(i) != '/' and \\n           input:get(i) != '='\\n            return false\\n        end\\n    end\\n    return true\\nend\"\n}"
+}

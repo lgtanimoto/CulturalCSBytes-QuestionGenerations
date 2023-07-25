@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Fertility and Nutrient Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a soil fertility and nutrient management program for their environmental science class. The program aims to use various types of data to provide recommendations for maintaining optimal soil health. They have found a pre-existing code for calculating nutrient requirements based on soil type, crop type, and weather conditions. They also have access to a large database of soil and crop data, along with an image library of healthy and unhealthy plants. Which of these would Alex not need to give attribution to?\",\n    \"Answer1\": \"The pre-existing code for calculating nutrient requirements\",\n    \"Answer2\": \"The large database of soil and crop data\",\n    \"Answer3\": \"The image library of healthy and unhealthy plants\", \n    \"Answer4\": \"The original program they are developing\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While using pre-existing assets like code, data, and media, it\u2019s important to provide appropriate attribution to avoid infringement of copyright laws. However, Alex doesn\u2019t need to give attribution to the original program they are developing since it's their original work.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is researching about soil erosion for a school project. After much research, they finally find a soil erosion data file online that is needed for the project. But it is protected by a password and encryption. Why are these security measures necessary to protect the data file?\",\n    \"Answer1\": \"To prevent unauthorized people from accessing and altering the data.\",\n    \"Answer2\": \"To keep the data safe from malware or virus attacks.\",\n    \"Answer3\": \"To ensure the data integrity and prevent data corruption or data loss.\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Physical and digital security measures such as password protection and encryption help protect electronic information from unauthorized access, alteration, and data corruption. They can also help prevent data loss and malware or virus attacks.\"\n}"
+}

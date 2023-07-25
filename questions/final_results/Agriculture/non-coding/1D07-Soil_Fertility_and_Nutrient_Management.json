@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Fertility and Nutrient Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a budding agro-scientist, has been examining trends in soil fertility in their local area over the past ten years. They have visualized this data in a chart showing nutrient levels over time. Alex notices that certain nutrients have been depleting steadily each year. If this pattern continues, what will nutrient levels be like in 5 years?\",\n    \"Answer1\": \"The nutrient levels will remain the same.\",\n    \"Answer2\": \"All nutrients will be completely depleted.\",\n    \"Answer3\": \"The nutrient levels will decrease following the same trend.\",\n    \"Answer4\": \"The nutrient levels will increase.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Since Alex has identified a decreasing trend in nutrient levels over the years, we expect this trend to continue if no changes are made. Thus, Alex can predict that nutrient levels will decrease in 5 years.\"\n}"
+}

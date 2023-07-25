@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Social Justice",
+    "topic": "Digital divide and digital privacy",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex lives in a rural area with limited access to high speed internet. They are often required to complete homework assignments online but struggle with privacy concerns because they typically have to use public WiFi. What term best describes these issues Alex is facing?\",\n    \"Answer1\": \"Server Overload\",\n    \"Answer2\": \"Digital divide and digital privacy\",\n    \"Answer3\": \"Software piracy\",\n    \"Answer4\": \"ICT infrastructure\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Digital divide and digital privacy. Digital divide refers to the gap between those who have access to modern information and communication technology, and those who do not. Digital privacy relates to the privacy of personal data being stored and transmitted digitally. Alex's issues\u2014limited internet connectivity and security risks while using public WiFi\u2014fall under both these terms.\"\n}"
+}

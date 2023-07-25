@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Health and Disease Prevention",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex has decided to create a program that illustrates a basic concept of disease prevention in animals. Their program chooses a random number (sick_days), and checks if it's less than 7. If it is, it means the animal is healthy, otherwise the animal is sick. What is the output if sick_days equals to 10?\",\n    \"Answer1\": \"The animal is healthy\",\n    \"Answer2\": \"The animal is sick\",\n    \"Answer3\": \"The animal is recovering\",\n    \"Answer4\": \"The animal is deceased\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The code checks if the variable 'sick_days' is less than 7. This condition is false when 'sick_days' is 10, meaning the 'else' branch of the conditional is taken, and the program outputs 'The animal is sick'.\",\n    \"code_snippet\": \"integer sick_days = 10\\nif sick_days < 7\\n    output \\\"The animal is healthy\\\"\\nelse\\n    output \\\"The animal is sick\\\"\\nend\"\n}"
+}

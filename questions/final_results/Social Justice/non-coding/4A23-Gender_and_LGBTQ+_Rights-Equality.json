@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Social Justice",
+    "topic": "Gender and LGBTQ+ Rights/Equality",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a complex program for a campaign on 'Gender and LGBTQ+ Rights/Equality'. They plan to include different sections that visually represent the history of the movements, current issues, and future goals. How should Alex document their design decisions during the development of this program?\",\n    \"Answer1\": \"By only discussing their ideas orally with the team\",\n    \"Answer2\": \"By improvising throughout the development process without documenting\",\n    \"Answer3\": \"By writing detailed notes in a notebook that only they will have access to\",\n    \"Answer4\": \"By creating a collective design document that includes text explanations of design choices, graphic mockups of the layout, presentations for key milestones, and/or demonstrations of functions for feedback\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Documenting design decisions is a critical part of the development process. It ensures that both current team members and any future team members who might join later have a clear understanding of why certain choices were made. It can include text, graphics, presentations, and/or demonstrations.\"\n}"
+}

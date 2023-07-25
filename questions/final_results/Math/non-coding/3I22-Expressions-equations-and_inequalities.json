@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a class project to develop an application that generates math problems for students to solve. They want to make sure their application is producing the appropriate level of questions, so they decide to use crowdsourcing as a means of collecting data to improve the application. What is a good strategy Alex can use to efficiently collect and analyze feedback on the math problems generated?\",\n    \"Answer1\": \"They could have peers input the generated questions directly into a publicly accessible database and review them on a one-by-one basis.\",\n    \"Answer2\": \"Alex could distribute all generated problems to their peers and collect feedback only when someone has time to provide it.\",\n    \"Answer3\": \"They could create an automated evaluation system that grades the responses students give for each problem. This could then be compared to the expected solution to establish data points regarding question difficulty.\",\n    \"Answer4\": \"They could arrange the questions in printed form, distribute them to everyone, and look for feedback by physically discussing with each peer.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Creating an automated evaluation system would allow for instant feedback and a large amount of data to be collected and analyzed. This can help identify patterns in the difficulty level of the math problems.\"\n}"
+}

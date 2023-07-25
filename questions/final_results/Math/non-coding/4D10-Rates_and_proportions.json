@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D10",
+    "learning_objective": "Evaluate the tradeoffs in how data elements are organized and where data is stored.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is trying to find a solution to keep track of their book collection. They consider both having a shelf to hold the books and using a digital storage such as an e-book reader. Which of the following is an example of tradeoff that Alex should consider?\",\n    \"Answer1\": \"Both are the same; they store books\",\n    \"Answer2\": \"Having a shelf may require physical space, while e-book readers can store more books but require digital space and may have a limitation on the number of books it can hold\",\n    \"Answer3\": \"There are no tradeoffs because e-book readers are always better\",\n    \"Answer4\": \"Physical books are always more valuable than digital books\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Choosing to store the books in physical form or digital form does come with tradeoffs - physical books require more space, are subject to wear and tear but often hold an emotional or aesthetic appeal. E-books, on the other hand, don't take up physical space, but their capacity may be limited, and they lack the tactile experience of reading a traditional book.\"\n}"
+}

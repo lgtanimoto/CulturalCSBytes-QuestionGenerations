@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I20",
+    "learning_objective": "Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Health and Disease Prevention",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a vet tech at a large farm specializing in dairy cows. The farm just started using a milking system that incorporates sensors to record data on each cow's health and milk production. The data is accessed and analyzed on Alex's tablet. However, Alex is a bit concerned about the trade-offs of this new technology. Which of the following is probably not one of Alex's concerns?\",\n    \"Answer1\": \"Alex will have to spend extra time on learning how to use the new system, and there may be a steep learning curve involved.\",\n    \"Answer2\": \"The health of the cows might be compromised as some might be allergic to the sensors or experience stress from frequent monitoring.\",\n    \"Answer3\": \"Since the data from the sensors is stored on the cloud, there might be a breach in the security of their data.\",\n    \"Answer4\": \"The new system may not function properly in the absence of Wi-Fi, limiting their ability to handle emergencies swiftly.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Although silicone-based sensors might cause skin reactions in humans, there is no such risk known for cows, meaning that it is unlikely that their health would be directly affected in the way indicated by this option. The other options raise legitimate concerns about the tradeoffs associated with the implementation of a new computing technology.\"\n}"
+}

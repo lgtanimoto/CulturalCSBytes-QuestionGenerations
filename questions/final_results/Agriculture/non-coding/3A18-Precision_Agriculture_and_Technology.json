@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Agriculture",
+    "topic": "Precision Agriculture and Technology",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are developing an Integrated Precision Agriculture system. The team is composed of several specialists, and Alex is responsible for creating the code that will power the sensors used on the farm. There are three tasks Alex must complete: develop sensor code, test the code for bugs, and integrate the sensor code with the rest of the Precision Agriculture System. How can Alex device a plan to complete these tasks on time and ensure the project remains on schedule?\",\n    \"Answer1\": \"Alex should try to complete all tasks simultaneously to save time\",\n    \"Answer2\": \"Alex should focus on developing a perfect code for the sensors before considering other tasks\",\n    \"Answer3\": \"Alex should first create a timeline with deadlines for each task. They should develop the sensor code, then test and debug it before integrating it with the system\",\n    \"Answer4\": \"Alex should leave the tasks for last minute as working under pressure results in better efficiency\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The most productive way for Alex to accomplish their project will be to first develop a time-bound plan. This decomposes the problem into manageable steps. coding, debugging, and then integration makes a natural sequence for software development.\"\n}"
+}

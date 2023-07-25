@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is asked to solve some basic arithmetic operations on their computer. They input 5 + 3 into a calculator software the system returns as 8. Then Alex multiplies 5 * 3 and the system returns 15. Finally, they input 9 / 3 and the system returns as 3. How are these results produced?\",\n    \"Answer1\": \"The calculator software only uses high-level languages to solve these arithmetic operations\",\n    \"Answer2\": \"The calculator software directly interacts with the hardware to solve these arithmetic operations\",\n    \"Answer3\": \"The system software gets the arithmetic operations from the calculator software and uses CPU to compute\",\n    \"Answer4\": \"The calculator software solves the arithmetic operations offline and then displays the results\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The calculator software on its own is unable to solve these arithmetic operations. It sends the operations to the system software (operating system), which schedules the CPU to calculate these operations at the hardware level and then returns the results back to the calculator software for display.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex recently completed a research project on soil erosion and conservation methods. Alex gathered data over a period of six months and observed the effectiveness of different methods in reducing soil erosion. The data Alex collected is that the control method of no intervention lost 2.5 inches of soil, the terracing method lost 1 inch, intercropping lost 1.2 inches, and contour plowing lost 0.8 inches. Which of the following are appropriate ways for Alex to present this data visually?\",\n    \"Answer1\": \"Histogram only\",\n    \"Answer2\": \"Scatter plot only\",\n    \"Answer3\": \"Pie chart only\",\n    \"Answer4\": \"Both a bar chart and a pie chart\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Both the bar chart and the pie chart are suitable for visualizing this type of categorical data. A bar chart can show the difference in soil loss between the different methods in inches. A pie chart further provides a perspective of proportions each method contributes to the total soil erosion. Scatter plots and histograms are not the best fit in this case as the data points are not continuous or related in a way that would necessitate these types of visualizations.\"\n}"
+}

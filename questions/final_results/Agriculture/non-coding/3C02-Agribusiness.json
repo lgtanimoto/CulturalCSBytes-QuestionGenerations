@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Agriculture",
+    "topic": "Agribusiness",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a student interested in agribusiness, is designing a project to measure soil moisture levels in their high school's garden. The data collected by the moisture sensors needs to be read and displayed on a user-friendly interface at the school cafeteria. What hardware and software components will Alex need to complete this project?\",\n    \"Answer1\": \"Microcontroller, moisture sensor, USB cables, web development software, and database software.\",\n    \"Answer2\": \"Moisture sensors only.\",\n    \"Answer3\": \"Microcontroller and moisture sensors only, the data can be displayed without software.\",\n    \"Answer4\": \"Microcontroller, moisture sensors, paper charts, colored markers, and a bulletin board\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex will need a microcontroller and a moisture sensor to capture the data. They will also need USB cables to connect the hardware to the computer. To display the data, Alex will need to use web development software to create a user interface and database software to store and retrieve the data.\"\n}"
+}

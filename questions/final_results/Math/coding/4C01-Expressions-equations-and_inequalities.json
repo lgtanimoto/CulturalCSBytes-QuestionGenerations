@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex loves solving math problems and wants to create a simple calculator for solving expressions, equations, and inequalities using programming. They came up with the following code. What does Alex\u2019s program output when you call calculate('+', 4, 2)?\",\n    \"Answer1\": \"8\",\n    \"Answer2\": \"6\",\n    \"Answer3\": \"2\",\n    \"Answer4\": \"It leads to an error\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex's program is an example of abstraction that hides the detailed computations by creating procedures for addition, subtraction, multiplication, and division. When calling calculate('+', 4, 2), the output is 6, as the '+' operator triggers the add(4,2) function.\",\n    \"code_snippet\": \"action add(integer a, integer b)\\n return a + b \\nend action\\naction subtract(integer a, integer b)\\n return a - b \\nend action\\n\\naction multiply(integer a, integer b)\\n return a * b \\nend action\\n\\naction divide(integer a, integer b)\\n return a / b \\nend action\\n\\naction calculate(text operation, integer a, integer b)\\n if operation == '+'\\n  return add(a, b) \\n elseif operation == '-' \\n  return subtract(a, b) \\n elseif operation == '*' \\n  return multiply(a, b) \\n elseif operation == '/' \\n  return divide(a, b) \\n else\\n  output 'Invalid operation'\\n end\\nend action\"\n}"
+}

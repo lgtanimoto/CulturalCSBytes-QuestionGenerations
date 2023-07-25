@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Math",
+    "topic": "Fractions, decimals, and percentages",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is assigned a task of developing a Quorum code snippet that converts a decimal to a percentage. Alex has finished the code as follows:Which of the following best describes the steps Alex has followed in the algorithm?\",\n    \"Answer1\": \"Alex is accepting a number as input, subtracting it by 100, and then printing the result on the screen.\",\n    \"Answer2\": \"Alex is accepting a number as input, multiplying it by 10, and then printing the result on the screen.\",\n    \"Answer3\": \"Alex is accepting a number as input, multiplying it by 100, and then printing the result on the screen.\",\n    \"Answer4\": \"Alex is accepting a number as input, dividing it by 100, and then printing the result on the screen.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The algorithm developed by Alex accepts a decimal (floating point number) as input, multiplies it by 100, and then prints the result on the screen. This operation thus converts the decimal to a percentage.\",\n    \"code_snippet\": \"number decimal = GetInput()\\nnumber percentage = decimal * 100\\noutput percentage\"\n}"
+}

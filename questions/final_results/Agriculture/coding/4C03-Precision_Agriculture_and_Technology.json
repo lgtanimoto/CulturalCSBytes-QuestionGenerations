@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Agriculture",
+    "topic": "Precision Agriculture and Technology",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a Precision Agriculture application which automates irrigation based on specific weather conditions. However, Alex's program is not switching on the irrigation system during rainfall as intended. The problem seems to lie within the logic of the 'isRaining' variable. What should Alex do to debug and fix this issue?\",\n    \"Answer1\": \"Look at the values the weather sensor is providing to the program.\",\n    \"Answer2\": \"Check if the program correctly interprets the weather sensor's data.\",\n    \"Answer3\": \"Verify if the 'isRaining' variable is correctly utilized in the automation logic.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To systematically troubleshoot the issue, Alex needs to verify the data input from the weather sensor, ensure the program interprets this data correctly, and then check if the 'isRaining' variable is being used properly in the automation logic.\",\n    \"code_snippet\": \"boolean isRaining = weatherSensor.isRaining()\\n\\nif isRaining then\\n  IrrigationSystem.off()\\nelse\\n  IrrigationSystem.on()\\nend\"\n}"
+}

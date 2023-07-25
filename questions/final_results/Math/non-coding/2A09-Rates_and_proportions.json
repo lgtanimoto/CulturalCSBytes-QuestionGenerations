@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A09",
+    "learning_objective": "Create programs that use variables to store and modify data.",
+    "interest_area": "Math",
+    "topic": "Rates and proportions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is planning to make cookies for a bake sale at school. They have a recipe that yields 12 cookies. But they need to make 48 cookies. They want to write a program that will adjust the amount of each ingredient proportionally based on the number of cookies they want to make. Which of the following statements, using variables, can Alex use to figure out the new amount of each ingredient needed?\",\n    \"Answer1\": \"newIngredientAmount = originalIngredientAmount / recipeYield\",\n    \"Answer2\": \"newIngredientAmount = originalIngredientAmount * recipeYield\",\n    \"Answer3\": \"newIngredientAmount = originalIngredientAmount * (desiredNumber/recipeYield)\",\n    \"Answer4\": \"newIngredientAmount = originalIngredientAmount + (desiredNumber - recipeYield)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To adjust the amount of each ingredient, Alex would need to multiply the original amount of each ingredient by the ratio of the desired number of cookies to the number of cookies the recipe yields.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Math",
+    "topic": "Geometry",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is programming a solution to calculate the area of a circle. They have the radius as input and they know they have to multiply it by itself and then multiply the result by pi (approximately 3.14). With this in mind, what sequence of steps should Alex implement in their code to get the desired result (The area of the circle)?\",\n    \"Answer1\": \"First, multiply the radius by 2, then multiply that result by pi.\",\n    \"Answer2\": \"First, add pi to the radius, then multiply by the radius.\",\n    \"Answer3\": \"First, subtract pi from the radius, then multiply the result by the radius.\",\n    \"Answer4\": \"First, multiply the radius by itself, then multiply that result by pi.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The formula to calculate the area of a circle is A = pi * r^2, so Alex should first multiply the radius by itself, then multiply that result by pi.\",\n    \"code_snippet\": \"number radius = getInputNumber()\\nnumber area = radius * radius * 3.14\\noutput area\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Agriculture",
+    "topic": "Crop Diseases and Pest Management",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are working on the development of an agricultural software tool that uses machine learning to identify crop diseases and provide pest management advice. Alex is responsible for writing the code for disease identification. What collaborative tools can Alex use to work on the project?\",\n    \"Answer1\": \"Alex can use Git for version control and Slack for team communication\",\n    \"Answer2\": \"Alex can use Google Sheets for version control and email for team communication\",\n    \"Answer3\": \"Alex can use paint for version control and Skype for team communication\",\n    \"Answer4\": \"Alex can use Photoshop for version control and phone call for team communication\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In a collaborative software development environment, it's key to use specific tools for effective management of team roles and responsibilities. Git is a commonly used version control tool which allows multiple people to work on the same project without overwriting each other's work. Slack is an efficient team communication tool that also integrates with Git for seamless collaboration.\"\n}"
+}

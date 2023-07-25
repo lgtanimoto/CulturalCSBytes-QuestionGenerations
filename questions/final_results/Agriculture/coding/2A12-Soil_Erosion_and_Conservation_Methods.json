@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Agriculture",
+    "topic": "Soil Erosion and Conservation Methods",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is modifying an existing program to predict the amount of soil erosion based on various farming methods. The original program they obtained was designed for plain fields, but Alex needs to adapt it for sloped fields. Here is the original code snippet:Where should Alex add code to factor in the field's slope in calculating soil loss?\",\n    \"Answer1\": \"Modify line 3: if soilType = 'Sandy'\",\n    \"Answer2\": \"Modify line 7: soilLoss = erosionRate * rainfall\",\n    \"Answer3\": \"Create a new line after line 4: slopeFactor = getInput('Input field slope')\",\n    \"Answer4\": \"Create a new line after line 6: soilLoss = erosionRate * rainfall * slopeFactor\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The slope of the field would significantly impact soil erosion, therefore, it should be incorporated just before the calculation of soil loss. This ensures that the slope factor is taken into account when determining the rate of soil erosion (soilLoss).\",\n    \"code_snippet\": \"text soilType = getInput('Input soil type')\\nif soilType = 'Clay'\\n    number erosionRate = 0.1\\nelse if soilType = 'Sandy'\\n    number erosionRate = 0.3\\nend\\nnumber rainfall = getInput('Input rainfall')\\nnumber soilLoss = erosionRate * rainfall\\noutput soilLoss\"\n}"
+}

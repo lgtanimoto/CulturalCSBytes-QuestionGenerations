@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Social Justice",
+    "topic": "Social Inequality and Poverty",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a group project on social inequality and poverty, with four classmates based in different regions, each having distinct cultural backgrounds. Along with the diverse ideas they bring to the project, they also face different time zones, language preferences, and technical constraints. How should Alex lead the team to overcome these barriers and increase connectivity?\",\n    \"Answer1\": \"Alex should create a shared schedule of availability across all time zones, so that group meetings can be scheduled where everyone can attend.\",\n    \"Answer2\": \"Alex should choose a project management tool that supports a variety of languages and ensure that all project resources are adequately distributed using a cloud storage service.\",\n    \"Answer3\": \"Alex should initiate and encourage open discussions about team members' cultures and experiences to build understanding and rapport among the team members.\",\n    \"Answer4\": \"All of the above are valid methods to increase team connectivity and collaboration.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Effective collaboration requires careful planning, active participation, mutual understanding, and efficient resource management. Alex should therefore consider all the options mentioned to improve the team's performance.\"\n}"
+}

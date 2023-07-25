@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Social Justice",
+    "topic": "Income inequality and economic justice",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a high school student attending a computer science class. They are assigned to create a program where it calculates the average annual income from different social classes. When Alex's program runs, it only prints the average income of the top echelon instead of all social classes. Which modification should Alex execute to correct the error in the program?\",\n    \"Answer1\": \"Edit line 3: replace 'number topIncome = getNextNumber()' with 'number income = getNextNumber()'\",\n    \"Answer2\": \"Edit line 4: if 'income < avgIncome' should be replaced with 'income > avgIncome'\",\n    \"Answer3\": \"Remove the initialization of avgIncome in line 1\",\n    \"Answer4\": \"Add a summation operator to the output line\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The original program only calculates the income of the highest social class because in line 3, it is specified that only the 'topIncome' is considered. For the program to calculate the average income of all social classes, Alex should replace 'topIncome' with 'income', so it includes all incomes.\",\n    \"code_snippet\": \"number avgIncome = 0.0\\nwhile hasNextNumber()\\n    number topIncome = getNextNumber()\\n    if topIncome > avgIncome\\n        avgIncome = topIncome\\n    end\\nend\\noutput avgIncome\"\n}"
+}

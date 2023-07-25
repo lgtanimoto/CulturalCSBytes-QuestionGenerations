@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Math",
+    "topic": "Expressions, equations, and inequalities",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their friends are playing a trading card game. Each player starts with a certain number of points, and gains or loses points based on the cards they play during the game. At any time, a player's points can be calculated with the following expression: \\\"player's starting points - points lost + points gained = player's current points\\\". Today, Alex started with 50 points. During the game, they lost 35 points and gained 20 points. How many points does Alex have now?\",\n    \"Answer1\": \"45 points\",\n    \"Answer2\": \"40 points\",\n    \"Answer3\": \"35 points\",\n    \"Answer4\": \"50 points\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By substituting the values into the expression, we find that 50 - 35 + 20 = 35. Therefore, Alex has 35 points.\"\n}"
+}

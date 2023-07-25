@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "Social Justice",
+    "topic": "Criminal Justice Reform",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a student lead on a project that aims to analyze state prison data to identify patterns for criminal justice reform proposals. Alex has identified a dataset from the state's Department of Corrections and would like to automate the process of data collection, manipulation and analysis. Which components of their computer system will primarily accomplish these tasks?\",\n    \"Answer1\": \"The operating system and data recovery software\",\n    \"Answer2\": \"Database software and the Central Processing Unit (CPU)\",\n    \"Answer3\": \"RAM and the graphics card\",\n    \"Answer4\": \"Internet browser software and antivirus software\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Database software is a software program or utility used for creating, editing and managing databases. It can help Alex manage the dataset, apply manipulations and run analyses. The Central Processing Unit, or CPU, performs most of the processing inside the computer. It's the primary component that executes the instructions of the database software. Although other components in the system are also important, these two would be responsible for the core tasks Alex wants to accomplish.\"\n}"
+}

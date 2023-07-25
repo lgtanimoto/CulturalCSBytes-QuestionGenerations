@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Agriculture",
+    "topic": "Livestock Breeds and Selection",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a game about farming. The game features different livestock breeds and allows the user to select one for their virtual farm. The user is supposed to be able to select a breed, and the game should display the information about the selected breed. However, Alex is noticing that regardless of which breed the user chooses, the game always displays the information for the 'Angus' breed. What could be the possible reason?\",\n    \"Answer1\": \"Alex might have implemented a loop incorrectly, so it always defaults to the first breed in the list, which happens to be 'Angus'.\",\n    \"Answer2\": \"Alex might have forgotten to add the other breeds to the selection menu.\",\n    \"Answer3\": \"There might be a problem with the switch case or if-else statements that Alex is using to choose and display the breed information.\",\n    \"Answer4\": \"The image file for the 'Angus' breed might've overwritten the other breed's files.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A common mistake when using control structures like switch case or if-else statements is forgetting to add break statements or writing incorrect conditions. If the error lies in the control structure that assigns the breed information based on user input, this could cause the game to always default to 'Angus' no matter what the user selects.\"\n}"
+}

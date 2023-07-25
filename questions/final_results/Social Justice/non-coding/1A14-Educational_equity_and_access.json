@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Social Justice",
+    "topic": "Educational equity and access",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex designs an application to provide study materials for every student in the high school equally. The application gets the number of students in the class and every student in the class will receive a list of study materials that is intended for them. Spot the error in the following code written by Alex:index = 1numStudents = readNum()while index <= numStudentsprint('Student', index, 'received the materials')index = index - 1\",\n    \"Answer1\": \"The variable 'index' is incorrectly initialized.\",\n    \"Answer2\": \"The print statement is incorrect.\",\n    \"Answer3\": \"The while loop is supposed to increase the 'index', not decrease it.\",\n    \"Answer4\": \"The number of students is not correctly assigned to 'numStudents'.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The while loop is supposed to iterate from 1 to the number of students, meaning the 'index' should increase each time. However, in the given code, the 'index' is being decremented, which will lead to an infinite loop and not all students will receive the materials.\"\n}"
+}

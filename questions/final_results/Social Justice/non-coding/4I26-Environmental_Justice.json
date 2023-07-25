@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Social Justice",
+    "topic": "Environmental Justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a keen environmentalist and is disturbed by the increasing air pollution in their city. They have created an algorithm that can identify regions with low air quality based on pollutant quantity. Alex has successfully implemented this algorithm to automate the switching on and off of specific emissions control equipment in factories located in zones where air quality degrades. Which of the following scenarios represents another possible application of their algorithm?\",\n    \"Answer1\": \"To predict earthquake occurrences\",\n    \"Answer2\": \"To auto-generate shopping lists from a person's dietary preference\",\n    \"Answer3\": \"To regulate traffic in different parts of their city, depending on the air quality\",\n    \"Answer4\": \"To design a game with real-time weather effects\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex's algorithm can be used to control traffic in sectors with deteriorating air quality. If poor air quality is detected, traffic could be rerouted, reducing emissions and lessening pollution in that area.\"\n}"
+}

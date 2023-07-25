@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, who is a budding mathematician, is working on a project to create a tool that helps in solving Linear Equations and Functions. Alex aims to collaborate with students from different parts of the world, who have diverse mathematical skills. How can Alex most effectively manage this project to ensure smooth cross-cultural collaboration and achieve their goal?\",\n    \"Answer1\": \"Alex should work individually and avoid collaboration.\",\n    \"Answer2\": \"Alex should use collaboration tools (like Google Docs, Trello, etc.) for project management, and video-conferencing tools (like Zoom, MS Teams, etc.) for face-to-face interactions to clear doubts and exchange ideas.\",\n    \"Answer3\": \"Alex should ask their peers to follow their method and approach only.\",\n    \"Answer4\": \"Alex should make all the decisions for the team.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The use of digital tools can dramatically enhance the collaboration process by providing a platform for sharing ideas, having face-to-face interactions, and managing the project progress collectively. Such tools encourage participatory work methods, nurture creativity, and increase accessibility, thereby, promoting successful cross-cultural collaboration.\"\n\n}"
+}

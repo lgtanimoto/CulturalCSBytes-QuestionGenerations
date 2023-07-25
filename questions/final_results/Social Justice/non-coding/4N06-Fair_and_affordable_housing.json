@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N06",
+    "learning_objective": "Recommend security measures to address various scenarios based on factors such as efficiency, feasibility, and ethical impacts.",
+    "interest_area": "Social Justice",
+    "topic": "Fair and affordable housing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a project to improve access to fair and affordable housing. They are building an app that connects landlords with potential tenants. Since the app will access sensitive information, Alex needs to ensure user data is encrypted and stored securely. What are some measures Alex could take while developing this app?\",\n    \"Answer1\": \"Store all the data in a plain text file on the server for easy access.\",\n    \"Answer2\": \"Use Transport Layer Security (TLS) for all data in motion, and encrypt sensitive data at rest.\",\n    \"Answer3\": \"Use a public database to store all the user data so it can be backed up and restored easily.\",\n    \"Answer4\": \"Avoid implementing any form of encryption, as doing so may slow down the application's performance.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should consider implementing Security measures such as using Transport Layer Security (TLS) for all data in motion, and encrypt sensitive data at rest. This ensures the information is encrypted during transit and when stored, protecting it from unauthorized access. Plain text files and public databases could be easily accessed and misused, and while encryption may slightly affect performance, the security it provides is critical.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Agriculture",
+    "topic": "Principles of Crop Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is looking to optimize their backyard vegetable garden. They decide to use a system of sensors that can track things such as moisture levels, sunlight exposure, and temperature. They want this data to be sent to their computer so they can analyze it. Which software parts would be necessary for this endeavor?\",\n    \"Answer1\": \"A word processing software to write down the readings\",\n    \"Answer2\": \"A software to interface with the sensors and collect the data, and another software to analyze the data\",\n    \"Answer3\": \"A social media software to share the data\",\n    \"Answer4\": \"A browser software to access the internet\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"To monitor his crops, Alex would need one software that interfaces with the sensors and collects their data. This is commonly a driver or utility provided by the sensor manufacturer. Another software or module in the same software would be necessary to process and analyze this data, such as a spreadsheet or a custom application.\"\n}"
+}

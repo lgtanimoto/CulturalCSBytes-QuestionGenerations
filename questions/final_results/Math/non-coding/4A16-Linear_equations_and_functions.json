@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A16",
+    "learning_objective": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions.",
+    "interest_area": "Math",
+    "topic": "Linear equations and functions",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is learning about linear equations and functions in their Math class, and they want to create a program that simulates and visualizes linear functions. Which of the following best describes the events and instructions Alex should use to implement their program?\",\n    \"Answer1\": \"Have an 'Enter equation' button event. When clicked, an input box should appear where the user can enter their equation. Translate the equation into a mathematical function, and plot this function on a graph.\",\n    \"Answer2\": \"Use a 'Draw line' event. When triggered, have the program draw a random line on a graph.\",\n    \"Answer3\": \"Create a 'Start' event. When clicked, the program should display a random graph of a linear function.\",\n    \"Answer4\": \"Include a 'Submit' button event. After this event, the program should take a set of preconfigured equations, choose one randomly, and display its graph.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex's goal is to visualize user-provided linear functions. Thus, their program should have an event (like clicking an 'Enter equation' button) that triggers an input box where the user can provide their equation. Then, the instructions would involve translating the equation into a function, and plotting this function on a graph. The other options don't offer this level of interaction and customization.\"\n}"
+}

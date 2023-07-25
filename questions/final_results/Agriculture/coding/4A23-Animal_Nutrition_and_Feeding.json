@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A23",
+    "learning_objective": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs.",
+    "interest_area": "Agriculture",
+    "topic": "Animal Nutrition and Feeding",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program to track the nutritional information and feeding schedule of various animals in the zoo. They have decided to use two separate lists to store the animal names and their corresponding data. Which of the following would be a more appropriate design decision for Alex to make in order to improve the organization and accessibility of the information?\",\n    \"Answer1\": \"Continue with the approach of using separate lists for animal names and their data.\",\n    \"Answer2\":  \"Create a dictionary with the animal names as keys and their data as values.\",\n    \"Answer3\": \"Combine all the data in a single list.\",\n    \"Answer4\": \"Create a new animal for each slug.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By using a dictionary with the animal names as keys, Alex is able to group related data together. A dictionary in Quorum can associate a unique key with a single value. This makes looking up the data for an animal more straightforward, as Alex can just look up the key (the animal's name) in the dictionary to get the corresponding data.\",\n    \"code_snippet\": \"dictionary<text,Textbag> animalData\\n\\naction MAIN\\n    Textbag t\\n    t:Add(\\\"Lion Nutrition Info\\\")\\n    t:Add(\\\"Lion Feeding Schedule\\\")\\n    animalData:Add(\\\"Lion\\\", t)\\n\\n    output animalData:At(\\\"Lion\\\"):Get(0)\\n    output animalData:At(\\\"Lion\\\"):Get(1)\\nend\"\n}"
+}

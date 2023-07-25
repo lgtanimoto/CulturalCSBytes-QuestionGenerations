@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "Social Justice",
+    "topic": "Indigenous Rights and Sovereignty",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a program to analyze data from a database about the land rights of indigenous people. The code is as follows, but Alex encounters an error where the output 'Indigenous Landnot partitioned correctly.' is produced, when it should output 'Indigenous Land partitioned correctly.' What should Alex do to fix the error?\",\n    \"Answer1\": \"Modify line 5: if data <= 0\",\n    \"Answer2\": \"Modify line 1: number goodData = 1000.0\",\n    \"Answer3\": \"Modify line 5: if data < goodData\",\n    \"Answer4\": \"Modify line 3: number data = getNextNumber()\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The error in Alex's if condition is causing the program to incorrectly assess the data. Alex should modify line 5 from 'if data <= goodData' to 'if data < goodData' to correct the program to evaluate the partitioning of the data correctly.\",\n    \"code_snippet\": \"number goodData = 100 //Estimated correct partitioning of land rights\\nwhile hasNextNumber()\\n    number data = getNextNumber()\\n    if data <= goodData\\n        output \\\"Indigenous Land partitioned correctly.\\\"\\n    end\\nend\\noutput \\\"Indigenous Land not partitioned correctly.\\\"\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Social Justice",
+    "topic": "Gender and LGBTQ+ Rights/Equality",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a website for an LGBTQ+ support group. They want to include the rainbow flag emoji (\ud83c\udff3\ufe0f\u200d\ud83c\udf08) on the website. They find out that the Unicode code point for the rainbow emoji is U+1F3F3 U+FE0F U+200D U+1F308. How can Alex convert these Unicode points into an HTML entity code to include this emoji in their website?\",\n    \"Answer1\": \"By converting each Unicode point into its binary representation and using these as the HTML entity code.\",\n    \"Answer2\": \"By converting each Unicode point into its decimal representation and using these as the HTML entity code.\",\n    \"Answer3\": \"Alex cannot use Unicode for adding emojis to a webpage.\",\n    \"Answer4\": \"By using the sequence U+1F3F3 U+FE0F U+200D U+1F308 as the HTML entity code.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"To represent a Unicode character in HTML, you can use an HTML entity in decimal form. Each Unicode character can be expressed as a number that can be represented in HTML using the format &#number;. To use the rainbow flag emoji (\ud83c\udff3\ufe0f\u200d\ud83c\udf08), Alex would first convert the Unicode code points to decimal, and then write these as &#127987;, &#65039;, &#8205;, and &#127752; respectively.\"\n}"
+}

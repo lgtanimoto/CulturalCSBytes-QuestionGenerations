@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Social Justice",
+    "topic": "Income inequality and economic justice",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are developing a program to analyze income inequality for a school project. The project involves gathering income statistics, programming the analysis, and creating a presentation on their findings. Which of the following examples of dividing up tasks and maintaining a project timeline is the most effective?\",\n    \"Answer1\": \"Alex does the research, while their teammates focus on coding and presentation, with no set timeline.\",\n    \"Answer2\": \"Each team member does some research, coding and helps with the presentation, without setting deadlines for each task.\",\n    \"Answer3\": \"One teammate researches and another codes, while Alex works on the presentation. After finishing all tasks, they would collectively review and finalize the project with no specific timeline.\",\n    \"Answer4\": \"Alex undertakes the research component, another teammate takes on coding, and the other team member works on the presentation. They set milestone dates for when research should be completed, when the coding should be done, and when the presentation should be ready for review.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A successful project requires an effective division of labour - assigning each team member a specific role based on their skill set - and a timeline for when each task should be completed. This increases the efficiency of the team and ensures that the project is completed on time.\"\n}"
+}

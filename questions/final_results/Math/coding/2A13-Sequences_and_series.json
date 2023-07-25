@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A13",
+    "learning_objective": "Use an iterative process to plan the development of a program by including others' perspectives and considering user preferences.",
+    "interest_area": "Math",
+    "topic": "Sequences and series",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is trying to build an application that calculates the sum of an arithmetic sequence given the first term, the common difference, and the number of terms. An early version of Alex's program is as follows:What rewrite of the procedure SumOfArithSeq(a, d, n) can Alex use to calculate the sum of the sequence accurately?\",\n    \"Answer1\": \"Output (n/2) * ((2*a) + (n-1) * d)\",\n    \"Answer2\": \"Output (n/2) * ((2*a) - (n-1) * d)\",\n    \"Answer3\": \"Output (n/2) * ((2*a) * (n-1) * d)\",\n    \"Answer4\": \"Output (n/2) * ((2*a) / (n-1) * d)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The sum of an arithmetic sequence can be calculated using the formula: sum = (n/2) * ((2*a) + (n-1)*d), where 'a' is the first term, 'd' is the common difference and 'n' is the number of terms.\",\n    \"code_snippet\": \"action SumOfArithSeq(integer a, integer d, integer n)\\n    output a + d * (n-1)\\nend\"\n}"
+}

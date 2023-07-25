@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A13",
+    "learning_objective": "Give attribution when using the ideas and creations of others while developing programs.",
+    "interest_area": "Math",
+    "topic": "Fractions, decimals, and percentages",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has learned how to write a program that converts fractions to decimals. Now they want to write a program that converts decimals into percentages. They know that in order to do this, they need to multiply the decimal by 100. However, Alex wants to make sure they are properly giving credit to the original fraction to decimal program. Which of the following does Alex need to do when writing their new program?\",\n    \"Answer1\": \"Copy the fraction to decimal program and add in the multiplication by 100 without mentioning the original program.\",\n    \"Answer2\": \"Reference the original fraction to decimal program in their new code and then add in the multiplication by 100 step.\",\n    \"Answer3\": \"Ask the author of the original fraction to decimal program if they can use it for their program.\",\n    \"Answer4\": \"Just add in the multiplication by 100 because the original code was not copyrighted.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When using someone else's work, it is important to give them credit. In this case, Alex should reference the original fraction to decimal program before adding in the multiplication by 100 to convert the decimal into a percentage.\"\n}"
+}

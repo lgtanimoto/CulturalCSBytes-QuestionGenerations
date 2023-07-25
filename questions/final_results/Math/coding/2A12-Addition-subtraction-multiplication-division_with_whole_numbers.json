@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Math",
+    "topic": "Addition, subtraction, multiplication, division with whole numbers",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a Quorum Math Library that includes the four basic arithmetic operations - addition, subtraction, multiplication, and division. They decide to extend an existing function for addition to include subtraction. The initial function simply adds two parameters, a and b, and returns the result. To incorporate subtraction, Alex must modify the function to check an operator parameter that could be either '+' or '-', and then perform the corresponding operation. Below is the modified function. What result will be generated from the call arithmetic('3', '-', '1')?\",\n    \"Answer1\": \"2\",\n    \"Answer2\": \"-2\",\n    \"Answer3\": \"4\",\n    \"Answer4\": \"'3-1'\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The operation arithmetic('3', '-', '1') determines if the operator is '+' or '-'. Since the operator is '-', it performs subtraction: 3 - 1, which equals 2.\",\n    \"code_snippet\": \"action arithmetic(integer a, text operator, integer b) returns integer\\n    if operator == '+'\\n        return a + b\\n    else if operator == '-'\\n        return a - b\\n    end\\nend\"\n}"
+}
