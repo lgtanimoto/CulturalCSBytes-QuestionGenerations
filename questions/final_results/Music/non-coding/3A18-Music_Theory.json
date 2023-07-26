@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Charlie and Alex are working on a project to create a computer program that teaches music theory to beginners. They have a month to complete this project. How should they distribute tasks and maintain a project timeline to ensure successful completion of this computational artifact?\",\n    \"Answer1\": \"Each person takes over the project for a week and does what they can\",\n    \"Answer2\": \"Charlie develops the program while Alex creates the lessons\",\n    \"Answer3\": \"Both work on the program and require the other to review their work before it's considered complete\",\n    \"Answer4\": \"Break the project down into tasks, assign tasks to each person, and set deadlines for each task to keep themselves on schedule\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Dividing the project into smaller tasks, assigning responsibility for each task, and creating a timeline can help manage the overall project workload and ensure the project is completed on time. This approach encourages accountability and allows for regular progress checks.\"\n}"
+}

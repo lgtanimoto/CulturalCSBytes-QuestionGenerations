@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Sound Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex aspires to be a sound designer for video games, and they have created some unique sound effects that they want to include in a game they are developing. However, they are wary of posting these effects online because they worry someone might steal them. Which of the following is a potential negative effect of intellectual property laws that Alex might have to consider?\",\n    \"Answer1\": \"By obtaining a copyright for their sound effects, Alex might have to pay a percentage of their game's sales to a third party.\",\n    \"Answer2\": \"Intellectual property laws might reduce innovation in the field of sound design, as designers could fear their ideas being stolen.\",\n    \"Answer3\": \"If Alex puts a copyright on their sound effects, it would make it more difficult for them to reuse these effects in another game they create in the future.\",\n    \"Answer4\": \"Intellectual property laws might discourage collaboration and idea sharing amongst sound designers.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"While intellectual property laws help protect original works and therefore encourage innovation, they can also hinder the free exchange of ideas and collaboration, which is also a key driver of creativity and innovation.\"\n}"
+}

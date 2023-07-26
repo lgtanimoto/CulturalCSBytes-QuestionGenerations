@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Accessibility",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Jupiter, a passionate game developer, wants to create an inclusive gaming experience for people of all abilities. They have already implemented verbal descriptions for visual elements so visually impaired people can also play the game. However, they struggle with tailoring the game for hearing impaired players. They met Alex, who is from a different culture and career field, but also a passionate gamer. How can collaboration with Alex benefit Jupiter's project?\",\n    \"Answer1\": \"Alex can provide a fresh perspective and unique ideas on how to make the game more accessible.\",\n    \"Answer2\": \"Alex can provide a clear-cut solution for all issues Jupiter is facing.\",\n    \"Answer3\": \"Collaborating with Alex will make the game popular in Alex's country.\",\n    \"Answer4\": \"Alex can serve as an investor for Jupiter's game.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Collaboration allows for different perspectives to surface, which might provide innovative solutions to the problem at hand. Alex's unique background and career might help Jupiter understand how to make his game more accessible to hearing impaired players.\"\n}"
+}

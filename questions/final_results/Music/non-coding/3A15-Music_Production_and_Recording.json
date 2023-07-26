@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Music",
+    "topic": "Music Production and Recording",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a computer program that simulates the sound of various musical instruments for a school project. On a test run, the piano and violin sound perfect but the drum doesn't quite sound right. Alex's friend, who is a drummer suggested changing the value of the 'x' parameter in the drum function to mimic the sound of a real drum. What should Alex do next?\",\n    \"Answer1\": \"Ignore the feedback and keep the program as it is\",\n    \"Answer2\": \"Incorporate the feedback by changing the 'x' parameter and test the program again\",\n    \"Answer3\": \"Delete the drum sound from the program\",\n    \"Answer4\": \"Incorporate the feedback by changing the 'x' parameter and submit the project without testing\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should seek feedback from other team members and users to refine the solution that meets the user needs. Incorporating the drummer\u2019s feedback and testing the program again would take Alex closer to the goal of simulating the sounds of various musical instruments accurately.\"\n}"
+}

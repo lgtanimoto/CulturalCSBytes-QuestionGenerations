@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a presentation about pixel art and wants to include some simple binary representations of grayscale pixels. In the binary color model, the value 0 corresponds to black, and the max value (in 8-bit binary 255 or '11111111') corresponds to white. Alex wrote a program that translates a grayscale value into the binary equivalent. Take a look at Alex's following code snippet:What will be the output if Alex inputs the grayscale value of 127?\",\n    \"Answer1\": \"10000000\",\n    \"Answer2\": \"1111111\",\n    \"Answer3\": \"01111111\",\n    \"Answer4\": \"11111111\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A grayscale value of 127 is translated to binary as '01111111'. This medium grayscale value represents a middle gray between the extremes of black (0) and white (255).\",\n    \"code_snippet\": \"action BinaryRepresentation(number grayscaleValue)\\n   text binaryString = \\\"\\\"\\n   while grayscaleValue > 0\\n        if grayscaleValue mod 2 = 0\\n            binaryString = \\\"0\\\" + binaryString\\n        else\\n            binaryString = \\\"1\\\" + binaryString\\n        end\\n        grayscaleValue = grayscaleValue / 2\\n    end\\n    while binaryString's length < 8\\n        binaryString = \\\"0\\\" + binaryString\\n    end\\n    output binaryString\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is programming a character sprite in a video game to run an animation sequence. The animation consists of 10 frames and should loop every second. To ensure the animation sequence runs smoothly, how should Alex arrange each frame in their code?\",\n    \"Answer1\": \"Use an infinite loop that runs each frame in order.\",\n    \"Answer2\": \"Create a variable for the current frame and increment it after every loop, resetting to 0 after the 10th frame.\",\n    \"Answer3\": \"Use a conditional statement to check if a frame is the final frame, and if it is, stop the animation.\",\n    \"Answer4\": \"Create an array of frames and shuffle it randomly after every loop.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"By creating a variable for the current frame and incrementing it after every loop, resetting to 0 after the 10th frame, Alex can make sure the animation sequence runs smoothly and loops every second.\",\n    \"code_snippet\": \"integer currentFrame = 0\\naction startAnimation()\\n    while true\\n        output \\\"Running frame \\\" + currentFrame\\n        if currentFrame = 9\\n            currentFrame = 0\\n        else\\n            currentFrame = currentFrame + 1\\n        end\\n        pause(100) //this will pause the code for 100 milliseconds\\n    end\\nend\"\n}"
+}

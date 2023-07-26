@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A17",
+    "learning_objective": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex loves to paint and they're currently experimenting with color mixing. They decide to program a software to help them predict the resulting color when mixing two different ones. A simplified version of their code is as follows:What will the function mixColors('red', 'yellow') output?\",\n    \"Answer1\": \"Red\",\n    \"Answer2\": \"Purple\",\n    \"Answer3\": \"Orange\",\n    \"Answer4\": \"Green\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex has broken down the problem of color mixing into smaller components. The function mixColors() checks for conditions '(red, yellow)', '(red, blue)', etc. to determine the resulting color. In this case, mixColors('red', 'yellow') matches the condition ('red', 'yellow'), hence the output 'Orange'.\",\n    \"code_snippet\": \"action mixColors(text color1, text color2)\\n    if color1 = \\\"red\\\" and color2 = \\\"yellow\\\"\\n        output \\\"Orange\\\"\\n    elseif color1 = \\\"red\\\" and color2 = \\\"blue\\\"\\n        output \\\"Purple\\\"\\n    elseif color1 = \\\"blue\\\" and color2 = \\\"yellow\\\"\\n        output \\\"Green\\\"\\n    else\\n        output \\\"Invalid color combination\\\"\\n    end\\nend\\nmixColors('red', 'yellow')\"\n}"
+}

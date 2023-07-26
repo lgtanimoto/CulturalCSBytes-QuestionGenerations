@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A13",
+    "learning_objective": "Give attribution when using the ideas and creations of others while developing programs.",
+    "interest_area": "Music",
+    "topic": "The Grammy's",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a big fan of music and spends a lot of their free time programming. They decide to combine their hobbies by creating a program that tracks all the award winners from the Grammy's. They plan to use publicly available data to populate their program and represent it in visually attractive charts. What should Alex keep in mind while developing this program?\",\n    \"Answer1\": \"Alex should figure out how to monetize the program by charging for use\",\n    \"Answer2\": \"Alex doesn't need to credit anyone since the data is publicly available\",\n    \"Answer3\": \"Alex should credit the source of the data and any software libraries used to create the charts\",\n    \"Answer4\": \"Alex should use the data without worrying about the accuracy\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Attribution is about giving proper credit to the sources of information and libraries that aided in development. Even if the data is publicly available or the library is open source, providing appropriate attribution is not just ethical but also fosters a better collaborative and respectful coding environment.\"\n}"
+}

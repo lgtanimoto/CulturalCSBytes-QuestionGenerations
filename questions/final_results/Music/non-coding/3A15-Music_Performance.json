@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Music",
+    "topic": "Music Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of a team that is creating a musical app. They release an initial version of the app, and they then start seeking feedback from other team members and users for improvement recommendations. Feedback states that users would like to have the ability to slow down tracks on the app for easier learning. Given the feedback, what is the most direct way that Alex could modify the app to meet this user need?\",\n    \"Answer1\": \"By adding a feature to speed up the tracks\",\n    \"Answer2\": \"By adding a feature to slow down the output of the tracks\",\n    \"Answer3\": \"By adding a feature to increase the volume of the tracks\",\n    \"Answer4\": \"By adding a feature to change the pitch of the tracks\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Based on the users' feedback, the most direct way for Alex to modify the app is to add a feature to slow down the output of the tracks. This would match the specific need expressed by the users and thus be the most appropriate way to refine the solution.\"\n}"
+}

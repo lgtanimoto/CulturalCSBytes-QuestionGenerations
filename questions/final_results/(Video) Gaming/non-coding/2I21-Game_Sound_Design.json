@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Sound Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a video game as a part of their computer science project. They are now working on the sound design and music for their game. Which of the following actions is NOT acceptable in regard to using media?\",\n    \"Answer1\": \"Alex downloads a popular pop song from a music streaming platform for their game's background music.\",\n    \"Answer2\": \"Alex uses a song marked as 'Free to use' under Creative Commons license for their game's opening scene music.\",\n    \"Answer3\": \"Alex uses a series of public domain sound effects for the in-game actions.\",\n    \"Answer4\": \"Alex composes their own music and sound effects, using a music making software, for their game.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Using a popular pop song from a music streaming platform is not within fair use, and would require explicit permission from the song creator, distributor or copyright owner. Without permission, this would be considered copyright infringement.\"\n}"
+}

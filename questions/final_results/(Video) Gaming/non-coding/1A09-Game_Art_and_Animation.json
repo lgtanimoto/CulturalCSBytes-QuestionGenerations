@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a game developer and they are working on the animation for their new video game. They recognized a pattern in the sprite frame sequence and mapped it in a number sequence. If the sequence is 1, 2, 4, 8, ..., what symbol should Alex use to represent the sequence in a program?\",\n    \"Answer1\": \"i = i * 2\",\n    \"Answer2\": \"i = i + 2\",\n    \"Answer3\": \"i = i / 2\",\n    \"Answer4\": \"i = i - 2\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The given sequence is a Geometric Progression where each term is twice the previous term. So, the correct symbol for representing this sequence in a program would be 'i = i * 2'.\",\n    \"Graphics\": \"The graphics would represent a sprite animation sequence where each frame is denoted by a number following the sequence.\"\n}"
+}

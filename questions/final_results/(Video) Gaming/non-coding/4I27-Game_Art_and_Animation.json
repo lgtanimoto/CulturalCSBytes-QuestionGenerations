@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I27",
+    "learning_objective": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are developing a game with artists from around the world. They are having trouble keeping track of all the different assets, revisions, and versions and are finding it difficult to see what everyone is working on. Which of the following methods or tools would be most effective for improving their team's collaboration and connectivity?\",\n    \"Answer1\": \"Discuss project progress in detail through email\",\n    \"Answer2\": \"Use a shared spreadsheet to keep track of everything\",\n    \"Answer3\": \"Use a version control system and project management tools\",\n    \"Answer4\": \"Meet daily for several hours to go over everyone's work\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Using a version control system would allow Alex and their team to securely manage and track the different versions and modifications of their project files. A project management tool would facilitate assigning tasks, tracking work progress, and promoting effective communication among the team, even if they happen to be in different time zones.\"\n}"
+}

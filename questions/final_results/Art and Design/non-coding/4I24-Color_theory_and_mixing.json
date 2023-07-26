@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an artist and a coder, and they have recently discovered a new passion for color theory. They decide to create an app to help students mix colors for artworks, a task that can sometimes lead to wasted paints and costly mistakes. However, Alex has recently learned about the computing impact on cultural practices and is concerned about the app's relevance. How can understanding the cultural significance and interpretation of colors help Alex make their app more relevant and accessible?\",\n    \"Answer1\": \"By considering cultural color associations, Alex can add features which suggest color palettes that resonate with specific cultural themes and moods.\",\n    \"Answer2\": \"Alex can customize the app interface based on a user's cultural background.\",\n    \"Answer3\": \"Alex can prioritize colors that are prominent in certain cultures in the app's color library.\",\n    \"Answer4\": \"Alex can ignore cultural impact as color mixing is a universal concept.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By understanding cultural color interpretations, Alex can make their app more relevant to a wider range of users. This can be achieved by suggesting color palettes that resonate with specific cultural themes and moods. This way, the application will also promote cultural sensitivity and awareness among its users.\"\n}"
+}

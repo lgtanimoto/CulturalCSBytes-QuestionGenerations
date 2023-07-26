@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A20",
+    "learning_objective": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex develops an application that analyzes chords for a music theory assignment. Alex uses an open-source library in their program to visualize the music chords. The library's license notes that the users can modify the library for personal use but cannot sell any products that use the library. If Alex wants to sell their application in the App Store, what should they do?\",\n    \"Answer1\": \"Continue to program with the crucial elements of the open-source library copied into Alex's application.\",\n    \"Answer2\": \"Alex should contact the maintainer of the open-source library to ask for a different license.\",\n    \"Answer3\": \"Alex should sell the application on the App Store without disclosing the use of the library.\",\n    \"Answer4\": \"Alex should find or create an alternative library that allows for commercial use.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Given the licensing restrictions of the library, Alex cannot legally sell their application which uses it. Therefore, they should seek an alternative library which allows for commercial use or develop the necessary functionality themselves before selling their application.\"\n}"
+}

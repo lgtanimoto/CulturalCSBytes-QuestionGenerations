@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Painting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Palette has been learning digital painting and enjoys experimenting with different styles and techniques to create beautiful artwork.  They usually save their artworks on their personal computer and share them with friends and family.  However, Palette has also been aware of the many incidents of cybercrime happening around the world, and wants to ensure that their digital artwork is kept safe from unauthorized access or theft. Which of the following actions should Palette take to best protect their digital artwork from unauthorized access?\",\n    \"Answer1\": \"Writing down all their passwords on a sticky note and attaching it to the computer\",\n    \"Answer2\": \"Setting up a strong, unique password for their computer and the application they use for painting\",\n    \"Answer3\": \"Sharing their password with their friends so they can help protect their art\",\n    \"Answer4\": \"Never using passwords as they're too much hassle to remember\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Making use of strong, unique passwords for different systems is fundamental when it comes to cybersecurity. By doing this, Palette can help protect their artwork from unauthorized access and theft. Sharing passwords with others, not using passwords, or writing them down in a place that's easily accessible undermines the security that the password is intended to provide.\" \n}"
+}

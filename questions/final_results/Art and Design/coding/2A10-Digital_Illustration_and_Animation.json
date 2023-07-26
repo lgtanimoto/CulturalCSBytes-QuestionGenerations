@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program for a digital illustration software that automates the process of drawing circles of different colours in a predetermined sequence. The following is a sample code snippet from Alex's system. There seems to be an issue with the code as it currently repeats the colour of the circles indefinitely, which is not the intended behaviour. What change should Alex make to have the colours alternate in a specific cycle?\",\n    \"Answer1\": \"Add another loop that initiates once the first three loops are complete\",\n    \"Answer2\": \"Reset the value of the variable 'colour' after the third loop\",\n    \"Answer3\": \"Assign a new value to 'colour' within each loop\",\n    \"Answer4\": \"Combine all loops into a single loop\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When the single cycle of colours is complete, the colour variable needs to reset to the beginning value and the loop starts again. By resetting the colour value outside of the last loop, the program will continue with the first colour of the next cycle.\",\n    \"code_snippet\": \"text colour = \\\"Red\\\"\\nrepeat 10 times\\n    drawCircle(colour)\\n    colour = \\\"Green\\\"\\n    repeat 10 times\\n        drawCircle(colour)\\n        colour = \\\"Blue\\\"\\n        repeat 10 times\\n            drawCircle(colour)\\n        end\\n    end\\nend\"\n}"
+}

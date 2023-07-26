@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a computational artifact for their Art History class. They want to create a comprehensive timeline that shows major art movements in history and various artworks representing each movement. They decide to source information from a wider audience. Which one of the following methods can Alex use to ensure an efficient collaboration with a large number of contributors?\",\n    \"Answer1\": \"Alex can send individual emails asking for contributions, and manually update the timeline as responses come in.\",\n    \"Answer2\": \"Alex can create a social media post asking for contributions and wait for comments.\",\n    \"Answer3\": \"Alex can conduct a series of face-to-face interviews.\",\n    \"Answer4\": \"Alex can create an online survey, allowing contributors to submit their suggestions, which they can then verify and add to the timeline.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Using an online survey allows Alex to gather contributions from a large audience in an organized and efficient manner, and allows for the verification of information before adding it to the timeline. This is a form of crowdsourcing, where contributions from a large number of people are gathered and compiled.\"\n}"
+}

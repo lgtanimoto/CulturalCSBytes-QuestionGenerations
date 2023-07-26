@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Drew is practicing a song on the piano which consists of repeating numerical patterns that denote the keys needed to be played. They noticed that the next pattern can be predicted by doubling the previous pattern and adding 3. If the first pattern is 4, which code snippet correctly generates the pattern that follows?\",\n    \"Answer1\": \"next_pattern = previous_pattern + 3 * 2\",\n    \"Answer2\": \"next_pattern = previous_pattern * 2 + 3\",\n    \"Answer3\": \"next_pattern = (previous_pattern + 3) * 2\",\n    \"Answer4\": \"next_pattern = 2 * (previous_pattern + 3)\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The correct computational formula to generate the next pattern is to double the previous pattern first, and then add 3. Hence 'next_pattern = previous_pattern * 2 + 3' is the correct way to calculate the next pattern.\"\n}"
+}

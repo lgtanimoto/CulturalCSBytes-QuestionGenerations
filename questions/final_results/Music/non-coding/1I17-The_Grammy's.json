@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Music",
+    "topic": "The Grammy's",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their classmates, Mercury and Venus, are all part of the school's music club. They are tasked with preparing a digital presentation about the nominees in the upcoming Grammy's Awards. They start working online, each of them assigned to different sections. Alex, as the lead, has to compile everyone's work in one main presentation. While going through Mercury's work, Alex finds several areas that they disagree with and feel need revision. What should Alex NOT do in this situation?\",\n    \"Answer1\": \"Alex should not immediately change Mercury's parts of the project without any discussion.\",\n    \"Answer2\": \"Alex should schedule a call with Mercury to openly and respectfully discuss the areas of disagreement.\",\n    \"Answer3\": \"Alex should ask Venus for their input on the sections Alex feels need revision.\",\n    \"Answer4\": \"Alex should do further research to make sure that their edits are accurate before discussing with Mercury.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Even if Alex is the leader of the group, it's important to maintain respect for each team member's work. Directly changing Mercury's parts of the project without discussion is disrespectful and does not promote a healthy team culture. Instead, Alex should foster open conversation to deal with disagreements or concerns.\"\n}"
+}

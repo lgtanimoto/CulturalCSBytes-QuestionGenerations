@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Esports and Competitive Gaming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing the interface for a new esports game. In order to make their game accessible and engaging for all users, Alex plans to get input from a diverse set of players. Which of the following strategies will NOT help Alex achieve this goal?\",\n    \"Answer1\": \"Including players of different skill levels in the feedback process\",\n    \"Answer2\": \"Getting input from both professional esports competitors and casual gamers\",\n    \"Answer3\": \"Only reaching out to players from Alex\u2019s home country\",\n    \"Answer4\": \"Conducting usability tests with players who have different play styles\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"By only reaching out to players from Alex's home country, they might miss out on valuable input from international gamers who may have different gaming patterns and preferences. This could limit the game's international success and accessibility.\"\n}"
+}

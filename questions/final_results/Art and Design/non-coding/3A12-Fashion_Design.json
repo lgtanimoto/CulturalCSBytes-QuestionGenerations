@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A12",
+    "learning_objective": "Design and iteratively develop programs that combine control structures, including nested loops and compound conditionals.",
+    "interest_area": "Art and Design",
+    "topic": "Fashion Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an aspiring fashion designer who has taken up a side hobby of programming. They are developing an application that creates outfit combinations based on items from their wardrobe, stored in different arrays (tops, bottoms, shoes). They want to make sure that every possible outfit combination is generated. Which structure would Alex need to include in their program to achieve this?\",\n    \"Answer1\": \"Single loop\",\n    \"Answer2\": \"Compound conditional\",\n    \"Answer3\": \"Single loop with a conditional\",\n    \"Answer4\": \"Nested loops\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex will need to use nested loops to achieve this. Each loop would go through one category of clothing (tops, bottoms, shoes), and together, they would cover all possible combinations.\",\n    \"code_snippet\": \"for each top in tops\\n    for each bottom in bottoms\\n        for each shoe in shoes\\n            print top + bottom + shoe\"\n}"
+}

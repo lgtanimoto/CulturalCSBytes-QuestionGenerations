@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex designed and programmed a new game called 'Robot Dance Challenge 3000'. Several of their classmates played the game and Alex collected useful feedback. One classmate complained that the final challenge was too easy, while another had trouble completing the second level. What changes can Alex make to improve their game?\",\n    \"Answer1\": \"Make the final challenge harder and provide a step-by-step guide for the second level\",\n    \"Answer2\": \"Ask the classmate who found the game too easy to play it again on a harder setting\",\n    \"Answer3\": \"Make the entire game harder based on the feedback\",\n    \"Answer4\": \"Ignore the feedback because the game is already completed\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In response to user feedback, Alex should evaluate and refine their game to make it more playable and entertaining for all players. Increasing the challenge level at the end and providing assistance for challenging levels will make the game more accessible to everyone.\"\n}"
+}

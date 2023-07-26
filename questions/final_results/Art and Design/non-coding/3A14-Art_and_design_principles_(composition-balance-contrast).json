@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A14",
+    "learning_objective": "Create procedures with parameters to organize code and make it easier to reuse.",
+    "interest_area": "Art and Design",
+    "topic": "Art and design principles (composition, balance, contrast)",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a digital art piece using their computer programming skills. As a part of the process, they want to create a function which will allow them to draw a circle of any size and any color at any position on their canvas. Which of the following functions best meets Alex's description?\",\n    \"Answer1\": \"drawCircle()\",\n    \"Answer2\": \"drawCircle(size, color)\",\n    \"Answer3\": \"drawCircle(size, color, positionX, positionY)\",\n    \"Answer4\": \"drawBigRedCircle()\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The third function, drawCircle(size, color, positionX, positionY), is the most versatile as it takes parameters to determine the size, color, and position of the circle thus allowing Alex to repeat the function with different inputs to draw innumerable unique circles. This meets the objective of organizing code and allowing for its easy reuse.\"\n}"
+}

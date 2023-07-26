@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "Art and Design",
+    "topic": "Art and design principles (composition, balance, contrast)",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a computer art project where they design a compilation of patterns and colors. They create 3 algorithms to generate the pattern for their artwork. They want to decide which one is the most balanced and provides the best contrast. The algorithms are: (1) evenly distribute a random assortment of colors, (2) create concentric circles of alternating colors, and (3) fill half the page with one color and the other half with another color. Which algorithm would provide the most balanced composition and contrast?\",\n    \"Answer1\": \"Evenly distribute a random assortment of colors\",\n    \"Answer2\": \"Create concentric circles of alternating colors\",\n    \"Answer3\": \"Fill half the page with one color, and half with another color\",\n    \"Answer4\": \"All of these are equal in terms of balance and contrast\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The second option provided by Alex is the best in terms of balance and contrast because it ensures a balanced pattern through the concentric circles and also contrasts through the alternate colors. The first option risks becoming a mess with too random colors, and the third option lacks complexity and variation.\"\n}"
+}

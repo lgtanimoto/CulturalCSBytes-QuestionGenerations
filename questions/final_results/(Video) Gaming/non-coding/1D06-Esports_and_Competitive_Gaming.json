@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D06",
+    "learning_objective": "Collect and present the same data in various visual formats.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Esports and Competitive Gaming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex runs an eSports club at their school and played three separate games during the last tournament. In game 1, they had 10 players, in game 2, they had 15 players, and game 3, they had 12 players. Alex wants to present these numbers in a visual format to attract more students to the club. Which of the following are the most effective ways for Alex to visualize this data?\",\n    \"Answer1\": \"Scatter plot only\",\n    \"Answer2\": \"Histogram only\",\n    \"Answer3\": \"Pie chart only\",\n    \"Answer4\": \"Both a bar chart and a pie chart\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A bar chart could effectively show the different player counts for each game, while a pie chart could present the proportion of total players that participated in each game. These charts are more appropriate for this type of data compared to a scatter plot or histogram, which are better suited for continuous data and frequency distributions, respectively.\"\n}"
+}

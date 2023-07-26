@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C02",
+    "learning_objective": "Model how computer hardware and software work together as a system to accomplish tasks.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is interested in game design and wishes to create a simple 2D game where a character moves across the screen when arrow keys are pressed. What combination of hardware and software does Alex need to accomplish this task?\",\n    \"Answer1\": \"Software: A word processor to type the game script and hardware: a monitor to display the game\",\n    \"Answer2\": \"Software: A web browser for accessing online platforms and hardware: a keyboard for input\",\n    \"Answer3\": \"Software: A game development platform (like Unity or Godot) and hardware: a computer with enough processing power and a keyboard for input\",\n    \"Answer4\": \"Software: An email client for communicating with potential users and hardware: a mouse for user interaction\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"To create a game, Alex needs a game development platform which is the software that helps to create games. Additionally, Alex needs a computer with enough processing power to run the software, and a keyboard to provide input commands for controlling the character.\"\n}"
+}

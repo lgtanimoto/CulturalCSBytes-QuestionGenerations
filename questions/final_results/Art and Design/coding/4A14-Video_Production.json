@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A14",
+    "learning_objective": "Use lists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables.",
+    "interest_area": "Art and Design",
+    "topic": "Video Production",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a video production program. They use an array to store the duration of each scene in a video. Here is a snippet of Alex's code:Which of the following operations on 'sceneLengths' array could be used in Alex's code to add a new scene of 150 seconds at the end of the array?\",\n    \"Answer1\": \"sceneLengths = 150\",\n    \"Answer2\": \"sceneLengths[4] = 150\",\n    \"Answer3\": \"sceneLengths[sceneLengths:Size] = 150\",\n    \"Answer4\": \"sceneLengths:Add(150)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In Quorum programming language, the 'Add' operation is used to add a new element to the end of an array. The other options either overwrite an existing element in the array (option 2 and 3) or incorrectly attempt to assign a single value to the whole array (option 1).\",\n    \"code_snippet\": \"integer[] sceneLengths\\n\\nsceneLengths:Add(120)\\nsceneLengths:Add(60)\\nsceneLengths:Add(90)\\nsceneLengths:Add(180)\"\n}"
+}

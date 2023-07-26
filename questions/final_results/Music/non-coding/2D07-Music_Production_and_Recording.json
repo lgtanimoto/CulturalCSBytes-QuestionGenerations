@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D07",
+    "learning_objective": "Use data to highlight or propose cause-and-effect relationships, predict outcomes, or communicate an idea.",
+    "interest_area": "Music",
+    "topic": "Music Production and Recording",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, an aspiring music producer, notices that the sound quality of their music improves when the recordings are done between midnight and 4 am. Alex conducts a mini-experiment over a period of 2 weeks, dividing it into different times of the day to record their music. The bar chart below indicates the number of times per week a satisfactory recording has been achieved. Based on the chart, which time interval should Alex choose to record music, to ensure the best sound quality?\",\n    \"Answer1\": \"6 am - 12 pm\",\n    \"Answer2\": \"12 pm - 6 pm\",\n    \"Answer3\": \"6 pm - 12 am\",\n    \"Answer4\": \"12 am - 6 am\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The bar chart shows the highest number of satisfactory recordings were made between 12 am - 6 am. This suggests that during this time, the likelihood of getting a satisfactory sound quality is the highest.\"\n}"
+}

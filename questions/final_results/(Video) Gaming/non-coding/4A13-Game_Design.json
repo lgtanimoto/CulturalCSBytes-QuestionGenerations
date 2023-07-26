@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A13",
+    "learning_objective": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a strong chess player, wants to design a simple computer game related to chess. They want to design a game where a player has to move a knight on a chess board from a certain starting location to a certain ending location in as few moves as possible. The knight moves exactly as in chess. Alex wants to develop an algorithm to determine the shortest route. Which of the following should Alex consider in their algorithm development?\",\n    \"Answer1\": \"The algorithm should consider all possible moves the knight can make from its current position each turn.\",\n    \"Answer2\": \"The algorithm should consider the direct straight-line path and move the knight accordingly.\",\n    \"Answer3\": \"The algorithm should repeat the same move pattern in a loop until it reaches the end.\",\n    \"Answer4\": \"The algorithm should randomize the knight\u2019s moves until it reaches the end.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"To calculate the shortest route, the algorithm needs to consider all potential moves from the knight's current position each turn. Taking into account the specific move-set of a chess knight, the direct path or repeating the same pattern will not necessarily result in the smallest number of moves.\"\n}"
+}

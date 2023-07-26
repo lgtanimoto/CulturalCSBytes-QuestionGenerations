@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N04",
+    "learning_objective": "Model how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the Internet, and reassembled at the destination.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a program to virtually mix colors for their digital art class. Their approach is to break down each primary color into packets (red, green, blue), transmit them over the internet, and reassemble them at the destination in the appropriate proportions. If the RGB values for red, green, and blue are (255,0,0), (0,255,0), and (0,0,255) respectively, can Alex create the color white by combining the colors? If so, what should the respective RGB values be at the destination?\",\n    \"Answer1\": \"(255,255,0)\",\n    \"Answer2\": \"(0,0,0)\",\n    \"Answer3\": \"(255,255,255)\",\n    \"Answer4\": \"(128,128,128)\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Yes, Alex can create white by mixing the primary colors red, green, and blue in full intensity. Therefore, if red, green, and blue are individually broken down, transmitted, and reassembled at the destination, the respective RGB values should be (255,255,255) to create white.\",\n    \"code_snippet\": \"class Color\\n    action Create(integer r, integer g, integer b) returns Color\\n        output this\\n    end\\n\\n    action Mix(Color a, Color b) returns Color\\n        integer newR = (this.r + a.r + b.r) / 3\\n        integer newG = (this.g + a.g + b.g) / 3\\n        integer newB = (this.b + a.b + b.b) / 3\\n        return Create(newR, newG, newB)\\n    end\\nend\"\n}"
+}

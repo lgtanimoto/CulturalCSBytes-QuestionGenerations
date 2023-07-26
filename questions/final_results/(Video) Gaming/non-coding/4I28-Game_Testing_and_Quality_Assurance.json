@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Testing and Quality Assurance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed a new video game and they are now in the final stage of testing and quality assurance before their planned release. Alex's friend suggests they hire beta testers to find any hidden bugs. However, Alex is worried about their game's intellectual property being stolen during this process. What option from the below best depicts a protective measure that Alex could take while still getting their game tested?\",\n    \"Answer1\": \"Alex could release the game without beta testing to avoid their game being copied.\",\n    \"Answer2\": \"Alex could hire beta testers, but not provide them with any form of formal agreement.\",\n    \"Answer3\": \"Alex could have beta testers sign a non-disclosure agreement (NDA) for protecting their game\u2019s intellectual property.\",\n    \"Answer4\": \"Alex could ask their friend to be the primary beta tester and skip hiring any professional testers.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Having beta testers sign a non-disclosure agreement (NDA) is a viable option to protect the game's intellectual property. This agreement would prevent testers from sharing any details about the game before its official release.\"\n}"
+}

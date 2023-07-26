@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I18",
+    "learning_objective": "Keep login information private, and log off of devices appropriately.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of a school music ensemble and they have exclusive access to a unique online software for learning complex music theory. This software is expensive and only available to Alex through their school. Their best friend, Taylor, who attends a different school, is having trouble with music theory and asks Alex to give them her login details to use the software. Which of the following is the most appropriate and safe course of action for Alex?\",\n    \"Answer1\": \"Alex gives Taylor their login information, as it is just their friend and they trust them.\",\n    \"Answer2\": \"Alex denies Taylor's request, explaining that it is against the rules and could risk Alex losing access to the software.\",\n    \"Answer3\": \"Alex logs in to the software on Taylor's device and leaves it logged in so Taylor can use it.\",\n    \"Answer4\": \"Alex agrees to share their password, but only via public social media to ensure transparency.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"It's crucial to keep login details private, even from close friends. Sharing these details could potentially lead to misuse and it's also against most terms of service agreements, which could lead to penalties like losing access.\"\n}"
+}

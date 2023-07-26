@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A19",
+    "learning_objective": "Document programs in order to make them easier to follow, test, and debug.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Programming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a simple choose-your-own-adventure game where players select options to guide the main character's decisions. The code is getting larger and more complex. Which of the following is the best for Alex to do to make the program manageable and easier to debug?\",\n    \"Answer1\": \"Avoid writing comments in the program in order not to clutter the code. Instead, keep notes on a separate sheet detailing what each part of the program does.\",\n    \"Answer2\": \"Include comments in the program to explain what each part does, label the variables clearly, and group related parts of the code together so they can be found easily.\",\n    \"Answer3\": \"Focus only on writing the code and avoid exploring any errors until the end of writing the entire program.\",\n    \"Answer4\": \"Put all of the code on one line to reduce the total number of lines in the file and make it easier to scroll through the code.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Commenting the code, using clear labels for variables and grouping related parts of the code together helps make the program easier to read and understand, which aids the debugging process.\"\n}"
+}

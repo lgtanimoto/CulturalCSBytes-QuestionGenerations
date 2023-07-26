@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Gaming Communities and Online Platforms",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a part of a large gaming community and decides to survey the most popular online platforms among the members. They script a program to tally the votes but after running the script, they discover that the graph illustrating the data is incomplete. What modification should Alex make to fix the program and properly represent the data?\",\n    \"Answer1\": \"Modify line 6: dataPoint = platformName\",\n    \"Answer2\": \"Modify line 3: integer dataPoint = 0\",\n    \"Answer3\": \"Modify line 5: dataPoint = 1\",\n    \"Answer4\": \"Modify line 1: text platformName = \\\"\\\"\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The original chart is incomplete because 'dataPoint' is updated with 0 in line 3 and never changes. 'dataPoint' is supposed to keep count of each platform's popularity, thus it should be incremented in line 5 every time the platform name matches. Alex should update 'dataPoint = 1' to 'dataPoint = dataPoint + 1' to fix the problem.\",\n    \"code_snippet\": \"text platformName = getNextPlatform()\\ninteger dataPoint = 0\\nwhile hasNextPlatform()\\n    if getNextPlatform() = platformName\\n        dataPoint = 1\\n    end\\nend\\noutput platformName + \\\": \\\" + dataPoint\"\n}"
+}

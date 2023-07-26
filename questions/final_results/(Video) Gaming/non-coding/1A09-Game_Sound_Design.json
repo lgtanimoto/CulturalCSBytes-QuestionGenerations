@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Sound Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a game designer and they are working on a game where players can collect different runes. Each rune has a different sound when picked up. In order to easily implement these sounds, Alex assigns each rune with a unique number code that refers to a specific sound stored on the database. Which CS principle is Alex utilizing in designing the runes' sound effects?\",\n    \"Answer1\": \"Alex is utilizing the principle of Abstraction\",\n    \"Answer2\": \"Alex is not utilizing any CS principle\",\n    \"Answer3\": \"Alex is utilizing the principle of Data Representation\",\n    \"Answer4\": \"Alex is utilizing the principle of Sequencing\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex is representing each unique sound with a number, which is a method of Data Representation. This way, they can efficiently store and manipulate each rune's sound in the game.\"\n}"
+}

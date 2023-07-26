@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C02",
+    "learning_objective": "Compare levels of abstraction and interactions between application software, system software, and hardware layers.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Painting",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex just bought a new drawing tablet and downloaded an application software to create digital art. While Alex is sketching, they started wondering how the drawing translates into the completed image on the computer screen. Which level of abstraction is responsible for this transformation from Alex's manual sketching on the tablet into a digital image on the computer screen?\",\n    \"Answer1\": \"Hardware layer where the physical components control the process\",\n    \"Answer2\": \"Applicative software layer where the sketching becomes a digital image\",\n    \"Answer3\": \"System software layer where the operating system translates the user input into machine understandable instructions\",\n    \"Answer4\": \"The transformation happens simultaneously across all layers\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While all layers are crucial in the process, the system software is the primary layer responsible for interpreting the commands from the application software, created by the user's sketching on the tablet, into something the hardware layer, namely the monitor, can understand and display as a digital image.\",\n    \"code_snippet\": \"action TabletSketching\\n    Pen p\\n    \\n    boolean sketching = true\\n    \\n    while sketching\\n        if p.Moves()\\n            p.Draw()\\n        end\\n    end\\nend\"\n}"
+}

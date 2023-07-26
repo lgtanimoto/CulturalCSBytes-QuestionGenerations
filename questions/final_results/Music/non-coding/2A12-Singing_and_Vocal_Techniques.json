@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Music",
+    "topic": "Singing and Vocal Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a coding and music enthusiast who loves playing around with digital audio processing. Alex already has a basic program that records a vocal track, but now they want to create a new program that will apply a 'reverb' effect to the recorded audio to make it sound like it was recorded in a concert hall rather than a small room. Which steps describe how Alex can accomplish their goal?\",\n    \"Answer1\": \"Alex must write an entirely new program from scratch to add this new feature\",\n    \"Answer2\": \"Alex can add a few lines to his existing program to introduce the 'reverb' effect\",\n    \"Answer3\": \"Alex can study existing programs that add 'reverb' to vocal tracks, remix or incorporate relevant sections into his own program, and make necessary modifications to make the effects work with his existing audio recording functionality\",\n    \"Answer4\": \"Alex should record the audio in a concert hall instead of trying to add the 'reverb' effect digitally\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The best approach for Alex would be to study relevant sections from existing programs, incorporate them into his own code, and make modifications where necessary. This approach is efficient and also a great way to learn from others' work.\"\n}"
+}

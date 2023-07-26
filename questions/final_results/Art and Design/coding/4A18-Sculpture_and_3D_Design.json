@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "Art and Design",
+    "topic": "Sculpture and 3D Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is in a sculpture and 3D design class. They are trying to make a 3D model of a cube in a digital design program using a code snippet in Quorum programming language, but they are struggling. Which of the following Quorum procedures likely creates a cube in this digital design program?\",\n    \"Answer1\": \"CreateCube(number sides, number dimension)\",\n    \"Answer2\": \"CreateSquare(number dimension)\",\n    \"Answer3\": \"Cube(number edge)\",\n    \"Answer4\": \"ModelCube(number edge)\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Like a cube, a sculpture is an artifact created using procedures within a program. The CreateCube procedure with sides and dimensions as arguments would likely create a cube in this digital design program.\",\n    \"code_snippet\": \"CreateCube(6, 2)\"\n}"
+}

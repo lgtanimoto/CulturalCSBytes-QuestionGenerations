@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a digital artist who keeps track of their art pieces and measures success by the times each of their drawings or animations are viewed. They noticed that a particular drawing was largely viewed more than an animation. Alex then made a graph displaying the number of views for each type of art they make. This graph indicates that drawings generally get double the views as animations. If Alex creates a new animation and expects to get 500 views, how many views can they expect if they make a drawing instead?\",\n    \"Answer1\": \"250 views\",\n    \"Answer2\": \"750 views\",\n    \"Answer3\": \"1000 views\",\n    \"Answer4\": \"500 views\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"As depicted by the graph, the drawings generally get double the views as animations. So, if Alex expects to get 500 views for an animation, they can expect to get 1000 views for a drawing.\"\n}"
+}

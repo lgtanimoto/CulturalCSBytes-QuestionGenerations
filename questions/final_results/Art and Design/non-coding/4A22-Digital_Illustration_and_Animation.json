@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are working on a group project to create a digital illustration and animation. The project requires artwork creation, coding for animation, and project management. Which of the following methods will ensure the most effective collaboration among the team members?\",\n    \"Answer1\": \"Alex does all the work alone to ensure consistency throughout the project.\",\n    \"Answer2\": \"Each member of the team works on a separate, independent part of the project without any overlap.\",\n    \"Answer3\": \"Each member works on what they are best at and regularly communicates with others to share progress, provide feedback, and troubleshoot problems.\",\n    \"Answer4\": \"The team comes together to work in short sprints, with each member switching tasks after each sprint.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Effective teamwork requires each member contributing their strengths and regularly communicating with others. Holding each other accountable through regular communication not only promotes efficiency but also ensures the consistency of the final product.\"\n}"
+}

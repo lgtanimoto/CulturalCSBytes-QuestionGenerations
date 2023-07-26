@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C01",
+    "learning_objective": "Select and operate appropriate software to perform a variety of tasks, and recognize that users have different needs and preferences for the technology they use.",
+    "interest_area": "Music",
+    "topic": "Musicals and Broadway",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been tasked with organizing a school musical. They need to coordinate schedules, manage ticket sales, create and share promotional materials, and keep track of the budget among many other tasks. Which type of software will best help Alex manage these many tasks efficiently?\",\n    \"Answer1\": \"Image editing software (e.g., Adobe Photoshop, GIMP)\",\n    \"Answer2\": \"Project management software (e.g., Trello, Asana)\",\n    \"Answer3\": \"Music production software (e.g., Ableton, FL Studio)\",\n    \"Answer4\": \"Word processing software (e.g., Google Docs, Microsoft Word)\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In this case, the most suitable software for Alex would be the project management software. While other software tools mentioned in the answers have their unique uses, project management software will allow Alex to keep track of all their tasks, delegate tasks to team members, track the progress of each task and meet the deadlines. It's the right tool to help them manage a project as complex as a school musical.\"\n}"
+}

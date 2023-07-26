@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "Music",
+    "topic": "Music Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a talented musician and loves creating their own interpretations of popular songs. However, they've been informed that they can't perform these interpretations in public or upload them online without paying royalties to the original songwriters. How might this impact Alex's future career as a musician?\",\n    \"Answer1\": \"Alex will be prevented from ever pursuing a music career.\",\n    \"Answer2\": \"This could encourage Alex to create their own original songs instead of performing other artists' songs.\",\n    \"Answer3\": \"Alex will not be able to earn any income from their interpretations unless they accept they need to pay royalties.\",\n    \"Answer4\": \"This will create a financial burden for Alex due to the constant need to pay for the use of other artists' music.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"This law could serve as a motivation for Alex to develop their own music, potentially fostering innovation and creativity. The others options depict more negative consequences, whereas this answers works within the constraints of the legal system while still finding a positive impact.\"\n}"
+}

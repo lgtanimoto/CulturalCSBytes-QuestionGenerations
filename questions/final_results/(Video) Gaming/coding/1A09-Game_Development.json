@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex loves game development and they are developing a new game. In this game, the player collects coins. Alex has this piece of code that counts the number of coins a player has collected and outputs it. However, Alex wants that for every 10th coin, the system should output 'Bonus Coin' instead of the coin number. Which line should Alex change to fulfill this condition?\",\n    \"Answer1\": \"Change Line 2: 'repeat 20 times'\",\n    \"Answer2\": \"Change Line 3: 'integer count = count + 2'\",\n    \"Answer3\": \"Change Line 4: 'if count mod 10 == 0'\",\n    \"Answer4\": \"Change Line 5: 'output 'Bonus Coin''\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"On Line 3, Alex needs to include a conditional statement that checks if the current count is a multiple of 10 ('if count mod 10 == 0'), since that is when a bonus coin should be announced.\",\n    \"code_snippet\": \"integer count = 0\\nrepeat 20 times\\n    count = count + 1\\n    output \\\"Coin: \\\" + count\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D08",
+    "learning_objective": "Collect data using computational tools and transform the data to make it more useful and reliable.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Accessibility",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves game design and wants to ensure that the games they develop are accessible to everyone. As part of their project, Alex wants to create a survey to collect data on how different individuals interact with games (e.g. via a keyboard, touchscreen, game console, accessibility devices, etc.). Alex then wants to analyze this data and use it to improve their game design. Describe a potential issue that might arise during the data collection process and provide a solution that uses computational tools.\",\n    \"Answer1\": \"The answers may be too generalized as some people use multiple devices on different occasions. An online survey tool like Google Forms should be used to allow multiple answers in the question.\",\n    \"Answer2\": \"Some players might not understand the technical terms used in the survey, making the data collected unreliable. Alex should include explanations or examples in the survey to clarify the terms.\",\n    \"Answer3\": \"People who don\u2019t play games may not respond to the survey, causing a biased sample. Alex should target the survey to specific online gaming communities for more reliable data.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All options are potential issues that could arise during the data collection process. Using computational tools, such as an online survey tool and targeting specific communities provides more reliable and useful data.\"\n}"
+}

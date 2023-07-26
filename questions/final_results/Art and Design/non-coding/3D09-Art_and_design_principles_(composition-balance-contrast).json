@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "Art and Design",
+    "topic": "Art and design principles (composition, balance, contrast)",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed a computational model that generates a new art piece each time it's run. They've produced ten art pieces with this model and want to analyze them. Alex uses principles of composition, balance, and contrast to evaluate their generated arts. When looking at these pieces as a whole, Alex notices a trend of cluttered compositions. How might Alex refine their computational model based on these observations?\",\n    \"Answer1\": \"Alex could introduce additional constraints to the model to limit the number of elements it includes in each composition.\",\n    \"Answer2\": \"Alex could increase the number of elements generated in each composition to create more cluttered designs.\",\n    \"Answer3\": \"Alex may choose not to refine their computational model, as all generated art pieces are perfect in their own way.\",\n    \"Answer4\": \"Alex could refine their model to generate compositions using only primary colors.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Introduction of additional constraints to limit the number of elements in each composition will likely result in less cluttered compositions, adhering to the principle of balance. This demonstrates software\u2019s capacity for iteration and improvement based on trends identified in data.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A15",
+    "learning_objective": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+    "interest_area": "Music",
+    "topic": "Music Production and Recording",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program for a digital audio workstation (DAW). They want to create a function that adjusts the volume of individual audio tracks. The program needs to accept an input of trackID and volume level. Which control structure is likely the most beneficial for Alex to use in this scenario?\",\n    \"Answer1\": \"An iterative structure, such as a loop, to continuously adjust the volume levels of all the tracks in the DAW.\",\n    \"Answer2\": \"A sequence structure that processes the volume adjustment in the order that the trackIDs are input.\",\n    \"Answer3\": \"A selection structure, such as an 'if/else' statement, that adjusts the volume based on the condition that the trackID is correct.\",\n    \"Answer4\": \"A concurrent structure that will adjust the volume of multiple tracks at the same time.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In this situation, a selection structure like 'if/else' would be beneficial as it allows the program to adjust the volume based on the condition that the specific trackID is selected. Using an 'if/else' structure would ensure the correct track is selected and the appropriate volume adjustment is made, promoting program accuracy and efficiency.\"\n}"
+}

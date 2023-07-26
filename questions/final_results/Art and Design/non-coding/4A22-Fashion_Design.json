@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Art and Design",
+    "topic": "Fashion Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a fashion designing project, Alex and their team are collaborating on a dress designing program. Alex's responsibility is to write code that draws a dress based on various variables such as color, size, and style. The team is using a shared coding platform for collaborative work. Which variable names should Alex use to maximize clarity and collaboration efficiency among the team members?\",\n    \"Answer1\": \"d, s, and c\",\n    \"Answer2\": \"dre, sze, and cl\",\n    \"Answer3\": \"dress, size, and color\",\n    \"Answer4\": \"x, y, and z\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In collaborative projects, clear identifiers (variable names) are crucial for communication among team members. Answer 3, using the variable names 'dress', 'size', and 'color' for dress design, size of the dress and color respectively, are self-explanatory and unambiguous for understanding.\"\n}"
+}

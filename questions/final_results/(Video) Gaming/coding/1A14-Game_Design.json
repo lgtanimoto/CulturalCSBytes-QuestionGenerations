@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a 2D side-scrolling game where each level gets progressively harder. Alex notices that no matter what level the player is on, the difficulty remains the same. The code snippet below demonstrates the logic Alex has written to increase the difficulty as the player progresses. What error should Alex fix to properly scale the difficulty of each level?\",\n    \"Answer1\": \"Alex has mistakenly set the variable 'currentLevel' to zero in the loop, they should initialize 'currentLevel' to 1 outside the loop.\",\n    \"Answer2\": \"Alex has incorrectly used the multiplication operator to increase difficulty; they should substitute it with the addition operator.\",\n    \"Answer3\": \"Alex has mistakenly set the variable 'difficulty' to a constant number, they should make 'difficulty' a variable that changes according to 'currentLevel'.\",\n    \"Answer4\": \"Alex has mistakenly used a while loop, they should use a for loop.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex needs to initialize 'currentLevel' to 1 outside the loop. If 'currentLevel' is set to zero inside the loop every time, the difficulty will not increase as the variable 'currentLevel' will always be 0.\",\n    \"code_snippet\": \"integer currentLevel = 0\\ninteger difficulty = 10\\nwhile (currentLevel < 100)\\n    currentLevel = currentLevel * difficulty\\n    currentLevel = 0\\nend\"\n}"
+}

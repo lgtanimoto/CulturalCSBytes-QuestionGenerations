@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "Art and Design",
+    "topic": "Sculpture and 3D Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is refining a 3D printer program that prints components for a molecular model. Some of the program's users mentioned difficulty in telling apart similar molecules due to their similar shapes once printed. In order to make the model more accessible, which of the following changes should Alex make to the program?\",\n    \"Answer1\": \"Color the molecules based on their element type to differentiate\",\n    \"Answer2\": \"Increase the printing speed of the 3D printer\",\n    \"Answer3\": \"Change the print orientation of the molecules from vertical to horizontal\",\n    \"Answer4\": \"Allocate more system resources to the program for quicker processing\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Color coding the molecules based on their element type would make it easier for users to distinguish between different molecules, thereby making the model more accessible. The other choices, although might improve the program's efficiency, do not directly aid in user accessibility and usability.\"\n}"
+}

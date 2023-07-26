@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Marketing and Publishing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a game developer and has recently finished their first indie game. They are now ready to introduce their game to the world but are unsure about the next steps. Alex's friends suggest they consider different methods to store, access, modify, and share their game data. Which of the following options will NOT help Alex achieve these tasks?\",\n    \"Answer1\": \"Publishing the game on a major platform like Steam or Epic Games Store\",\n    \"Answer2\": \"Renting a dedicated server to host the game\",\n    \"Answer3\": \"Posting screenshots of the game on their personal Instagram account\",\n    \"Answer4\": \"Using a Content Delivery Network to distribute the game globally\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Although social media can be a powerful marketing tool, posting screenshots on Instagram does not enable Alex to store, retrieve, modify, or share their game as an accessible data source. The other options provide platforms for publishing, hosting anddistribution that would facilitate data handling in relation to the game.\"\n}"
+}

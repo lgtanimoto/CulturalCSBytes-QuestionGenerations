@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D10",
+    "learning_objective": "Evaluate the tradeoffs in how data elements are organized and where data is stored.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a game development project. They are currently deciding whether to store game assets like images, audio clips, and 3D models on the users' devices or to fetch them from a server each time they are needed. What are some potential tradeoffs Alex should consider in making this decision?\",\n    \"Answer1\": \"Storing the assets on the user's device can make the game load and run more quickly, but it will also increase the amount of storage the game takes up on the user's device.\",\n    \"Answer2\": \"Fetching assets from a server may cause slower game loading and potential issues if a player has a slow internet connection or loses internet connectivity, but uses less storage on the user's device.\",\n    \"Answer3\": \"The more often a particular asset is utilized within the game, the more beneficial to overall game performance it may be to store on the user's device.\",\n    \"Answer4\": \"All of the above.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All of the given options are correct. The storage tradeoff between loading speed and device storage capacity should be kept in mind, as well as the game's performance in different internet connection scenarios, and the frequency of use of each individual game asset.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A10",
+    "learning_objective": "Create programs that include sequences, events, loops, and conditionals.",
+    "interest_area": "Music",
+    "topic": "Music in Film and Media",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a video game and they want to include background music that changes based on the events in the game. To ensure smooth transitions of the music they plan to use programming. Which programming patterns should Alex consider to implement this feature?\",\n    \"Answer1\": \"Create a sequence of music pieces that plays continuously, regardless of the events in the game\",\n    \"Answer2\": \"Use conditionals to play different music pieces based on the character's actions, and loops to replay each music piece\",\n    \"Answer3\": \"Use a loop to constantly check if an event has occurred and play a sound effect if it has\",\n    \"Answer4\": \"Randomly select a music piece whenever the game is loaded\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should use a conditional code structure to determine which music piece to play based on different events in the game. This can make the gameplay more engaging as it provides the player a more immersive experience. Furthermore, loops can be used to keep checking the game's status to determine if the music should change.\"\n}"
+}

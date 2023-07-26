@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a digital illustration of a blooming flower for the school's earth day presentation. They also want to animate the bloom by using a JavaScript for the event. Alex wants to explain their code to the programming club. What should they include in their presentation?\",\n    \"Answer1\": \"Only explanation of the animation portions of the code\",\n    \"Answer2\": \"Detailed comments in the code, followed by a demonstration of the animation with pointers to specific sections of the code\",\n    \"Answer3\": \"Only comments in the code, no oral explanation is necessary\",\n    \"Answer4\": \"Just let the club members read the code, they will understand everything\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"When explaining code it's important to not only include comments in the code but also explain the major functions, choices made, the goal of the code, and how different parts interact. A demonstration of the code in action, with pointers to specific code sections helps in better understanding especially for visual learners.\"\n}"
+}

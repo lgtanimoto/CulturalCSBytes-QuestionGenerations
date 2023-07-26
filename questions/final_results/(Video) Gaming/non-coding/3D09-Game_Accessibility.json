@@ -1,0 +1,8 @@
+{
+    "MQCode": "3D09",
+    "learning_objective": "Refine computational models based on the data they have generated.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Accessibility",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"While working on their game's character customization menu, Alex receives feedback that many players are unable to distinguish between character clothing options due to color blindness. Recognizing that this is an accessibility issue, Alex decides to revise their computational model.  Before making this change, Alex\u2019s model represents clothes for the character with a series of color codes. What would be a good step to address the issue?\",\n    \"Answer1\": \"Remove all color from the game\",\n    \"Answer2\": \"Limit the clothing options only to colors visible by all types of color blindness\",\n    \"Answer3\": \"Include a description of the clothing item\u2019s color alongside the color selection\",\n    \"Answer4\": \"Have an option to fill in the clothing color with patterns instead of solid colors\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Including a description of the clothing item\u2019s color alongside the color selection is a good step towards making the game more accessible for individuals with color blindness. This would allow those with color blindness to understand the color of the clothing item, even if they can't perceive the color accurately. Another way to aid in differentiation could be to use patterns or varying shades of grey to differentiate clothing items, as mentioned in Answer 4.\"\n}"
+}

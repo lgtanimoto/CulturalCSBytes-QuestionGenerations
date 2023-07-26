@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Esports and Competitive Gaming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves playing a popular online multiplayer game and is very good at it. They dream of making it big in the esports industry. However, being the only hearing-impaired player in their gaming community poses some challenges. The high-paced game relies heavily on audio cues for competitiveness. Which of the following statements highlights the issue of bias and accessibility in this scenario?\",\n    \"Answer1\": \"The esports industry primarily rewards players based on their competitive skill, regardless of disability.\",\n    \"Answer2\": \"Alex, as a hearing-impaired player, will always be at a disadvantage in a game that depends on sound cues.\",\n    \"Answer3\": \"As an excellent player, Alex's unique strategy and gameplay could serve to inspire other players to adopt a similar playstyle.\",\n    \"Answer4\": \"Alex's hearing impairment doesn't alter their love for gaming, showing that personal passion surpasses physical obstacles.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"This scenario represents a classic case of bias and accessibility difficulty in game design. Games that rely heavily on regular audio cues may not account for the needs of hearing-impaired players, hence narrowing the scope of inclusivity in the design of the technology.\"\n}"
+}

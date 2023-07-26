@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "Art and Design",
+    "topic": "Video Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is in the process of uploading a video documentary they have made onto a video streaming platform for their friends to watch. As part of the process, Alex's video is broken into data packets and sent over the internet to the video streaming platform where the data packets are put back together to make the complete video. What is this process referred to?\",\n    \"Answer1\": \"Data Diagnostics\",\n    \"Answer2\": \"Distributed Network\",\n    \"Answer3\": \"Data Packeting\",\n    \"Answer4\": \"Data Packet Transmission Protocol\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"In order to enable transmission across the network, large amounts of data are broken down into small units called packets, as it is an efficient way to send and receive data over the internet. The process Alex's video is undergoing called Data Packet Transmission Protocol which ensures the correct sequencing of the data and reassembles the message correctly on the receiving side.\"\n}"
+}

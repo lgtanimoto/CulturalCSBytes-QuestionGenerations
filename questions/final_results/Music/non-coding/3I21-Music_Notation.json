@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I21",
+    "learning_objective": "Discuss issues of bias and accessibility in the design of existing technologies.",
+    "interest_area": "Music",
+    "topic": "Music Notation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is an enthusiastic music student with a visual impairment. They use a screen reader and refreshable Braille display to study their favorite compositions. Alex wants to explore a music notation software to compose their music. Which of the following options would represent an issue of bias and lack of accessibility in existing music notation software?\",\n    \"Answer1\": \"The music notation software doesn't support Braille music notation.\",\n    \"Answer2\": \"The price of the music notation software is higher than other similar software.\",\n    \"Answer3\": \"The software's user interface uses a monochromatic color scheme.\",\n    \"Answer4\": \"The music notation software offers a variety of music samples from various genres.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Music notation software that doesn't support Braille music notation is not fully accessible to visually impaired musicians like Alex, thus represents an issue of bias and accessibility. The other options might be problems, but they are not directly related to bias or accessibility.\"\n}"
+}

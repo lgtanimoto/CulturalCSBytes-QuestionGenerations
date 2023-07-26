@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C01",
+    "learning_objective": "Describe how internal and external parts of computing devices function to form a system.",
+    "interest_area": "Music",
+    "topic": "Music Production and Recording",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"As an aspiring music producer, Alex is interested in setting up their own home studio to record and produce music. They have a computer, a set of studio headphones, a high-fidelity microphone, and a MIDI keyboard. What piece of hardware might they need to ensure all these devices can interact efficiently and produce high-quality audio recordings?\",\n    \"Answer1\": \"An extra RAM\",\n    \"Answer2\": \"An audio interface\",\n    \"Answer3\": \"A graphics card\",\n    \"Answer4\": \"An extra hard drive\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"An audio interface is a critical piece of hardware in a recording setup. It is responsible for converting the analog signals from the microphone into digital signals for the computer to process and vice versa. It also serves as a hub for connecting all audio devices, ensuring they work together seamlessly.\"\n}"
+}

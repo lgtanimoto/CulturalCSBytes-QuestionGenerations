@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Marketing and Publishing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a game developer who just finished creating a new card game. However, they discovered a similar card game that was launched recently by another developer. The mechanics of the recently launched game are different, but the theme and look are strikingly similar to Alex's game. What is a potential issue that copyright laws might impose against Alex and their game?\",\n    \"Answer1\": \"Alex can easily market their game without any issues since the mechanics of their game are different.\",\n    \"Answer2\": \"Alex could be held legally responsible for copyright infringement even though they independently developed their game.\",\n    \"Answer3\": \"Alex can market their game using the same promotional campaigns as the already launched game.\",\n    \"Answer4\": \"Alex's game would be automatically banned across different platforms for its similarities.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Copyright laws could impose restrictions on Alex's game due to its visual and thematic similarity to another game, even if Alex independently developed their game. It's important to note that this doesn't mean Alex's game will be automatically banned or disallowed, but it does increase potential legal risk.\"\n}"
+}

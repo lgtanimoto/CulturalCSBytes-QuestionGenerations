@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Photography and Photo Editing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has just discovered the magic of photo editing software. Their younger sibling, Taylor, is concerned that Alex is spending too much time editing their vacation photos. Which of the following is not an impact of photo editing on personal, ethical, social, economic, or cultural practices?\",\n    \"Answer1\": \"Photo editing software allows Alex to project an unrealistically perfect image on social media, potentially leading to unrealistic standards of beauty and lifestyle.\",\n    \"Answer2\": \"Alex might spend a significant amount of money on photo editing software, contributing to the economic success of the companies that create such software.\",\n    \"Answer3\": \"Photo editing software provides a tool for Alex to express their creativity and can be a healthy way to relax and unwind.\",\n    \"Answer4\": \"If Alex uses their photo editing skills to alter photos to take them out of context or spread false information, this could lead to trust issues among Alex's social network. \",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While some people might use photo editing as a healthy creative outlet, others might perceive this activity as a time-consuming, anti-social behavior. However, it does not necessarily have a negative impact on personal, ethical, social, economic, or cultural practices.\"\n}"
+}

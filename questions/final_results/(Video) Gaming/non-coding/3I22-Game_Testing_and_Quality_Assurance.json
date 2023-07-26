@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I22",
+    "learning_objective": "Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Testing and Quality Assurance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been working diligently on their new mobile game. After months of hard work, they have developed what they believe to be an engaging and challenging game. Before releasing it to the public, Alex wants to ensure that the game's experience is smooth and enjoyable across a variety of devices and platforms. Which approach should Alex take in order to gather the most comprehensive feedback?\",\n    \"Answer1\": \"Release the game only on a single platform and observe the user reviews.\",\n    \"Answer2\": \"Only test the game on devices they own to ensure full control over the testing process.\",\n    \"Answer3\": \"Crowdsource game testing by providing a test version of the game to a large group of beta testers from divergent backgrounds and platforms.\",\n    \"Answer4\": \"Only trust their own judgement and not seek out any additional testing.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Crowdsourcing game testing is an effective way to gather comprehensive feedback about the game. With this approach, Alex can gather real-time feedback from a large number of people with diverse backgrounds and various devices, thus making the game more reliable and user-friendly.\"\n}"
+}

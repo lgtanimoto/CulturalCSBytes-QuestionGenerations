@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Music",
+    "topic": "Musical Instruments",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is part of an online forum about musical instruments. They see a thread where a user is asking for advice on how to play a particular challenging guitar chord, but people are reacting negatively and making disrespectful comments about the user's assumed ability. What would be the most respectful and responsible response from Alex?\",\n    \"Answer1\": \"Agree with others and comment about the user's apparent lack of skill.\",\n    \"Answer2\": \"Ignore and not respond to the post at all.\",\n    \"Answer3\": \"Make a sarcastic comment suggesting the user should give up on their guitar learning endeavours.\",\n    \"Answer4\": \"Provide a constructive and supportive response on how to approach the challenging chord whilst reporting inappropriate comments to forum moderators.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Online, we should work to create respectful, supportive spaces. This means when someone is asking for help, contributing helpfully and thoughtfully so as not to discourage them. Any inappropriate or mean-spirited comments should be reported to maintain a safe and healthy online community.\"\n}"
+}

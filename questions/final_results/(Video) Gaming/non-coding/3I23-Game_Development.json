@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I23",
+    "learning_objective": "Describe tradeoffs between allowing information to be public and keeping information private and secure.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing an online multiplayer game where players can share their in-game achievements in a public community feed with the other players. However, Alex is concerned about the players' privacy. What would be a trade-off between making this information public and keeping it private?\",\n    \"Answer1\": \"Making the information public could create a sense of community and competition among players, but it could potentially expose private information that players may not want to share.\",\n    \"Answer2\": \"If the information is public, then there is no need for secure data storage and encryption, meaning lower costs for Alex.\",\n    \"Answer3\": \"Making the information private makes the system more secure but creates a barrier for player interaction and community formation.\",\n    \"Answer4\": \"If the information is kept private, players would feel safer but it may be harder for Alex to attract new players due to the lack of public community engagement.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The intent behind making the achievements public is to foster a sense of community and competition. However, this has to be balanced against the need for privacy. Alex will need to ensure that while enabling sharing, they do not expose any private player information that the player may not want to be shared.\"\n}"
+}

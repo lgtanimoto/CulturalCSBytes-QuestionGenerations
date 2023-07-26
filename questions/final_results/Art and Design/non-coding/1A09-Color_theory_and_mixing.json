@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been learning about color theory and mixing colors in their art class. They decide to create a program that can mix two color values together using the additive color model (where red, green, and blue light are added together). They want to program to be able to accept two colors as inputs, modeled as RGB values (red, green, blue), each ranging from 0 to 255. For each pair of corresponding RGB values from the two input colors, the program should calculate the average to find the RGB values for the mixed color. Which of the following code snippets accomplishes this?\",\n    \"Answer1\": \"def mix_colors(color1, color2):return [(x + y) / 2 for x, y in zip(color1, color2)]\",\n    \"Answer2\": \"def mix_colors(color1, color2):return [(x + y) / 2 for x, y in color1, color2]\",\n    \"Answer3\": \"def mix_colors(color1, color2):return [(color1[i] + color2[i]) / 2 for i in range(3)]\",\n    \"Answer4\": \"def mix_colors(color1, color2):return [sum(x, y) / 2 for x, y in zip(color1, color2)]\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct solution uses list comprehension with the zip function to pair up each corresponding RGB value from the two input colors. It then uses the formula for calculating the average of two numbers to find the RGB values for the mixed color. This technique of modeling data as numbers and manipulating those numbers is a common tactic in many fields of computer science.\"\n}"
+}

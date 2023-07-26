@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Art and Design",
+    "topic": "Video Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a short film for their digital media class based on a popular novel. They want to use a popular song as background music during one of the scenes. Which of the following is an appropriate and respectful way to go about this?\",\n    \"Answer1\": \"Alex may use the song without permission, as it enhances their film and isn't meant to make a profit.\",\n    \"Answer2\": \"Alex may use the song, but they have to give credit to the song's artist in their film's credits.\",\n    \"Answer3\": \"Alex should contact the song's copyright holder for permission to use it in their film.\",\n    \"Answer4\": \"Alex should ignore the copyright and use the song, believing it's unlikely they would be caught.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"It's important to respect the rights of others' creative works. Even for a school project, Alex should obtain permission to use copyrighted material.\"\n}"
+}

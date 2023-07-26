@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Music",
+    "topic": "Music Composition and Arrangement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex likes to mix songs and create new music from existing pieces. Their latest project involves merging two popular songs to create a new track. What is the most appropriate way for Alex to respect the intellectual property rights of the original artists while proceeding with their project?\",\n    \"Answer1\": \"Alex should give credit to the original artists in their new composition's title, but doesn't need to obtain permission from them.\",\n    \"Answer2\": \"Alex doesn't need to do anything, as long as they aren't selling their new composition.\",\n    \"Answer3\": \"Alex should obtain the necessary permissions from the original artists or their recording label, and provide appropriate credit in their new track's title and liner notes.\",\n    \"Answer4\": \"Alex should only credit the artist whose song is more popular.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex should always respect intellectual property rights when creating or remixing programs, which includes obtaining the necessary permissions from the original artists or their recording label and providing appropriate credit.\"\n}"
+}

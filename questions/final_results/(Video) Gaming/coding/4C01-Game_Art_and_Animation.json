@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is an aspiring game developer and they are learning about the concept of abstraction in computer science. To comprehend the concept, they create a small animation in their new game where a character jumps when a button is pressed. What code comment should Alex add to emphasise the abstraction process in their game's animation?\",\n    \"Answer1\": \"// This code allows the character to jump when the player presses the jump button\",\n    \"Answer2\": \"// This code details are hidden to make the process of character jumping when the jump button is pressed easier to use\",\n    \"Answer3\": \"// This code specifies the coordinates for pixel rendering for character animation\",\n    \"Answer4\": \"// This code has the debugging process of the animation\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Abstraction in Computer Science means simplifying complex systems by breaking them down into smaller parts, hiding the complex details and exposing only what is necessary. In this context, the code for how the jump animation is created (the pixels, the colors, the height of the jump etc.) are hidden away, and all that is exposed to the user (the game player) is the simple act of pressing a button to make the character jump.\",\n    \"code_snippet\": \"action Jump\\n    if buttonPress = true\\n        player.jump()\\n    end\\nend  \"\n}"
+}

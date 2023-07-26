@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "Art and Design",
+    "topic": "Sculpture and 3D Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has always been passionate about sculpture and has recently started learning 3D design. They have made a 3D model design of a famous sculpture they admire and are considering selling replicas online. They're, however, uncertain about how intellectual property laws might affect their plans. Which of the following is a harmful effect that intellectual property laws can have on Alex's innovation?\",\n    \"Answer1\": \"Intellectual property laws may prevent Alex from profiting from the replication of copyrighted or trademarked works, even if they make modifications to it.\", \n    \"Answer2\": \"Intellectual property laws could protect Alex's design once it's complete, making it illegal for others to copy their work.\",\n    \"Answer3\": \"Intellectual property laws can legally support Alex's right to sell their works online.\", \n    \"Answer4\": \"Alex can apply for a patent for their replicated sculptures, making them the only person allowed to produce and sell that design.\", \n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"While intellectual property laws could protect Alex's unique designs, it could also potentially block their attempts to profit from designs based on existing copyrighted or trademarked works. Overall, these laws strive for a balance between protecting the rights of original creators and promoting innovation.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A16",
+    "learning_objective": "Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation, and review stages of program development.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Programming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Faye is working on a team to develop a new mobile game. Each team member has a specific role. Alex is a back-end developer and has built a solid database. However, the front-end design isn't user-friendly and players are dropping from the game as a result. Alex knows they can fix the front-end problem, but doing so means stepping outside of their role. What should Alex do?\",\n    \"Answer1\": \"Alex should ignore the problem because it's not their role to fix the front-end design.\",\n    \"Answer2\": \"Alex should fix the front-end without telling anyone because they don't want to upset the front-end developer.\",\n    \"Answer3\": \"Alex should talk to the team leader or bring up at the next team meeting that they have some ideas to improve the front-end design.\",\n    \"Answer4\": \"Alex should quit the team because the front-end designer isn't doing their job.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While it is important to respect the roles and responsibilities within a team, it is also beneficial to share ideas and solutions that can improve the project. A clear communication is the key in such situations.\"\n}"
+}

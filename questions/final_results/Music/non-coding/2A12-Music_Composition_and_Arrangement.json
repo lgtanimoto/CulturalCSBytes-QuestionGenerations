@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Music",
+    "topic": "Music Composition and Arrangement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating their own music composition on a digital music arrangement platform. They find an existing drumline program in the platform's database that they want to remix and include in their composition. According to the principles of computer science, how should Alex go about modifying this program?\",\n    \"Answer1\": \"Alex should overwrite the existing drumline program with their own music composition\",\n    \"Answer2\": \"Alex should extract parts of the drumline program and incorporate them into their music composition, and write comments to annotate their modifications\",\n    \"Answer3\": \"Alex should copy the whole drumline program into their own composition without any changes\",\n    \"Answer4\": \"Alex should delete the drumline program because it's not their original work\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Modification and remixing are considering using existing parts of a program and incorporating them into one's own work. This might involve altering or adding more features to the existing work. In order to effectively indicate the changes for future reference and clarity, it is advisable to annotate the modifications with code comments.\"\n}"
+}

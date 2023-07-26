@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A11",
+    "learning_objective": "Decompose (break down) the steps needed to solve a problem into a precise sequence of instructions.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is given a task to program an artificial intelligence system related to color theory. The system should get two primary colors as inputs and return the resulting secondary color when these primary colors are mixed together. How should Alex decompose or break down this problem into a sequence of instructions?\",\n    \"Answer1\": \"Create a loop to run through all color combinations and return all possible secondary colors\",\n    \"Answer2\": \"Create a function that gets two primary colors as inputs and returns a secondary color without considering color theory\",\n    \"Answer3\": \"Define the primary and secondary colors, create a function that gets two primary colors as inputs and uses a conditional statement to match these primary colors with a secondary color\",\n    \"Answer4\": \"Define a function to mix the colors without defining primary and secondary colors\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The correct approach to solving this problem involves decomposition which permits Alex to break down the problem into a set of clear instructions. First, they must define the primary (blue, red, yellow) and secondary (green, orange, purple) colors. Next, they create a function that inputs two primary colors and uses a conditional (if-else) statement to match these primary colors with the corresponding secondary color. The other options are inaccurate as they do not address the problem in a logical and methodical way.\"\n}"
+}

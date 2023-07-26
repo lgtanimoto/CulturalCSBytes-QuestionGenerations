@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is in charge of the art team for a new indie video game studio. Their latest game has gained significant attention, and they are deeply worried about protecting their game's digital assets. What are some ways they can take to safeguard their assets from malware and other attacks?\",\n    \"Answer1\": \"They can ask their team members not to show the files to anyone else.\",\n    \"Answer2\": \"They can store the assets on a single hard drive and keep it hidden from everyone.\",\n    \"Answer3\": \"They can keep their development systems updated, use antivirus and firewall software, limit network access to important assets, regularly backup data, and employ secure file transferring methods.\",\n    \"Answer4\": \"They can share everything on a public drive as a diversionStrategy.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Digital assets should be protected by following good security practices. This includes keeping systems updated as hackers can exploit vulnerabilities in outdated systems; using antivirus software to ward off malware; making use of firewall to block unwanted network traffic; limiting access to the assets to only those who need to work on them; performing regular backups to recover from potential data breaches; and ensuring secure methods to upload, download and transfer files. Openly sharing sensitive files is a very risky strategy and should be avoided.\"\n}"
+}

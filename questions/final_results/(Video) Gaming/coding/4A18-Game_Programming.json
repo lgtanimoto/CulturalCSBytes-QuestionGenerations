@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Programming",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a simple game where players can score points by shooting targets. Each shot successfully hitting a target earns the player 10 points. After writing some initial code, their code looks like the following:What will be the total score if Alex calls ShootTarget() five times?\",\n    \"Answer1\": \"50\",\n    \"Answer2\": \"60\",\n    \"Answer3\": \"40\",\n    \"Answer4\": \"10\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Every time ShootTarget() is called, it increases the variable 'Score' by 10. So, if it is called five times, the total score will be 5 * 10 = 50\",\n    \"code_snippet\": \"class Player\\n    integer Score = 0\\n    \\n    action ShootTarget()\\n        Score = Score + 10\\n    end\\nend\\n\\naction Main\\n    Player Alex\\n    output Alex.ShootTarget()\\nend\"\n}"
+}

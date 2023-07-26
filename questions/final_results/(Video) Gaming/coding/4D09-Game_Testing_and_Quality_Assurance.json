@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Testing and Quality Assurance",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a game tester at a local computer game company. One part of Alex's job is to understand different bit representations used in games. Alex has been assigned to check if the code responsible for the character's health is working correctly. The code snippet below is what Alex is testing:If the health of a character in the game is represented as '101100', what does it translate to in the decimal number system?\",\n    \"Answer1\": \"44\",\n    \"Answer2\": \"38\",\n    \"Answer3\": \"45\",\n    \"Answer4\": \"46\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Translate between different bit representations can allow us to understand real-world phenomena such as game character health. In binary '101100' translates to 44 in decimal.\",\n    \"code_snippet\": \"integer health = 0b101100\\noutput \\\"Health: \\\" + health\"\n}"
+}

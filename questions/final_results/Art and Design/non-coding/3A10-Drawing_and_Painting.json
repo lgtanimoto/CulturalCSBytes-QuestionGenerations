@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A10",
+    "learning_objective": "Use flowcharts and/or pseudocode to address complex problems as algorithms.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Painting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Gabby is creating a computer program to automatically paint a canvas. The program will paint each section of canvas in a random color, then shift to the next section. However, if a section is next to one with the same color it just painted, the program will skip that section and continue. Alex is asked to make a flowchart or pseudocode to describe this algorithm. What would be the optimal pseudocode?\",\n    \"Answer1\": \"For each section in canvasif section is not the same color as last, paint the sectionelse, move to next sectionend loop\",\n    \"Answer2\": \"For each section in canvasif section is same color as last, paint the sectionelse, move to next sectionend loop\",\n    \"Answer3\": \"Repeat until all sections are paintedIf section is not same color as last, paint the section and move to next sectionEnd loop\",\n    \"Answer4\": \"Repeat until all sections are paintedif section is same color as last, paint the section and move to next sectionend loop\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The correct pseudocode reflects the rules given. It explains that for each section, if it's not the same color as the previous one, the section gets painted and then moves to the next. If it's the same color, it'll simply skip to the next unprocessed section.\"\n}"
+}

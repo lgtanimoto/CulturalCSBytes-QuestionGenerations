@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Gaming Communities and Online Platforms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a new multiplayer game that allows users to chat with each other during gameplay. They want to ensure the chat function works correctly. Which series of test cases should Alex consider to systematically test this chat function?\",\n    \"Answer1\": \"Case 1: Test with a single user sending a chat message. Case 2: Test with two users sending and receiving chat messages. Case 3: Test with multiple users sending and receiving chat messages.\",\n    \"Answer2\": \"Case 1: Test the game's performance on different computers. Case 2: Test the game's performance on different internet connections.\",\n    \"Answer3\": \"Case 1: Test with a single user sending a chat message. Case 2: Test the game's performance on different computers.\",\n    \"Answer4\": \"Case 1: Test with two users sending and receiving chat messages. Case 2: Test the game's performance on different internet connections.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex should test their chat feature across three main cases: single user sending a message, two users interacting, and multiple users interacting. This will help them confirm the robustness of the chat feature in their game.\"\n}"
+}

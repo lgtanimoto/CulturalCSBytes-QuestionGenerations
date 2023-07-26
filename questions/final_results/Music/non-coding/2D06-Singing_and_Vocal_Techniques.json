@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "Music",
+    "topic": "Singing and Vocal Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a music enthusiast and loves to sing. They decided to record their practice sessions for 2 weeks and use a program to generate data on their pitch accuracy. Alex plans to use this data to improve and wants to visually present this data to their music coach. Which type of graph would be the best choice for Alex to represent this data to understand daily improvement and regressions?\",\n    \"Answer1\": \"Pie chart\",\n    \"Answer2\": \"Bar chart\",\n    \"Answer3\": \"Line graph\",\n    \"Answer4\": \"Histogram\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A line graph would be most appropriate for this situation, since it can clearly show changes over a period of time. Each point on the graph could represent Alex's pitch accuracy for a particular day, making it easier to spot trends and changes.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A14",
+    "learning_objective": "Debug (identify and fix) errors in an algorithm or program that includes sequences and simple loops.",
+    "interest_area": "Art and Design",
+    "topic": "Fashion Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing a digital fashion show for a Computer Science project, where digital models walk down the runway. Each model should take 5 steps on the runway, pause for a pose, and then walk off. However, Alex's current code only causes each model to take one step, pose, and then walk off. Which code demonstrates the correct fix?\",\n    \"Answer1\": \"repeat 1 times\\nwalk()\\nend\\npose()\\nrepeat 4 times\\nwalk()\\nend\",\n    \"Answer2\": \"repeat 5 times\\nwalk()\\nend\\npose()\\nwalk()\",\n    \"Answer3\": \"repeat 5 times\\nwalk()\\npose()\\nend\\nwalk()\",\n    \"Answer4\": \"repeat 1 times\\nwalk()\\npose()\\nend\\nrepeat 1 times\\nwalk()\\nend\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The loop 'repeat 5 times' should precede the 'walk()' function to have the model take 5 steps. After that, the model should 'pose()' once, therefore no repeat loop is needed. Finally, 'walk()' calls the model to walk off, which should also occur only once.\",\n    \"code_snippet\": \"repeat 1 times\\nwalk()\\nend\\npose()\\nrepeat 1 times\\nwalk()\\nend\"\n}"
+}

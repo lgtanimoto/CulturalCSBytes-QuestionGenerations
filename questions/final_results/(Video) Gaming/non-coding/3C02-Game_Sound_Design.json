@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Sound Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"The sound design team for a new video game is determining the best way to implement dynamic, immersive game audio. The team wants the sounds to respond to a player's actions in real-time and match the situations the player is encountering in the game. Alex is the coder for the team, considering the interaction between hardware and software components to accomplish this effect. What combined approach should they take?\",\n    \"Answer1\": \"Rely only on pre-recorded audio files that would be played at specific points in the gameplay.\",\n    \"Answer2\": \"Use software to design a variety of sound effects and an algorithm to determine when and how these sounds are played based on game events, combined with appropriate audio hardware to deliver high-quality sound.\",\n    \"Answer3\": \"Let the game console's built-in audio system handle everything.\",\n    \"Answer4\": \"Design sounds live during gameplay.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"To create dynamic, immersive game audio, a combination of pre-recorded and algorithmatically generated sounds can be used, depending on real-time game events. This requires a close interaction between software (for designing sound effects and implementing the algorithm) and hardware (for delivering high-quality sound to the user).\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1I17",
+    "learning_objective": "Work respectfully and responsibly with others online.",
+    "interest_area": "Music",
+    "topic": "Musicals and Broadway",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, Taylor, and Blake are creating a virtual musical for their school project. They are collaborating online from their respective homes, and they have split the work among themselves. Alex is responsible for the script, Taylor for the sound effects, and Blake for the background settings. Alex feels that some of the sound effects that Taylor has chosen are too loud and might overshadow the dialogues. How can Alex convey their opinion in a way that is both respectful and responsible?\",\n    \"Answer1\": \"Alex silently changes the sound effects when Taylor is not online.\",\n    \"Answer2\": \"Alex sends Taylor a very critical email, stating that their choice of sound effect ruins the whole play.\",\n    \"Answer3\": \"Alex gets on a call with Taylor and Blake and gives their feedback on the sound effects by suggesting that they can try a few different variations to see which works best.\",\n    \"Answer4\": \"Alex argues with Taylor to change the sound effects without involving Blake in the discussion.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Sharing views and feedback in a respectful and positive manner is key to effective online collaboration. It's always best to put forth concerns openly during a discussion with all team members involved.\"\n}"
+}

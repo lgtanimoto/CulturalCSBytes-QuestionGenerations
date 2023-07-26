@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C01",
+    "learning_objective": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a digital illustration and animation for their art class. They select a color from the color palette in their software, then clicked on one part of the illustration to fill it in with that color. What\u2019s an example of abstraction in this scenario?\",\n    \"Answer1\": \"The software translating Alex's color selection into a code that the computer interprets as that color\",\n    \"Answer2\": \"The animation Alex creates\",\n    \"Answer3\": \"The illustrations Alex creates\",\n    \"Answer4\": \"The color palette in the software\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"One of the key examples of abstraction in this scenario is the software translating Alex's color selection into a code that the computer interprets as that color. This hides the implementation details of translating Alex's choice into a digital action while allowing them to focus on their creative endeavor.\"\n}"
+}

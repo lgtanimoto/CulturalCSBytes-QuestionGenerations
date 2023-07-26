@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Music",
+    "topic": "Music Notation",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a program that translates musical notes into frequencies (in Herz). The program should take a note as input and return the corresponding frequency. The original code only contains a start but Alex isn't sure what they should do next. What steps should Alex take next to complete their program?\",\n    \"Answer1\": \"Add a sequence condition to recognize different musical notes and assign them their respective frequencies.\",\n    \"Answer2\": \"Create a loop that will keep assigning frequencies randomly to each note, until it finds the right one.\",\n    \"Answer3\": \"Hard code each frequency for every possible musical note.\",\n    \"Answer4\": \"Connect the program to a musical instrument to input the frequencies automatically.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex could create a sequence of conditions that, given a certain musical note as input, would return the corresponding frequency. This would allow the program to work properly, without having to brute force or manually input all the frequencies.\",\n    \"code_snippet\": \"text note = getUserInput()\\nif note == \\\"A\\\"\\n    output 440.0\\nend if\"\n}"
+}

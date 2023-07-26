@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I26",
+    "learning_objective": "Demonstrate ways a given algorithm applies to problems across disciplines.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Photography and Photo Editing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, an avid photographer, likes to use an AI based photo editing application. This application uses an algorithm to identify common objects and enhance their details in a photograph. However, Alex noticed that although the application is good at enhancing buildings and skyscrapers in cityscapes, it often fails to enhance vegetation in landscapes. What should Alex suggest to the developers of the application to improve the image enhancement of vegetation?\",\n    \"Answer1\": \"They should improve the UI for the application.\",\n    \"Answer2\": \"They should test and refine their AI with many more photographs of landscapes that include vegetation.\",\n    \"Answer3\": \"They should increase the price of the application to generate more revenue for improvements.\",\n    \"Answer4\": \"They should make the application available only for cityscape photographs.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Errors in AI are often caused by biased data or lack of data. Testing and refining their AI with more photographs of landscapes that include vegetation will improve the application's ability to enhance these types of photographs.\"\n}"
+}

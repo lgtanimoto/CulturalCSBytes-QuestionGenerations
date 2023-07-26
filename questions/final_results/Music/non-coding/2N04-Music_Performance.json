@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N04",
+    "learning_objective": "Model how information is broken down into smaller pieces, transmitted as packets through multiple devices over networks and the Internet, and reassembled at the destination.",
+    "interest_area": "Music",
+    "topic": "Music Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is attending a live-streamed concert of their favorite band. The concert is in London, but they're watching it from their home in New York. How is the audio/video content from the concert sent to Alex?\",\n    \"Answer1\": \"The concert audio and video is packaged into one large file, sent through the internet to Alex's house, and played back all at once.\",\n    \"Answer2\": \"Each fraction of the concert is separately recorded; one device sends the audio and another device sends the video to Alex simultaneously.\",\n    \"Answer3\": \"The concert is broken down into packets of data, transmitted across multiple devices and various networks around the globe, and then reassembled at Alex's computer for them to watch.\",\n    \"Answer4\": \"All devices on the internet in between London and New York simultaneously stream the whole concert data to Alex's house.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The concert audio and video is converted into digital data that's broken down into packets. These packets are transmitted over the internet where they may take various routes to reach Alex's computer. Once they arrive, they're reassembled into a coherent streaming video that Alex can watch.\"\n}"
+}

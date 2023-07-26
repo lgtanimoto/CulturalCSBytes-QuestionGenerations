@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D07",
+    "learning_objective": "Identify and describe patterns in data visualizations, such as charts or graphs, to make predictions.",
+    "interest_area": "Music",
+    "topic": "Music History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves music and has started an exciting project to study how music trends have evolved over the years. They have collected data and organized charts showing the number of top 100 songs in different genres for each year over a decade. After analysing the data, they have observed a steady increase in the number of Electronic music in the top 100 each year. Knowing that 2020 had 17 electronic songs making it to the top 100, can Alex predict how many Electronic songs might be there in the top 100 for the year 2021?\",\n    \"Answer1\": \"20 songs\",\n    \"Answer2\": \"18 songs\",\n    \"Answer3\": \"19 songs\",\n    \"Answer4\": \"21 songs\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"If the steady increase in the number of Electronic music in the top 100 each year is by 1, and considering 2020 had 17 electronic songs making it to the top, it can be predicted that 2021 might have 18 Electronic songs in the top 100.\"\n}"
+}

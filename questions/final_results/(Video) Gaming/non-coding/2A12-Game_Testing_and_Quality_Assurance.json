@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Testing and Quality Assurance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is on the Game Development Club and they are in charge of adding some new features to the club's latest game. They have been asked to incorporate a scoring system into the game from existing code that the club has already developed. Since Alex had never written a scoring system before, they thought it would be a good idea to take up this task. What should Alex do?\",\n    \"Answer1\": \"Alex should start from scratch to make the scoring system.\",\n    \"Answer2\": \"Alex should check the existing code, understand how it works, and then incorporate it into the new game.\",\n    \"Answer3\": \"Alex should ask someone else to do it since Alex is not confident about it.\",\n    \"Answer4\": \"Alex should find scoring system code on internet and copy it into the new game.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should leverage the existing code and understand how it works before incorporating it into the new game. This is an example of remixing or modifying a part of an existing program to develop something new or add more advanced features.\"\n}"
+}

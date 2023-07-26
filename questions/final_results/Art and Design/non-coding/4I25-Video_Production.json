@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "Art and Design",
+    "topic": "Video Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed an AI program that helps suggest edits to make a video more appealing to audiences. They have been beta-testing the program among their peers and have received feedback that the AI seems to overly favor fast-paced action scenes over dialogue-heavy scenes, regardless of the genre of the film. This could potentially introduce bias in the editing process. What could be the best course of action for Alex to take to reduce this bias in their AI?\",\n    \"Answer1\": \"Alex should edit their interface to make it more user-friendly.\",\n    \"Answer2\": \"Alex should refund all beta-testing users due to the AI's mistakes.\",\n    \"Answer3\": \"Alex should add more action-packed video samples in their training data.\",\n    \"Answer4\": \"Alex should test and refine their program using more diverse samples, with varied pacing and dialogue-heavy sequences.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"To reduce bias, it is important that Alex's AI is trained with diverse video samples. This would help the AI in giving balanced suggestions for editing, irrespective of the pacing in the scene. Biased inputs can lead to biased AI decisions.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N05",
+    "learning_objective": "Explain how physical and digital security measures protect electronic information.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Gaming Communities and Online Platforms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex plays a popular online video game and has highly sought after characters that they have spent hours developing. Alex's characters are stored on their gaming company's servers. Which security measures should the gaming company have in place to protect Alex's digital assets from external threats?\",\n    \"Answer1\": \"Usage of firewalls and secure servers\",\n    \"Answer2\": \"Two-factor authentication for accessing sensitive information\",\n    \"Answer3\": \"Encryption of communication between the server and Alex's device\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"All three options are important security measures. Firewalls and secure servers help protect against unauthorized access, two-factor authentication ensures that it is indeed Alex accessing the account, and encryption ensures that data transmitted between Alex's device and the servers cannot be intercepted and read by others.\"\n}"
+}

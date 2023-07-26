@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I24",
+    "learning_objective": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "interest_area": "Art and Design",
+    "topic": "Graphic Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a graphic designer heavily invested in digital art and wants to create a website to showcase their work to potential employers and clients. While creating the website, they decide that they want to implement a chatbot to automate answering recurring queries for potential clients. What potential impact of Alex's decision should they be aware of and evaluate?\",\n    \"Answer1\": \"Implementing a chatbot would increase the number of likes on Alex's design posts.\",\n    \"Answer2\": \"Potential clients might feel discomfort interacting with a bot instead of a person.\",\n    \"Answer3\": \"The chatbot would mean Alex cannot communicate personally with potential clients.\",\n    \"Answer4\": \"Alex would need to learn coding to implement a chatbot.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While a chatbot could potentially increase efficiency, Alex should evaluate the impact of automation on personal interaction. Some people might feel less comfortable interacting with a bot rather than a person, which could influence their perception of Alex's service.\"\n}"
+}

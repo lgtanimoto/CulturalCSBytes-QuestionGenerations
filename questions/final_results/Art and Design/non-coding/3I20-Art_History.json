@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I20",
+    "learning_objective": "Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Ty is an artist who specializes in creating interactive, digital art installations. As their projects grow in complexity, Ty begins to explore different software applications to help manage their workflows and experiment with new forms of interactivity. However, Ty begins to struggle with choosing the right software solution due to the many options available. In the context of hardware and software tradeoffs, what advice would you give to Ty?\",\n    \"Answer1\": \"Ty should base their decision on the most popular software, as it will definitely suit their needs.\",\n    \"Answer2\": \"Ty should choose the software with the lowest price to save on costs.\",\n    \"Answer3\": \"Ty should evaluate the software based on the features they need, any potential performance tradeoffs, and how it might impact their artistic process and final product.\",\n    \"Answer4\": \"Ty should not use any software at all, to keep their art authentic and original.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The best decision will involve consideration of specific features necessary for Ty's work (software), any impacts on the performance of their equipment (hardware), and how these factors will influence their creative process and the quality of their installation (human impact).\"\n}"
+}

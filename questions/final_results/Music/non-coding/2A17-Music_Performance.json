@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Music",
+    "topic": "Music Performance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a high school computer science student and a music enthusiast. They are working on a project where they wrote a program to play a song on their computer. Before performing their song in front of their peers, Alex has to describe the choices they made during the program development. Which of the following methods can be most effectively used by Alex to describe their programming choices?\",\n    \"Answer1\": \"Alex should play the song without explaining anything.\",\n    \"Answer2\": \"Alex should verbally explain the program while walking through the code.\",\n    \"Answer3\": \"Alex should display their program on the big screen and let everyone figure it out.\",\n    \"Answer4\": \"Alex should print out the code and hand it out to everyone in the audience without explaining it.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"For effective communication of programming choices, it is best if Alex chooses to verbally explain the logic behind their program as they walk through the code. This way, their peers can understand the decisions Alex made while developing the program and its impact on the resulting music output.\"\n}"
+}

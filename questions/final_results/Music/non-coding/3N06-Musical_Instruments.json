@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N06",
+    "learning_objective": "Apply multiple methods of encryption to model the secure transmission of information.",
+    "interest_area": "Music",
+    "topic": "Musical Instruments",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"In a school band concert, Alex has composed a secret song for their bandmates. Not wanting others to know the song before the concert, Alex decides to use a Caesar cipher to encrypt the notes. If Alex replaces each note in the song with a note 3 places ahead in the scale, (e.g. A->D, B->E), what does the note 'G' get encrypted to?\",\n    \"Answer1\": \"A\",\n    \"Answer2\": \"B\",\n    \"Answer3\": \"C\",\n    \"Answer4\": \"D\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A Caesar cipher works by shifting each letter in the plaintext by a certain number of places down or up the alphabet. In this case, the shift is 3 notes ahead. So, 'G' gets shifted three places to 'A','B', and 'C'. Hence 'G' gets encrypted to 'C'.\"\n}"
+}

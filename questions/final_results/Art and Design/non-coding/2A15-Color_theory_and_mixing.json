@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A15",
+    "learning_objective": "Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.",
+    "interest_area": "Art and Design",
+    "topic": "Color theory and mixing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex created a program that should have mixed two primary colors to return the resultant color. Instead, when they input the primary colors RED and YELLOW, the output was BLUE. What could be going wrong and how might they debug this program?\",\n    \"Answer1\": \"The program is not correctly defined. Alex might debug by examining the parameters within each function call.\",\n    \"Answer2\": \"The program does not have an error. The color output is correct.\",\n    \"Answer3\": \"The program is missing certain code lines. Alex might debug by checking whether any code is missing or misplaced.\",\n    \"Answer4\": \"The program is not correctly identifying and combining colors. Alex might debug by examining the code section responsible for color identification and combination.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"The program is not combining colors as it should. Ideally when RED and YELLOW are mixed, ORANGE should be produced, not BLUE. So, when debugging, Alex should look for the section of the code responsible for identifying and combining colors. They can start by making sure that all primary colors are correctly identified in the code.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A12",
+    "learning_objective": "Modify, remix, or incorporate portions of an existing program into one's own work, to develop something new or add more advanced features.",
+    "interest_area": "Music",
+    "topic": "The Grammy's",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a music enthusiast and loves the Grammy Awards. They want to make the program that generates ranks of the top songs of the year more engaged with the audience. Alex thinks of incorporating a user input feature where users could vote for their favorite songs. What should be Alex's next step?\",\n    \"Answer1\": \"Modify the existing program and directly incorporate the user input function for voting without testing\",\n    \"Answer2\": \"Complete re-write the entire program to include the new feature\",\n    \"Answer3\": \"Design a new program from scratch which only includes the user input function for voting\",\n    \"Answer4\": \"Identify the part of the program where the user input can be incorporated, design that portion and test it independently before integrating into the existing program\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Before incorporating a new feature, it's important to understand where it fits in the current system. Alex needs to design the new portion and should test it separately to make sure it functions as expected before integrating it into the existing program. This ensures minimal disturbance to the already working parts of the existing program.\"\n}"
+}

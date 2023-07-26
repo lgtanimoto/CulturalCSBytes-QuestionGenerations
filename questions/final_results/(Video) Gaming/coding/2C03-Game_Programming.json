@@ -1,0 +1,8 @@
+{
+    "MQCode": "2C03",
+    "learning_objective": "Determine potential solutions to solve simple hardware and software problems using common troubleshooting strategies.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Programming",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is working on a computer game where the player needs to navigate a maze. However, the game keeps crashing when the player interacts with a specific wall. Alex has tried running the game several times, and the crash consistently happens with this same wall. Which of the following steps could help Alex find and correct the problem?\",\n    \"Answer1\": \"Replace the entire game code\",\n    \"Answer2\": \"Restart the computer\",\n    \"Answer3\": \"Examine and test the code associated with the problematic wall\",\n    \"Answer4\": \"Change the maze layout and remove the problem wall\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Given that the crash consistently happens with a specific wall, it suggests that there might be an error in the code associated with that wall. Examining and testing this specific part of the code may help Alex pinpoint the problem and correct it.\",\n    \"code_snippet\": \"class Maze\\n    action InteractWithWall(Wall wall)\\n        if wall.isExitingWall\\n            player.exitMaze()\\n        elseif wall.isTrapWall\\n            player.loseLife()\\n        else\\n            player.bounceBack()\\n        end\\n    end\\nend\"\n}"
+}

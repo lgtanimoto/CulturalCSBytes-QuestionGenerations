@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A17",
+    "learning_objective": "Describe choices made during program development using code comments, presentations, and demonstrations.",
+    "interest_area": "Music",
+    "topic": "Music Composition and Arrangement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a program called 'Compo-Arrange', which simplifies the process of composing and arranging music. They have several features in mind like key detection, rhythm generation, harmonic progression and more. To help others understand the approach they have taken while coding, Alex needs to add comments to their code. An example of a comment in their workspace is 'This segment deals with the identification of musical key'. How would Alex explain the importance of including comments like this in their program?\",\n    \"Answer1\": \"This helps them remember what that segment of code does in the future for fixing bugs or adding new features.\",\n    \"Answer2\": \"It allows others who view or work on the code to understand the function and purpose of that code segment.\",\n    \"Answer3\": \"Both 1 and 2 are correct.\",\n    \"Answer4\": \"Comments actually slow down the process of coding and add clutter to the workspace.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Comments in programming are important both for the creator, as a form of documentation to remind them of the purpose of specific segments of code, and for others who view or work on the code to understand its function. But it doesn't slow down programming process, instead enhances readability of the code. So,  both answers 1 and 2 are correct.\"\n}"
+}

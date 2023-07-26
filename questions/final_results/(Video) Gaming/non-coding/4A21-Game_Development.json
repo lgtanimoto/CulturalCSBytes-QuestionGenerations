@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A21",
+    "learning_objective": "Evaluate and refine computational artifacts to make them more usable and accessible.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been working on a game and they're almost ready to release it. However, they want to make sure it's accessible to as many people as possible. What steps should Alex take to make their game more accessible?\",\n    \"Answer1\": \"Include a colorblind mode, provide options for closed captioning and text-to-speech, and make sure there is no time limit to complete actions.\",\n    \"Answer2\": \"Include more complex features and gaming strategies that will challenge players.\",\n    \"Answer3\": \"Restrict the language options to English only to make the game less complicated.\",\n    \"Answer4\": \"Make the game compatible with only high-end devices to ensure good performance.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Allowing flexibility and accessibility in gameplay with options like a colorblind mode, closed captioning, text-to-speech, and allowing players to complete actions in their own time are good ways to make a game more accessible to a wide range of users.\"\n}"
+}

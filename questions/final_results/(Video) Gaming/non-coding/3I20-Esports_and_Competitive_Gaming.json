@@ -1,0 +1,8 @@
+{
+    "MQCode": "3I20",
+    "learning_objective": "Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Esports and Competitive Gaming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, an avid player of a popular competitive video game, dreams of becoming a professional esports athlete. Knowing that having the best equipment can strongly impact a player's performance, they are considering to invest in a high-performance gaming PC. What tradeoff might Alex need to consider in making this decision?\",\n    \"Answer1\": \"The expensive cost of a high-performance gaming PC vs. potentially improved gaming performance and competitiveness\",\n    \"Answer2\": \"The color scheme of the gaming PC vs. its size\",\n    \"Answer3\": \"The number of pre-installed games on the gaming PC vs. the number of USB ports\",\n    \"Answer4\": \"The brand of the gaming PC vs. the warranty duration\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The significant cost of a high-performance gaming PC is a major factor to consider. While it might improve Alex's performance and competitiveness, it could also represent a significant financial investment. This is a clear example of a tradeoff in the sense used in computer science - gaining improved performance at the cost of a higher financial expenditure.\"\n}"
+}

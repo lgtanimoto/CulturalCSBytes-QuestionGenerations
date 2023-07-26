@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A10",
+    "learning_objective": "Use flowcharts and/or pseudocode to address complex problems as algorithms.",
+    "interest_area": "Art and Design",
+    "topic": "Video Production",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a digital video project that involves multiple shots at different locations, some special effects, and post-production editing. Which of the following sequence of steps best represents a flowchart for this video production?\",\n    \"Answer1\": \"Brainstorm Idea -> Design Props -> Start Filming -> Add Special Effects -> Review\",\n    \"Answer2\": \"Research -> Storyboard -> Venue Scouting -> Filming -> Editing -> Review\",\n    \"Answer3\": \"Start Filming -> Crazy Special Effects -> Finish Filming\",\n    \"Answer4\": \"Storyboard -> Start Filming -> Video Editing -> Add special effects\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Video production can be complex. Mapping it out like a flowchart: 'Research -> Storyboard -> Venue Scouting -> Filming -> Editing -> Review' can help Alex organize and execute their production effectively.\"\n}"
+}

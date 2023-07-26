@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N05",
+    "learning_objective": "Give examples to illustrate how sensitive data can be affected by malware and other attacks.",
+    "interest_area": "Music",
+    "topic": "Music in Film and Media",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a budding filmmaker and they have just completed their first short film. They've downloaded a popular software to add background music and sound effects to their film. After downloading, they realize their system is acting abnormally slow and some of their files seem corrupted. Which of the following is a likely reason for this situation?\",\n    \"Answer1\": \"The music file Alex downloaded for the background music was actually a malware.\",\n    \"Answer2\": \"Alex's system is not compatible with the music.\",\n    \"Answer3\": \"The music format doesn't work with the software.\",\n    \"Answer4\": \"The storage on Alex's computer is full.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Malware, short for malicious software, includes viruses, worms, trojans, and other harmful computer programs hackers use to attack and damage computers. The situations that Alex is experiencing (the slow system and file corruption) suggest a likely malware attack, which could come from a music file disguised as a malware.\"\n}"
+}

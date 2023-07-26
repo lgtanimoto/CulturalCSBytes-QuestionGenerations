@@ -1,0 +1,8 @@
+{
+    "MQCode": "1D05",
+    "learning_objective": "Store, copy, search, retrieve, modify, and delete information using a computing device and define the information stored as data.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is studying art history and is creating a dataset of various artists to study their impact and influence in different periods. Considering they have basic information like name, birth year, death year, and historical art period, which data structure is the most efficient way for Alex to store this information in a computer program?\",\n    \"Answer1\": \"Array\",\n    \"Answer2\": \"Binary Tree\",\n    \"Answer3\": \"Graph\",\n    \"Answer4\": \"Dictionary/Hash Map\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A dictionary or hash map is the best choice for this task. A dictionary allows Alex to link each artist with its corresponding information into a unique key-value pair, it\u2019s faster for searching, retrieving and modifying data than the other structures.\"\n}"
+}

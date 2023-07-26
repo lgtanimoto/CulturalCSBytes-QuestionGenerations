@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A12",
+    "learning_objective": "Develop plans that describe a program\u2019s sequence of events, goals, and expected outcomes.",
+    "interest_area": "Art and Design",
+    "topic": "Sculpture and 3D Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a 3D design for their latest sculpture using a computer program. The sculpture involves intricate geometric designs that need to be replicated multiple times. Alex plans to create a function to generate these geometries. What sequence of events should Alex plan to follow in the program?\",\n    \"Answer1\": \"Create a function for the intricate design -> Apply function to the basic structure -> Test the design -> Make necessary changes -> Finalize the plan\",\n    \"Answer2\": \"Upload the picture of the sculpture -> Run the program -> Select the intricate design -> Paint the sculptor\",\n    \"Answer3\": \"Apply function to the basic structure -> Create a function for the intricate design -> Test the design -> Make necessary changes -> Finalize the plan\",\n    \"Answer4\": \"Make necessary changes -> Create a function for the intricate design -> Apply function to the basic structure -> Test the design -> Finalize the plan\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Alex should first create a function for the intricate design. After creating the function, they should apply it to the basic structure of the sculpture, then test the design. If needed, Alex should make changes to improve the design, and once satisfied, they should finalize the plan.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I30",
+    "learning_objective": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Gaming Communities and Online Platforms",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves playing multiplayer online video games. They recently joined a gaming community through an online platform. The online platform requires users to publicize their gamer tag, real name, and date of birth. Alex is uncomfortable sharing their real name and date of birth. What would be Alex's primary concerns about privacy on this online platform?\",\n    \"Answer1\": \"Displaying Alex's real name could lead to online bullying or harassment\",\n    \"Answer2\": \"Publicizing the real name and date of birth could make Alex a target for identity theft\",\n    \"Answer3\": \"Alex's gaming achievements could be stolen by other players\",\n    \"Answer4\": \"It would limit Alex in creating diverse characters for different games\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Personal information like real name and date of birth can be used for illicit activities such as identity theft. Therefore, sharing such information on public platforms should be done with caution.\"\n}"
+}

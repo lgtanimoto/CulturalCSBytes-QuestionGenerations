@@ -1,0 +1,8 @@
+{
+    "MQCode": "4C03",
+    "learning_objective": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is writing the code for a new game. But when they test it, they find that the game doesn't save the high score. The part of the code to save the high score is shown below:What troubleshooting strategy can Alex use to solve this problem?\",\n    \"Answer1\": \"Alex should remove the saveHighScore() action and rewrite it from scratch.\",\n    \"Answer2\": \"Alex should use a series of print statements or logs within the saveHighScore() action to help identify where the error is occurring.\",\n    \"Answer3\": \"Alex should change the variable name from 'score' to 'points'.\",\n    \"Answer4\": \"Alex should rewrite the entire game code to ensure there are no errors present.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Writing and using print statements within the saveHighScore() action will allow Alex to track the execution of the action and to pinpoint where the error in the code occurs. This use of print statements/logging for troubleshooting is a commonly used technique in programming.\",\n    \"code_snippet\": \"action saveHighScore(integer score)\\n    if score > highScore\\n        highScore = score\\n    else\\n        return\\n    end\\n    File saveFile = new File(highScore.txt)\\n    saveFile:WriteInteger(highScore)\\nend\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "Music",
+    "topic": "Singing and Vocal Techniques",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is writing a program that simulates the vocal techniques used in singing. The program needs to demonstrate aspects such as breath control, pitch control, and resonance. Alex needs to define each vocal technique and how they are achieved in practice. How should Alex go about decomposing this problem?\",\n    \"Answer1\": \"Start with the top-level problem - simulating singing - and break it down into subproblems\",\n    \"Answer2\": \"Start by coding everything at once and hope it comes together in the end\",\n    \"Answer3\": \"Ignore the details about each vocal technique and just simulate the overall sound of a singer\",\n    \"Answer4\": \"Start with the smallest problems - individual vocal techniques - and then put the solutions together to form the overall solution\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Problems should be decomposed starting with the top-level problem and broken down into smaller, manageable subproblems. In this case, Alex should start by understanding the larger problem - simulating the act of singing. Then, they can break it down into the subtasks of simulating each vocal technique (breath control, pitch control, etc.). These smaller tasks can further be broken down, if necessary, making the problem more approachable.\"\n}"
+}

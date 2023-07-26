@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Music",
+    "topic": "Music History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, a passionate music history enthusiast, decides to create an expansive and interactive timeline of music history on their personal laptop. After downloading a high-quality audio clip for each important historical event, they notice that their computer is significantly slower when trying to preview the timeline. Where could the issue lie that's causing this slowdown?\",\n    \"Answer1\": \"With the music history timeline software itself\",\n    \"Answer2\": \"The computer's speakers are not compatible with the audio files\",\n    \"Answer3\": \"There isn't enough hard drive storage left\",\n    \"Answer4\": \"The WiFi connection is not strong enough\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"If the computer's hard drive storage is nearly full (especially after downloading many high-quality audio files), it might become noticeably slower. While it's possible the slowdown could be related to other factors, lack of storage space is the most likely cause based on the information given.\"\n}"
+}

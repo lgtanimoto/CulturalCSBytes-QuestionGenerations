@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A18",
+    "learning_objective": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Painting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is working on a digital art project for their computer graphics class. They want to create a digital painting with a task-specific shading that needs to be custom-created and applied. The painting will consist of three parts: the base layer, detailing, and shading. They decide to create different procedures for each part: P1 for creating the base layer, P2 for adding details and P3 for applying custom shading. In what sequence should Alex apply these procedures to create the intended digital painting?\",\n    \"Answer1\": \"P1 -> P2 -> P3\",\n    \"Answer2\": \"P3 -> P2 -> P1\",\n    \"Answer3\": \"P2 -> P1 -> P3\",\n    \"Answer4\": \"P2 -> P3 -> P1\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"To make sure that layering and detailing are properly applied, Alex should first create the base layer of their painting using procedure P1. Then, they should add details to the base layer using the procedure P2. Finally, they should apply their custom shading using procedure P3, giving depth to the base areas and the details. Therefore, the correct sequence of application is: P1 -> P2 -> P3.\"\n}"
+}

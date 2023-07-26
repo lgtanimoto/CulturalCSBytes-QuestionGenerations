@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I25",
+    "learning_objective": "Test and refine computational artifacts to reduce bias and equity deficits.",
+    "interest_area": "Music",
+    "topic": "Music Notation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, an aspiring musician, is developing a music notating software. After numerous testing by people in their local community, Alex realizes that the software tends to recognize male voices better than female voices when it comes to transcribing notes. Alex's friends point out this has led to a bias in the software, causing equity deficits among users. What should Alex do to improve their software?\",\n    \"Answer1\": \"Alex should develop a different software solely for female voices.\",\n    \"Answer2\": \"Alex should ignore the problem as it only concerns a small group of people.\",\n    \"Answer3\": \"Alex should test and refine their software to ensure it recognizes a diverse range of voices and frequencies accurately.\",\n    \"Answer4\": \"Alex should encourage female users to speak in a deeper voice for better recognition.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Alex should make sure to refine their computational artifact, testing it with a variety of voices, including female voices, higher pitched voices and voices from different ages, to reduce bias and improve equity among users.\"\n}"
+}

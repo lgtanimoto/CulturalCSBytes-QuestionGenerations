@@ -1,0 +1,8 @@
+{
+    "MQCode": "3C02",
+    "learning_objective": "Design projects that combine hardware and software components to collect and exchange data.",
+    "interest_area": "Music",
+    "topic": "Music Notation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a musician who composes their own music. They often find themselves humming out melodies on the go and they need a way to instantly record their ideas. They want to create a system that can turn their hummed melodies into written musical score sheets. What components might Alex need for this design project?\",\n    \"Answer1\": \"A microphone and a word processor\",\n    \"Answer2\": \"An audio-to-MIDI (Musical Instrument Digital Interface) software and a music notation software\",\n    \"Answer3\": \"A musical keyboard and a spreadsheet software\",\n    \"Answer4\": \"A video camera and a social media platform\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex will likely need an audio-to-MIDI (Musical Instrument Digital Interface) software which recognizes and converts their hummed melodies into MIDI files. They would then need a music notation software to convert these MIDI files into musical scores. Using a microphone to record the hums and combining it with the appropriate software fulfills the requirement of combining hardware and software to collect and exchange data.\"\n}"
+}

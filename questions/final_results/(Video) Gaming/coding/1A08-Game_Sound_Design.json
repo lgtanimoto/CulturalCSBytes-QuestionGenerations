@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Sound Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is designing sound loops for a new video game. The game has several different 'moods' where different background music will play. Alex writes the following code snippet to play the correct sound loop depending on the game mood. What does the 'else' statement in this code do?\",\n    \"Answer1\": \"It continues playing the previous sound loop.\",\n    \"Answer2\": \"It plays a default sound loop.\",\n    \"Answer3\": \"It stops all game sound.\",\n    \"Answer4\": \"It exits the game.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"In this code snippet, if none of the 'if' or 'else-if' conditions are met, then the 'else' statement at the end will be executed. This serves as a fallback, playing a default sound loop if an unexpected value for 'gameMood' is encountered.\",\n    \"code_snippet\": \"text gameMood = \\\"happy\\\"\\nif gameMood = \\\"happy\\\"\\n    playSound(\\\"happyMusic\\\")\\nelse if gameMood = \\\"sad\\\"\\n    playSound(\\\"sadMusic\\\")\\nelse if gameMood = \\\"scary\\\"\\n    playSound(\\\"scaryMusic\\\")\\nelse\\n    playSound(\\\"defaultMusic\\\")\\nend\"\n}"
+}

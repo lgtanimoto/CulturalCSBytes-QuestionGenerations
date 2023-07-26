@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has started to learn game development and is planning to use some graphics and animations found online to build their game. However, they are not sure how the intellectual property laws might affect their project. Which of the following correctly explains BOTH the beneficial and harmful effects that intellectual property laws can have on innovation?\",\n    \"Answer1\": \"Intellectual property laws restrict all creators from using any existing work, stifling creativity and hindering innovation.\",\n    \"Answer2\": \"Intellectual property laws only reward the rich and powerful, providing no benefit for independent creators like Alex.\",\n    \"Answer3\": \"Intellectual property laws protect artists and creators, ensuring they get credit and compensation for their work, but can also limit access to resources and slow down innovation.\",\n    \"Answer4\": \"Intellectual property laws have no impact on innovation since creators can always produce new and unique work without borrowing from others.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Intellectual property laws are designed to protect creators and ensure their works aren\u2019t used without their permission or without proper compensation. However, these laws can also limit access to existing works and potentially slow down innovation by restricting the resources available for creators to build upon.\"\n}"
+}

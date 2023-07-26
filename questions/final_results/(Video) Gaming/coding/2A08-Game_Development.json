@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A08",
+    "learning_objective": "Compare and refine multiple algorithms for the same task and determine which is the most appropriate.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a video game and has created two algorithms to control the movement of a character. Here are the two code snippets:Which algorithm should Alex choose if they wants the character to move more smoothly and realistically?\",\n    \"Answer1\": \"Algorithm A, because it uses a for loop for movement implementation\",\n    \"Answer2\": \"Algorithm B, because it uses a while loop and a timer to control movement\",\n    \"Answer3\": \"Both algorithms move the character in the same way, so it doesn't matter\",\n    \"Answer4\": \"Alex should write a third algorithm because neither of these is optimal\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Algorithm A moves the character at a fixed rate, regardless of how much time has passed, which can result in jerky motion if the game lags. Algorithm B, on the other hand, keeps track of time and adjusts the character's position based on how much time has elapsed, creating smoother and more realistic movement.\",\n    \"code_snippet\": \"Algorithm A:\\ninteger position = 0\\nfor i = 1 to 100\\n    position = position + 10\\nend\\n\\nAlgorithm B:\\ninteger position = 0\\ninteger timer = 0\\nwhile timer < 100\\n    position = position + timeElapsed * 10\\n    timer = timer + timeElapsed\\nend\"\n}"
+}

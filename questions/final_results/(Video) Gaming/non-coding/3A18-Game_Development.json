@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and several classmates are working collaboratively on a game development project. Alex is tasked with developing the code for the character movement. However, they find out that a portion of their task is dependent on the background environment, which is being handled by a teammate who is falling behind their schedule. What should Alex do?\",\n    \"Answer1\": \"Ignore the delay and continue working, potentially creating non-compatible code.\",\n    \"Answer2\": \"Wait for their teammate to finish before starting anything.\",\n    \"Answer3\": \"Assist their teammate with the development of the background environment to expedite the process.\",\n    \"Answer4\": \"Complain to the teacher about their teammate's slow progress.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Collaborating in a team requires everyone to share responsibility for the project. Instead of waiting or going off on their own path, Alex should offer to help their teammate to speed up the development time for the background. This not only ensures that the project stays on track, but also that the character movements will be compatible with the environments.\"\n}"
+}

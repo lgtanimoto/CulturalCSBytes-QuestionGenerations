@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A16",
+    "learning_objective": "Incorporate existing code, media, and libraries into original programs, and give attribution.",
+    "interest_area": "Art and Design",
+    "topic": "Art and design principles (composition, balance, contrast)",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Stella is working on a digital art project where she applies a filter to an image in Python using the Pillow library. She imports an image, copied the image's pixels into a new image, and then modifies the colors of the new image's pixels before saving the new image. If she wants to give attribution for the original image and the library she used, which of the following should she include in her code?\",\n    \"Answer1\": \"Photo by 'photographer's name', used under license. Library: Pillow library, used under MIT License\",\n    \"Answer2\": \"Photo by 'photographer's name'. Library: Pillow library\",\n    \"Answer3\": \"Original image by 'photographer's name'. Code by Stella\",\n    \"Answer4\": \"Filter developed using the Pillow library\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Providing attribute to the original source, in this case the photographer and the Pillow library, is the correct way of giving credit. The license under which it was used should also be mentioned.\"\n}"
+}

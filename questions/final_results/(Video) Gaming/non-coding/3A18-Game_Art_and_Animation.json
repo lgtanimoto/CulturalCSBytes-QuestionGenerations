@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A18",
+    "learning_objective": "Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Art and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their team are working on a video game project for their computer science class. Alex is in charge of coordinating the project timeline and distributing tasks between the coders, artists, and animators. Which of these could be the most effective way for Alex to manage their team and maintain the project timeline?\",\n    \"Answer1\": \"Alex should do all of the tasks themselves to ensure everything is done correctly.\",\n    \"Answer2\": \"Alex should divide the tasks evenly based on roles, for example, all coding tasks to coders, all artwork tasks to artists, and all animation tasks to animators. They should also use a Gantt chart to keep track of the progress of each task.\",\n    \"Answer3\": \"Alex should assign tasks randomly to encourage team members to learn new skills and avoid any charting to maintain a relaxed working environment.\",\n    \"Answer4\": \"Alex should ignore the timeline and focus only on completing the game.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Alex should distribute tasks based on their team members' roles and expertise to ensure each task is done efficiently and effectively. A Gantt chart would be a useful tool in this situation, as it allows Alex to visualize the project timeline, track the progress of each task, and manage the overall project effectively. Other options may lead to delay, poor quality outcomes, or lack of organization within the project.\"\n}"
+}

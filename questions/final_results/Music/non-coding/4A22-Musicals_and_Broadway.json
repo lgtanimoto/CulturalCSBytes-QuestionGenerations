@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A22",
+    "learning_objective": "Design and develop computational artifacts working in team roles using collaborative tools.",
+    "interest_area": "Music",
+    "topic": "Musicals and Broadway",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and their classmates are creating a website about Musicals and Broadway for their computer science project. If each student has a different role, what collaborative tools can they use to enhance their workflow and communication?\",\n    \"Answer1\": \"Using version control systems like Git for code collaboration, Trello for task management, and Slack for team communication.\",\n    \"Answer2\": \"Sending each other email updates once a week.\",\n    \"Answer3\": \"Sharing files via USB drives.\",\n    \"Answer4\": \"Each student working independently and combining all the parts at the end.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"When working on a team project, it's important to have tools that help manage assignments, communication, and version control. Git helps manage different versions of the code, Trello can be used for task management, dividing tasks among team members, and tracking progress, and Slack serves as a platform for communication among team members in real-time.\"\n}"
+}

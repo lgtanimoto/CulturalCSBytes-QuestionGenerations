@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A15",
+    "learning_objective": "Seek and incorporate feedback from team members and users to refine a solution that meets user needs.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"While developing an Art History app, Alex has just completed a major update, adding a new feature that recommends famous artworks based on the user's preferences. Alex wants to test the new feature and gather feedback to refine the app as necessary. Which of the following would be the most effective way for Alex to collect feedback?\",\n    \"Answer1\": \"Alex should ignore any negative feedback and continue adding new features to the app.\",\n    \"Answer2\": \"Alex should only ask their close friends for feedback on the app.\",\n    \"Answer3\": \"Alex should wait for users to provide feedback without explicitly asking for it.\",\n    \"Answer4\": \"Alex should invite a diverse group of users to test the updated app, ask them to specifically test the new feature, and solicit their feedback.\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex should invite a diverse group of users to test the update, focusing on the new feature. This way, feedback will be varied and relevant to different user experiences, helping Alex identify and address any issues or areas for improvement. Ignoring negative feedback, only asking friends, or passively waiting for feedback are not good strategies as they do not actively seek comprehensive user feedback.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1C03",
+    "learning_objective": "Describe basic hardware and software problems using accurate terminology.",
+    "interest_area": "Art and Design",
+    "topic": "Graphic Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"When Alex tries to start a graphic design program on their computer, an error message pops up saying 'Cannot initialize due to inadequate video resources'. They have no problem running other programs like word processing or internet browsers. What is likely the cause of this issue?\",\n    \"Answer1\": \"The graphic design software is corrupted and needs to be repaired or reinstalled\",\n    \"Answer2\": \"The computer's graphics card is insufficient or not up-to-date\",\n    \"Answer3\": \"The internet speed is too slow to run the graphic design software\",\n    \"Answer4\": \"The computer doesn't have enough RAM (Random Access Memory)\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"The 'Cannot initialize due to inadequate video resources' error indicates that the computer's graphics card is unable to meet the demands of the graphic design software. Either the graphics card is outdated, or it simply isn't powerful enough to handle the more graphically intensive tasks.\"\n}"
+}

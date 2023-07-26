@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "Music",
+    "topic": "Music Videos",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed an algorithm for ranking music videos based on user ratings and comments. They want to ensure that the algorithm functions as it should no matter the input. Which of the following is an appropriate range of test cases for Alex to use?\",\n    \"Answer1\": \"Music videos by their favorite artist\",\n    \"Answer2\": \"Music videos with more than a million views\",\n    \"Answer3\": \"Music videos that have only 5 star ratings\",\n    \"Answer4\": \"All of the above, along with music videos with no user ratings or comments, music videos with mixed user feedback, popular and unpopular music artists, and newly released music videos\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Properly testing a program requires trying a range of test cases, including edge cases and potential areas of failure. In Alex's case, this not only means different music videos with varying popularity or user feedback, but also includes videos with minimal to no user engagement or newly released ones. This approach ensures that Alex's algorithm can handle all potential inputs.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "2D06",
+    "learning_objective": "Organize and present collected data visually to highlight relationships and support a claim.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is designing a video game and is testing the level of difficulty. They asked their friends to play three levels of the game and rate the difficulty on a scale of 1 to 10. Alex put the data immediately into a bar chart and noticed that on average the scores were around 3 for the first level, 6 for the second level and 8 for the third level. However, Alex wants to know what visualization would give them more meaningful information about how the difficulty is perceived across different levels. What visualization would you recommend and why?\",\n    \"Answer1\": \"A pie chart because it shows the ratio of difficulty across the levels.\",\n    \"Answer2\": \"A bar chart because it clearly shows the differences in ratings across the levels.\",\n    \"Answer3\": \"A line chart because it can show the progression of difficulty from the first level to the third level.\",\n    \"Answer4\": \"A scatter plot because it can show a correlation between the level number and the difficulty rating.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"A line chart would give Alex the most meaningful information because it can show the progression of difficulty from one level to the next, not just the difference in ratings between levels. This would allow Alex to see if there is a steady increase in difficulty or a sudden jump from one level to another.\"\n}"
+}

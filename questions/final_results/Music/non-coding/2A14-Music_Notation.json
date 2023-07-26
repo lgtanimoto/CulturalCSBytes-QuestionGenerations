@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Music",
+    "topic": "Music Notation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is coding a music notation program using a standard library that was originally created by another student named Jordan. The library decodes various musical notes and creates sheet music. If Alex wants to respect Jordan's intellectual property rights, which of the following actions is appropriate?\",\n    \"Answer1\": \"Alex should credit Jordan in the program's documentation and/or within the code itself.\",\n    \"Answer2\": \"Alex does not need to do anything, because code libraries are exempt from intellectual property rights.\",\n    \"Answer3\": \"Alex should change a few lines of Jordan's code so they can claim it as their own.\",\n    \"Answer4\": \"Alex should only credit Jordan if they ask for it.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"When using work created by others, it is ethical and often required to give them credit through attribution. This is true for code as well as for other types of work. In this case, crediting Jordan in the program's documentation and within the code itself would be appropriate.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4A19",
+    "learning_objective": "Systematically design and develop programs for broad audiences by incorporating feedback from users.",
+    "interest_area": "Music",
+    "topic": "Music History",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a music history program, which quizzes users on famous musicians. The challenge they are now facing is that many users found the program too unclear. The code snippet of their initial version is as follows:Which modification could make Alex's program more user-friendly for non-music-experts?\",\n    \"Answer1\": \"Change string a to musicianName\",\n    \"Answer2\": \"Change string b to Answer\",\n    \"Answer3\": \"Add option numbers to the multiple-choice answers\",\n    \"Answer4\": \"Change string e to RecordedSong\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Clear variable names are important but they do not improve user interaction. The user interface can be improved by labelling multiple-choice answers with option numbers. This way, the user can simply insert the number of their chosen option, making the program easier to use for a broader audience.\",\n    \"code_snippet\": \"action Quiz(string a, string b, string c, string d, string e)\\n    output a + \\\": \\\" + b + \\\", \\\" + c + \\\", or \\\" + d\\n    if getInput() = e\\n        output \\\"Correct!\\\"\\n    else\\n        output \\\"Sorry, the correct answer was \\\" + e + \\\".\\\"\\n    end\\nend\"\n}"
+}

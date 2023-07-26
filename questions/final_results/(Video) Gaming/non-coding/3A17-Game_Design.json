@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A17",
+    "learning_objective": "Systematically test and refine programs using a range of test cases.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is developing a 2-player game where each player has a spaceship that can either move up, down, left, or right on the screen, or shoot bullets. To test the functionality of the game and make sure it's working properly, which test cases should Alex consider to refine their program?\",\n    \"Answer1\": \"Check if the spaceship disappears when it moves off the screen and reappears on the other side\",\n    \"Answer2\": \"Check if the spaceship can move in all four directions\",\n    \"Answer3\": \"Check if the spaceship can shoot bullets and if those bullets can hit and destroy the opponent's spaceship\",\n    \"Answer4\": \"All of the above\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"Alex needs to check all the functionalities of the game. This includes the movement of the spaceships, the shooting mechanism, and the response when a spaceship moves off the screen or is destroyed by a bullet. Therefore, all the above mentioned test cases should be considered.\"\n}"
+}

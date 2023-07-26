@@ -1,0 +1,8 @@
+{
+    "MQCode": "2N05",
+    "learning_objective": "Discuss real-world cybersecurity problems and how personal information can be protected.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Photography and Photo Editing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Mystic is a photography student who often uses their digital camera and photo editing software for their photography projects. Mystic also uses cloud storage to backup their edited photos. One day, Mystic found out that some of their work was stolen and published online without their consent. Which of the following measures could have helped prevent this?\",\n    \"Answer1\": \"Mystic should not have backed up their photos online.\",\n    \"Answer2\": \"Mystic should have watermarked their photos.\",\n    \"Answer3\": \"Mystic should have enhanced their cloud storage security by using complex passwords and two-factor authentication.\",\n    \"Answer4\": \"Mystic should have only used physical storage devices.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Improving the security of cloud storage by using complex passwords and two-factor authentication would make it harder for an attacker to gain unauthorized access. Watermarking photos can help prove ownership, but it cannot prevent photos from being stolen in the first place.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "1N04",
+    "learning_objective": "Explain what passwords are and why we use them, and use strong passwords to protect devices and information from unauthorized access.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Testing and Quality Assurance",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is a passionate gamer and is excited about getting a job as a game tester. They are given access to a development build of a new game that is still under test and not ready for release. The game developers provide Alex with a password for accessing the unreleased game. They instruct Alex to only use and share this password with their team of game testers for testing the game. What should Alex do to maintain security while testing?\",\n    \"Answer1\": \"Alex should keep the password to themselves, not share it with anyone and use it only for testing the game.\",\n    \"Answer2\": \"Alex can share the password with their close friends who are also gamers\",\n    \"Answer3\": \"Alex can use the same password for all their other accounts as it is already highly secure.\",\n    \"Answer4\": \"Alex can write down the password somewhere, so that they won't forget it.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"The best practice to ensure password security is to never share it with anyone, even close friends or family. Each password should be unique and not used for multiple accounts, and writing it down can make it susceptible to being stolen. Therefore, Alex needs to keep the password for the development build only for their work as a game tester.\"\n}"
+}

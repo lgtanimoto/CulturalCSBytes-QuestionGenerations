@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "Art and Design",
+    "topic": "Art History",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a presentation about Renaissance art in their Art History class. They found a beautiful high-resolution image of the 'Mona Lisa' on a website and intend to use it in their presentation. They also made modifications on this image like adding funny stickers and changing the background. How should Alex handle this situation?\",\n    \"Answer1\": \"Alex doesn't need to worry about it because anyone can use the photo of a famous painting.\",\n    \"Answer2\": \"Alex already modifies the image, which makes it their own creation, so they can just insert it into their presentation.\",\n    \"Answer3\": \"Alex should mention the website where they got the image from and indicate that they have made some modifications to it.\",\n    \"Answer4\": \"Alex should not use the modified image because it offends the artist's rights.\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"Even though the painting itself is in the public domain, a digital image of the painting may have its own copyright. Therefore, Alex must acknowledge the source from where they got the image and mention that they have made modifications to it, even if those modifications are significant.\"\n}"
+}

@@ -1,0 +1,8 @@
+{
+    "MQCode": "4I28",
+    "learning_objective": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Illustration and Animation",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Casey is an aspiring digital animation artist and has developed their own unique characters and storyline for an animated short film. A major film studio has expressed interest in Casey's work, but Casey worries about protecting their unique character designs and story. Which of the following best explains the impact of intellectual property laws on Casey's situation?\",\n    \"Answer1\": \"Such laws would require Casey to share their character designs publicly, discouraging Casey from creating unique works.\",\n    \"Answer2\": \"The laws could help Casey protect their work, but could also inhibit other artists' ability to create derivative or inspired works.\",\n    \"Answer3\": \"Intellectual property laws would prevent Casey from creating animations unless given explicit permission by the film studio.\",\n    \"Answer4\": \"These laws do not apply to digital art and animation, as they are not considered 'intellectual property'.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"Intellectual property laws provide protection to creators by granting them exclusive rights to their works, thus encouraging innovation. However, they can also potentially stifle creativity by limiting others' ability to create derivative or inspired works. In Casey's case, the laws could help protect their unique designs from being used without permission, but might also limit other artists from creating characters inspired by Casey's designs.\"\n}"
+}

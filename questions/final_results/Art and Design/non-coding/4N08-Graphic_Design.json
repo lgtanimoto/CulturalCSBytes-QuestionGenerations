@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N08",
+    "learning_objective": "Explain tradeoffs when selecting and implementing cybersecurity recommendations.",
+    "interest_area": "Art and Design",
+    "topic": "Graphic Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Casey is a junior graphic designer working on a school project that involves creating designs and sharing them with their teacher for feedback. They are looking for ways to secure their files and communications. Which measures can Casey use without significantly interrupting their workflow?\",\n    \"Answer1\": \"Using an encrypted messaging platform to communicate and share files with their teacher.\",\n    \"Answer2\": \"Installing a state-of-the-art firewall that requires manual approval for each service trying to access the internet.\",\n    \"Answer3\": \"Storing all their files on a local computer and never sharing them electronically.\",\n    \"Answer4\": \"Using a complex 24-character password that changes every hour.\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Utilizing an encrypted messaging platform allows Casey to keep their communications secure without significantly impeding their ability to receive feedback and make improvements. The other options, while possibly enhancing security, would either disrupt the ease of collaboration (options 2, 3, and 4) or become highly inconvenient (option 4) in a real-world design setting.\"\n}"
+}

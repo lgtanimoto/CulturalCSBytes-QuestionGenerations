@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Music",
+    "topic": "Music Theory",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is a budding musician who loves coding. They are trying to write a program to work out the frequency of a musical note in Hertz, based on its placement on a piano. The formula to calculate the frequency of a note is f = 440 * 2^(n/12), where n is the number of keys between the note and A4 (the A key just above middle C). A4 is the 49th key on the piano and its frequency is 440 Hertz. Write a code snippet in Quorum that Alex can use to find out the frequency of the nth key on the piano.\",\n    \"Answer1\": \"The frequency of the 20th key is approximately 82.41 Hz\",\n    \"Answer2\": \"The frequency of the 20th key is approximately 123.47 Hz\",\n    \"Answer3\": \"The frequency of the 20th key is approximately 104.65 Hz\",\n    \"Answer4\": \"The frequency of the 20th key is approximately 97.99 Hz\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"By substituting the value of the nth key into the formula, we can calculate the frequency of any given key on the piano. For the 20th key, n would be 20-49=-29. Substituting into the formula gives us a frequency of approximately 82.41 Hertz.\",\n    \"code_snippet\": \"action CalculateFrequency(integer n)\\n    integer a4 = 49\\n    number frequency = 440 * power(2, (n - a4) / 12)\\n    output frequency\\nend\"\n}"
+}

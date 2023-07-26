@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A09",
+    "learning_objective": "Model the way programs store and manipulate data by using numbers or other symbols to represent information.",
+    "interest_area": "Art and Design",
+    "topic": "Digital Photography and Photo Editing",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been learning about how digital images are created and edited. If Alex has a digital photograph taken on their camera with a resolution of 3000 x 2000, how many pixels does the image contain?\",\n    \"Answer1\": \"5000\",\n    \"Answer2\": \"3000\",\n    \"Answer3\": \"2000\",\n    \"Answer4\": \"6000000\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"A digital photograph's resolution is determined by its width and height in pixels. To find the total number of pixels in an image, you multiply the width by the height. When you multiply 3000 (the width) by 2000 (the height), you get 6000000.\",\n    \"Graph\": \"The graph could include a digital photograph showing a grid-like pattern overlay with an explanation of how each square pixel contributes to the overall image.\"\n}"
+}

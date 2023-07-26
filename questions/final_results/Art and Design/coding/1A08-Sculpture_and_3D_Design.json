@@ -1,0 +1,8 @@
+{
+    "MQCode": "1A08",
+    "learning_objective": "Model daily processes by creating and following algorithms (sets of step-by-step instructions) to complete tasks.",
+    "interest_area": "Art and Design",
+    "topic": "Sculpture and 3D Design",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is an artist who is about to start their new sculpture project. To ensure accuracy and avoid missing any step, Alex decides to code an algorithm for it. In the given code snippet, what sequence of actions will Alex follow?\",\n    \"Answer1\": \"Choose Material -> Gather Tools -> Design Blueprint -> Shape Material -> Apply Protective Coatings\",\n    \"Answer2\": \"Gather Tools -> Choose Material -> Shape Material -> Design Blueprint -> Apply Protective Coatings\",\n    \"Answer3\": \"Design Blueprint -> Choose Material -> Gather Tools -> Shape Material -> Apply Protective Coatings\",\n    \"Answer4\": \"Choose Material -> Design Blueprint -> Gather Tools -> Shape Material -> Apply Protective Coatings\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"Looking at the order of actions in the code snippet, we see that Alex first chooses the material, then gathers the necessary tools, designs the blueprint, shapes the material according to the blueprint, and finally applies protective coatings to the sculpture.\",\n    \"code_snippet\": \"action SculptureProject()\\n    ChooseMaterial()\\n    GatherTools()\\n    DesignBlueprint()\\n    ShapeMaterial()\\n    ApplyCoatings()\\nend\"\n}"
+}

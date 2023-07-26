@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D11",
+    "learning_objective": "Create interactive data visualizations using software tools to help others better understand real-world phenomena.",
+    "interest_area": "Music",
+    "topic": "Music in Film and Media",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex, editor for the school newspaper, has noticed a trend: when more dramatic music is used in movie trailers, the film tends to be more successful at the box office. Alex decides to collect data over the past five years and wants to create an interactive chart to demonstrate this trend. What type of chart would best illustrate this relationship?\",\n    \"Answer1\": \"A pie chart categorizing films by genre\",\n    \"Answer2\": \"A bar chart comparing films' box office gross\",\n    \"Answer3\": \"A scatterplot with 'Intensity of Dramatic Music' on one axis and 'Box Office Earnings' on the other\",\n    \"Answer4\": \"A line graph showing the number of films over the past five years\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"The scatterplot is the only chart that relates two quantitative variables and can depict the correlation between them. It can provide a visual representation of the trend Alex has noticed: an increase in one variable (Intensity of Dramatic Music) typically correlates with an increase in the other (Box Office Earnings).\"\n}"
+}

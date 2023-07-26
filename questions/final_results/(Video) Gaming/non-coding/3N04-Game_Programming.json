@@ -1,0 +1,8 @@
+{
+    "MQCode": "3N04",
+    "learning_objective": "Model the role of protocols in transmitting data across networks and the Internet.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Programming",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex loves playing and creating multiplayer online games. In one of their games, they want to ensure that the game state is synchronized across all players' devices. Which protocol should Alex use to transmit data in real-time between players' devices?\",\n    \"Answer1\": \"SMTP (Simple Mail Transfer Protocol)\",\n    \"Answer2\": \"FTP (File Transfer Protocol)\",\n    \"Answer3\": \"HTTP (Hypertext Transfer Protocol)\",\n    \"Answer4\": \"UDP (User Datagram Protocol)\",\n    \"CorrectAnswer\": \"4\",\n    \"Explanation\": \"UDP (User Datagram Protocol) is the best choice for transmitting data in real-time across networks, such as in multiplayer online games. Unlike TCP, UDP doesn\u2019t check whether the data packets reach their destination, making it faster and more suitable for real-time communications where speed is more crucial than accuracy.\"\n}"
+}

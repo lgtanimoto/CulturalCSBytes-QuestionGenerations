@@ -1,0 +1,8 @@
+{
+    "MQCode": "3A13",
+    "learning_objective": "Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Development",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has been asked to develop a popular board game into a computer game. Which sub-tasks can Alex divide the game in order to develop? Select two.\",\n    \"Answer1\": \"Creating a database to store all the names of the players worldwide\",\n    \"Answer2\": \"Replicating the rules of the board game into programming logic\",\n    \"Answer3\": \"Making a virtual reality version of the game\",\n    \"Answer4\": \"Designing the virtual game board and pieces closely resemble the physical game\",\n    \"CorrectAnswer\": [\"2\", \"4\"],\n    \"Explanation\": \"Turning a popular board game into a computer game involves many sub-tasks. Sub-tasks such as replicating the rules of the board game into programming logic and designing the virtual game board and pieces closely resemble the physical game are crucial parts. Creating a database to store all the names of the players worldwide and making a virtual reality version of the game, while certainly possible, are both more in line with extra features, not necessary components of the game.\"\n}"
+}

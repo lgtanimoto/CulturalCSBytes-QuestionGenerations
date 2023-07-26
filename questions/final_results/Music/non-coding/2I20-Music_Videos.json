@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I20",
+    "learning_objective": "Seek diverse perspectives for the purpose of improving computational artifacts.",
+    "interest_area": "Music",
+    "topic": "Music Videos",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is creating a music video for a popular indie rock band from their city.  They want the video to connect with diverse audiences of different backgrounds, ages, and cultures. They plan to incorporate visual elements from various art traditions and styles to appeal to a broad range of viewers. Which of the following actions would NOT improve the diversity of the music video's potential viewership?\",\n    \"Answer1\": \"Including a diverse cast of people in the video\",\n    \"Answer2\": \"Taking inspiration from a wide range of art and cultural traditions in set design and costume\",\n    \"Answer3\": \"Incorporating a single popular global dance style for the band performance scenes\",\n    \"Answer4\": \"Adding closed captions to make the lyrics accessible to individuals with hearing disabilities\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"While including a single popular global dance style might give the video a broad appeal, it isn't as effective at increasing diversity as celebrating multiple dance traditions, styles, or influences. Diversity isn't about conforming to one popular norm, but about representing and honoring many different forms of expression.\"\n}"
+}

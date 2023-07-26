@@ -1,0 +1,8 @@
+{
+    "MQCode": "4D09",
+    "learning_objective": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Gaming Communities and Online Platforms",
+    "coding": true,
+    "question_str": "{\n    \"Question\": \"Alex is developing a system for a gaming community to store and retrieve user scores from previous games. They used the Quorum computer language to display the score in binary format, assigning each win a 1 bit and each loss a 0 bit. If Alex's code snippet outputs '101011', how many wins has the user achieved?\",\n    \"Answer1\": \"5 Wins\",\n    \"Answer2\": \"1 Win\",\n    \"Answer3\": \"6 Wins\",\n    \"Answer4\": \"4 Wins\",\n    \"CorrectAnswer\": \"1\",\n    \"Explanation\": \"In the binary output '101011', each digit or bit represents the outcome of a game. '1' represents a win and '0' stands for a loss. To find out the user's total wins, count the number of '1's in the string. Hence the user has achieved 5 wins.\",\n    \"code_snippet\": \"number wins = 0\\nstring games = '101011'\\nrepeat through each character outcome within games\\n    if outcome = '1' then\\n        wins = wins + 1\\n    end\\nend\\noutput wins\"\n}"
+}

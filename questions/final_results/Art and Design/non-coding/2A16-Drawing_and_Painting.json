@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A16",
+    "learning_objective": "Take on varying roles, with teacher guidance, when collaborating with peers during the design, implementation, and review stages of program development.",
+    "interest_area": "Art and Design",
+    "topic": "Drawing and Painting",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex and Taylor are working on a computer graphics project in their art class. Alex is tasked with writing the algorithm for the drawing part, and Taylor is tasked with the painting part. They need to collaborate to ensure the drawings and the painting are synchronized. What role should Alex play during the review stage of the painting algorithm that Taylor wrote?\",\n    \"Answer1\": \"Alex should visit an art exhibit and focus on getting inspired for future projects\",\n    \"Answer2\": \"Alex should focus on perfecting the drawing algorithm and leave the painting algorithm up to Taylor\",\n    \"Answer3\": \"Alex should provide feedback to Taylor, highlighting potential areas where the drawing and painting might not be synchronized\",\n    \"Answer4\": \"Alex should rewrite the painting algorithm and submit both as their joint project\",\n    \"CorrectAnswer\": \"3\",\n    \"Explanation\": \"In the review stage of the project, it's important that Alex evaluate the painting algorithm developed by Taylor. The objective is to ensure the two pieces of code can interoperate correctly. Alex should, therefore, review Taylor's code to identify any potential mismatches that could affect synchronization between their respective algorithms.\"\n}"
+}

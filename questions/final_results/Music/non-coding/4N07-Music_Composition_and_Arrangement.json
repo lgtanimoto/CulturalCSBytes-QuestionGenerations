@@ -1,0 +1,8 @@
+{
+    "MQCode": "4N07",
+    "learning_objective": "Compare various security measures, considering tradeoffs between the usability and security of a computing system.",
+    "interest_area": "Music",
+    "topic": "Music Composition and Arrangement",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex is interested in pursuing a career in music composition and arrangement. They typically use digital tools and software, which are often cloud-based, to compose, transcribe, and format music. One day, Alex received an email suggesting that they need to strengthen their security practices, so that their composition files and personal data stay safe. Which of the following can be a good security measure for Alex, while also maintaining the usability of their work system?\",\n    \"Answer1\": \"Storing all their files on a local external hard drive and never using any cloud-based applications or services.\",\n    \"Answer2\": \"Using a software that encrypts their files when they are stored locally or uploaded onto the cloud.\",\n    \"Answer3\": \"Composing and editing on a publicly accessible computer with no password protection, but regularly backing up data on encrypted storage devices.\",\n    \"Answer4\": \"Using only handwritten compositions and hard copies of sheet music to avoid exposure to cyber threats.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While encryption can initially seem complicated, it's a very effective way to protect sensitive data. It may marginally affect the workflow, but encryption doesn't hinder usability as much as options 1, 3, and 4. These other methods either largely limit access to digital tools and software, or they put important data at risk.\"\n}"
+}

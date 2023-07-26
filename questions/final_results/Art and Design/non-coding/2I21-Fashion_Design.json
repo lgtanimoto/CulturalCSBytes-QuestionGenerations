@@ -1,0 +1,8 @@
+{
+    "MQCode": "2I21",
+    "learning_objective": "Use public domain or creative commons media, and refrain from copying or using material created by others without permission.",
+    "interest_area": "Art and Design",
+    "topic": "Fashion Design",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Rigel is a young fashion designer who wants to include new designs in their portfolio. They normally take inspiration from various artists and designers. Rigel reaches out to Orion, a more experienced designer, for advice on including elements of different designer's work into their own designs. Which of the following pieces of advice from Orion is the most helpful?\",\n    \"Answer1\": \"Feel free to copy entire designs of some designers directly, they often feel complimented.\",\n    \"Answer2\": \"Try to use only public domain or creative commons material in your designs.\",\n    \"Answer3\": \"If you're copying the design of a less well-known designer, you don't have to give them credit.\",\n    \"Answer4\": \"It's always safe to use any design if you're not profiting from it.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While inspiration can be drawn from various sources, using them directly without permission can lead to copyright infringement. The safest way is to use elements from public domain or creative commons materials which are free to use, modify and distribute.\"\n}"
+}

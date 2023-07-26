@@ -1,0 +1,8 @@
+{
+    "MQCode": "2A14",
+    "learning_objective": "Observe intellectual property rights and give appropriate attribution when creating or remixing programs.",
+    "interest_area": "(Video) Gaming",
+    "topic": "Game Accessibility",
+    "coding": false,
+    "question_str": "{\n    \"Question\": \"Alex has developed a computer game that is a blend of two popular games they like to play. They are planning to release the game to the public. Before doing so, they should:\",\n    \"Answer1\": \"Include an accessibility feature to attract a wider audience.\",\n    \"Answer2\": \"Give appropriate credit to the original developers in the game documentation.\",\n    \"Answer3\": \"Release the game as it is.\",\n    \"Answer4\": \"Change the name of the game to avoid copyright infringement.\",\n    \"CorrectAnswer\": \"2\",\n    \"Explanation\": \"While it is important to include accessibility features and avoid using names that have been copyrighted, the key ethical issue here is giving credit to the original creators of the games. Properly attributing the games that inspired Alex's game helps to respect and protect their intellectual property rights.\"\n}"
+}
